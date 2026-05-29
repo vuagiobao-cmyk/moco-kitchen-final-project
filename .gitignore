@@ -1,0 +1,6 @@
+.DS_Store
+*.local-backup-*
+node_modules/
+.vercel/
+*.env
+5_Landing_Page_Chatbot/api/
