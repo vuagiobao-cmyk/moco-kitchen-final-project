@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOCO Kitchen — Bánh Healthy thủ công, không đường tinh luyện, không chất bảo quản. Dòng Keto & Healthy Baking cho lối sống lành mạnh.">
+    <meta name="keywords" content="bánh healthy, keto, tiramisu keto, bánh không đường, MOCO Kitchen, healthy baking, bánh lành mạnh">
+    <meta property="og:title" content="MOCO Kitchen — Heart-Healthy, Soul-Tasty">
+    <meta property="og:description" content="Bánh Healthy thủ công — Keto Tiramisu, Lemon Cheesecake, Carrot Cake & nhiều hơn. Không đường tinh luyện, không chất bảo quản.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/og-cover.jpg">
+    <title>MOCO Kitchen — Heart-Healthy, Soul-Tasty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css?v=20260526-header-green">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="/assets/moco-logo-green.png" alt="MOCO Kitchen" class="logo-img" width="154" height="58">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#products" data-section="products">Sản Phẩm</a></li>
+                <li><a href="#story" data-section="story">Câu Chuyện</a></li>
+                <li><a href="#faq" data-section="faq">Hỏi Đáp</a></li>
+                <li><a href="#order" data-section="order" class="nav-cta">Đặt Hàng</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION — Bakerville-style overlay typography -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <!-- Floating decorative elements -->
+        <img src="/assets/floating-leaf.png" alt="" class="floating-el float-leaf-1" aria-hidden="true">
+        <img src="/assets/floating-leaf.png" alt="" class="floating-el float-leaf-2" aria-hidden="true">
+        <img src="/assets/floating-almonds.png" alt="" class="floating-el float-almond" aria-hidden="true">
+        <img src="/assets/floating-cinnamon.png" alt="" class="floating-el float-cinnamon" aria-hidden="true">
+
+        <!-- Big typography layer (behind the image) -->
+        <div class="hero-typo-layer" aria-hidden="true">
+            <span class="hero-big-line line-1 animate-fade-up">The healthiest</span>
+            <span class="hero-big-line line-2 animate-fade-up delay-1">Haven</span>
+            <span class="hero-big-line line-3 animate-fade-up delay-1">for</span>
+            <span class="hero-big-line line-4 animate-fade-up delay-2">freshly baked</span>
+        </div>
+
+        <!-- Center product image (above the text) -->
+        <div class="hero-product-float animate-fade-up delay-2">
+            <img src="/assets/moco-lemon-hero.png" alt="Keto Lemon Cheesecake thật của MOCO Kitchen" class="hero-float-img" loading="eager">
+        </div>
+
+        <!-- Best Seller rotating badge -->
+        <div class="hero-badge animate-fade-up delay-3">
+            <svg viewBox="0 0 120 120" class="badge-svg">
+                <defs>
+                    <path id="badge-circle" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/>
+                </defs>
+                <text>
+                    <textPath href="#badge-circle" startOffset="0">• BEST SELLER • BEST SELLER • BEST SELLER </textPath>
+                </text>
+            </svg>
+            <span class="badge-icon">✓</span>
+        </div>
+
+        <!-- Side description + CTA -->
+        <div class="hero-side-info animate-fade-up delay-3">
+            <p class="hero-side-desc">Không đường tinh luyện, không phẩm màu, không chất bảo quản. Mỗi chiếc bánh là một tác phẩm thủ công.</p>
+            <a href="#products" class="hero-side-link">Khám phá menu ↗</a>
+        </div>
+
+        <!-- Bottom stats bar -->
+        <div class="hero-stats-bar">
+            <div class="stat-item animate-fade-up delay-3">
+                <span class="stat-icon">🌿</span>
+                <div>
+                    <span class="stat-title">Nguyên liệu sạch</span>
+                    <span class="stat-desc">100% organic, không chất bảo quản</span>
+                </div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item animate-fade-up delay-3">
+                <span class="stat-icon">🍞</span>
+                <div>
+                    <span class="stat-title">100% thủ công</span>
+                    <span class="stat-desc">Nướng tươi mỗi ngày, số lượng giới hạn</span>
+                </div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item animate-fade-up delay-3">
+                <span class="stat-icon">📦</span>
+                <div>
+                    <span class="stat-title">Đóng gói cẩn thận</span>
+                    <span class="stat-desc">Bao bì thân thiện, giao hàng an toàn</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Thực Đơn</span>
+                <h2 class="section-title">Sản Phẩm Của Chúng Mình</h2>
+                <p class="section-subtitle">Mỗi chiếc bánh là kết quả của sự tỉ mỉ — từ nguyên liệu đến cách làm.</p>
+            </div>
+
+            <!-- Product Category: KETO -->
+            <div class="product-category animate-on-scroll">
+                <div class="category-badge keto">Dòng Keto</div>
+                <p class="category-desc">Ít carb, dùng allulose & đường la hán. Không bột mì.</p>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1: Keto Tiramisu -->
+                <article class="product-card animate-on-scroll" id="product-tiramisu">
+                    <div class="product-image">
+                        <img src="/assets/moco-tiramisu-real.png" alt="Keto Tiramisu thật của MOCO Kitchen - mascarpone béo mịn, cà phê, rum và Baileys" loading="lazy">
+                        <div class="product-badge">Keto</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Keto Tiramisu</h3>
+                        <p class="product-desc">Mascarpone Anchor béo mịn, cà phê đắng trầm tĩnh, rum và Baileys nồng đượm. Lady finger hạnh nhân tự làm.</p>
+                        <div class="product-tags">
+                            <span class="tag">Allulose</span>
+                            <span class="tag">Đường la hán</span>
+                            <span class="tag warn">Có rượu</span>
+                        </div>
+                        <p class="product-note">⚠️ Không phù hợp trẻ em, mẹ bầu, người kiêng cồn.</p>
+                    </div>
+                </article>
+
+                <!-- Product 2: Keto Lemon Cheesecake -->
+                <article class="product-card animate-on-scroll" id="product-cheesecake">
+                    <div class="product-image">
+                        <img src="/assets/moco-lemon-packaged.png" alt="Keto Lemon Cheesecake thật của MOCO Kitchen - cream cheese mềm mịn, chanh vàng tươi" loading="lazy">
+                        <div class="product-badge">Keto</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Keto Lemon Cheesecake</h3>
+                        <p class="product-desc">Kem cream cheese mềm mịn, chua thanh tự nhiên từ chanh vàng tươi. Đế giòn từ bánh quy hạnh nhân tự làm.</p>
+                        <div class="product-tags">
+                            <span class="tag">Allulose</span>
+                            <span class="tag">Không trứng</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Product Category: HEALTHY BAKING -->
+            <div class="product-category animate-on-scroll">
+                <div class="category-badge healthy">Dòng Healthy Baking</div>
+                <p class="category-desc">Giảm đường tinh luyện, dùng trehalose, đường dừa, maple syrup.</p>
+            </div>
+
+            <div class="product-grid product-grid-5">
+                <!-- Product 3 -->
+                <article class="product-card animate-on-scroll" id="product-chuoi">
+                    <div class="product-image">
+                        <img src="/assets/product-chuoi.png" alt="Chuối Yến Mạch Choco - Mềm ẩm tự nhiên, socola chip và hạt bí" loading="lazy">
+                        <div class="product-badge healthy-badge">Healthy</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Chuối Yến Mạch Choco</h3>
+                        <p class="product-desc">Mềm ẩm tự nhiên từ chuối chín, socola chip và hạt bí. Không thêm đường — ngọt dịu hoàn toàn từ chuối.</p>
+                        <div class="product-tags">
+                            <span class="tag">Không đường</span>
+                            <span class="tag">Yến mạch</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card animate-on-scroll" id="product-soda">
+                    <div class="product-image">
+                        <img src="/assets/product-soda.png" alt="Bánh Mì Soda Nguyên Cám - Kiểu Ireland, vỏ giòn ruột mềm" loading="lazy">
+                        <div class="product-badge healthy-badge">Healthy</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bánh Mì Soda Nguyên Cám</h3>
+                        <p class="product-desc">Kiểu Ireland, không cần men, không nhồi bột. Vỏ giòn ruột mềm xốp, thơm mè đen. Ăn kèm bơ, mứt hoặc mật ong.</p>
+                        <div class="product-tags">
+                            <span class="tag">Nguyên cám</span>
+                            <span class="tag">Maple syrup</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card animate-on-scroll" id="product-bonglan">
+                    <div class="product-image">
+                        <img src="/assets/product-bonglan.png" alt="Bông Lan Trứng Muối - Mềm xốp, kem trứng muối béo ngậy" loading="lazy">
+                        <div class="product-badge healthy-badge">Healthy</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bông Lan Trứng Muối</h3>
+                        <p class="product-desc">Mềm xốp từ bột yến mạch, kem trứng muối béo ngậy, chà bông rong biển. Vị mặn ngọt hài hoà, ngọt dịu bằng trehalose.</p>
+                        <div class="product-tags">
+                            <span class="tag">Trehalose</span>
+                            <span class="tag">Rong biển</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card animate-on-scroll" id="product-carrot">
+                    <div class="product-image">
+                        <img src="/assets/product-carrot.png" alt="Carrot Cake Kem Hy Lạp - Cà rốt bùi, óc chó, quế ấm" loading="lazy">
+                        <div class="product-badge healthy-badge">Healthy</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Carrot Cake Kem Hy Lạp</h3>
+                        <p class="product-desc">Cà rốt bùi mềm, óc chó, nho khô, thơm quế ấm nồng. Phủ kem sữa chua Hy Lạp và cream cheese.</p>
+                        <div class="product-tags">
+                            <span class="tag">Đường dừa</span>
+                            <span class="tag">Bột hạnh nhân</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 7 -->
+                <article class="product-card animate-on-scroll" id="product-que">
+                    <div class="product-image">
+                        <img src="/assets/product-cuonque.png" alt="Bánh Mì Cuộn Quế - Mềm xốp, nhân quế thơm, phủ kem cream cheese" loading="lazy">
+                        <div class="product-badge healthy-badge">Healthy</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bánh Mì Cuộn Quế</h3>
+                        <p class="product-desc">Mềm xốp nhờ bột hồ tangzhong, nhân quế thơm hoài niệm, phủ kem cream cheese. Ngọt bằng đường dừa.</p>
+                        <div class="product-tags">
+                            <span class="tag">Đường dừa</span>
+                            <span class="tag">Tangzhong</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="products-disclaimer animate-on-scroll">
+                <p>⚠️ Tất cả sản phẩm đều làm trong cùng bếp — có nguy cơ nhiễm chéo với sữa, trứng, hạt, gluten. Nếu bạn có dị ứng thực phẩm, vui lòng liên hệ chúng mình trước khi đặt hàng.</p>
+                <p>Thông tin dinh dưỡng là ước tính. Người có bệnh nền (tiểu đường, dị ứng) nên hỏi ý kiến bác sĩ trước khi sử dụng.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORY SECTION -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content animate-on-scroll">
+                    <span class="section-label">Câu Chuyện</span>
+                    <h2 class="section-title">Vì sao là MOCO Kitchen?</h2>
+                    <p class="story-text">Chúng mình bắt đầu MOCO Kitchen từ một câu hỏi đơn giản: <em>"Liệu có thể làm bánh ngon mà không cần đường trắng?"</em></p>
+                    <p class="story-text">Mỗi công thức đều trải qua hàng chục lần thử nghiệm — từ việc chọn allulose thay đường, dùng bột hạnh nhân thay bột mì, đến tìm ra tỉ lệ vàng giữa trehalose và đường dừa.</p>
+                    <p class="story-text">Chúng mình không dám nói bánh mình "ngon nhất" — mỗi người một khẩu vị. Nhưng chúng mình tự tin rằng mỗi chiếc bánh đều được làm bằng sự <strong>tỉ mỉ</strong>, <strong>trân trọng nguyên liệu</strong>, và <strong>trung thực</strong> với khách hàng.</p>
+                    <div class="story-values">
+                        <div class="value-item">
+                            <span class="value-icon">🤎</span>
+                            <span class="value-text">Thủ công từng mẻ</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">🌿</span>
+                            <span class="value-text">Nguyên liệu thật</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✨</span>
+                            <span class="value-text">Trung thực</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-visual animate-on-scroll">
+                    <div class="story-character-card" aria-label="Cô gái thợ bánh MOCO mặc tạp dề, tóc búi cao, đang vẽ sketch công thức">
+                        <svg class="story-character" viewBox="0 0 320 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mocoCharacterTitle">
+                            <title id="mocoCharacterTitle">MOCO baker character sketch</title>
+                            <rect width="320" height="390" rx="22" fill="#F8F4E9"/>
+                            <path d="M66 316C96 354 224 356 254 318" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M112 154C96 199 93 279 126 307C146 324 184 324 205 306C238 278 225 198 210 154" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M120 183C142 197 179 198 202 183" stroke="#2F4F35" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M124 187C121 222 121 272 127 303" stroke="#2F4F35" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M198 187C202 222 202 272 195 303" stroke="#2F4F35" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M130 153C112 140 105 117 111 91C119 58 144 42 172 47C200 52 217 74 213 106C211 126 201 143 187 153" fill="#F8F4E9"/>
+                            <path d="M130 153C112 140 105 117 111 91C119 58 144 42 172 47C200 52 217 74 213 106C211 126 201 143 187 153" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M132 93C144 73 163 64 184 69C198 73 208 84 214 99" stroke="#2F4F35" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M139 116C146 112 154 111 162 112" stroke="#2F4F35" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M181 112C190 112 197 115 202 119" stroke="#2F4F35" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="151" cy="124" r="3" fill="#2F4F35"/>
+                            <circle cx="190" cy="124" r="3" fill="#2F4F35"/>
+                            <path d="M154 141C164 150 179 150 190 140" stroke="#2F4F35" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M139 67C141 39 158 25 179 30C199 34 210 51 205 79" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M128 158C145 169 190 169 207 158L197 191C177 204 143 204 123 191L128 158Z" fill="#A7BE8F" stroke="#2F4F35" stroke-width="4" stroke-linejoin="round"/>
+                            <path d="M111 207C79 216 57 241 49 276" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M212 207C243 216 264 241 272 276" stroke="#2F4F35" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M50 276L114 293L104 340L39 323L50 276Z" fill="#FFF8E7" stroke="#2F4F35" stroke-width="3.5" stroke-linejoin="round"/>
+                            <path d="M61 294C75 297 87 301 100 306" stroke="#C86F4E" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M59 311C72 314 84 318 97 323" stroke="#C86F4E" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M211 286C233 275 254 269 281 268" stroke="#2F4F35" stroke-width="3.5" stroke-linecap="round"/>
+                            <path d="M252 270C262 259 274 255 289 256" stroke="#2F4F35" stroke-width="3.5" stroke-linecap="round"/>
+                            <path d="M95 73C80 66 69 56 61 42" stroke="#C86F4E" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M230 70C246 61 257 50 267 36" stroke="#C86F4E" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="story-image-wrapper">
+                        <img src="/assets/story-behind.png" alt="MOCO Kitchen - Behind the scenes, người thợ bánh đang trang trí bánh" loading="eager" class="story-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Hỏi Đáp</span>
+                <h2 class="section-title">Câu Hỏi Thường Gặp</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item animate-on-scroll" id="faq-1">
+                    <summary class="faq-question">Bánh có phù hợp cho người tiểu đường không?</summary>
+                    <div class="faq-answer">
+                        <p>Sản phẩm của chúng mình dùng các chất tạo ngọt có chỉ số đường huyết (GI) thấp hơn đường trắng — như allulose, đường la hán, trehalose, đường dừa. Tuy nhiên, <strong>"ít đường hơn" không đồng nghĩa "ăn thoải mái"</strong>.</p>
+                        <p>Chúng mình khuyên anh chị <strong>hỏi ý kiến bác sĩ hoặc chuyên gia dinh dưỡng</strong> trước khi sử dụng, và luôn kiểm soát khẩu phần.</p>
+                    </div>
+                </details>
+                <details class="faq-item animate-on-scroll" id="faq-2">
+                    <summary class="faq-question">Bánh bảo quản được bao lâu?</summary>
+                    <div class="faq-answer">
+                        <p>Do không dùng chất bảo quản, bánh cần bảo quản trong ngăn mát tủ lạnh. Thời hạn sử dụng từ <strong>2-7 ngày</strong> tuỳ loại. Riêng Bánh Mì Soda có thể đông lạnh đến 1 tháng.</p>
+                    </div>
+                </details>
+                <details class="faq-item animate-on-scroll" id="faq-3">
+                    <summary class="faq-question">Có giao hàng không? Giao ở đâu?</summary>
+                    <div class="faq-answer">
+                        <p>Chúng mình hiện đang hoạt động tại TP.HCM và giao hàng qua các ứng dụng giao đồ ăn hoặc ship COD. Vui lòng nhắn tin qua Zalo hoặc Facebook để được tư vấn.</p>
+                    </div>
+                </details>
+                <details class="faq-item animate-on-scroll" id="faq-4">
+                    <summary class="faq-question">Bánh có chứa chất gây dị ứng không?</summary>
+                    <div class="faq-answer">
+                        <p>Hầu hết sản phẩm đều chứa sữa bò và/hoặc trứng. Một số có hạt (hạnh nhân, óc chó) và gluten. Keto Tiramisu có rượu. Tất cả đều làm trong cùng bếp nên có nguy cơ nhiễm chéo.</p>
+                        <p>Nếu anh chị có dị ứng thực phẩm, vui lòng <strong>liên hệ chúng mình trước</strong> để được tư vấn chi tiết.</p>
+                    </div>
+                </details>
+                <details class="faq-item animate-on-scroll" id="faq-5">
+                    <summary class="faq-question">Keto và Healthy Baking khác nhau thế nào?</summary>
+                    <div class="faq-answer">
+                        <p><strong>Dòng Keto:</strong> Ít carb, dùng allulose + đường la hán, bột hạnh nhân thay bột mì. Phù hợp người ăn low-carb/keto.</p>
+                        <p><strong>Dòng Healthy Baking:</strong> Giảm đường tinh luyện bằng trehalose, đường dừa, maple. Vẫn dùng bột mì nguyên cám/yến mạch. Phù hợp người muốn ăn lành mạnh hơn.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Khách Hàng Nói Gì</span>
+                <h2 class="section-title">Lời Yêu Thương</h2>
+            </div>
+            <div class="testimonial-carousel" id="testimonialCarousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-quote-icon">❝</div>
+                        <blockquote class="testimonial-text">"Lần đầu ăn bánh keto mà ngon đến vậy! Tiramisu của MOCO mình order 3 lần rồi. Mascarpone béo mịn, cà phê thơm nồng — không hề có cảm giác đang ăn kiêng."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">M</div>
+                            <div>
+                                <p class="author-name">Chị Minh Thư</p>
+                                <p class="author-detail">Khách hàng tại TP.HCM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote-icon">❝</div>
+                        <blockquote class="testimonial-text">"Carrot Cake kem Hy Lạp thực sự bất ngờ. Mềm ẩm, vị quế ấm, kem chua nhẹ rất hợp. Con gái mình kén ăn mà vẫn thích. Cảm ơn MOCO!"</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">H</div>
+                            <div>
+                                <p class="author-name">Anh Hùng</p>
+                                <p class="author-detail">Khách hàng tại Bình Dương</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote-icon">❝</div>
+                        <blockquote class="testimonial-text">"Mình bị tiểu đường nên rất hạn chế đồ ngọt. Lemon Cheesecake keto của MOCO là niềm an ủi — chua thanh, béo vừa, và không lo đường huyết tăng vọt."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">L</div>
+                            <div>
+                                <p class="author-name">Cô Lan</p>
+                                <p class="author-detail">Khách hàng tại Quận 7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <button class="dot active" data-index="0" aria-label="Testimonial 1"></button>
+                    <button class="dot" data-index="1" aria-label="Testimonial 2"></button>
+                    <button class="dot" data-index="2" aria-label="Testimonial 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORDER / CTA SECTION -->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="order-content animate-on-scroll">
+                <span class="section-label">Đặt Hàng</span>
+                <h2 class="section-title">Thử Một Chiếc Nhé? 🤎</h2>
+                <p class="order-desc" style="color: rgba(255,248,231,0.85)">Chúng mình nhận đặt qua Zalo hoặc Facebook. Mỗi đơn đều được làm thủ công — nên các bạn nhắn sớm để chúng mình sắp xếp nhé!</p>
+                <div class="order-buttons">
+                    <a href="https://zalo.me/" class="btn btn-order zalo" id="btn-zalo" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><path d="M8 10h8v1.5H8zm0 3h6v1.5H8z"/></svg>
+                        Nhắn Zalo
+                    </a>
+                    <a href="https://facebook.com/" class="btn btn-order facebook" id="btn-facebook" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                        Nhắn Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/moco-logo-green.png" alt="MOCO Kitchen" class="footer-logo-img" width="154" height="58">
+                    <p class="footer-tagline">Heart-Healthy, Soul-Tasty</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#products">Sản Phẩm</a>
+                    <a href="#story">Câu Chuyện</a>
+                    <a href="#faq">Hỏi Đáp</a>
+                    <a href="#order">Đặt Hàng</a>
+                </div>
+                <p class="footer-disclaimer">Thông tin dinh dưỡng trên website là ước tính và chưa qua kiểm nghiệm lab. MOCO Kitchen không đưa lời khuyên y tế. Người có bệnh nền vui lòng tham khảo ý kiến bác sĩ.</p>
+                <p class="footer-copy">&copy; 2026 MOCO Kitchen. Dự án AI Marketing Hub — Google AI Bootcamp.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chatbot-widget" id="chatbotWidget">
+        <button class="chatbot-toggle" id="chatbotToggle" aria-label="Mở trò chuyện với trợ lý AI">
+            <svg class="chatbot-icon-open" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <svg class="chatbot-icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+
+        <div class="chatbot-panel" id="chatbotPanel">
+            <div class="chatbot-header">
+                <div class="chatbot-header-info">
+                    <span class="chatbot-avatar">🤎</span>
+                    <div>
+                        <h3 class="chatbot-name">Trợ Lý MOCO</h3>
+                        <span class="chatbot-status">Powered by Gemini AI</span>
+                    </div>
+                </div>
+                <button class="chatbot-close" id="chatbotClose" aria-label="Đóng chat">✕</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="chat-message bot">
+                    <div class="message-content">
+                        <p>Xin chào! 🤎 Chúng mình là trợ lý AI của MOCO Kitchen. Bạn muốn tìm hiểu về sản phẩm nào?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-suggestions" id="chatbotSuggestions">
+                <button class="suggestion-chip" data-query="Giới thiệu các sản phẩm Keto">🍰 Dòng Keto</button>
+                <button class="suggestion-chip" data-query="Bánh nào phù hợp người ăn kiêng?">🥗 Ăn kiêng</button>
+                <button class="suggestion-chip" data-query="Bánh nào không có trứng?">🥚 Không trứng</button>
+            </div>
+            <form class="chatbot-input" id="chatbotForm">
+                <input type="text" id="chatbotInput" placeholder="Hỏi về sản phẩm MOCO..." autocomplete="off" maxlength="500">
+                <button type="submit" id="chatbotSend" aria-label="Gửi tin nhắn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/app.js?v=20260526-header-green"></script>
+    <script src="/chatbot.js?v=20260526-header-green"></script>
+</body>
+</html>
