@@ -1,27 +1,11 @@
----
-id: "20260522153900"
-aliases: ["Creative Content Directory"]
-tags: ["#moco", "#google-ai", "#creative"]
-created: 2026-05-22
-updated: 2026-05-22
----
+# Tuần 3: Creative Content & Visual Production
 
-# 3_Creative_Content — Ảnh AI & Video Concept
+Chào Mentor! Thư mục này chứa các tài nguyên sáng tạo của dự án MOCO Kitchen, nơi AI (Banana Pro / Google Veo) được sử dụng để tạo ra hình ảnh và video sản phẩm.
 
-> Thư mục chứa các sản phẩm sáng tạo được tạo bằng Google AI Tools (Banana Pro / ImageFX, Veo 3) cho dự án MOCO Kitchen.
+## Các tài liệu chính để Mentor xem:
 
-## Nội dung
+1. **[Visual Concepts & Hình ảnh AI](visual_concepts.md)**: Danh sách 13 concept hình ảnh quảng cáo cho các sản phẩm bánh healthy, được tạo ra bằng công nghệ AI sinh ảnh (Banana Pro). Kèm theo đó là các prompt (câu lệnh) đã dùng.
+2. **[Kịch bản Video (Video Storyboard)](video_storyboard_demo.md)**: Kịch bản video quảng cáo ngắn (TVC) sử dụng AI sinh video (Google Veo 3) để lên kịch bản từng frame hình.
+3. Thư mục `Moco_Visuals/`: Chứa các file ảnh thực tế đã được render.
 
-| File | Mô tả |
-|------|--------|
-| `visual_concepts.md` | Liệt kê 13 ảnh AI đã generate cho Landing Page |
-| `video_storyboard_demo.md` | Storyboard video demo sản phẩm (Veo 3 concept) |
-
-## Google AI Tools sử dụng
-
-- **Banana Pro / ImageFX** — Tạo ảnh sản phẩm AI cho Landing Page
-- **Veo 3** — Concept video demo sản phẩm (storyboard)
-
-## Vị trí ảnh gốc
-
-Tất cả 13 file ảnh AI nằm tại: `5_Landing_Page_Chatbot/assets/`
+*(Vui lòng click vào các link trên để đọc trực tiếp nội dung)*
