@@ -1,0 +1,123 @@
+{
+  "name": "MOCO Kitchen AI Marketing Hub",
+  "children": [
+    {
+      "name": "Tổng Quan Thị Trường Bánh Healthy VN",
+      "children": [
+        {
+          "name": "Xu hướng tiêu dùng",
+          "children": [
+            { "name": "Ăn có mục đích (Khỏe - Đẹp)" },
+            { "name": "Clean Label (Minh bạch thành phần)" },
+            { "name": "Đường thay thế (Allulose, Trehalose)" },
+            { "name": "Cá nhân hóa theo bệnh lý" }
+          ]
+        },
+        {
+          "name": "Đối tượng mục tiêu",
+          "children": [
+            { "name": "Người tiểu đường type 2" },
+            { "name": "Gen Z & Millennials ăn sạch" },
+            { "name": "Mẹ bỉm & trẻ dị ứng" }
+          ]
+        },
+        {
+          "name": "Đối thủ cạnh tranh",
+          "children": [
+            { "name": "Bếp nhà Gừng" },
+            { "name": "Avobaking" },
+            { "name": "Tiệm bánh Healthy" },
+            { "name": "Nhà của Mây" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sản Phẩm MOCO Kitchen",
+      "children": [
+        {
+          "name": "Dòng Keto",
+          "children": [
+            { "name": "Keto Tiramisu" },
+            { "name": "Keto Lemon Cheesecake" }
+          ]
+        },
+        {
+          "name": "Dòng Healthy Baking",
+          "children": [
+            { "name": "Chuối Yến Mạch Choco" },
+            { "name": "Bánh Mì Soda Nguyên Cám" },
+            { "name": "Bông Lan Trứng Muối" },
+            { "name": "Carrot Cake Kem Hy Lạp" },
+            { "name": "Bánh Mì Cuộn Quế" }
+          ]
+        },
+        {
+          "name": "Cam kết nguyên liệu",
+          "children": [
+            { "name": "Không đường trắng tinh luyện" },
+            { "name": "Không chất bảo quản" },
+            { "name": "Không phẩm màu" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hệ Thống AI Marketing Hub",
+      "children": [
+        {
+          "name": "Sáng tạo nội dung (Gemini Pro)",
+          "children": [
+            { "name": "Viết bài FB/IG trong 5 phút" },
+            { "name": "Brand voice chân thành, tỉ mỉ" }
+          ]
+        },
+        {
+          "name": "Hình ảnh & Video (Banana Pro/Veo 3)",
+          "children": [
+            { "name": "Ảnh sản phẩm chất lượng cao" },
+            { "name": "Clip giới thiệu sản phẩm" }
+          ]
+        },
+        {
+          "name": "Quản lý tri thức (NotebookLM)",
+          "children": [
+            { "name": "Knowledge Base dinh dưỡng" },
+            { "name": "Podcast Audio Overview" }
+          ]
+        },
+        {
+          "name": "Vận hành & Website",
+          "children": [
+            { "name": "Chatbot tư vấn Antigravity" },
+            { "name": "Auto-email Apps Script" },
+            { "name": "Landing page Vercel" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiến Lược Content",
+      "children": [
+        {
+          "name": "Tần suất & Tỷ lệ",
+          "children": [
+            { "name": "3-4 bài/tuần" },
+            { "name": "40% Sản phẩm" },
+            { "name": "30% Kiến thức" },
+            { "name": "20% Storytelling" },
+            { "name": "10% Review/UGC" }
+          ]
+        },
+        {
+          "name": "Kênh phân phối",
+          "children": [
+            { "name": "Facebook" },
+            { "name": "Zalo" },
+            { "name": "Website" }
+          ]
+        }
+      ]
+    }
+  ]
+}
