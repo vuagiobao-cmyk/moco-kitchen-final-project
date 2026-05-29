@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 18px;
+      color: #202124;
+      background: #f8f9fa;
+    }
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #1f4e79;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .form-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+    .section {
+      background: #fff;
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #2f6b53;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #5f6368;
+      margin: 10px 0 4px;
+    }
+    input, select, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #dadce0;
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 13px;
+      background: #fff;
+    }
+    textarea {
+      min-height: 62px;
+      resize: vertical;
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .item-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 78px 38px;
+      gap: 8px;
+      align-items: end;
+      margin-bottom: 8px;
+    }
+    .item-row label {
+      margin-top: 0;
+    }
+    button {
+      border: 0;
+      border-radius: 6px;
+      padding: 9px 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .primary {
+      background: #1f4e79;
+      color: #fff;
+      min-width: 160px;
+    }
+    .secondary {
+      background: #e8f0fe;
+      color: #174ea6;
+    }
+    .danger {
+      background: #fce8e6;
+      color: #b31412;
+      padding: 8px;
+    }
+    .status {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #5f6368;
+      white-space: pre-wrap;
+    }
+    .summary {
+      font-size: 12px;
+      color: #3c4043;
+      background: #f1f3f4;
+      padding: 8px;
+      border-radius: 6px;
+      margin-top: 8px;
+      white-space: pre-wrap;
+    }
+    .action-bar {
+      position: sticky;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #f8f9fa;
+      border-top: 1px solid #dadce0;
+      margin: 12px -18px -18px;
+      padding: 12px 18px;
+    }
+    .action-bar .status {
+      flex: 1;
+      margin-top: 0;
+    }
+    @media (max-width: 700px) {
+      .form-layout,
+      .grid2 {
+        grid-template-columns: 1fr;
+      }
+      .action-bar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+      .primary {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>Nhập đơn mới</h2>
+  </div>
+
+  <div class="form-layout">
+    <div class="section">
+      <div class="section-title">Thông tin đơn</div>
+      <div class="grid2">
+        <div>
+          <label>Mã đơn</label>
+          <input id="orderId" type="text">
+        </div>
+        <div>
+          <label>Nguồn khách</label>
+          <select id="sourceChannel"></select>
+        </div>
+      </div>
+      <div class="grid2">
+        <div>
+          <label>Ngày đặt</label>
+          <input id="orderDate" type="date">
+        </div>
+        <div>
+          <label>Ngày giao</label>
+          <input id="deliveryDate" type="date">
+        </div>
+      </div>
+      <label>Giờ giao</label>
+      <input id="deliveryTime" type="text" placeholder="Ví dụ: 16h, 16-17h">
+      <label>Tên khách</label>
+      <input id="customer" type="text">
+      <label>SĐT</label>
+      <input id="phone" type="text" inputmode="tel">
+      <label>Địa chỉ</label>
+      <textarea id="address"></textarea>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Món trong đơn</div>
+      <div id="items"></div>
+      <button class="secondary" onclick="addItem()">+ Thêm món</button>
+      <div id="orderSummary" class="summary"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Thanh toán & vận hành</div>
+      <div class="grid2">
+        <div>
+          <label>Khuyến mại</label>
+          <input id="discount" type="text" placeholder="10%, 0.1, 20k">
+        </div>
+        <div>
+          <label>Ship</label>
+          <input id="ship" type="text" placeholder="30000, free">
+        </div>
+      </div>
+      <div class="grid2">
+        <div>
+          <label>Bù ship</label>
+          <input id="shipSubsidy" type="text">
+        </div>
+        <div>
+          <label>TT thanh toán</label>
+          <select id="paymentStatus"></select>
+        </div>
+      </div>
+      <div class="grid2">
+        <div>
+          <label>TT sản xuất</label>
+          <select id="productionStatus"></select>
+        </div>
+        <div>
+          <label>TT giao hàng</label>
+          <select id="deliveryStatus"></select>
+        </div>
+      </div>
+      <label>Ghi chú</label>
+      <textarea id="note"></textarea>
+    </div>
+  </div>
+
+  <div class="action-bar">
+    <div id="status" class="status">Đang tải dữ liệu...</div>
+    <button class="primary" onclick="saveOrder()">Lưu đơn</button>
+  </div>
+
+  <script>
+    let menu = [];
+    let state = null;
+
+    function optionHtml(value, label) {
+      return '<option value="' + String(value || '').replace(/"/g, '&quot;') + '">' + (label || value || '') + '</option>';
+    }
+
+    function init() {
+      google.script.run
+        .withSuccessHandler(function(data) {
+          state = data;
+          menu = data.menu || [];
+          document.getElementById('orderId').value = data.nextOrderId || '';
+          document.getElementById('orderDate').value = data.today || '';
+          document.getElementById('deliveryDate').value = data.today || '';
+          fillSelect('sourceChannel', data.sourceOptions || [], 'IG');
+          fillSelect('productionStatus', data.productionStatuses || [], 'Chưa làm');
+          fillSelect('deliveryStatus', data.deliveryStatuses || [], 'Chưa giao');
+          fillSelect('paymentStatus', data.paymentStatuses || [], 'Chưa thanh toán');
+          addItem();
+          setStatus('');
+        })
+        .withFailureHandler(function(err) {
+          setStatus('Không tải được form: ' + err.message);
+        })
+        .MOCO_GET_ORDER_FORM_DATA();
+    }
+
+    function fillSelect(id, values, selected) {
+      const el = document.getElementById(id);
+      el.innerHTML = values.map(v => optionHtml(v)).join('');
+      if (selected) el.value = selected;
+    }
+
+    function addItem(name, qty) {
+      const box = document.getElementById('items');
+      const row = document.createElement('div');
+      row.className = 'item-row';
+      row.innerHTML =
+        '<div><label>Món</label><select class="item-name"><option value=""></option>' +
+        menu.map(item => optionHtml(item.name, item.name + (item.price ? ' - ' + formatVnd(item.price) : ''))).join('') +
+        '</select></div>' +
+        '<div><label>SL</label><input class="item-qty" type="number" min="1" step="1" inputmode="numeric" value="' + (qty || 1) + '"></div>' +
+        '<button class="danger" type="button" onclick="removeItem(this)">×</button>';
+      box.appendChild(row);
+      if (name) row.querySelector('.item-name').value = name;
+      row.querySelector('.item-name').addEventListener('change', updateSummary);
+      row.querySelector('.item-qty').addEventListener('input', updateSummary);
+      updateSummary();
+    }
+
+    function removeItem(btn) {
+      btn.parentNode.remove();
+      if (!document.querySelectorAll('.item-row').length) addItem();
+      updateSummary();
+    }
+
+    function collectItems() {
+      return Array.from(document.querySelectorAll('.item-row')).map(row => {
+        const qtyText = row.querySelector('.item-qty').value;
+        const qty = Number(qtyText);
+        return {
+          name: row.querySelector('.item-name').value,
+          qty: qtyText,
+          validQty: qty > 0 && Number.isInteger(qty)
+        };
+      }).filter(item => item.name && Number(item.qty) > 0);
+    }
+
+    function updateSummary() {
+      const lines = collectItems().map(item => item.qty + ' x ' + item.name);
+      document.getElementById('orderSummary').textContent = lines.length ? lines.join('\n') : 'Chưa chọn món.';
+    }
+
+    function saveOrder() {
+      const payload = {
+        orderId: val('orderId'),
+        sourceChannel: val('sourceChannel'),
+        orderDate: val('orderDate'),
+        deliveryDate: val('deliveryDate'),
+        deliveryTime: val('deliveryTime'),
+        customer: val('customer'),
+        phone: val('phone'),
+        address: val('address'),
+        items: collectItems(),
+        discount: val('discount'),
+        ship: val('ship'),
+        shipSubsidy: val('shipSubsidy'),
+        productionStatus: val('productionStatus'),
+        deliveryStatus: val('deliveryStatus'),
+        paymentStatus: val('paymentStatus'),
+        note: val('note')
+      };
+      if (!payload.customer) return setStatus('Thiếu tên khách.');
+      if (!payload.deliveryDate) return setStatus('Thiếu ngày giao.');
+      if (!payload.items.length) return setStatus('Chưa chọn món.');
+      if (payload.items.some(item => !item.validQty)) {
+        return setStatus('Số lượng phải là số nguyên lớn hơn 0. Ví dụ đúng: 1, 2, 3.');
+      }
+      payload.items = payload.items.map(item => ({ name: item.name, qty: item.qty }));
+      setStatus('Đang lưu...');
+      google.script.run
+        .withSuccessHandler(function(result) {
+          setStatus('Đã lưu đơn #' + result.orderId + '\\nSố dòng món: ' + result.itemRows + '\\nDoanh thu: ' + formatVnd(result.revenueAfterDiscount));
+          resetForNext(result.orderId);
+        })
+        .withFailureHandler(function(err) {
+          setStatus('Không lưu được: ' + err.message);
+        })
+        .MOCO_SAVE_ORDER_FROM_FORM(payload);
+    }
+
+    function resetForNext(orderId) {
+      const next = Number(orderId) + 1;
+      if (Number.isFinite(next)) document.getElementById('orderId').value = next;
+      ['customer', 'phone', 'address', 'discount', 'ship', 'shipSubsidy', 'note'].forEach(id => document.getElementById(id).value = '');
+      document.getElementById('items').innerHTML = '';
+      addItem();
+    }
+
+    function val(id) {
+      return document.getElementById(id).value.trim();
+    }
+
+    function setStatus(text) {
+      document.getElementById('status').textContent = text || '';
+    }
+
+    function formatVnd(value) {
+      return Math.round(Number(value || 0)).toLocaleString('vi-VN') + 'đ';
+    }
+
+    init();
+  </script>
+</body>
+</html>
