@@ -15,7 +15,7 @@
 
 - Landing page được chuyển sang phong cách editorial tươi, gọn, tông xanh matcha (#355C3B), phù hợp với định hướng "healthy" của thương hiệu và tạo cảm giác sạch sẽ, dễ chịu.
 - Chatbot được tích hợp theo cách không để lộ API key (khóa kết nối tới Gemini) ra phía người dùng, thông qua một lớp trung gian. Cách làm này bảo đảm an toàn, tránh bị lạm dụng key.
-- Các module quản lý của tiệm (giá vốn, nhập hàng, thu chi, dashboard) được gom về chung một file Google Sheet để vận hành tập trung, thuận tiện cho founder.
+- Các module quản lý của tiệm (giá vốn, nhập hàng, thu chi, dashboard) được gom về chung một file Google Sheet để vận hành tập trung, thuận tiện cho founder. Đây là phần làm thêm theo nhu cầu thực tế của tiệm (bonus), ngoài yêu cầu của khóa học vốn chỉ tập trung vào marketing.
 
 ## Công việc đã thực hiện
 

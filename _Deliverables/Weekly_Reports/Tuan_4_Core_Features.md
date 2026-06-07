@@ -17,6 +17,7 @@ Xây dựng bốn phần chính của hệ thống:
 
 - MOCO Kitchen đang vận hành trực tiếp trên Google Sheet, nên phần automation được xây ngay trong Sheet bằng Google Apps Script — công cụ lập trình tự động hóa của Google. Cách làm này giúp founder sử dụng ngay trong công cụ quen thuộc, không phải học thêm phần mềm mới.
 - Hệ thống được chia thành các module riêng biệt để dễ phát triển và bảo trì: tạo content, nhập hàng, thu chi, dashboard tổng hợp và tính giá vốn (cost).
+- Lưu ý phạm vi: khóa học chỉ yêu cầu phần marketing. Các phần quản lý đơn hàng trên Google Sheet và công cụ tính cost/food cost là phần làm thêm theo nhu cầu thực tế của tiệm, mang tính bonus ngoài yêu cầu bài tập.
 - Chatbot sử dụng model Gemini, có cấu hình an toàn và kèm khuyến nghị cho các câu hỏi liên quan đến sức khỏe.
 
 ## Công việc đã thực hiện

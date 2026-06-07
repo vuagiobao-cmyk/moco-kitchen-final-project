@@ -150,7 +150,7 @@ Chatbot gọi Gemini qua serverless function `api/chat.js` (an toàn, không har
 | **Tên** | MOCO Kitchen |
 | **Slogan** | "Heart-Healthy, Soul-Tasty" |
 | **Ngành** | Bánh Healthy (online) |
-| **Target** | Người tiểu đường, ăn kiêng, mẹ bầu, người tập luyện, gia đình muốn ăn lành (lưu ý: sản phẩm KHÔNG dành cho người dị ứng đạm sữa bò) |
+| **Target** | Người tiểu đường, ăn kiêng, mẹ bầu, người tập luyện, gia đình muốn ăn lành (lưu ý: phần lớn sản phẩm KHÔNG dành cho người dị ứng đạm sữa bò; riêng Bánh Chuối Yến Mạch dùng sữa hạt nên có thể cân nhắc, vẫn cần lưu ý nhiễm chéo) |
 | **Brand voice** | Chân thành, tỉ mỉ, xưng "chúng mình" |
 | **7 Sản phẩm** | Keto Tiramisu, Keto Lemon Cheesecake, Chuối Yến Mạch Choco, Bánh Mì Soda Nguyên Cám, Bông Lan Trứng Muối, Carrot Cake Kem Hy Lạp, Bánh Mì Cuộn Quế |
 
