@@ -38,3 +38,7 @@ Xây dựng bốn phần chính của hệ thống:
 
 - Nắm vững cách dùng Apps Script để tự động hóa Google Sheet (gửi email tự động, web app, kết nối tới Gemini). Đây là nền tảng cho bộ công cụ vận hành của MOCO ở tuần 5 – 6.
 - Các tính năng chính đã chạy độc lập được, sẵn sàng để tích hợp thành một hệ thống hoàn chỉnh.
+
+---
+
+**Điều hướng:** [← Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) · [Mục lục các tuần](README.md) · [Tuần 5 →](Tuan_5_Tich_hop_Giao_dien.md)

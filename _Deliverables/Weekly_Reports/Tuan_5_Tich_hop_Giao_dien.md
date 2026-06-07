@@ -36,3 +36,7 @@
 - Sản phẩm chạy thông suốt theo đúng hành trình người dùng: khách xem landing page, đặt câu hỏi với chatbot và nhận tư vấn đúng sản phẩm.
 - Bộ công cụ vận hành nội bộ hoạt động trong thực tế trên Google Sheet của tiệm.
 - Số liệu giai đoạn: hơn 10 file mới và hàng nghìn dòng code; landing page, chatbot và bộ công cụ vận hành đã được tích hợp hoàn chỉnh.
+
+---
+
+**Điều hướng:** [← Tuần 4](Tuan_4_Core_Features.md) · [Mục lục các tuần](README.md) · [Tuần 6 →](Tuan_6_Deployment_Trinh_bay.md)

@@ -36,3 +36,7 @@
 
 - Xác định được đề bài rõ ràng, có thể đo lường, làm nền tảng cho toàn bộ các tuần tiếp theo.
 - Thống nhất một nguyên tắc xuyên suốt dự án: AI phải bám đúng đặc điểm của thương hiệu và không đưa ra thông tin thiếu căn cứ, đặc biệt với các nội dung liên quan đến sức khỏe.
+
+---
+
+**Điều hướng:** [Mục lục các tuần](README.md) · [Tuần 2 → Dữ liệu & Phân tích nghiệp vụ](Tuan_2_Du_lieu_Phan_tich.md)

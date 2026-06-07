@@ -38,3 +38,7 @@
 
 - Hình thành một "content engine" có thể tái sử dụng: chỉ cần đưa yêu cầu là tạo được bài viết đúng giọng kèm ý tưởng hình ảnh.
 - Bộ chuẩn hình ảnh được dùng làm cơ sở cho việc tạo các ảnh sản phẩm và cho trợ lý làm ảnh ở các giai đoạn sau.
+
+---
+
+**Điều hướng:** [← Tuần 2](Tuan_2_Du_lieu_Phan_tich.md) · [Mục lục các tuần](README.md) · [Tuần 4 →](Tuan_4_Core_Features.md)

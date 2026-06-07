@@ -40,3 +40,7 @@
 - Sản phẩm hoàn chỉnh, vận hành trực tuyến và có tài liệu đầy đủ để tái sử dụng.
 - Bộ công cụ vận hành và sản xuất content hoạt động thực tế cùng tiệm.
 - Số liệu toàn dự án: 6 tuần, hơn 55 lần commit (lưu mã nguồn), hơn 100 file, hơn 30.000 dòng code và 6 công cụ Google AI (NotebookLM, Gemini, Apps Script, Banana Pro, Veo 3, Vercel).
+
+---
+
+**Điều hướng:** [← Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) · [Mục lục các tuần](README.md)

@@ -39,3 +39,7 @@
 - Hoàn thiện knowledge base chuẩn theo 7 sản phẩm thật, giúp AI trả lời đúng sản phẩm và đúng nguyên liệu.
 - Có sẵn bộ khuyến nghị an toàn cho các câu hỏi nhạy cảm về sức khỏe, sẵn sàng đưa vào chatbot ở các giai đoạn sau.
 - Xác định được định vị khác biệt của thương hiệu so với đối thủ, làm cơ sở cho định hướng content.
+
+---
+
+**Điều hướng:** [← Tuần 1](Tuan_1_Tu_duy_AI_Nghien_cuu.md) · [Mục lục các tuần](README.md) · [Tuần 3 →](Tuan_3_Sang_tao_Noi_dung.md)
