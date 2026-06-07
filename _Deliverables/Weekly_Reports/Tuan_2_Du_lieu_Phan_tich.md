@@ -14,7 +14,7 @@
 ## Hướng tiếp cận
 
 - Toàn bộ công thức được lấy từ dữ liệu thật của founder, sau đó phân thành hai dòng sản phẩm rõ ràng: dòng Keto (sử dụng các chất tạo ngọt ăn kiêng như allulose, đường la hán) và dòng Healthy Baking (giảm đường tinh luyện, dùng nguyên liệu tự nhiên).
-- Lập một bảng đối chiếu thành phần dễ gây dị ứng theo từng món. Nhờ đó, các câu hỏi nhạy cảm về tiểu đường, thai sản hoặc dị ứng đều được trả lời thận trọng, kèm khuyến nghị tham khảo ý kiến bác sĩ thay vì khẳng định tuyệt đối. Riêng với dị ứng đạm sữa bò: phần lớn sản phẩm có dùng phô mai/sữa nên không phù hợp, chỉ Bánh Chuối Yến Mạch (dùng sữa hạt) là có thể cân nhắc, vẫn lưu ý nguy cơ nhiễm chéo do làm chung bếp.
+- Lập một bảng đối chiếu thành phần theo từng món để biết món nào có sữa, trứng, hạt hay gluten. Nhờ đó, các câu hỏi nhạy cảm về tiểu đường, thai sản hoặc dị ứng đều được trả lời thận trọng, kèm khuyến nghị tham khảo ý kiến bác sĩ thay vì khẳng định tuyệt đối.
 - Tham khảo một số đối thủ trực tiếp và phác họa chân dung khách hàng mục tiêu để xác định điểm khác biệt và định vị cho thương hiệu.
 
 ## Công việc đã thực hiện

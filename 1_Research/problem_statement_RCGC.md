@@ -25,8 +25,6 @@ updated: 2026-06-07
 
 Xây dựng hệ thống **AI Creative & Operations Hub** cho MOCO Kitchen — thương hiệu bánh Healthy online tại Hà Nội, phục vụ nhóm khách hàng quan tâm sức khỏe: người tiểu đường, người ăn kiêng, mẹ bầu, người tập luyện và gia đình muốn ăn lành.
 
-> **Lưu ý về dị ứng đạm sữa bò:** Phần lớn sản phẩm **không** phù hợp với người dị ứng đạm sữa bò vì có dùng phô mai/sữa (mascarpone, cream cheese, sữa chua Hy Lạp...). Ngoại lệ là **Bánh Chuối Yến Mạch Choco** — dùng sữa hạt nên có thể cân nhắc, nhưng do làm chung một gian bếp nên vẫn có nguy cơ nhiễm chéo. Mọi tư vấn liên quan dị ứng đều kèm khuyến nghị hỏi kỹ thành phần và tham khảo ý kiến bác sĩ.
-
 ## Context (Bối cảnh)
 
 ### Thực trạng ngành

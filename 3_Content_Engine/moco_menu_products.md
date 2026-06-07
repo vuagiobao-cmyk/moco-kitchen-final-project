@@ -3,7 +3,7 @@ id: 20260513223800
 aliases: ["MOCO Menu Products V2", "Menu san pham MOCO Kitchen"]
 tags: ["#moco-kitchen", "#menu", "#knowledge-base"]
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-07
 ---
 
 # MOCO Kitchen — Menu & Thông Tin Sản Phẩm (V2)
@@ -37,12 +37,12 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1 hộp chia 2-3 lần ăn
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Mascarpone, whipping cream, sữa tươi |
 | Trứng | ✅ Lòng đỏ trứng |
 | Hạt | ✅ Bột hạnh nhân (lady finger) |
-| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, KHÔNG dùng bột mì (founder đã xác nhận). ⚠️ Bếp chung — vẫn có nguy cơ nhiễm chéo gluten |
+| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, KHÔNG dùng bột mì (founder đã xác nhận) |
 | Rượu | ✅ Rum, Baileys |
 | Đậu nành | ❓ Kiểm tra nhãn chocolate/cream |
 
@@ -58,7 +58,7 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1 chiếc chia 4-6 miếng
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Cream cheese, whipping cream, bơ, sữa tươi |
 | Trứng | ❌ |
@@ -80,9 +80,9 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1 chiếc (~200g) chia 2-3 lần ăn
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
-| Sữa bò | ❌ (dùng sữa yến mạch, dầu dừa) — ⚠️ kiểm tra nhãn socola chip |
+| Sữa bò | ❌ (dùng sữa yến mạch, dầu dừa) — kiểm tra nhãn socola chip |
 | Trứng | ✅ |
 | Hạt | ✅ Hạt bí |
 | Gluten | ✅ Bột mì số 8, yến mạch |
@@ -99,7 +99,7 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** Cắt lát, mỗi lần 1-2 lát (~60-80g)
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Sữa chua không đường |
 | Trứng | ❌ |
@@ -122,7 +122,7 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1 bánh chia 2-3 phần
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Sữa tươi, bơ, cream cheese |
 | Trứng | ✅ Trứng gà + trứng muối |
@@ -143,7 +143,7 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1 chiếc (~230g) chia 2 lần ăn
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Sữa chua Hy Lạp, cream cheese, whipping |
 | Trứng | ✅ |
@@ -166,7 +166,7 @@ updated: 2026-05-13
 - **Khẩu phần gợi ý:** 1-2 cuộn/lần
 
 **Lưu ý dị ứng:**
-| Allergen | Có/Không |
+| Dị ứng | Có/Không |
 |----------|----------|
 | Sữa bò | ✅ Bơ, cream cheese, whipping, sữa chua Hy Lạp |
 | Trứng | ✅ |
@@ -177,16 +177,15 @@ updated: 2026-05-13
 
 ## Bảng Tổng Hợp Dị Ứng
 
-| Allergen | Tiramisu | Cheesecake | Chuối YM | BM Soda | BL Trứng Muối | Carrot Cake | BM Cuộn Quế |
+| Dị ứng | Tiramisu | Cheesecake | Chuối YM | BM Soda | BL Trứng Muối | Carrot Cake | BM Cuộn Quế |
 |----------|:--------:|:----------:|:--------:|:-------:|:--------------:|:-----------:|:-----------:|
-| Sữa bò | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ |
+| Sữa bò | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Trứng | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Hạt | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
 | Gluten | ❌ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Rượu | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-> ⚠️ = có thể có, cần founder xác nhận batch/công thức cụ thể  
-> Tất cả sản phẩm đều làm trong cùng bếp — nguy cơ nhiễm chéo với sữa, trứng, hạt, gluten.
+> ⚠️ = có thể có, cần founder xác nhận batch/công thức cụ thể.
 
 ---
 
