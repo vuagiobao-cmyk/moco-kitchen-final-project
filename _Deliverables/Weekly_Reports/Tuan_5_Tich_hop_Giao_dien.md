@@ -1,38 +1,38 @@
-# Tuần 5 — Ghép lại & Làm đẹp giao diện
+# Tuần 5 — Tích hợp & Giao diện
 
-> **Thời gian:** 21/04 – 07/05/2026
-> **Tuần này làm gì:** Ghép các phần rời thành một sản phẩm chạy mượt từ đầu đến cuối, và làm trang web cho đẹp đúng chất tiệm.
+**Thời gian:** 21/04 – 07/05/2026
+**Tóm tắt:** Ghép các phần riêng lẻ thành một sản phẩm hoàn chỉnh, chạy thông suốt và hoàn thiện giao diện trang web.
 
 ---
 
-## 🎯 Mục tiêu tuần này
+## Mục tiêu
 
-- Ghép tất cả phần đã làm riêng thành một sản phẩm hoàn chỉnh, dùng được thật.
-- Làm trang web nhìn tươi, sạch, đúng tông xanh matcha của tiệm.
-- Gắn chatbot vào trang web.
+- Ghép các phần đã làm riêng thành một sản phẩm hoàn chỉnh, sử dụng được trong thực tế.
+- Hoàn thiện giao diện trang web theo đúng nhận diện thương hiệu (tông xanh matcha).
+- Tích hợp chatbot vào trang web.
 
-## 💡 Mình đã nghĩ và làm thế nào
+## Hướng tiếp cận
 
-- Đổi trang web sang phong cách tươi, gọn, tông xanh matcha cho hợp tinh thần "ăn lành".
-- Gắn chatbot sao cho **không lộ "chìa khóa" kết nối AI** ra ngoài (an toàn hơn).
-- Gom các phần quản lý của tiệm (giá vốn, nhập hàng, thu chi, bảng tổng) về chung một file Google Sheet cho dễ dùng.
+- Chuyển trang web sang phong cách tươi, gọn, tông xanh matcha phù hợp định hướng "ăn lành".
+- Tích hợp chatbot theo cách không để lộ khóa kết nối tới AI ra phía người dùng, bảo đảm an toàn.
+- Gom các phần quản lý của tiệm (giá vốn, nhập hàng, thu chi, bảng tổng hợp) vào chung một tệp Google Sheet để thuận tiện sử dụng.
 
-## ✅ Việc đã làm
+## Công việc đã thực hiện
 
-- Hoàn thiện trang web (cuộn mượt, có phần hỏi–đáp, chạy tốt trên điện thoại).
-- Gắn chatbot biết nhớ ngữ cảnh trong cuộc trò chuyện.
-- Gộp bộ quản lý của tiệm về một chỗ; chuẩn lại phần nhập hàng và bảng giá vốn.
+- Hoàn thiện trang web: cuộn mượt, có phần hỏi – đáp, hiển thị tốt trên điện thoại.
+- Tích hợp chatbot có khả năng ghi nhớ ngữ cảnh trong cuộc trò chuyện.
+- Hợp nhất bộ công cụ quản lý; chuẩn hóa phần nhập hàng và bảng giá vốn.
 
-## 📦 Sản phẩm & link
+## Sản phẩm bàn giao
 
-| Nội dung | Link |
-|----------|------|
-| 🌐 Trang web (xem trực tiếp) | https://moco-kitchen-ai-hub.vercel.app |
-| Mã nguồn web + chatbot | [5_Landing_Page_Chatbot/](../../5_Landing_Page_Chatbot/) |
+| Nội dung | Liên kết |
+|----------|----------|
+| Trang web (xem trực tiếp) | https://moco-kitchen-ai-hub.vercel.app |
+| Mã nguồn trang web và chatbot | [5_Landing_Page_Chatbot/](../../5_Landing_Page_Chatbot/) |
 | Tình trạng dự án | [CONTEXT.md](../../CONTEXT.md) |
 
-## 🟢 Kết quả
+## Kết quả
 
-- Sản phẩm chạy liền mạch: khách xem web → hỏi chatbot → được tư vấn đúng món.
-- Bộ quản lý nội bộ chạy thật trên Google Sheet của tiệm.
-- **Con số:** hơn 10 file mới, hàng nghìn dòng; web + chatbot + bộ quản lý đã ghép xong.
+- Sản phẩm chạy thông suốt: khách xem trang web, đặt câu hỏi với chatbot và nhận tư vấn đúng sản phẩm.
+- Bộ công cụ quản lý nội bộ vận hành thực tế trên Google Sheet của tiệm.
+- Số liệu giai đoạn: hơn 10 tệp mới, hàng nghìn dòng; trang web, chatbot và bộ quản lý đã tích hợp hoàn chỉnh.

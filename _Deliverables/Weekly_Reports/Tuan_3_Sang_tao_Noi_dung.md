@@ -1,40 +1,40 @@
-# Tuần 3 — Cách làm & Sáng tạo nội dung
+# Tuần 3 — Khung nội dung & Sáng tạo
 
-> **Thời gian:** 06/04 – 12/04/2026
-> **Tuần này làm gì:** Tạo "khuôn" để mỗi lần nhờ AI viết bài hay làm ảnh đều ra đúng chất tiệm.
+**Thời gian:** 06/04 – 12/04/2026
+**Tóm tắt:** Xây dựng các khuôn mẫu để mỗi lần tạo bài viết hoặc hình ảnh bằng AI đều giữ đúng phong cách thương hiệu.
 
 ---
 
-## 🎯 Mục tiêu tuần này
+## Mục tiêu
 
-- Làm sẵn các "khuôn bài viết" cho nhiều kiểu bài (giới thiệu sản phẩm, chia sẻ kiến thức, hậu trường, review...).
-- Thống nhất kiểu ảnh của tiệm để ảnh nào cũng nhìn ra là MOCO.
-- Giữ giọng văn đồng nhất ở mọi bài.
+- Chuẩn bị sẵn các khuôn mẫu bài viết cho nhiều dạng nội dung (giới thiệu sản phẩm, chia sẻ kiến thức, hậu trường, đánh giá của khách...).
+- Thống nhất phong cách hình ảnh để các ảnh đều nhận diện được là của MOCO.
+- Bảo đảm giọng văn nhất quán giữa các bài.
 
-## 💡 Mình đã nghĩ và làm thế nào
+## Hướng tiếp cận
 
-- Mỗi bài viết theo một mạch quen thuộc: **mở đầu gần gũi → kể về nguyên liệu, cách làm → mời mua nhẹ nhàng**, không hô hào.
-- Thống nhất gam màu và kiểu chụp ảnh: ánh sáng dịu, tự nhiên, tông ấm — để làm "chuẩn" cho việc tạo ảnh bằng AI.
-- Thử tạo video ngắn bằng công cụ Veo 3.
+- Mỗi bài viết theo một bố cục thống nhất: mở đầu tạo đồng cảm, phần giữa mô tả nguyên liệu và cách làm, phần cuối là lời mời nhẹ nhàng; tránh lối quảng cáo phóng đại.
+- Thống nhất bảng màu và cách chụp hình (ánh sáng dịu, tự nhiên, tông ấm) làm chuẩn cho việc tạo ảnh bằng AI.
+- Thử nghiệm tạo video ngắn bằng công cụ Veo 3.
 
-## ✅ Việc đã làm
+## Công việc đã thực hiện
 
-- Viết "bản tính cách" cho trợ lý viết bài (kèm cách nói cần tránh).
-- Làm lịch nội dung mẫu 2 tuần + bài mẫu cho từng món.
-- Làm bộ câu lệnh tạo ảnh sản phẩm bằng AI.
-- Làm bản phác kịch bản video.
+- Xây dựng bộ quy tắc cho trợ lý viết bài, kèm những cách diễn đạt cần tránh.
+- Soạn lịch nội dung mẫu cho 2 tuần và bài mẫu cho từng món.
+- Xây dựng bộ câu lệnh tạo ảnh sản phẩm bằng AI.
+- Soạn bản phác kịch bản video.
 
-## 📦 Sản phẩm & link
+## Sản phẩm bàn giao
 
-| Nội dung | Link |
-|----------|------|
-| Bản tính cách trợ lý viết bài | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Nội dung | Liên kết |
+|----------|----------|
+| Bộ quy tắc cho trợ lý viết bài | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
 | Lịch nội dung mẫu | [3_Content_Engine/moco_content_calendar_sample.md](../../3_Content_Engine/moco_content_calendar_sample.md) |
-| Bài mẫu | [3_Content_Engine/moco_sample_posts_gem.md](../../3_Content_Engine/moco_sample_posts_gem.md) |
-| Ý tưởng & ảnh AI | [3_Creative_Content/visual_concepts.md](../../3_Creative_Content/visual_concepts.md) |
+| Bài viết mẫu | [3_Content_Engine/moco_sample_posts_gem.md](../../3_Content_Engine/moco_sample_posts_gem.md) |
+| Ý tưởng và ảnh AI | [3_Creative_Content/visual_concepts.md](../../3_Creative_Content/visual_concepts.md) |
 | Kịch bản video | [3_Creative_Content/video_storyboard_demo.md](../../3_Creative_Content/video_storyboard_demo.md) |
 
-## 🟢 Kết quả
+## Kết quả
 
-- Có sẵn "khuôn", cứ cần là viết được bài đúng giọng + có ý tưởng ảnh.
-- Bộ chuẩn ảnh này dùng tiếp cho cả việc làm ảnh sau này.
+- Hình thành bộ khuôn mẫu giúp tạo bài viết đúng giọng và có sẵn ý tưởng hình ảnh.
+- Bộ chuẩn hình ảnh được dùng tiếp cho việc tạo ảnh ở các giai đoạn sau.

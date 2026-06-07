@@ -1,38 +1,38 @@
 # Tuần 1 — Tư duy AI & Nghiên cứu
 
-> **Thời gian:** 22/03 – 28/03/2026
-> **Tuần này làm gì:** Hiểu rõ tiệm bánh đang cần gì, và quyết định sẽ nhờ AI giúp việc gì.
+**Thời gian:** 22/03 – 28/03/2026
+**Tóm tắt:** Tìm hiểu nhu cầu thực tế của tiệm bánh MOCO Kitchen và xác định những việc sẽ ứng dụng AI để hỗ trợ.
 
 ---
 
-## 🎯 Mục tiêu tuần này
+## Mục tiêu
 
-- Ngồi nói chuyện với chủ tiệm **MOCO Kitchen** (tiệm bánh healthy/keto bán online) để hiểu thật rõ tiệm đang vướng ở đâu.
-- Tập cách "ra đề" cho AI cho rõ ràng, thay vì hỏi lung tung.
-- Chốt xem cả khóa này mình sẽ làm gì cho tiệm.
+- Tìm hiểu nhu cầu thực tế của MOCO Kitchen (thương hiệu bánh healthy/keto bán online) thông qua trao đổi với chủ tiệm.
+- Nắm cách đặt yêu cầu cho AI rõ ràng để nhận được kết quả sát với nhu cầu.
+- Xác định phạm vi dự án sẽ thực hiện trong cả khóa học.
 
-## 💡 Mình đã nghĩ và làm thế nào
+## Hướng tiếp cận
 
-- Thay vì hỏi AI kiểu mơ hồ, mình học cách nói rõ cho nó: *AI đóng vai ai, đang nói về cái gì, cần ra kết quả gì, và tránh điều gì*. Nói rõ vậy thì AI trả lời sát hơn hẳn.
-- Tiệm có 2 nỗi đau chính: (1) viết bài bán hàng đều đặn mà vẫn đúng "chất" của tiệm; (2) quản lý tiền nong, nhập hàng, giá vốn.
-- Từ đó mình quyết định: AI sẽ làm 2 việc — phụ viết nội dung và phụ quản lý vận hành.
+- Khi làm việc với AI, yêu cầu cần nêu rõ bốn ý: AI đóng vai trò gì, bối cảnh ra sao, cần đạt kết quả nào và cần tránh điều gì. Cách này giúp câu trả lời bám sát yêu cầu hơn so với hỏi chung chung.
+- Tiệm có hai vấn đề chính cần hỗ trợ: (1) sản xuất nội dung bán hàng đều đặn nhưng vẫn giữ đúng phong cách thương hiệu; (2) quản lý vận hành gồm chi phí, nhập hàng và thu chi.
+- Trên cơ sở đó, xác định AI sẽ hỗ trợ hai mảng: nội dung và vận hành.
 
-## ✅ Việc đã làm
+## Công việc đã thực hiện
 
-- Viết bản mô tả rõ "tiệm đang cần gì".
-- Viết "bản tính cách" cho trợ lý AI để nó nói đúng giọng ấm áp, thật thà của tiệm.
-- Làm thử một trang giới thiệu nhỏ để tập.
-- Tìm hiểu sơ thị trường bánh healthy ở Việt Nam.
+- Viết bản mô tả nhu cầu và vấn đề của tiệm.
+- Xây dựng bộ quy tắc giao tiếp cho trợ lý AI để giữ đúng phong cách thương hiệu.
+- Dựng một trang giới thiệu mẫu để thử nghiệm.
+- Tìm hiểu sơ bộ thị trường bánh healthy tại Việt Nam.
 
-## 📦 Sản phẩm & link
+## Sản phẩm bàn giao
 
-| Nội dung | Link |
-|----------|------|
+| Nội dung | Liên kết |
+|----------|----------|
 | Bản mô tả vấn đề của tiệm | [1_Research/problem_statement_RCGC.md](../../1_Research/problem_statement_RCGC.md) |
 | Tìm hiểu thị trường bánh healthy | [1_Research/deep_research_banh_healthy_vn.md](../../1_Research/deep_research_banh_healthy_vn.md) |
-| Bản tính cách của trợ lý AI | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Bộ quy tắc giao tiếp của trợ lý AI | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
 
-## 🟢 Kết quả
+## Kết quả
 
-- Chốt được đề bài rõ ràng cho cả khóa, biết mình đi đâu.
-- Đặt ra nguyên tắc xuyên suốt: AI phải bám đúng tiệm và không nói ẩu.
+- Xác định được đề bài rõ ràng và phạm vi cho cả khóa học.
+- Thống nhất nguyên tắc xuyên suốt: AI phải bám đúng đặc điểm của tiệm và không đưa thông tin thiếu căn cứ.
