@@ -1,38 +1,38 @@
 # Tuần 1 — Tư duy AI & Nghiên cứu
 
-> **Giai đoạn:** 22/03 – 28/03/2026 · **Phase:** Khảo sát bài toán, định hướng dự án
-> **Chủ đề:** Đặt nền tư duy AI và chọn bài toán kinh doanh thật để giải quyết.
+> **Thời gian:** 22/03 – 28/03/2026
+> **Tuần này làm gì:** Hiểu rõ tiệm bánh đang cần gì, và quyết định sẽ nhờ AI giúp việc gì.
 
 ---
 
-## 🎯 Mục tiêu
+## 🎯 Mục tiêu tuần này
 
-- Làm rõ bối cảnh kinh doanh thực tế của **MOCO Kitchen** (thương hiệu bánh healthy/keto online) thông qua trao đổi với founder.
-- Hình thành tư duy dùng AI như một "trợ lý có quy tắc" thay vì công cụ trả lời tự do.
-- Chốt hướng dự án cuối khóa: AI Creative & Operations Hub cho một F&B SMB.
+- Ngồi nói chuyện với chủ tiệm **MOCO Kitchen** (tiệm bánh healthy/keto bán online) để hiểu thật rõ tiệm đang vướng ở đâu.
+- Tập cách "ra đề" cho AI cho rõ ràng, thay vì hỏi lung tung.
+- Chốt xem cả khóa này mình sẽ làm gì cho tiệm.
 
-## 🔍 Phân tích & cách tiếp cận
+## 💡 Mình đã nghĩ và làm thế nào
 
-- Dùng **framework RCGC** (Role – Context – Goal – Constraints) để mô tả bài toán, tránh prompt cảm tính.
-- Xác định 2 bài toán cốt lõi của MOCO: (1) sản xuất nội dung marketing đều đặn, đúng giọng thương hiệu; (2) kiểm soát vận hành (giá vốn, nhập hàng, thu chi).
-- Quyết định AI sẽ đóng 2 vai: trợ lý nội dung và trợ lý vận hành.
+- Thay vì hỏi AI kiểu mơ hồ, mình học cách nói rõ cho nó: *AI đóng vai ai, đang nói về cái gì, cần ra kết quả gì, và tránh điều gì*. Nói rõ vậy thì AI trả lời sát hơn hẳn.
+- Tiệm có 2 nỗi đau chính: (1) viết bài bán hàng đều đặn mà vẫn đúng "chất" của tiệm; (2) quản lý tiền nong, nhập hàng, giá vốn.
+- Từ đó mình quyết định: AI sẽ làm 2 việc — phụ viết nội dung và phụ quản lý vận hành.
 
-## 🛠️ Việc đã làm
+## ✅ Việc đã làm
 
-- Viết **Problem Statement theo RCGC** cho MOCO Kitchen.
-- Dựng **System Prompt V1** cho trợ lý marketing (Brand Voice DNA bản đầu).
-- Tạo mini landing page mẫu để thử nghiệm tư duy "AI có ràng buộc".
-- Khảo sát sơ bộ thị trường bánh healthy Việt Nam.
+- Viết bản mô tả rõ "tiệm đang cần gì".
+- Viết "bản tính cách" cho trợ lý AI để nó nói đúng giọng ấm áp, thật thà của tiệm.
+- Làm thử một trang giới thiệu nhỏ để tập.
+- Tìm hiểu sơ thị trường bánh healthy ở Việt Nam.
 
-## 📦 Deliverable & Link
+## 📦 Sản phẩm & link
 
-| Hạng mục | Link |
+| Nội dung | Link |
 |----------|------|
-| Problem Statement (RCGC) | [1_Research/problem_statement_RCGC.md](../../1_Research/problem_statement_RCGC.md) |
-| Nghiên cứu thị trường | [1_Research/deep_research_banh_healthy_vn.md](../../1_Research/deep_research_banh_healthy_vn.md) |
-| System Prompt (Brand Voice) | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Bản mô tả vấn đề của tiệm | [1_Research/problem_statement_RCGC.md](../../1_Research/problem_statement_RCGC.md) |
+| Tìm hiểu thị trường bánh healthy | [1_Research/deep_research_banh_healthy_vn.md](../../1_Research/deep_research_banh_healthy_vn.md) |
+| Bản tính cách của trợ lý AI | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
 
-## ✅ Kết quả
+## 🟢 Kết quả
 
-- Chốt được đề bài rõ ràng, đo lường được → nền tảng cho toàn bộ 5 tuần sau.
-- Thiết lập nguyên tắc "AI bám brand + có guardrails" áp dụng xuyên suốt dự án.
+- Chốt được đề bài rõ ràng cho cả khóa, biết mình đi đâu.
+- Đặt ra nguyên tắc xuyên suốt: AI phải bám đúng tiệm và không nói ẩu.

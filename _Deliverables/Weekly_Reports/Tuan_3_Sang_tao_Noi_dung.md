@@ -1,40 +1,40 @@
-# Tuần 3 — Spec / Framework / Sáng tạo nội dung
+# Tuần 3 — Cách làm & Sáng tạo nội dung
 
-> **Giai đoạn:** 06/04 – 12/04/2026 · **Phase:** Xây Content Engine + quy trình sáng tạo visual
-> **Chủ đề:** Biến Brand Voice thành bộ khung sinh nội dung và ảnh nhất quán.
+> **Thời gian:** 06/04 – 12/04/2026
+> **Tuần này làm gì:** Tạo "khuôn" để mỗi lần nhờ AI viết bài hay làm ảnh đều ra đúng chất tiệm.
 
 ---
 
-## 🎯 Mục tiêu
+## 🎯 Mục tiêu tuần này
 
-- Xây **Content Engine** cho MOCO: bộ prompt template cho nhiều loại bài (Product, Education, BTS, Review, Seasonal).
-- Thiết lập quy trình tạo ảnh/video AI bám đúng nhận diện thương hiệu.
-- Chuẩn hóa "spec" giọng văn để mọi bài đồng nhất.
+- Làm sẵn các "khuôn bài viết" cho nhiều kiểu bài (giới thiệu sản phẩm, chia sẻ kiến thức, hậu trường, review...).
+- Thống nhất kiểu ảnh của tiệm để ảnh nào cũng nhìn ra là MOCO.
+- Giữ giọng văn đồng nhất ở mọi bài.
 
-## 🔍 Phân tích & cách tiếp cận
+## 💡 Mình đã nghĩ và làm thế nào
 
-- Tách cấu trúc bài viết chuẩn **A-B-C** (mở đầu đồng cảm → thân bài nguyên liệu → kết mời nhẹ nhàng).
-- Định nghĩa palette + phong cách ảnh (food photography tự nhiên, ánh sáng mềm, tông earthy) làm "spec" cho Banana Pro.
-- Dùng Veo 3 thử nghiệm video ngắn với Character Consistency.
+- Mỗi bài viết theo một mạch quen thuộc: **mở đầu gần gũi → kể về nguyên liệu, cách làm → mời mua nhẹ nhàng**, không hô hào.
+- Thống nhất gam màu và kiểu chụp ảnh: ánh sáng dịu, tự nhiên, tông ấm — để làm "chuẩn" cho việc tạo ảnh bằng AI.
+- Thử tạo video ngắn bằng công cụ Veo 3.
 
-## 🛠️ Việc đã làm
+## ✅ Việc đã làm
 
-- Viết System Prompt V2 (Brand Voice DNA + guardrails) cho trợ lý content.
-- Tạo lịch nội dung mẫu 2 tuần + bài mẫu cho từng sản phẩm.
-- Xây bộ prompt tạo Key Visual / ảnh sản phẩm bằng Gemini Image (Banana Pro).
-- Tạo storyboard demo video Veo 3.
+- Viết "bản tính cách" cho trợ lý viết bài (kèm cách nói cần tránh).
+- Làm lịch nội dung mẫu 2 tuần + bài mẫu cho từng món.
+- Làm bộ câu lệnh tạo ảnh sản phẩm bằng AI.
+- Làm bản phác kịch bản video.
 
-## 📦 Deliverable & Link
+## 📦 Sản phẩm & link
 
-| Hạng mục | Link |
+| Nội dung | Link |
 |----------|------|
-| System Prompt V2 | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Bản tính cách trợ lý viết bài | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
 | Lịch nội dung mẫu | [3_Content_Engine/moco_content_calendar_sample.md](../../3_Content_Engine/moco_content_calendar_sample.md) |
 | Bài mẫu | [3_Content_Engine/moco_sample_posts_gem.md](../../3_Content_Engine/moco_sample_posts_gem.md) |
-| Visual concepts (ảnh AI) | [3_Creative_Content/visual_concepts.md](../../3_Creative_Content/visual_concepts.md) |
-| Storyboard video | [3_Creative_Content/video_storyboard_demo.md](../../3_Creative_Content/video_storyboard_demo.md) |
+| Ý tưởng & ảnh AI | [3_Creative_Content/visual_concepts.md](../../3_Creative_Content/visual_concepts.md) |
+| Kịch bản video | [3_Creative_Content/video_storyboard_demo.md](../../3_Creative_Content/video_storyboard_demo.md) |
 
-## ✅ Kết quả
+## 🟢 Kết quả
 
-- Có "nhà máy nội dung" tái lập được: prompt → bài đúng giọng + ý tưởng ảnh.
-- Bộ spec visual làm nền cho 13+ ảnh sản phẩm và Gem gen ảnh sau này.
+- Có sẵn "khuôn", cứ cần là viết được bài đúng giọng + có ý tưởng ảnh.
+- Bộ chuẩn ảnh này dùng tiếp cho cả việc làm ảnh sau này.

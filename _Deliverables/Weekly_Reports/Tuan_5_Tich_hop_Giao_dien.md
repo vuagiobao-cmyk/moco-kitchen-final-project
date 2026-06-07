@@ -1,38 +1,38 @@
-# Tuần 5 — Tích hợp & Giao diện
+# Tuần 5 — Ghép lại & Làm đẹp giao diện
 
-> **Giai đoạn:** 21/04 – 07/05/2026 · **Phase:** Ghép các phần rời thành một sản phẩm hoàn chỉnh
-> **Chủ đề:** Tích hợp website + chatbot + KB + automation thành trải nghiệm liền mạch.
+> **Thời gian:** 21/04 – 07/05/2026
+> **Tuần này làm gì:** Ghép các phần rời thành một sản phẩm chạy mượt từ đầu đến cuối, và làm trang web cho đẹp đúng chất tiệm.
 
 ---
 
-## 🎯 Mục tiêu
+## 🎯 Mục tiêu tuần này
 
-- Ghép tất cả phần đã làm riêng lẻ thành một sản phẩm chạy được từ đầu đến cuối.
-- Hoàn thiện giao diện landing page theo nhận diện thương hiệu (Monte v3 — matcha green).
-- Tích hợp chatbot Gemini vào landing qua serverless proxy (ẩn API key).
+- Ghép tất cả phần đã làm riêng thành một sản phẩm hoàn chỉnh, dùng được thật.
+- Làm trang web nhìn tươi, sạch, đúng tông xanh matcha của tiệm.
+- Gắn chatbot vào trang web.
 
-## 🔍 Phân tích & cách tiếp cận
+## 💡 Mình đã nghĩ và làm thế nào
 
-- Landing chuyển sang phong cách **editorial, matcha green (#355C3B)** — tươi, sạch, đúng tinh thần healthy.
-- Chatbot gọi qua `api/chat.js` (serverless) thay vì lộ key ở client.
-- Bộ Apps Script vận hành (cost / nhập hàng / thu chi / dashboard) ghép vào một workbook duy nhất.
+- Đổi trang web sang phong cách tươi, gọn, tông xanh matcha cho hợp tinh thần "ăn lành".
+- Gắn chatbot sao cho **không lộ "chìa khóa" kết nối AI** ra ngoài (an toàn hơn).
+- Gom các phần quản lý của tiệm (giá vốn, nhập hàng, thu chi, bảng tổng) về chung một file Google Sheet cho dễ dùng.
 
-## 🛠️ Việc đã làm
+## ✅ Việc đã làm
 
-- Hoàn thiện landing page 9 section (responsive, scroll reveal, FAQ, marquee).
-- Tích hợp chatbot multi-turn với System Prompt + guardrails.
-- Hợp nhất bộ script vận hành; chuẩn hóa nhập hàng V2, dashboard giá vốn.
+- Hoàn thiện trang web (cuộn mượt, có phần hỏi–đáp, chạy tốt trên điện thoại).
+- Gắn chatbot biết nhớ ngữ cảnh trong cuộc trò chuyện.
+- Gộp bộ quản lý của tiệm về một chỗ; chuẩn lại phần nhập hàng và bảng giá vốn.
 
-## 📦 Deliverable & Link
+## 📦 Sản phẩm & link
 
-| Hạng mục | Link |
+| Nội dung | Link |
 |----------|------|
-| 🌐 Website live | https://moco-kitchen-ai-hub.vercel.app |
-| Mã nguồn landing + chatbot | [5_Landing_Page_Chatbot/](../../5_Landing_Page_Chatbot/) |
-| Snapshot trạng thái dự án | [CONTEXT.md](../../CONTEXT.md) |
+| 🌐 Trang web (xem trực tiếp) | https://moco-kitchen-ai-hub.vercel.app |
+| Mã nguồn web + chatbot | [5_Landing_Page_Chatbot/](../../5_Landing_Page_Chatbot/) |
+| Tình trạng dự án | [CONTEXT.md](../../CONTEXT.md) |
 
-## ✅ Kết quả
+## 🟢 Kết quả
 
-- Sản phẩm chạy xuyên suốt: khách xem web → hỏi chatbot → nhận tư vấn đúng sản phẩm.
-- Bộ vận hành nội bộ hoạt động trên một Google Sheet thật của founder.
-- **Số liệu giai đoạn:** 12+ files mới, hàng nghìn dòng code; landing + chatbot + ops suite tích hợp xong.
+- Sản phẩm chạy liền mạch: khách xem web → hỏi chatbot → được tư vấn đúng món.
+- Bộ quản lý nội bộ chạy thật trên Google Sheet của tiệm.
+- **Con số:** hơn 10 file mới, hàng nghìn dòng; web + chatbot + bộ quản lý đã ghép xong.

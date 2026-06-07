@@ -1,40 +1,40 @@
-# Tuần 4 — Xây dựng Core Features
+# Tuần 4 — Làm các phần chính
 
-> **Giai đoạn:** 13/04 – 20/04/2026 · **Phase:** Dựng 4 trụ cột của hệ thống
-> **Chủ đề:** Hiện thực hóa hệ thống thành các tính năng chạy được, đặc biệt là automation Apps Script.
+> **Thời gian:** 13/04 – 20/04/2026
+> **Tuần này làm gì:** Bắt tay dựng những phần lõi cho chạy được thật, nhất là phần tự động hóa trên Google Sheet.
 
 ---
 
-## 🎯 Mục tiêu
+## 🎯 Mục tiêu tuần này
 
-Xây 4 phần lõi của AI Hub:
-1. **Website** giới thiệu sản phẩm.
-2. **Chatbot** tư vấn FAQ sản phẩm (Gemini).
-3. **Apps Script automation** cho vận hành Google Sheet.
-4. **Knowledge Base** kết nối chatbot.
+Dựng 4 phần chính:
+1. **Trang web** giới thiệu sản phẩm.
+2. **Chatbot** trả lời câu hỏi về sản phẩm.
+3. **Tự động hóa Google Sheet** giúp tiệm đỡ làm tay.
+4. **Cẩm nang** nối vào chatbot để nó trả lời đúng.
 
-## 🔍 Phân tích & cách tiếp cận
+## 💡 Mình đã nghĩ và làm thế nào
 
-- Chọn Google Apps Script vì founder vận hành trên Google Sheet → automation ngay trong công cụ quen thuộc.
-- Thiết kế các module tách biệt: content generator, nhập hàng, thu chi, dashboard, cost.
-- Chatbot dùng `gemini-2.5-flash` với safety settings + guardrails y tế.
+- Tiệm đang làm việc trên Google Sheet, nên mình làm phần tự động hóa ngay trong Sheet cho chủ tiệm quen tay (dùng Google Apps Script — kiểu "macro" cho Google Sheet).
+- Chia thành từng phần riêng: viết bài, nhập hàng, thu chi, bảng tổng hợp, tính giá vốn.
+- Chatbot dùng Gemini, có dặn dò an toàn cho câu hỏi sức khỏe.
 
-## 🛠️ Việc đã làm
+## ✅ Việc đã làm
 
-- Google Form + Auto Email (Apps Script trigger).
-- Hệ thống quản lý kho hàng + cảnh báo tồn kho.
-- Web App quản lý đơn hàng (HTML + GAS).
-- Khởi tạo **MOCO Content Generator** (sinh bài 1-click trong Sheet).
+- Làm form đặt hàng tự gửi email xác nhận.
+- Làm phần quản lý kho, tự nhắc khi sắp hết hàng.
+- Làm app nhận đơn hàng đơn giản.
+- Bắt đầu làm **công cụ viết bài 1 chạm** ngay trong Google Sheet.
 
-## 📦 Deliverable & Link
+## 📦 Sản phẩm & link
 
-| Hạng mục | Link |
+| Nội dung | Link |
 |----------|------|
-| Tổng quan App Automation | [4_App_Automation/README.md](../../4_App_Automation/README.md) |
-| Content Generator (Apps Script) | [4_App_Automation/MOCO_CONTENT_GEN.gs](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
-| Hướng dẫn deploy | [4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md](../../4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) |
+| Giới thiệu phần tự động hóa | [4_App_Automation/README.md](../../4_App_Automation/README.md) |
+| Công cụ viết bài (trong Sheet) | [4_App_Automation/MOCO_CONTENT_GEN.gs](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
+| Hướng dẫn cài đặt | [4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md](../../4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) |
 
-## ✅ Kết quả
+## 🟢 Kết quả
 
-- Nắm vững Apps Script (trigger, web app, UrlFetch gọi Gemini) → nền tảng cho bộ vận hành MOCO ở tuần 5-6.
-- Các tính năng lõi đã chạy được độc lập, sẵn sàng tích hợp.
+- Quen tay với tự động hóa Google Sheet — nền để làm bộ công cụ vận hành cho tiệm ở tuần sau.
+- Các phần chính đã chạy riêng được, sẵn sàng ghép lại.

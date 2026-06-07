@@ -1,40 +1,40 @@
 # Tuần 2 — Dữ liệu & Phân tích nghiệp vụ
 
-> **Giai đoạn:** 29/03 – 05/04/2026 · **Phase:** Chuẩn hóa dữ liệu nền, xây kho kiến thức
-> **Chủ đề:** Biến dữ liệu thật của founder thành Knowledge Base có cấu trúc cho AI.
+> **Thời gian:** 29/03 – 05/04/2026
+> **Tuần này làm gì:** Gom hết thông tin thật của tiệm thành một "cẩm nang" gọn gàng để AI học theo.
 
 ---
 
-## 🎯 Mục tiêu
+## 🎯 Mục tiêu tuần này
 
-- Chuẩn hóa toàn bộ dữ liệu nền cho hệ thống AI: menu 7 sản phẩm thật với công thức chi tiết.
-- Dựng kho kiến thức (Knowledge Base) để AI trả lời chính xác, không bịa.
-- Thực hành **NotebookLM** làm nền cho việc kiểm chứng nguồn.
+- Sắp xếp lại toàn bộ thông tin sản phẩm: 7 món bánh thật, kèm công thức và nguyên liệu.
+- Làm một "cẩm nang" để AI trả lời đúng, không bịa.
+- Tập dùng NotebookLM (công cụ giúp AI đọc tài liệu rồi trả lời dựa trên đúng tài liệu đó).
 
-## 🔍 Phân tích & cách tiếp cận
+## 💡 Mình đã nghĩ và làm thế nào
 
-- Lấy công thức thật từ Google Sheet của founder → tách thành 2 dòng: **Keto** (allulose/đường la hán) và **Healthy Baking** (giảm đường tinh luyện).
-- Xây **allergen matrix** và bảng chất tạo ngọt để xử lý câu hỏi nhạy cảm (tiểu đường, mẹ bầu, dị ứng).
-- Phân tích đối thủ & insight khách hàng để định vị khác biệt.
+- Lấy công thức thật từ file của chủ tiệm, chia rõ 2 nhóm: nhóm **Keto** (dùng đường ăn kiêng) và nhóm **bánh healthy** (giảm đường thường).
+- Làm một bảng "món nào có chất gì dễ gây dị ứng" để khi khách hỏi về tiểu đường, mẹ bầu, dị ứng thì trả lời cẩn thận, có dặn hỏi bác sĩ.
+- Xem thử vài tiệm đối thủ và phác họa khách hàng hay mua để biết tiệm mình khác gì.
 
-## 🛠️ Việc đã làm
+## ✅ Việc đã làm
 
-- Viết KB menu 7 sản phẩm (công thức, nguyên liệu, allergen).
-- Viết FAQ dinh dưỡng có guardrails y tế.
-- Lập **NotebookLM source manifest** (7 nguồn + bộ câu hỏi test).
-- Nghiên cứu đối thủ trực tiếp + chân dung khách hàng.
+- Viết cẩm nang 7 món (công thức, nguyên liệu, lưu ý dị ứng).
+- Viết phần hỏi–đáp về dinh dưỡng, có dặn dò cho người cần cẩn thận.
+- Liệt kê nguồn tài liệu cho NotebookLM + bộ câu hỏi để kiểm tra.
+- Ghi chú về đối thủ và khách hàng mục tiêu.
 
-## 📦 Deliverable & Link
+## 📦 Sản phẩm & link
 
-| Hạng mục | Link |
+| Nội dung | Link |
 |----------|------|
-| Menu 7 sản phẩm (KB) | [3_Content_Engine/moco_menu_products.md](../../3_Content_Engine/moco_menu_products.md) |
-| FAQ dinh dưỡng | [3_Content_Engine/moco_faq_nutrition.md](../../3_Content_Engine/moco_faq_nutrition.md) |
-| NotebookLM manifest | [2_Knowledge_Base/notebooklm_source_manifest.md](../../2_Knowledge_Base/notebooklm_source_manifest.md) |
-| Nghiên cứu đối thủ | [1_Research/competitor_analysis_moco.md](../../1_Research/competitor_analysis_moco.md) |
-| Insight khách hàng | [1_Research/customer_insight_moco.md](../../1_Research/customer_insight_moco.md) |
+| Cẩm nang 7 món bánh | [3_Content_Engine/moco_menu_products.md](../../3_Content_Engine/moco_menu_products.md) |
+| Hỏi–đáp dinh dưỡng | [3_Content_Engine/moco_faq_nutrition.md](../../3_Content_Engine/moco_faq_nutrition.md) |
+| Danh sách nguồn cho NotebookLM | [2_Knowledge_Base/notebooklm_source_manifest.md](../../2_Knowledge_Base/notebooklm_source_manifest.md) |
+| Ghi chú đối thủ | [1_Research/competitor_analysis_moco.md](../../1_Research/competitor_analysis_moco.md) |
+| Phác họa khách hàng | [1_Research/customer_insight_moco.md](../../1_Research/customer_insight_moco.md) |
 
-## ✅ Kết quả
+## 🟢 Kết quả
 
-- KB chuẩn hóa theo 7 SP thật → AI nói đúng sản phẩm, đúng nguyên liệu.
-- Bộ guardrails y tế/allergen sẵn sàng cho chatbot và content ở các tuần sau.
+- Có "cẩm nang" chuẩn theo 7 món thật, AI nói đúng món đúng nguyên liệu.
+- Có sẵn phần dặn dò an toàn cho mấy câu hỏi nhạy cảm, dùng cho chatbot sau này.
