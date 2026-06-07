@@ -117,17 +117,34 @@ Diabetes Canada phân loại GI thấp là ≤55, trung bình 56-69, cao ≥70. 
 
 ## 6. Đối Thủ & Khoảng Trống
 
-Phase 1 chưa có đủ dữ liệu cạnh tranh sâu để khẳng định “first mover advantage” ở toàn thị trường. Vì vậy nên hạ claim:
+> Phân tích theo khung skill `08-nghien-cuu-doi-thu` (mô hình đối thủ 3 tầng). Chi tiết đầy đủ (SWOT, positioning map, content benchmark, market gap) nằm ở file riêng: `competitor_analysis_moco.md`.
 
-- Không nên nói: “MOCO là first mover trong phân khúc.”
-- Nên nói: “Trong phạm vi case study, MOCO có cơ hội tạo khác biệt bằng cách kết hợp content, knowledge base và automation trong một hệ thống nhỏ gọn.”
+### 6.1 Đối thủ trực tiếp (cùng phân khúc bánh healthy/eat-clean tại Hà Nội)
 
-Các nhóm đối thủ cần theo dõi ở Phase 3-4:
+| Đối thủ | Kênh | Định vị quan sát | Trạng thái dữ liệu |
+|---|---|---|---|
+| **Avo Baking** (facebook.com/avobaking.hn) | Facebook | Bánh healthy/eat-clean, low-carb Hà Nội | ⚠️ Cần khảo sát page để điền giá/SP/follower (crawler bị FB chặn) |
+| **Bếp Nhà Gừng** (facebook.com/bepnhagung) | Facebook | Healthy bakery Hà Nội | ⚠️ Cần khảo sát page để điền giá/SP/follower |
 
-1. Healthy bakery bán qua Facebook/Zalo.
-2. Healthy snack trên TikTok Shop/Shopee.
-3. Tiệm bánh keto/low-carb.
-4. Brand thực phẩm ăn kiêng có content giáo dục mạnh.
+> Lưu ý SSOT (@QA_Thanh): phiên này KHÔNG truy cập được nội dung 2 page (Facebook chặn tự động hóa). Các ô giá/sản phẩm/follower/tần suất đăng phải do founder/Sếp khảo sát trực tiếp rồi điền vào `competitor_analysis_moco.md`. Không bịa số liệu.
+
+### 6.2 Đối thủ gián tiếp & thứ cấp
+
+- **Gián tiếp:** healthy snack/eat-clean bán trên TikTok Shop, Shopee; meal-plan healthy giao tận nơi.
+- **Thứ cấp:** tiệm bánh truyền thống (rẻ hơn, không healthy) và bánh nhập khẩu keto cao cấp (đắt hơn).
+
+### 6.3 Định vị MOCO so với đối thủ (sơ bộ)
+
+- Không nên nói: "MOCO là first mover trong phân khúc."
+- Nên nói: "Trong phạm vi case study, MOCO tạo khác biệt bằng cách kết hợp content chuẩn brand voice + knowledge base có guardrails y tế + automation vận hành (cost/đơn/thu chi) trong một hệ thống nhỏ gọn — điều mà các đối thủ bán thuần qua Facebook thường chưa có."
+
+### 6.4 Khoảng trống thị trường (giả thuyết — cần xác minh từ data đối thủ)
+
+| Loại khoảng trống | Giả thuyết cho MOCO |
+|---|---|
+| Khoảng trống nội dung | Đối thủ ít làm content giáo dục dinh dưỡng có nguồn + minh bạch allergen → MOCO khai thác được |
+| Khoảng trống trải nghiệm | Tư vấn 24/7 qua chatbot + landing page rõ ràng, thay vì chỉ inbox thủ công |
+| Khoảng trống vận hành | MOCO chuẩn hóa cost/giá bán theo food cost — lợi thế định giá bền hơn |
 
 ---
 

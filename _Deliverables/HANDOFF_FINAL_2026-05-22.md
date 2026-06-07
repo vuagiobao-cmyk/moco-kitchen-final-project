@@ -41,10 +41,11 @@ File này thay thế toàn bộ 14 handoff files cũ (2026-05-12 → 2026-05-15)
 | Phase 1 | Research & Problem Statement (RCGC) | ✅ DONE | 2026-05-09 |
 | Phase 2 | Knowledge Base V2 — 7 SP thật từ founder | ✅ DONE | 2026-05-13 |
 | Phase 3 | Content Engine & System Prompt V2 | ✅ DONE | 2026-05-13 |
-| Phase 4A | Landing Page — 7 sections, dark theme, responsive | ✅ DONE | 2026-05-14 |
+| Phase 4A | Landing Page — Monte v3, 9 section, responsive | ✅ DONE | 2026-05-14 (redesign 05-29) |
 | Phase 4B | NotebookLM KB — 7 nguồn, 5/5 test PASS | ✅ DONE | 2026-05-14 |
 | Phase 4C | Chatbot Gemini 2.5 Flash — guardrails y tế | ✅ DONE | 2026-05-14 |
 | Phase 4D | Apps Script Content Generator (~400 dòng) | ✅ DONE | 2026-05-14 |
+| Phase 4E | Operations Suite — Cost / Đơn hàng / Thu-Chi / Dashboard | ✅ DONE | 2026-05-28 |
 | Phase 5A | Deploy Vercel — moco-kitchen-ai-hub.vercel.app | ✅ DONE | 2026-05-22 |
 | Phase 5B | Documentation — README, CONTEXT, Signoff, Demo Script | ✅ DONE | 2026-05-22 |
 | Phase 5C | Thủ tục BTC — Bảng theo dõi, Kế hoạch 6 tuần | 🟡 Sếp | |
@@ -59,7 +60,7 @@ File này thay thế toàn bộ 14 handoff files cũ (2026-05-12 → 2026-05-15)
 | 1 | **NotebookLM** | Knowledge Base RAG — 7 nguồn, guardrails y tế | 5/5 test PASS |
 | 2 | **Gemini Pro / API** | Content generation + Chatbot tư vấn | chatbot.js + MOCO_CONTENT_GEN.gs |
 | 3 | **Google Apps Script** | Automation: content gen từ Sheet → Gemini API | ~400 dòng code |
-| 4 | **Banana Pro / ImageFX** | 13 ảnh sản phẩm AI cho Landing Page | assets/ folder |
+| 4 | **Banana Pro / ImageFX** | 17 ảnh sản phẩm/brand AI cho Landing Page | assets/ folder |
 | 5 | **Veo 3** | Video demo concept (storyboard) | video_storyboard_demo.md |
 | 6 | **Vercel** | Deploy landing page | moco-kitchen-ai-hub.vercel.app |
 
@@ -73,10 +74,10 @@ Du_An_Cuoi_Khoa/
 ├── 2_Knowledge_Base/              ← NotebookLM manifest, test queries
 ├── 3_Content_Engine/              ← System Prompt V2, menu, FAQ, calendar
 ├── 3_Creative_Content/            ← Visual concepts (13 ảnh), video storyboard
-├── 4_App_Automation/              ← MOCO_CONTENT_GEN.gs + deploy guide + ops scripts
+├── 4_App_Automation/              ← Creative: Content Gen | Operations: Cost/Đơn hàng/Thu-Chi/Dashboard
 ├── 5_Landing_Page_Chatbot/        ← index.html, style.css, app.js, chatbot.js, assets/
-├── 6_Deployment_Demo/             ← URL deploy, demo script 5 phút, 9 slide images
-├── _Assets/                       ← Asset manifest (fonts, colors, 13 ảnh)
+├── 6_Deployment_Demo/             ← URL deploy, demo script 5 phút, 15 slide images
+├── _Assets/                       ← Asset manifest (fonts, colors, 17 ảnh landing)
 ├── _Deliverables/                 ← Sign-offs, slide outline, test results, thủ tục BTC
 ├── CONTEXT.md                     ← Project snapshot (resume nhanh)
 ├── README.md                      ← Tổng quan dự án
@@ -87,20 +88,19 @@ Du_An_Cuoi_Khoa/
 
 ## 5. Thông Số Kỹ Thuật
 
-### Landing Page
+### Landing Page (Monte v3 — redesign 2026-05-29)
 - **Stack:** HTML5 + Vanilla CSS + Vanilla JS (no framework)
-- **Sections:** Hero (Bakerville-style typography), Products (7 SP, 2 dòng), Story, FAQ (5 câu), Testimonials (3 reviews carousel), Order (CTA), Footer
-- **Design tokens:** `--bg-dark: #1a0030` | `--accent-gold: #e8c07a` | Fonts: Playfair Display, Quicksand, Pacifico
-- **Features:** Glassmorphism cards, scroll animations (IntersectionObserver), floating hero elements (CSS keyframes), responsive mobile/tablet/desktop, lazy loading
-- **Size:** 477 lines HTML (~30KB), ~25KB CSS, ~4.6KB app.js
+- **Sections (9):** Brand Hero (vòng chữ xoay + sketch), Cake Hero (ảnh bánh + badge), Mood Light, Menu (card 3 cột, 2 dòng Keto/Healthy, **có giá**), Mood Green (Story), Gallery (Instagram mockup), FAQ (5 câu), Order (Zalo/IG/FB), Footer 3 cột
+- **Design tokens:** `--color-primary: #355C3B` (matcha green) | `--color-accent: #C86F4E` | `--color-bg: #F8F4E9` (cream) | Fonts: Playfair Display, Quicksand, Pacifico
+- **Features:** Layout editorial kiểu Monte Cafe, marquee chữ chạy, scroll reveal (IntersectionObserver), menu overlay full màn, FAQ accordion, sketch SVG inline, responsive, `prefers-reduced-motion`
+- **Địa điểm:** Hà Nội — đặt đơn qua Zalo + Instagram + Facebook (không backend email)
 
 ### Chatbot
 - **Model:** gemini-2.5-flash (chọn vì speed + cost)
-- **API Key:** Hardcode trong chatbot.js line 11 (chỉ cho demo)
+- **Kiến trúc:** Frontend `chatbot.js` gọi serverless `api/chat.js`; key đọc từ `process.env.GEMINI_API_KEY` trên Vercel (KHÔNG hardcode trong frontend)
 - **System Prompt V2:** Brand voice DNA — xưng "chúng mình", guardrails y tế bắt buộc
 - **Features:** Conversation history (20 turns), suggestion chips, markdown rendering, typing indicator, error handling (429/quota)
 - **Guardrails:** Tiểu đường → "hỏi bác sĩ" | Keto Tiramisu → cảnh báo rượu | Dị ứng → "liên hệ trước" | Không tuyên bố chữa bệnh
-- **Size:** 198 lines JS (~8KB)
 
 ### Apps Script Content Generator
 - **File:** MOCO_CONTENT_GEN.gs (~400 dòng)
@@ -110,12 +110,18 @@ Du_An_Cuoi_Khoa/
 - **Rate limit:** 1.5s delay giữa requests
 - **5 loại template:** Product / Education / BTS / Review / Seasonal
 
-### Operations Scripts (bonus, ngoài phạm vi khóa)
-- `MOCO_COST_AUTO.gs` — Tự động tính chi phí
-- `MOCO_NHAP_HANG_V2.gs` — Quản lý nhập hàng
-- `MOCO_MASTER_NVL.gs` — Master nguyên vật liệu
-- `MOCO_THU_CHI_AUTO.gs` — Thu chi tự động
-- `MOCO_DASHBOARD.gs` — Dashboard tổng hợp
+### Operations Suite (Google Sheets + Apps Script) — TRỤC VẬN HÀNH CHÍNH THỨC
+
+Đây là nửa "Operations" của dự án "AI Creative **& Operations** Hub" — quản lý vận hành thực tế của tiệm bánh trên Google Sheets, dùng dữ liệu đơn hàng thật.
+
+- **`MOCO_COST_AUTO.gs` — Cost Engine:** đọc sheet `CÔNG THỨC` + `Master NVL`, tự tính cost nguyên liệu cho từng bánh (xử lý cả công thức con / sub-recipe), tính **food cost %**, gợi ý giá bán theo lãi mục tiêu. Có `COST REVIEW` để founder bổ sung giá tạm khi chưa có hóa đơn thật.
+  - Ví dụ live: Keto Tiramisu — cost 156.777đ/mẻ, yield 2 hộp → 83.876đ/hộp, giá bán 180.000đ, **food cost 46,6%**.
+- **`MOCO_MASTER_NVL.gs` — Master NVL:** chuẩn hóa giá nhập nguyên vật liệu (165 dòng nhập hàng), nguồn giá chuẩn cho cost engine.
+- **`MOCO_NHAP_HANG_V2.gs` + `MOCO_Order_Form.html` — Quản lý đơn hàng:** Order Form (modeless dialog) nhập đơn → ghi `ĐƠN HÀNG` (1 dòng/đơn cho founder) + `ĐƠN HÀNG - MÓN` (item-level cho dashboard). Có cột nguồn khách (IG/Bạn/Threads), ship, bù ship.
+- **`MOCO_THU_CHI_AUTO.gs` — Thu-Chi tự động:** khi đơn chuyển `Đã nhận tiền` → tự ghi dòng THU (onEdit trigger + backfill); layout sổ song song THU/CHI, vốn đầu kỳ tách khỏi doanh thu vận hành.
+- **`MOCO_DASHBOARD.gs` — Dashboard KPI:** doanh thu, tổng chi, lợi nhuận ròng, số dư, top bánh bán chạy, NVL biến động giá, chi tiêu theo loại — tự cập nhật từ dữ liệu Sheets.
+  - Snapshot live (41 đơn): tổng đơn 41, đã giao 31, đã thanh toán 31, doanh thu sau CK 8.235.000đ.
+- **Live sheet:** `Bản sao của Moco Kitchen` (`1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y`).
 
 ---
 
@@ -125,18 +131,18 @@ Du_An_Cuoi_Khoa/
 |---|-----------|-------|
 | 1 | Hybrid Option B + C (Content Creation + Smart Assistant) | Kết hợp cả 2 hướng đề bài mạnh nhất |
 | 2 | gemini-2.5-flash thay vì Pro cho chatbot | Speed + cost tối ưu cho demo, output đủ tốt |
-| 3 | Hardcode API Key trong chatbot.js | Demo purpose only — disable sau demo |
+| 3 | Hardcode API Key trong chatbot.js | ❌ Đã thay bằng serverless `api/chat.js` (env var) — an toàn hơn |
 | 4 | Script Properties cho Apps Script API Key | Best practice bảo mật |
 | 5 | Medical guardrails bắt buộc mọi AI output | Trách nhiệm thương hiệu — không tư vấn y khoa |
 | 6 | No framework (Vanilla HTML/CSS/JS) | Landing page đơn giản, không cần React/Vue |
 | 7 | NotebookLM sources upload thủ công | Không có API automation cho NLM |
-| 8 | Dark theme (#1a0030) + warm gold (#e8c07a) | Nhất quán brand identity MOCO Kitchen |
+| 8 | Matcha green (#355C3B) + cream (#F8F4E9) — layout Monte v3 | Nhất quán brand MOCO + tinh thần editorial Monte Cafe |
 
 ---
 
 ## 7. Cảnh Báo & Lưu Ý
 
-> ⚠️ **API Key bảo mật:** chatbot.js hardcode API Key. Sau demo → vào aistudio.google.com/apikey → disable key.
+> ⚠️ **API Key bảo mật:** Key Gemini đọc từ `GEMINI_API_KEY` trên Vercel env (serverless `api/chat.js`), KHÔNG hardcode trong frontend. Key là loại miễn phí của AI Studio.
 
 > ⚠️ **Chatbot KHÔNG phải công cụ tư vấn y tế.** Chỉ demo là trợ lý sản phẩm/FAQ. Mọi câu liên quan tiểu đường, mẹ bầu, dị ứng phải có disclaimer.
 
@@ -151,7 +157,7 @@ Du_An_Cuoi_Khoa/
 ## 8. Việc Còn Lại (Sếp Thao Tác)
 
 ### Ưu tiên cao — Trước ngày demo
-1. **Tạo Google Slides 15 trang** — Outline: `_Deliverables/SLIDE_OUTLINE_TUAN6.md` | Ảnh AI: `6_Deployment_Demo/slide_images/` (9 ảnh)
+1. **Tạo Google Slides 15 trang** — Outline: `_Deliverables/SLIDE_OUTLINE_TUAN6.md` | Ảnh AI: `6_Deployment_Demo/slide_images/` (15 ảnh)
 2. **Test chatbot live** tại [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) — 3 queries
 3. **Chụp screenshots** Landing Page, NotebookLM, Chatbot, Apps Script → chèn vào slides
 
@@ -178,8 +184,9 @@ Du_An_Cuoi_Khoa/
 | 2026-05-13 | Phase 2 Done — KB V2 rewrite (7 SP thật) | Windows Codex |
 | 2026-05-13 | Phase 3 Done — Content Engine + System Prompt V2 | Windows Codex |
 | 2026-05-14 | Phase 4A-4D Done — LP + NLM + Chatbot + Apps Script | Windows Antigravity |
-| 2026-05-15 | Landing Page polish — 13 ảnh AI, hero redesign, testimonials | Windows Antigravity |
-| 2026-05-22 | Phase 5A-5B Done — Deploy Vercel + 9 slide images | Mac Antigravity |
+| 2026-05-15 | Landing Page polish — ảnh AI, hero redesign | Windows Antigravity |
+| 2026-05-22 | Phase 5A-5B Done — Deploy Vercel + 15 slide images | Mac Antigravity |
+| 2026-05-29 | Landing redesign Monte v3 (matcha green, 9 section) + serverless chatbot | Antigravity |
 
 ---
 

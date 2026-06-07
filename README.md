@@ -14,14 +14,19 @@ updated: 2026-05-16
 
 ## 📌 Mô tả dự án
 
-Hệ thống marketing AI tích hợp 4 tầng cho MOCO Kitchen — tiệm bánh Healthy online:
+Hệ thống AI tích hợp cho MOCO Kitchen — tiệm bánh Healthy online — gồm **2 trục: Creative (truyền thông) + Operations (vận hành)**:
 
 ```
+TRỤC CREATIVE
 [📚 Knowledge Base] → [🤖 Content Engine] → [🌐 Landing Page] → [💬 Chatbot]
    NotebookLM              Apps Script          HTML/CSS/JS         Gemini API
+
+TRỤC OPERATIONS (Google Sheets + Apps Script)
+[🧾 Nhập đơn (Form)] → [💰 Tính Cost theo công thức] → [📒 Thu-Chi tự động] → [📊 Dashboard]
+   Order Form sidebar     Recipe→Cost + food cost %      Cashflow sync          KPI realtime
 ```
 
-**Hybrid Option B + C:** Content Creation System + Smart Business Assistant
+**Hybrid Option B + C:** Content Creation System + Smart Business Assistant — đúng tinh thần tên dự án "AI Creative **& Operations** Hub".
 
 ---
 
@@ -44,20 +49,30 @@ Hệ thống marketing AI tích hợp 4 tầng cho MOCO Kitchen — tiệm bánh
 1_Research/                       ← Tuần 1: Deep Research, problem statement
 2_Knowledge_Base/                 ← Tuần 2: NotebookLM manifest, KB guardrails
 3_Content_Engine/                 ← Tuần 2-3: System Prompt V2, menu, FAQ, content calendar
-4_App_Automation/                 ← Tuần 4: Apps Script content generator
-  └── MOCO_CONTENT_GEN.gs        ← Script chính (Gemini API + Google Sheets)
+4_App_Automation/                 ← Tuần 4: Automation (2 nhánh)
+  ── NHÁNH CREATIVE:
+  └── MOCO_CONTENT_GEN.gs        ← Content generator 1-click (Gemini API + Sheets)
   └── APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md
-5_Landing_Page_Chatbot/           ← Tuần 5: Website + Chatbot
-  └── index.html                 ← Landing page (7 sections)
-  └── style.css                  ← Dark theme, glassmorphism
-  └── app.js                     ← Scroll effects, navigation
-  └── chatbot.js                 ← Gemini chatbot (gemini-2.5-flash, API Key injected)
+  ── NHÁNH OPERATIONS (vận hành tiệm bánh):
+  └── MOCO_COST_AUTO.gs          ← Tính cost theo công thức → food cost %, gợi ý giá bán
+  └── MOCO_MASTER_NVL.gs         ← Master nguyên vật liệu (giá nhập chuẩn hóa)
+  └── MOCO_NHAP_HANG_V2.gs       ← Quản lý nhập hàng + Order Form sidebar
+  └── MOCO_THU_CHI_AUTO.gs       ← Thu-Chi tự động: đơn "Đã nhận tiền" → ghi THU
+  └── MOCO_DASHBOARD.gs          ← Dashboard KPI (doanh thu, cost, lợi nhuận, top bánh)
+  └── MOCO_Order_Form.html       ← Form nhập đơn (modeless dialog)
+5_Landing_Page_Chatbot/           ← Tuần 5-6: Website + Chatbot (redesign Monte v3)
+  └── index.html                 ← Landing page (9 section, layout Monte v3)
+  └── style.css                  ← Matcha green theme (#355C3B), bề mặt phẳng + viền mảnh
+  └── app.js                     ← Nav overlay, scroll reveal, FAQ accordion, marquee
+  └── chatbot.js                 ← Gemini chatbot (gemini-2.5-flash) — gọi qua /api/chat
+  └── api/chat.js                ← Serverless proxy (GEMINI_API_KEY qua Vercel env)
   └── vercel.json                ← Deploy config
+  └── HANDOFF_LANDING_2026-05-29.md ← Bản mốc layout mới nhất (Monte v3)
 3_Creative_Content/               ← Ảnh AI & Video concept
   └── visual_concepts.md         ← 13 ảnh AI đã generate
   └── video_storyboard_demo.md   ← Storyboard video Veo 3
 _Assets/                          ← Asset manifest (fonts, colors, ảnh)
-  └── asset_manifest.md          ← Danh mục 13 assets
+  └── asset_manifest.md          ← Danh mục assets (17 ảnh trong landing)
 _Deliverables/                    ← Deliverables chính thức
   └── PHASE4_SIGNOFF.md          ← Sign-off Phase 4
   └── PHASE5_SIGNOFF.md          ← Sign-off Phase 5 (Deploy)
@@ -79,10 +94,11 @@ CONTEXT.md                        ← Project snapshot (resume nhanh)
 | Phase 1 | Research & Problem Statement | ✅ DONE |
 | Phase 2 | Knowledge Base V2 (7 SP thật) | ✅ DONE |
 | Phase 3 | Content Engine & System Prompt V2 | ✅ DONE |
-| Phase 4A | Landing Page (4 files) | ✅ DONE |
+| Phase 4A | Landing Page (Monte v3, 9 section) | ✅ DONE |
 | Phase 4B | NotebookLM — 5/5 test queries PASS | ✅ DONE |
 | Phase 4C | Chatbot Gemini Integration | ✅ DONE |
 | Phase 4D | Apps Script Content Generator | ✅ DONE |
+| Phase 4E | **Operations Suite** (Cost / Đơn hàng / Thu-Chi / Dashboard) | ✅ DONE |
 | Phase 5A | Deploy Vercel | ✅ DONE |
 | Phase 5B | Documentation & Deliverables | ✅ DONE |
 
@@ -102,10 +118,12 @@ vercel --prod --yes
 
 ## 💬 Kích hoạt Chatbot
 
+Chatbot gọi Gemini qua serverless function `api/chat.js` (an toàn, không hardcode key trong frontend):
+
 1. Tạo API Key **miễn phí** tại [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-2. Mở `5_Landing_Page_Chatbot/chatbot.js` dòng 11
-3. Thay `const API_KEY = ''` bằng `const API_KEY = 'AIza...'`
-4. Reload trang → test chatbot
+2. Trên Vercel: **Project Settings → Environment Variables** → thêm `GEMINI_API_KEY = AIza...`
+3. Redeploy (`vercel --prod`) → chatbot hoạt động
+4. Local preview tĩnh sẽ hiển thị widget nhưng chat cần môi trường Vercel để gọi `/api/chat`
 
 ---
 

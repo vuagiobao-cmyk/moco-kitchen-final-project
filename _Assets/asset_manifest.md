@@ -3,48 +3,61 @@ id: "20260522154200"
 aliases: ["Asset Manifest MOCO"]
 tags: ["#moco", "#assets"]
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-05-29
 ---
 
 # _Assets — Danh mục tài nguyên dự án MOCO Kitchen
 
 > Manifest tổng hợp tất cả assets của dự án. Ảnh gốc nằm tại `5_Landing_Page_Chatbot/assets/`.
+> Cập nhật 2026-05-29 cho khớp landing Monte v3 (17 file ảnh thực tế).
 
-## Ảnh sản phẩm AI (Banana Pro / ImageFX)
+## Ảnh trong landing page (Banana Pro / ImageFX + ảnh thật)
 
-| # | File | Kích thước | Sử dụng tại |
-|---|------|-----------|-------------|
-| 1 | `hero-cheesecake.png` | 719 KB | Hero section |
-| 2 | `floating-leaf.png` | 424 KB | Hero decoration |
-| 3 | `floating-almonds.png` | 448 KB | Hero decoration |
-| 4 | `floating-cinnamon.png` | 294 KB | Hero decoration |
-| 5 | `product-tiramisu.png` | 664 KB | Product card |
-| 6 | `product-cheesecake.png` | 657 KB | Product card |
-| 7 | `product-chuoi.png` | 852 KB | Product card |
-| 8 | `product-soda.png` | 822 KB | Product card |
-| 9 | `product-bonglan.png` | 707 KB | Product card |
-| 10 | `product-carrot.png` | 767 KB | Product card |
-| 11 | `product-cuonque.png` | 829 KB | Product card |
-| 12 | `story-behind.png` | 820 KB | Story section |
-| 13 | `og-cover.jpg` | 968 KB | Open Graph / Social |
+| # | File | Sử dụng tại |
+|---|------|-------------|
+| 1 | `moco-logo-green.png` | Logo — navbar + footer |
+| 2 | `moco-lemon-hero.png` | Cake Hero — ảnh bánh chanh |
+| 3 | `moco-lemon-packaged.png` | Ảnh sản phẩm đóng gói |
+| 4 | `moco-tiramisu-real.png` | Ảnh Tiramisu thật |
+| 5 | `hero-cheesecake.png` | Hero / gallery |
+| 6 | `floating-leaf.png` | Decoration |
+| 7 | `floating-almonds.png` | Decoration |
+| 8 | `floating-cinnamon.png` | Decoration |
+| 9 | `product-tiramisu.png` | Menu card |
+| 10 | `product-cheesecake.png` | Menu card |
+| 11 | `product-chuoi.png` | Menu card |
+| 12 | `product-soda.png` | Menu card |
+| 13 | `product-bonglan.png` | Menu card |
+| 14 | `product-carrot.png` | Menu card |
+| 15 | `product-cuonque.png` | Menu card |
+| 16 | `story-behind.png` | Story / mood section |
+| 17 | `og-cover.jpg` | Open Graph / Social |
 
-**Tổng:** 13 files, ~9 MB
+**Tổng:** 17 files trong `5_Landing_Page_Chatbot/assets/`
+
+> Lưu ý: các sketch (nữ đầu bếp, whisk, chanh/bạc hà) là **SVG line-art inline** trong `index.html`, không phải file ảnh.
+
+## Slide images (thuyết trình Tuần 6)
+
+- `6_Deployment_Demo/slide_images/` — **15 file PNG** (cover, architecture, product, landing mockup, chatbot concept, content engine, safety, results, lessons, thank you...).
 
 ## Font
 
-- **Playfair Display** (heading) — Google Fonts
+- **Playfair Display** (display/heading) — Google Fonts
 - **Quicksand** (body) — Google Fonts
-- **Pacifico** (accent) — Google Fonts
+- **Pacifico** (brand accent) — Google Fonts
 
-## Color Palette
+## Color Palette (Monte v3 — matcha green)
 
 | Token | Hex | Sử dụng |
 |-------|-----|---------|
-| `--bg-dark` | `#1a0030` | Background chính |
-| `--accent-gold` | `#e8c07a` | Accent, CTA, badge |
-| `--text-primary` | `#ffffff` | Text chính |
-| `--text-secondary` | `#ccbbff` | Text phụ |
-| `--card-bg` | `rgba(255,255,255,0.08)` | Card background |
+| `--color-primary` | `#355C3B` | Matcha green — màu chủ đạo |
+| `--color-primary-dark` | `#223F29` | Nền đậm, footer |
+| `--color-primary-light` | `#6F8F57` | Nhấn nhẹ |
+| `--color-accent` | `#C86F4E` | Accent terracotta ấm |
+| `--color-bg` | `#F8F4E9` | Nền cream |
+| `--color-cream` | `#FFF8E7` | Card / surface |
+| `--color-text` | `#243127` | Text chính |
 
 ## Đường dẫn ảnh gốc
 
@@ -57,4 +70,5 @@ updated: 2026-05-22
 ## Related
 
 - [[visual_concepts]]
+- [[HANDOFF_LANDING_2026-05-29]]
 - [[README]]

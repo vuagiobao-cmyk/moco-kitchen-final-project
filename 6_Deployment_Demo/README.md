@@ -1,11 +1,39 @@
-# Tuần 6: Deployment & Trình bày Dự án
+---
+id: "20260522154300"
+aliases: ["Deployment Demo README"]
+tags: ["#moco", "#deploy", "#demo"]
+created: 2026-05-22
+updated: 2026-05-22
+---
 
-Chào Mentor! Đây là thư mục tổng kết giai đoạn cuối cùng của dự án MOCO Kitchen, bao gồm các tài liệu chuẩn bị cho buổi thuyết trình (Demo Day) và đóng gói dự án.
+# 6_Deployment_Demo — Hướng dẫn Demo dự án MOCO Kitchen
 
-## Các tài liệu chính để Mentor xem:
+> Thư mục chứa hướng dẫn demo, kịch bản trình bày, screenshots và URL deploy.
 
-1. **[Kịch bản Demo (Demo Script)](DEMO_SCRIPT.md)**: Kịch bản chi tiết từng phút cho buổi thuyết trình 5-7 phút, trình diễn luồng đi từ Web App -> Automation -> AI Content.
-2. **[Cấu trúc Slide (Slide Outline)](../_Deliverables/SLIDE_OUTLINE_TUAN6.md)**: Dàn ý 15 slide cho bài thuyết trình (Pitch Deck).
-3. **Website Landing Page (Đã Deploy)**: Mentor có thể xem trang web trực tiếp tại link: [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app)
+## 🔗 URL Deploy
 
-*(Vui lòng click vào các link trên để đọc trực tiếp nội dung)*
+| Kênh | URL | Trạng thái |
+|------|-----|-----------|
+| **Vercel Production** | [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) | ✅ Live |
+| Vercel Inspect | [Vercel Dashboard](https://vercel.com/phong7890-6763s-projects/moco-kitchen-ai-hub) | ✅ |
+
+## Nội dung thư mục
+
+| File | Mô tả |
+|------|--------|
+| `README.md` | File này — hướng dẫn tổng quan |
+| `DEMO_SCRIPT.md` | Kịch bản demo 5 phút |
+
+## Cách demo
+
+1. Mở [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) trên Chrome
+2. Scroll qua các section (Monte v3): Brand Hero → Cake Hero → Menu (7 SP có giá) → Story → Gallery → FAQ → Order → Footer
+3. Click chatbot widget (góc phải dưới) → test 3 queries
+4. Show Apps Script trên Google Sheets (tab riêng)
+5. Show NotebookLM notebook (tab riêng)
+
+## Lưu ý bảo mật
+
+- Chatbot gọi Gemini qua serverless `api/chat.js`; key đọc từ `GEMINI_API_KEY` trên Vercel env (KHÔNG hardcode trong frontend)
+- Key là loại miễn phí của AI Studio
+- Không share URL rộng rãi ngoài phạm vi lớp học

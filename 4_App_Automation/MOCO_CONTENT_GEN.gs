@@ -14,12 +14,12 @@
  *   3. Chạy setupSheets() một lần để tạo sheets cần thiết
  *   4. Điền brief vào sheet "Content Brief" → Bấm nút "✨ Generate Content"
  *
- * Version: 1.0 | 2026-05-14
+ * Version: 1.1 | 2026-06-03 (đồng bộ model gemini-2.5-flash với chatbot landing)
  */
 
 // ==================== CONFIG ====================
 
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 const SHEET_BRIEF   = 'Content Brief';
 const SHEET_OUTPUT  = 'Content Output';
 const SHEET_LOG     = 'Generation Log';
@@ -63,16 +63,39 @@ C. Kết bài (1-2 câu): Lời mời nhẹ nhàng, tử tế
 Sau bài viết, thêm "---" rồi gợi ý 2-3 idea ảnh minh họa.`;
 
 // ==================== MENU ====================
+// LƯU Ý: project Apps Script chỉ được có MỘT onOpen(). onOpen() chính nằm ở
+// MOCO_NHAP_HANG_V2.gs và sẽ gọi buildContentAiMenu_() bên dưới (guarded).
+// KHÔNG đặt tên hàm này là onOpen() để tránh trùng → vỡ menu vận hành.
 
-function onOpen() {
-  SpreadsheetApp.getUi()
-    .createMenu('🍰 MOCO Content AI')
+function buildContentAiMenu_() {
+  const ui = SpreadsheetApp.getUi();
+
+  // Submenu Lịch nội dung (định nghĩa ở MOCO_CONTENT_CALENDAR.gs)
+  const calendarMenu = ui.createMenu('📅 Lịch nội dung')
+    .addItem('🆕 Setup Content Calendar', 'setupContentCalendar')
+    .addItem('➡️ Đẩy toàn bộ lịch chưa xử lý sang Brief', 'pushCalendarToBrief')
+    .addItem('📆 Chỉ đẩy bài đến hạn hôm nay', 'pushDueCalendarToBrief');
+
+  ui.createMenu('🍰 MOCO Content AI')
     .addItem('✨ Generate Content', 'generateContentFromBrief')
     .addItem('📋 Setup Sheets', 'setupSheets')
     .addItem('🧹 Clear Output Sheet', 'clearOutputSheet')
     .addSeparator()
+    .addSubMenu(calendarMenu)
+    .addItem('🎨 Tạo prompt ảnh Banana Pro', 'generateBananaPrompts')
+    .addSeparator()
     .addItem('ℹ️ Hướng dẫn sử dụng', 'showHelp')
     .addToUi();
+}
+
+/**
+ * Hàm CHUYÊN để cấp quyền gọi API ngoài (UrlFetchApp → Gemini).
+ * Chạy hàm này MỘT LẦN từ Apps Script editor (▶ Run) → Google sẽ hỏi quyền → bấm Allow.
+ * Không gọi getUi() nên chạy được trong editor, không bị lỗi "from this context".
+ */
+function authorizeExternal() {
+  const res = UrlFetchApp.fetch('https://generativelanguage.googleapis.com/v1beta/models', { muteHttpExceptions: true });
+  Logger.log('UrlFetchApp OK — HTTP ' + res.getResponseCode() + '. Quyền external_request đã được cấp.');
 }
 
 // ==================== SETUP ====================
@@ -290,9 +313,12 @@ function callGeminiForContent(apiKey, product, postType, audience, highlight, ex
     systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
     contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
     generationConfig: {
-      maxOutputTokens: 800,
+      maxOutputTokens: 2048,
       temperature: 0.75,
       topP: 0.9,
+      // gemini-2.5-flash bật "thinking" mặc định → ăn hết token output làm bài bị cụt.
+      // Đặt thinkingBudget = 0 để tắt thinking, dồn toàn bộ token cho nội dung bài.
+      thinkingConfig: { thinkingBudget: 0 },
     },
     safetySettings: [
       { category: 'HARM_CATEGORY_HARASSMENT',        threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
@@ -310,8 +336,22 @@ function callGeminiForContent(apiKey, product, postType, audience, highlight, ex
   };
 
   const response = UrlFetchApp.fetch(`${GEMINI_API_URL}?key=${apiKey}`, options);
-  const code = response.getResponseCode();
-  const body = response.getContentText();
+  let code = response.getResponseCode();
+  let body = response.getContentText();
+
+  // Tự động thử lại khi model quá tải / rate limit (429, 500, 503, "high demand").
+  let attempt = 1;
+  const maxAttempts = 3;
+  while (code !== 200 && attempt < maxAttempts) {
+    const isTransient = code === 429 || code === 500 || code === 503 ||
+      /high demand|overloaded|try again later|UNAVAILABLE|RESOURCE_EXHAUSTED/i.test(body);
+    if (!isTransient) break;
+    Utilities.sleep(2500 * attempt); // chờ tăng dần: 2.5s rồi 5s
+    attempt++;
+    const retry = UrlFetchApp.fetch(`${GEMINI_API_URL}?key=${apiKey}`, options);
+    code = retry.getResponseCode();
+    body = retry.getContentText();
+  }
 
   if (code !== 200) {
     const err = JSON.parse(body);
@@ -320,6 +360,10 @@ function callGeminiForContent(apiKey, product, postType, audience, highlight, ex
 
   const json = JSON.parse(body);
   const fullText = json.candidates?.[0]?.content?.parts?.[0]?.text || '';
+  if (!fullText) {
+    const reason = json.candidates?.[0]?.finishReason || 'không rõ';
+    throw new Error('Model không trả về nội dung (finishReason: ' + reason + ')');
+  }
 
   // Tách bài viết và idea ảnh (phân cách bằng "---")
   const parts = fullText.split('---');

@@ -42,7 +42,7 @@ updated: 2026-05-13
 | Sữa bò | ✅ Mascarpone, whipping cream, sữa tươi |
 | Trứng | ✅ Lòng đỏ trứng |
 | Hạt | ✅ Bột hạnh nhân (lady finger) |
-| Gluten | ⚠️ Lady finger có bột số 8 (bột mì) — cần founder xác nhận bản điều chỉnh |
+| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, KHÔNG dùng bột mì (founder đã xác nhận). ⚠️ Bếp chung — vẫn có nguy cơ nhiễm chéo gluten |
 | Rượu | ✅ Rum, Baileys |
 | Đậu nành | ❓ Kiểm tra nhãn chocolate/cream |
 
@@ -182,7 +182,7 @@ updated: 2026-05-13
 | Sữa bò | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ |
 | Trứng | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Hạt | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
-| Gluten | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gluten | ❌ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Rượu | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 > ⚠️ = có thể có, cần founder xác nhận batch/công thức cụ thể  

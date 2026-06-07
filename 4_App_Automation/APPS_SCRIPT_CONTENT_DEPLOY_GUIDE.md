@@ -29,8 +29,10 @@ updated: 2026-05-14
 
 ### Bước 1: Mở Google Sheet MOCO Kitchen
 
+> ⚠️ **Cài vào sheet vận hành MOCO** (`Bản sao của Moco Kitchen`) — KHÔNG cài vào sheet thủ tục nộp bài của lớp.
+
 ```text
-https://docs.google.com/spreadsheets/d/1_7XRYSsfxpyOwIgcovGyw3-0RLOqQULh/edit
+https://docs.google.com/spreadsheets/d/1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y/edit
 ```
 
 ### Bước 2: Mở Apps Script Editor
@@ -169,3 +171,39 @@ Có thể mở rộng script để tự động gửi draft bài qua Gmail cho f
 - [[DEPLOY_GUIDE]]
 - [[MOCO_HANDOFF_2026-05-13_COST_UI_DROPDOWN]]
 - [[MOCO_HANDOFF_2026-05-13_UI_YIELD_SYNCOUT]]
+
+
+---
+
+## NÂNG CẤP 2026-06-07 — Lịch nội dung + Prompt ảnh Banana Pro
+
+File bổ sung: `MOCO_CONTENT_CALENDAR.gs` (đã whitelist trong `.claspignore`, push chung qua clasp).
+
+Sau khi push, **F5 lại sheet** để menu cập nhật. Không cần cấp quyền lại (không thêm scope mới).
+
+### A. Lịch nội dung (Content Calendar)
+
+Menu `🍰 MOCO Content AI → 📅 Lịch nội dung`:
+
+1. **🆕 Setup Content Calendar** — tạo sheet `Content Calendar` với cột: Ngày đăng, Kênh, Sản phẩm, Loại bài, Đối tượng, Điểm nhấn / Occasion, Ghi chú thêm, Đã đẩy? (kèm dropdown Kênh & Loại bài).
+2. Điền lịch theo từng dòng = 1 bài cần đăng.
+3. **➡️ Đẩy toàn bộ lịch chưa xử lý sang Brief** — copy mọi dòng chưa có dấu `✅ Đã đẩy` xuống sheet `Content Brief` (status `Chờ xử lý`), kèm thông tin `Kênh:` vào ghi chú, rồi đánh dấu dòng lịch là `✅ Đã đẩy` để không trùng.
+4. **📆 Chỉ đẩy bài đến hạn hôm nay** — như trên nhưng chỉ lấy dòng có `Ngày đăng <= hôm nay`.
+5. Sang `Content Brief` bấm `✨ Generate Content` như bình thường.
+
+### B. Prompt ảnh Banana Pro
+
+Menu `🍰 MOCO Content AI → 🎨 Tạo prompt ảnh Banana Pro`:
+
+- Đọc sheet `Content Output`, với mỗi bài chưa có prompt sẽ lấy "Idea ảnh" (tiếng Việt) + tên sản phẩm → gọi Gemini sinh **1 prompt tiếng Anh chuẩn Nano Banana Pro** (food photography), ghi vào cột mới `Banana Pro Prompt` (cột G).
+- Copy prompt ở cột G → dán vào **Nano Banana Pro** để gen ảnh minh hoạ kèm bài.
+- Quy ước prompt theo bộ template logo/visual MOCO (warm earthy palette: sage green, oatmeal beige, cocoa brown, milk white; soft natural light; no text/logo/watermark).
+- Hàm an toàn: chỉ sinh cho bài chưa có prompt (bỏ qua bài đã có), có retry khi model quá tải.
+
+### C. Gen ảnh đúng style bằng Gem trên Gemini
+
+Prompt ở cột "Banana Pro Prompt" KHÔNG dán trực tiếp vào Gemini thường (mỗi lần ra một kiểu).
+Thay vào đó dùng **Gem "MOCO Visual Art Director"** đã khóa sẵn nhận diện Moco để mọi ảnh đồng nhất:
+
+- Cấu hình + hướng dẫn tạo Gem: `Du_An_Cuoi_Khoa/3_Creative_Content/MOCO_VISUAL_GEM_CONFIG.md`
+- Luồng: copy prompt cột G → mở Gem → dán → Gem gen ảnh đúng brand + trả prompt EN tái lập.

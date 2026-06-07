@@ -19,9 +19,9 @@ updated: 2026-05-14
 
 | # | Hạng mục | Trạng thái | Ghi chú |
 |---|----------|-----------|---------|
-| 1 | `index.html` — 7 sections (Hero, About, Products, Process, FAQ, Contact, Footer) | ✅ PASS | Đầy đủ, semantic HTML5 |
-| 2 | `style.css` — dark theme, glassmorphism, design tokens | ✅ PASS | CSS variables chuẩn |
-| 3 | `app.js` — scroll effects, navigation, mobile menu | ✅ PASS | Smooth UX |
+| 1 | `index.html` — 9 section Monte v3 (Brand Hero, Cake Hero, Mood, Menu, Story, Gallery, FAQ, Order, Footer) | ✅ PASS | Layout editorial kiểu Monte |
+| 2 | `style.css` — matcha green theme, bề mặt phẳng + viền mảnh, design tokens | ✅ PASS | CSS variables chuẩn (#355C3B) |
+| 3 | `app.js` — nav overlay, scroll reveal, FAQ accordion, marquee | ✅ PASS | Smooth UX |
 | 4 | Responsive layout (mobile/tablet/desktop) | ✅ PASS | Test local browser |
 | 5 | Brand voice nhất quán trong copy landing page | ✅ PASS | Giọng "chúng mình", không hô hào |
 | 6 | Disclaimer y tế hiển thị rõ | ✅ PASS | Section FAQ + Footer |
@@ -51,7 +51,7 @@ updated: 2026-05-14
 
 | # | Hạng mục | Trạng thái | Ghi chú |
 |---|----------|-----------|---------|
-| 1 | `chatbot.js` — logic giao tiếp Gemini API | ✅ PASS | gemini-2.5-flash |
+| 1 | `chatbot.js` — logic giao tiếp Gemini qua serverless `api/chat.js` | ✅ PASS | gemini-2.5-flash |
 | 2 | System Prompt V2 embedded trong chatbot | ✅ Code sẵn sàng | Guardrails y tế đầy đủ |
 | 3 | Suggestion Chips — render & click trigger | ✅ Code sẵn sàng | Cần test live |
 | 4 | Markdown rendering (bold, line breaks) | ✅ Code sẵn sàng | Cần test live |
@@ -61,7 +61,7 @@ updated: 2026-05-14
 
 **Verdict 4C:** ✅ **PASS — Chatbot hoạt động, 3/3 test queries PASS**
 
-> ⚠️ **Blocker duy nhất:** Tạo API Key miễn phí tại [aistudio.google.com/apikey](https://aistudio.google.com/apikey) → paste vào `chatbot.js` line 11.
+> ⚠️ **Cấu hình API Key:** Tạo API Key miễn phí tại [aistudio.google.com/apikey](https://aistudio.google.com/apikey) → đặt vào Vercel env `GEMINI_API_KEY` (serverless `api/chat.js` đọc từ đây, không hardcode frontend).
 
 ---
 
@@ -101,7 +101,7 @@ updated: 2026-05-14
 ## 🚧 ĐIỀU KIỆN ĐỂ CLOSE PHASE 4 HOÀN TOÀN
 
 - [x] Sếp tạo API Key tại aistudio.google.com/apikey ✅
-- [x] Paste key vào `chatbot.js` line 11 (`const API_KEY = 'AIza...'`) ✅
+- [x] Đặt key vào Vercel env `GEMINI_API_KEY` (serverless `api/chat.js`) ✅
 - [x] Test 3 queries: SP, tiểu đường, ngoài menu ✅
 - [x] Verify Suggestion Chips click → trigger query ✅
 

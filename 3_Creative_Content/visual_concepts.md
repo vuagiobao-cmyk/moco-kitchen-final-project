@@ -10,6 +10,8 @@ updated: 2026-05-22
 
 > Tất cả ảnh được tạo bằng **Google Banana Pro / ImageFX** theo phong cách dark food photography, warm gold lighting, professional bakery aesthetic.
 
+> ⚠️ **Cập nhật 2026-05-29:** Tài liệu này ghi lại đợt gen ảnh ban đầu (13 ảnh, phong cách dark) cho landing bản cũ. Landing hiện tại đã **redesign sang Monte v3 (matcha green)** và dùng **17 ảnh** trong `5_Landing_Page_Chatbot/assets/` (gồm ảnh bánh thật + logo). Style Guide bên dưới là của đợt gen cũ, giữ làm tham chiếu lịch sử. Danh mục asset hiện hành: xem `_Assets/asset_manifest.md`.
+
 ## Style Guide Ảnh Sản Phẩm
 
 | Thuộc tính | Giá trị |

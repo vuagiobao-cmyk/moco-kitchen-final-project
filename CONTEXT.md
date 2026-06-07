@@ -26,10 +26,11 @@ updated: 2026-05-29
 | Phase | Trạng thái |
 |-------|-----------|
 | Phase 1-3 | ✅ DONE |
-| Phase 4A Landing Page | ✅ DONE |
+| Phase 4A Landing Page | ✅ DONE (Monte v3 — matcha green, 9 section) |
 | Phase 4B NotebookLM | ✅ DONE (5/5 test queries PASS) |
-| Phase 4C Chatbot | ✅ DONE — gemini-2.5-flash + API Key injected |
+| Phase 4C Chatbot | ✅ DONE — gemini-2.5-flash + serverless api/chat.js |
 | Phase 4D Apps Script | ✅ DONE |
+| Phase 4E Operations Suite (Cost/Đơn hàng/Thu-Chi/Dashboard) | ✅ DONE — live trên `Bản sao của Moco Kitchen` |
 | Phase 5A Deploy Vercel | ✅ DONE — [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) |
 | Phase 5B Documentation | ✅ DONE — README, CONTEXT, SIGNOFF, SLIDE, DEMO_SCRIPT |
 | Phase 5C Thủ tục BTC | 🟡 Sếp thao tác — Bảng theo dõi, Kế hoạch 6 tuần |

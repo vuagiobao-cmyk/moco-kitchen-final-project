@@ -12,7 +12,7 @@ updated: 2026-05-14
 
 > **Format:** Google Slides | **Thời lượng trình bày:** 10-15 phút  
 > **Audience:** Mentor & Classmates Google AI Bootcamp  
-> **Template:** Dùng Google Slides với theme tối màu (dark background #1a0030 / accent #e8c07a — nhất quán brand MOCO)
+> **Template:** Dùng Google Slides với theme **matcha green** (background `#355C3B` hoặc cream `#F8F4E9` / accent `#C86F4E` — nhất quán brand MOCO landing Monte v3)
 
 ---
 
@@ -23,7 +23,7 @@ updated: 2026-05-14
 ### SLIDE 1 — COVER
 **Title:** MOCO Kitchen AI Marketing Hub  
 **Subtitle:** Heart-Healthy, Soul-Tasty × Google AI Ecosystem  
-**Visual:** Logo MOCO + ảnh bánh trên nền dark tím  
+**Visual:** Logo MOCO + ảnh bánh trên nền matcha green  
 **Bottom:** Google AI Bootcamp 2026 | Tên học viên | Ngày
 
 ---
@@ -41,15 +41,19 @@ updated: 2026-05-14
 ---
 
 ### SLIDE 3 — GIẢI PHÁP (Our Solution)
-**Tiêu đề:** MOCO AI Hub — 4 Tầng Tự Động Hóa
+**Tiêu đề:** MOCO AI Hub — Creative + Operations
 
-**Diagram 4 layers (horizontal flow):**
+**Diagram 2 trục:**
 ```
+TRỤC CREATIVE
 [📚 Knowledge Base] → [🤖 Content Engine] → [🌐 Landing Page] → [💬 Chatbot]
    NotebookLM              Apps Script          HTML/CSS/JS         Gemini API
+
+TRỤC OPERATIONS (Google Sheets + Apps Script)
+[🧾 Đơn hàng] → [💰 Cost/Food cost %] → [📒 Thu-Chi tự động] → [📊 Dashboard KPI]
 ```
 
-**Bottom line:** "Mỗi tầng tích hợp Google AI — hoạt động độc lập và bổ sung nhau"
+**Bottom line:** "Phủ cả truyền thông LẪN vận hành — đúng tên AI Creative & Operations Hub"
 
 ---
 
@@ -125,18 +129,34 @@ Khách tiểu đường: luôn khuyên hỏi bác sĩ"
 
 ---
 
+### SLIDE 8B — OPERATIONS SUITE (Google Sheets + Apps Script)
+**Tiêu đề:** Trục Vận Hành — Từ Đơn Hàng Đến Lợi Nhuận, Tự Động
+
+**4 khối (icon + 1 dòng):**
+- 🧾 **Quản lý đơn hàng** — Form nhập đơn 1 chạm, tách nguồn khách (IG/Bạn/Threads), ship/bù ship
+- 💰 **Tính giá vốn tự động** — Từ công thức + giá NVL → food cost %. VD: Keto Tiramisu 83.876đ/hộp, giá 180k, food cost 46,6%
+- 📒 **Sổ Thu-Chi tự động** — Đơn "Đã nhận tiền" → tự ghi THU; tách vốn đầu kỳ khỏi doanh thu
+- 📊 **Dashboard KPI** — Doanh thu, chi phí, lợi nhuận, top bánh bán chạy, NVL biến động
+
+**Stats live (dữ liệu thật):** 41 đơn · 31 đã thanh toán · doanh thu sau CK 8.235.000đ
+
+**Key insight:** *"AI không chỉ giúp bán hàng — còn giúp founder biết mỗi chiếc bánh lãi bao nhiêu."*
+
+---
+
 ### SLIDE 9 — PHASE 4: LANDING PAGE
 **Tiêu đề:** Mặt Tiền Thương Hiệu — Landing Page AI-Powered
 
-**Screenshot landing page** (full-width, dark theme)
+**Screenshot landing page** (full-width, matcha green theme)
 
-**6 Sections highlight (badges nhỏ overlay):**
-- 🏠 Hero — Slogan + CTA
-- 📖 About — Câu chuyện MOCO
-- 🍰 Products — 7 SP với allergen info
-- ⚙️ Process — Quy trình làm bánh
-- ❓ FAQ — Dinh dưỡng & đặt hàng
-- 📞 Contact — Form đặt hàng
+**Section highlight (badges nhỏ overlay) — layout Monte v3:**
+- 🏠 Brand Hero — vòng chữ xoay + slogan
+- 🍰 Cake Hero — ảnh bánh + badge Best Seller
+- 📋 Menu — 7 SP (2 dòng Keto/Healthy), có giá + cảnh báo rượu
+- 📖 Story — câu chuyện MOCO
+- 📸 Gallery — feed Instagram-style
+- ❓ FAQ — dinh dưỡng & đặt hàng
+- 📞 Order — đặt qua Zalo/Instagram/Facebook (Hà Nội)
 
 ---
 
@@ -249,13 +269,13 @@ vercel.json     live (API Key)  Google Sheet sync NotebookLM
 - Theme: Blank (tự customize)
 - Slide size: 16:9 Widescreen
 
-### Bước 2: Color palette
+### Bước 2: Color palette (Monte v3 — matcha green)
 ```
-Background: #1a0030 (dark purple)
-Accent: #e8c07a (warm gold — màu bánh)  
-Text primary: #ffffff
-Text secondary: #ccbbff
-Card background: rgba(255,255,255,0.08)
+Background: #355C3B (matcha green) hoặc #F8F4E9 (cream)
+Surface/Card: #FFF8E7 (cream nhạt)
+Accent: #C86F4E (terracotta ấm) / #6F8F57 (matcha sáng)
+Text trên nền xanh: #FFF8E7
+Text trên nền cream: #243127
 ```
 
 ### Bước 3: Font

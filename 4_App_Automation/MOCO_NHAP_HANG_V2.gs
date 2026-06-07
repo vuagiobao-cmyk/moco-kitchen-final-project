@@ -90,6 +90,10 @@ function onOpen() {
     .addSubMenu(advancedMenu)
     .addToUi();
 
+  if (typeof buildContentAiMenu_ === 'function') {
+    buildContentAiMenu_();
+  }
+
   if (typeof MOCO_BOOTSTRAP_UI_ON_OPEN_ === 'function') {
     MOCO_BOOTSTRAP_UI_ON_OPEN_();
   }

@@ -49,7 +49,7 @@
 - Cookie Hạnh Nhân, Panna Cotta, Granola: đã ngưng
 
 ## ĐẶT HÀNG
-Hướng dẫn khách nhắn qua Zalo hoặc Facebook để đặt hàng. Giao hàng tại TP.HCM.`;
+Hướng dẫn khách đặt qua Zalo 0904 826 585, Instagram @moco_kitchen242, hoặc Facebook "MoCo Kitchen". Cửa hàng tại 368B Quang Trung, Hà Đông, Hà Nội. Giờ nhận đơn: 9:00–17:00 Thứ 2 đến Thứ 7, nghỉ Chủ Nhật. Làm thủ công số lượng nhỏ nên khuyên khách đặt sớm. Giao trong khu vực Hà Nội.`;
 
   // === STATE ===
   let conversationHistory = [];

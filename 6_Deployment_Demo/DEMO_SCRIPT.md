@@ -50,10 +50,10 @@ updated: 2026-05-22
 **Chuyển sang Tab 1 (Landing Page)**
 
 **Nói:**
-> "Đây là landing page MOCO Kitchen — theme Matcha Green, 6 sections, responsive. Chúng ta scroll qua nhanh."
+> "Đây là landing page MOCO Kitchen — theme Matcha Green, layout editorial kiểu Monte, 9 section, responsive. Chúng ta scroll qua nhanh."
 
 **Thao tác:**
-1. Scroll chậm qua Hero → Products (chỉ 2 dòng sản phẩm) → Story → FAQ
+1. Scroll chậm qua Brand Hero → Menu (2 dòng SP, có giá) → Story → Gallery → FAQ
 2. Click mở 1 FAQ "Bánh có phù hợp cho người tiểu đường không?" → chỉ disclaimer
 3. **Click chatbot widget** (góc phải dưới)
 

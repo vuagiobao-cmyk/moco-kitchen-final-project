@@ -22,8 +22,8 @@ updated: 2026-05-22
 | 1 | Vercel CLI đã cài (v52.0.0) | ✅ PASS | |
 | 2 | Deploy production thành công | ✅ PASS | `vercel --prod --yes` |
 | 3 | URL live: moco-kitchen-ai-hub.vercel.app | ✅ PASS | HTTP 200 |
-| 4 | 13 ảnh AI load đầy đủ | ✅ PASS | ~9 MB total |
-| 5 | Chatbot widget hiển thị | ✅ PASS | API Key hoạt động |
+| 4 | Ảnh AI load đầy đủ (17 file trong assets) | ✅ PASS | |
+| 5 | Chatbot widget hiển thị | ✅ PASS | Serverless api/chat.js + Vercel env |
 | 6 | Responsive mobile/tablet/desktop | ✅ PASS | vercel.json + CSS |
 | 7 | Security headers (X-Content-Type-Options, X-Frame-Options, etc.) | ✅ PASS | vercel.json configured |
 
@@ -41,7 +41,7 @@ updated: 2026-05-22
 | 4 | SLIDE_OUTLINE_TUAN6.md — 15 slides | ✅ PASS | Đã có từ Phase 4 |
 | 5 | DEMO_SCRIPT.md — kịch bản 5 phút | ✅ PASS | Mới tạo |
 | 6 | 3_Creative_Content/ populated | ✅ PASS | visual_concepts + video_storyboard |
-| 7 | _Assets/asset_manifest.md | ✅ PASS | 13 ảnh catalogued |
+| 7 | _Assets/asset_manifest.md | ✅ PASS | 17 ảnh catalogued |
 | 8 | 6_Deployment_Demo/ populated | ✅ PASS | URL + demo script |
 
 **Verdict 5B:** ✅ **PASS — Tất cả deliverables đầy đủ**
@@ -96,7 +96,7 @@ updated: 2026-05-22
 | Phase 1 | Research & Problem Statement | ✅ DONE |
 | Phase 2 | Knowledge Base V2 (7 SP thật) | ✅ DONE |
 | Phase 3 | Content Engine & System Prompt V2 | ✅ DONE |
-| Phase 4A | Landing Page (7 sections) | ✅ DONE |
+| Phase 4A | Landing Page (Monte v3, 9 section) | ✅ DONE |
 | Phase 4B | NotebookLM — 5/5 test PASS | ✅ DONE |
 | Phase 4C | Chatbot Gemini Integration | ✅ DONE |
 | Phase 4D | Apps Script Content Generator | ✅ DONE |

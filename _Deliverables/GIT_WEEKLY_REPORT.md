@@ -15,14 +15,14 @@ updated: 2026-05-29
 
 | Mục | Nội dung |
 |-----|----------|
-| **Repository** | [AI_Command_Center](https://github.com/vuagiobao-cmyk/AI_Command_Center) (private) |
+| **Repository** | [moco-kitchen-final-project](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project) (Public) |
 | **Branch chính** | `main` |
-| **Thư mục dự án** | `04_RnD_Lab/GOOGLE AI ECOSYSTEM K1-2026/Du_An_Cuoi_Khoa/` |
+| **Thư mục dự án** | Thư mục gốc (Root) |
 | **Thư mục bài tập** | `04_RnD_Lab/GOOGLE AI ECOSYSTEM K1-2026/Buoi_*/` |
 | **Người thực hiện** | Vũ Hoàng Phong |
 | **Khóa học** | Google AI Bootcamp 2026 — CES Global |
 
-> **Lưu ý:** Repository ở chế độ **private**. Nếu BTC cần truy cập trực tiếp, liên hệ chủ repo để invite collaborator. Các link bên dưới chỉ hoạt động khi đã được cấp quyền.
+> **Lưu ý:** Repository đã được cấu hình ở chế độ **Public** để BTC và Mentor có thể truy cập dễ dàng.
 
 ---
 
@@ -59,7 +59,7 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | | |
 |---|---|
-| **Compare** | [b9b6b75...52b4783](https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/b9b6b750...52b4783c) |
+| **Link GitHub (Dễ đọc)** | [Báo cáo Tuần 2](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/3_Content_Engine/README.md) |
 | **Commit đầu** | `b9b6b75` — feat(course): add Buoi_2 deliverables (04/04/2026) |
 | **Commit cuối** | `52b4783` — vault: auto-sync 2026-04-05 |
 
@@ -87,7 +87,7 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | | |
 |---|---|
-| **Compare** | [52b4783...444d7e4](https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/52b4783c...444d7e48) |
+| **Link GitHub (Dễ đọc)** | [Báo cáo Tuần 3](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/3_Creative_Content/README.md) |
 | **Commit chính** | `444d7e4` — feat(prompt): add GOOGLE AI K1-2026 Session 3 app workflow (11/04/2026) |
 
 ### File khóa học thay đổi
@@ -114,7 +114,7 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | | |
 |---|---|
-| **Compare** | [444d7e4...a1160e9](https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/444d7e48...a1160e9b) |
+| **Link GitHub (Dễ đọc)** | [Báo cáo Tuần 4](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/4_App_Automation/README.md) |
 | **Commit chính** | `b13bedf` — sync: OrderApp GAS Buoi 4 (13/04/2026) |
 
 ### File khóa học thay đổi (focus Buoi_4)
@@ -146,7 +146,7 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | | |
 |---|---|
-| **Compare** | [a1160e9...337e02e](https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/a1160e9b...337e02eb) |
+| **Link đọc trực tiếp** | [Website MOCO Kitchen (Vercel)](https://moco-kitchen-ai-hub.vercel.app) |
 | **Commit chính** | `337e02e` — sync 2026-05-07: khởi tạo Du_An_Cuoi_Khoa |
 | **Commit phụ** | `7f01de1` — Update Web Lab 5 (27/04/2026) |
 
@@ -181,7 +181,7 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | | |
 |---|---|
-| **Compare** | [337e02e...4490207](https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/337e02eb...4490207f) |
+| **Link GitHub (Dễ đọc)** | [Báo cáo Tuần 6](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/6_Deployment_Demo/README.md) |
 | **Commit đầu** | `0e91a55` — feat: add MOCO inventory cleanup script (08/05/2026) |
 | **Commit cuối** | `4490207` — syncout 2026-05-22 — Sign-off Phase 5 |
 
@@ -233,10 +233,10 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 
 | File | Mô tả |
 |------|-------|
-| `5_Landing_Page_Chatbot/index.html` | Landing page 7 sections |
-| `5_Landing_Page_Chatbot/style.css` | Dark theme, glassmorphism |
-| `5_Landing_Page_Chatbot/app.js` | Scroll effects, navigation |
-| `5_Landing_Page_Chatbot/chatbot.js` | Gemini chatbot (gemini-2.5-flash) |
+| `5_Landing_Page_Chatbot/index.html` | Landing page Monte v3 (9 section) |
+| `5_Landing_Page_Chatbot/style.css` | Matcha green theme (#355C3B), layout editorial |
+| `5_Landing_Page_Chatbot/app.js` | Nav overlay, scroll reveal, FAQ, marquee |
+| `5_Landing_Page_Chatbot/chatbot.js` + `api/chat.js` | Gemini chatbot (gemini-2.5-flash) qua serverless proxy |
 
 **Creative Content:**
 
@@ -275,19 +275,19 @@ Tuần 1 tập trung làm bài tập Buổi 1 (Gemini Foundation) trực tiếp 
 ### Link mã nguồn (dán vào ô "Link mã nguồn" trong bảng BTC)
 
 ```text
-https://github.com/vuagiobao-cmyk/AI_Command_Center
-(Private repo — thư mục dự án: 04_RnD_Lab/GOOGLE AI ECOSYSTEM K1-2026/Du_An_Cuoi_Khoa/)
+https://github.com/vuagiobao-cmyk/moco-kitchen-final-project
+(Public repo — chứa toàn bộ lịch sử 6 tuần dự án)
 ```
 
-### Link Git theo tuần (dán vào cột evidence hoặc ghi chú)
+### Link Báo cáo/Sản phẩm theo tuần (dán vào cột evidence hoặc ghi chú)
 
 ```text
 Tuần 1: Nộp qua Google Classroom — https://docs.google.com/document/d/18-pvOGLR6jSxo88NAczG9YiS0_eukKAlqEjXYTrVvJI/edit
-Tuần 2: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/b9b6b750...52b4783c
-Tuần 3: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/52b4783c...444d7e48
-Tuần 4: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/444d7e48...a1160e9b
-Tuần 5: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/a1160e9b...337e02eb
-Tuần 6: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/337e02eb...4490207f
+Tuần 2 (Knowledge Base): https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/3_Content_Engine/README.md
+Tuần 3 (Creative Content): https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/3_Creative_Content/README.md
+Tuần 4 (App Automation): https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/4_App_Automation/README.md
+Tuần 5 (Website Landing Page): https://moco-kitchen-ai-hub.vercel.app
+Tuần 6 (Demo & Deployment): https://github.com/vuagiobao-cmyk/moco-kitchen-final-project/blob/main/6_Deployment_Demo/README.md
 ```
 
 ### Thống kê tổng
@@ -303,13 +303,10 @@ Tuần 6: https://github.com/vuagiobao-cmyk/AI_Command_Center/compare/337e02eb..
 
 ---
 
-## Lưu ý về Repo Private
+## Lưu ý về Repo
 
-Repository `AI_Command_Center` ở chế độ **private**. Nếu BTC yêu cầu truy cập trực tiếp:
-
-1. **Cách 1 (ưu tiên):** Invite email BTC vào repo → Settings → Collaborators → Add
-2. **Cách 2:** Tạo repo public riêng chỉ chứa thư mục `Du_An_Cuoi_Khoa/`
-3. **Cách 3:** Dùng tài liệu này làm bằng chứng — đã liệt kê đầy đủ commit hash, ngày, file, và nội dung
+Repository `moco-kitchen-final-project` là **Public Repo** trên GitHub.
+Để giúp Mentor đọc dễ dàng nhất, các link theo tuần ở trên đều dẫn trực tiếp đến file `README.md` của từng thư mục. Mentor click vào sẽ thấy ngay bài viết giải thích và link đến các file tài liệu liên quan mà không bị rối bởi danh sách file code.
 
 ---
 
