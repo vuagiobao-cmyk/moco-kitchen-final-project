@@ -21,7 +21,10 @@
 
 - Hoàn thiện bộ hướng dẫn viết nội dung theo giọng thương hiệu MOCO.
 - Lập lịch nội dung trong hai tuần và viết năm bài có thể dùng cho Facebook/Instagram sau khi duyệt.
-- Xây dựng prompt mẫu để tạo ảnh sản phẩm bằng AI.
+- Xây dựng ý tưởng hình ảnh “Bếp nhỏ, vị thật” với ba nhóm: buổi sáng nhẹ nhàng, khoảnh khắc tráng miệng và từ căn bếp.
+- Quy định bộ bốn góc chụp cho mỗi sản phẩm, bố cục Feed/Carousel/Reel và dấu hiệu riêng của cả bảy món.
+- Kiểm tra 17 hình đang dùng, phân loại hình được giữ, hình chỉ dùng tạm và hình cần thay.
+- Xây dựng yêu cầu mẫu để AI hỗ trợ thử bối cảnh và ánh sáng từ ảnh sản phẩm thật.
 - Soạn storyboard cho video giới thiệu.
 
 ## Sản phẩm bàn giao
@@ -38,6 +41,7 @@
 
 - Thương hiệu có giọng nói và phong cách hình ảnh thống nhất.
 - Founder có thể tạo bản nháp nhanh hơn nhưng vẫn kiểm tra lại thông tin trước khi đăng.
+- Nhóm dự án có danh sách hình ưu tiên cần chụp, thay vì tiếp tục dùng hình minh họa không đúng sản phẩm hoặc không đúng căn bếp MOCO.
 - Các mẫu đã xây dựng được dùng tiếp cho trang giới thiệu, trợ lý hỏi đáp và công cụ viết nội dung ở những tuần sau.
 
 ---

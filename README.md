@@ -60,7 +60,7 @@ Dự án xây dựng một hệ thống gồm hai phần:
 | `1_Research/` | Mô tả bài toán, nghiên cứu thị trường, khách hàng và cạnh tranh |
 | `2_Knowledge_Base/` | Danh mục nguồn sử dụng trong NotebookLM |
 | `3_Content_Engine/` | Thông tin sản phẩm, câu hỏi thường gặp, lịch nội dung và bài viết mẫu |
-| `3_Creative_Content/` | Visual concepts và video storyboard |
+| `3_Creative_Content/` | Hệ thống hình ảnh và kịch bản phân cảnh video |
 | `4_App_Automation/` | Mã nguồn automation trên Google Sheets |
 | `5_Landing_Page_Chatbot/` | Landing page và chatbot |
 | `6_Deployment_Demo/` | Deployment guide và demo script |

@@ -6,10 +6,11 @@ created: 2026-05-13
 updated: 2026-05-13
 ---
 
-# MOCO Kitchen — Visual Prompt Templates cho AI Image Generation
+# MOCO Kitchen — Yêu cầu mẫu để AI hỗ trợ xử lý hình ảnh
 
-> Dùng với Google ImageFX, Google Flow, hoặc bất kỳ AI image tool nào.
-> Visual direction đã khoá: Japanese airy, ánh sáng tự nhiên cửa sổ, tone ấm, soft shadow.
+> Tài liệu này chỉ dùng để tham khảo bối cảnh, ánh sáng và bố cục. Với menu, bài bán hàng và trang giới thiệu, phải tải ảnh sản phẩm thật lên làm ảnh gốc; không tạo lại món bánh hoàn toàn bằng AI.
+>
+> Định hướng hiện hành nằm tại [Hệ thống hình ảnh MOCO](../../3_Creative_Content/visual_concepts.md). Nếu mô tả trong file này khác sản phẩm thật, ảnh thật và tài liệu sản phẩm luôn được ưu tiên.
 
 ---
 
@@ -23,11 +24,12 @@ updated: 2026-05-13
 - **Background:** Gỗ sáng, đá terrazzo, vải linen trắng/beige, hoặc plain white
 - **Mood:** Calm, inviting, homemade craft feel
 
-### Negative Prompt (Luôn thêm vào cuối)
+### Những yếu tố cần loại bỏ
 ```
-no text, no logos, no watermarks, no artificial looking food, no plastic props,
-no neon colors, no dark moody lighting, no cluttered background,
-no stock photo feel, no glossy commercial look
+do not alter the cake shape, size, layers, toppings, packaging, or portion;
+no text, no logos, no watermarks, no invented ingredients, no plastic-looking food,
+no neon colors, no dark lighting, no cluttered background,
+no stock photo look, no glossy commercial finish
 ```
 
 ### Props gợi ý
@@ -247,19 +249,20 @@ warm light, shallow depth of field, bakery quality, 4K macro photo
 
 ## Hướng Dẫn Sử Dụng
 
-1. **Google ImageFX:** Paste prompt vào, chọn aspect ratio 1:1 (Instagram) hoặc 4:5 (FB post)
-2. **Google Flow:** Upload ảnh sản phẩm thật → thêm prompt làm background/lighting direction
-3. **Gemini Image Gen:** Paste prompt, thêm "high resolution, 4K" nếu cần
-4. **Negative prompt:** Luôn thêm vào phần settings nếu tool hỗ trợ
+1. Tải ảnh sản phẩm thật lên công cụ có hỗ trợ chỉnh ảnh.
+2. Chỉ yêu cầu thay đổi nền, ánh sáng, khoảng trống bố cục hoặc tỷ lệ khung hình.
+3. Xuất tỷ lệ 4:5 cho Feed, 9:16 cho Story/Reel và 1:1 cho thumbnail.
+4. So sánh kết quả với ảnh gốc trước khi dùng.
 
 ### Lưu ý kiểm tra chất lượng
-- Ảnh AI không được gây ấn tượng sai lệch về kích cỡ/hình dạng sản phẩm thật
-- Không có text/logo giả trong ảnh
-- Nếu dùng cho quảng cáo chính thức, cần ghi chú "Ảnh minh họa" hoặc kết hợp ảnh chụp thật
+- Không thay đổi kích thước, hình dạng, lớp bánh, topping hoặc bao bì.
+- Không có chữ hoặc logo giả trong ảnh.
+- Không thêm nguyên liệu không có trong công thức.
+- Nếu hình không còn phản ánh đúng sản phẩm thật, không dùng cho menu hoặc nội dung bán hàng.
 
 ---
 
-*V2 — 7 sản phẩm × 3 góc = 21 prompt templates | Dự Án Cuối Khóa Google AI Bootcamp 2026*
+*Bộ mô tả bối cảnh cho bảy sản phẩm; cần dùng cùng ảnh gốc và kiểm tra thủ công trước khi công bố.*
 
 ---
 
