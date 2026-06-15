@@ -86,7 +86,7 @@ Không khẳng định an toàn tuyệt đối. Keto Tiramisu có rượu — kh
 - Vẫn cần kiểm soát khẩu phần.
 
 ### Trẻ dị ứng đạm sữa bò ăn được không?
-Hầu hết có sữa/cream cheese/bơ — không phù hợp. Riêng Chuối Yến Mạch Choco dùng sữa yến mạch/dầu dừa nên có thể cân nhắc, vẫn cần kiểm tra nhãn socola chip.
+Hầu hết sản phẩm có sữa, cream cheese hoặc bơ nên không phù hợp. Riêng Chuối Yến Mạch Choco không dùng sữa bò trong công thức; tuy nhiên, socola chip có thể chứa sữa tùy nhãn nguyên liệu.
 
 ### Dị ứng hạt ăn được không?
 Nhiều sản phẩm dùng bột hạnh nhân, óc chó, hạt bí nên không phù hợp người dị ứng hạt.

@@ -134,7 +134,7 @@ flowchart TD
 - Không có biểu mẫu email và không gửi dữ liệu đến dịch vụ bên thứ ba.
 
 ### 8. Footer 3 cột (R7)
-- Grid 3 cột (mobile 1 cột): **Liên Hệ** (Zalo, Instagram, Facebook, email placeholder) · **Giờ Nhận Đơn** (Cả tuần / khung giờ) · **Tìm MOCO** (Hà Nội + link bản đồ placeholder).
+- Grid 3 cột (mobile 1 cột): **Liên Hệ** (Zalo 0904 826 585, Instagram @moco_kitchen242, Facebook MoCo Kitchen) · **Giờ Nhận Đơn** (9:00–17:00 từ Thứ Hai đến Thứ Bảy, nghỉ Chủ Nhật) · **Tìm MOCO** (368B Quang Trung, Hà Đông, Hà Nội + link Google Maps).
 - Hàng trên: logo MOCO + tagline "Heart-Healthy, Soul-Tasty".
 - Hàng dưới: lưu ý dinh dưỡng và dòng bản quyền “© 2026 MOCO Kitchen. Dự án cuối khóa Google AI Bootcamp”.
 

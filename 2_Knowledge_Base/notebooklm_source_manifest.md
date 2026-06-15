@@ -43,4 +43,4 @@ NotebookLM được dùng để tổng hợp và tra cứu knowledge base của 
 
 ## Giới hạn sử dụng
 
-NotebookLM trong dự án này là công cụ học tập và tra cứu knowledge base. Kết quả vẫn cần founder kiểm tra trước khi dùng cho khách hàng hoặc đăng công khai.
+NotebookLM trong dự án này là công cụ học tập và tra cứu knowledge base. Trong quy trình vận hành, founder là người duyệt cuối nội dung trước khi sử dụng cho khách hàng hoặc đăng công khai.

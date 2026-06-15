@@ -8,7 +8,7 @@ updated: 2026-06-15
 
 # MOCO Kitchen — Content Calendar mẫu 2 tuần
 
-Content Calendar dưới đây kết hợp Product Post, Education, Behind-the-scenes và Customer Review trên Facebook hoặc Instagram. Mọi thông tin về thành phần, giá và bảo quản cần được kiểm tra trước khi đăng.
+Content Calendar dưới đây kết hợp Product Post, Education, Behind-the-scenes và Customer Review trên Facebook hoặc Instagram. Thành phần, giá và cách bảo quản được đối chiếu với Product Knowledge trong bước duyệt nội dung.
 
 ## Nguyên tắc chung
 

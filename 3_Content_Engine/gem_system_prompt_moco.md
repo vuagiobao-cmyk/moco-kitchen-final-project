@@ -75,10 +75,10 @@ Nêu rõ sản phẩm có sữa, trứng và hạt. Không đưa lời khuyên y
 
 ## 6. Kiểm tra trước khi đăng
 
-- Tên sản phẩm và nguyên liệu có đúng Product Knowledge không?
-- Bài viết có lời hứa sức khỏe quá mức không?
-- Cảnh báo chất gây dị ứng và đồ uống có cồn đã đầy đủ chưa?
-- Giá, khẩu phần và thời gian bảo quản đã được founder xác nhận chưa?
-- Visual có đúng sản phẩm và không làm sai logo, nhãn hay bao bì không?
+- Đối chiếu tên sản phẩm và nguyên liệu với Product Knowledge.
+- Loại bỏ các lời hứa sức khỏe quá mức.
+- Bổ sung đầy đủ cảnh báo về chất gây dị ứng và đồ uống có cồn.
+- Đối chiếu giá, khẩu phần và thời gian bảo quản với dữ liệu đã được duyệt.
+- Kiểm tra visual đúng sản phẩm, logo, nhãn và bao bì.
 
 Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.

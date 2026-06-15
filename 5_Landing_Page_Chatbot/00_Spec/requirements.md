@@ -89,7 +89,7 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 1. THE section SHALL có tiêu đề kiểu thân thiện (ví dụ "Ô, Chào Bạn 👋" / "Ghé Bếp MOCO") tương ứng "OH, HELLO".
 2. THE section SHALL hiển thị một lưới (grid) gồm nhiều ô hình ảnh sản phẩm thật từ `/assets`.
 3. WHEN khách hover một ô hình (desktop) THEN hệ thống SHALL hiển thị hiệu ứng nhẹ (zoom/overlay caption).
-4. THE section SHALL có một link "Theo dõi" trỏ tới kênh social MOCO (Facebook/Instagram placeholder).
+4. THE section SHALL có link "Theo dõi" trỏ tới Instagram @moco_kitchen242.
 5. WHERE màn hình mobile THE grid SHALL giảm số cột (ví dụ 2 cột) và không vỡ layout.
 
 ### Requirement 6 — Khối Đặt Hàng / Kết Nối (thay cho Newsletter của Monte)
@@ -108,9 +108,9 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 **User Story:** Là khách truy cập, tôi muốn footer rõ ràng với thông tin liên hệ, giờ mở cửa và địa điểm (giống footer Monte), để biết cách kết nối và tìm MOCO.
 
 #### Acceptance Criteria
-1. THE footer SHALL có khối "Liên Hệ" (Contact) với phương thức liên hệ MOCO (Zalo, Facebook, email/placeholder).
+1. THE footer SHALL có khối "Liên Hệ" (Contact) gồm Zalo 0904 826 585, Instagram @moco_kitchen242 và Facebook MoCo Kitchen.
 2. THE footer SHALL có khối "Giờ Nhận Đơn" (Opening Hours) dạng ngày thường / cuối tuần.
-3. THE footer SHALL có khối "Tìm MOCO" (Find Us) với khu vực hoạt động (Hà Nội) và link bản đồ placeholder nếu phù hợp.
+3. THE footer SHALL có khối "Tìm MOCO" (Find Us) với địa chỉ 368B Quang Trung, Hà Đông, Hà Nội và link Google Maps.
 4. Chân trang phải hiển thị logo MOCO, thông điệp “Heart-Healthy, Soul-Tasty” và lưu ý dinh dưỡng hiện có.
 5. THE footer SHALL giữ dòng copyright dự án ("© 2026 MOCO Kitchen. Dự án AI Marketing Hub — Google AI Bootcamp").
 

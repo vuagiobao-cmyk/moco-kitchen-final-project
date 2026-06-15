@@ -10,7 +10,7 @@ updated: 2026-06-15
 
 > Cập nhật theo dữ liệu công thức thực tế của MOCO Kitchen. Danh mục gồm 7 sản phẩm bán; Sữa Chua Hy Lạp, Bánh Quy Hạnh Nhân Giòn và Lady Finger được quản lý như nguyên liệu hoặc bán thành phẩm nội bộ.
 
-> **Lưu ý:** Thông tin dinh dưỡng là ước tính sơ bộ dựa trên nguyên liệu và chưa qua kiểm nghiệm phòng thí nghiệm. Công thức theo từng mẻ cần được đội vận hành xác nhận trước khi công bố chính thức. MOCO Kitchen không đưa lời khuyên y tế; khách có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng.
+> **Lưu ý:** Thông tin dinh dưỡng là ước tính dựa trên công thức và chưa qua kiểm nghiệm phòng thí nghiệm. Thành phần của nguyên liệu đóng gói có thể thay đổi theo nhà cung cấp. Khách có dị ứng hoặc bệnh nền nên liên hệ MOCO trước khi đặt bánh và tham khảo bác sĩ hoặc chuyên gia dinh dưỡng.
 
 ---
 
@@ -44,7 +44,6 @@ updated: 2026-06-15
 | Hạt | ✅ Bột hạnh nhân (lady finger) |
 | Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, không dùng bột mì theo dữ liệu công thức hiện tại |
 | Rượu | ✅ Rum, Baileys |
-| Đậu nành | ❓ Kiểm tra nhãn chocolate/cream |
 
 ---
 
@@ -63,7 +62,7 @@ updated: 2026-06-15
 | Sữa bò | ✅ Cream cheese, whipping cream, bơ, sữa tươi |
 | Trứng | ❌ |
 | Hạt | ✅ Bánh quy hạnh nhân (đế) |
-| Gluten | ⚠️ Bánh cosy (đế) có gluten |
+| Gluten | ✅ Bánh Cosy (đế) có gluten |
 | Rượu | ❌ |
 
 ---
@@ -82,7 +81,7 @@ updated: 2026-06-15
 **Lưu ý dị ứng:**
 | Dị ứng | Có/Không |
 |----------|----------|
-| Sữa bò | ❌ (dùng sữa yến mạch, dầu dừa) — kiểm tra nhãn socola chip |
+| Sữa bò | ⚠️ Công thức không dùng sữa bò; socola chip có thể chứa sữa tùy nhãn nguyên liệu |
 | Trứng | ✅ |
 | Hạt | ✅ Hạt bí |
 | Gluten | ✅ Bột mì số 8, yến mạch |
@@ -127,7 +126,7 @@ updated: 2026-06-15
 | Sữa bò | ✅ Sữa tươi, bơ, cream cheese |
 | Trứng | ✅ Trứng gà + trứng muối |
 | Gluten | ✅ Bột số 8 |
-| Hải sản | ⚠️ Chà bông rong biển — kiểm tra dị ứng hải sản |
+| Hải sản | ⚠️ Chà bông rong biển có thể chứa thành phần hải sản tùy sản phẩm |
 
 ---
 
@@ -170,7 +169,7 @@ updated: 2026-06-15
 |----------|----------|
 | Sữa bò | ✅ Bơ, cream cheese, whipping, sữa chua Hy Lạp |
 | Trứng | ✅ |
-| Hạt | ⚠️ Sữa hạt — kiểm tra loại hạt cụ thể |
+| Hạt | ⚠️ Thành phần phụ thuộc loại sữa hạt sử dụng |
 | Gluten | ✅ Bột mì nguyên cám, bột mì số 13 |
 
 ---
@@ -179,13 +178,13 @@ updated: 2026-06-15
 
 | Dị ứng | Tiramisu | Cheesecake | Chuối YM | BM Soda | BL Trứng Muối | Carrot Cake | BM Cuộn Quế |
 |----------|:--------:|:----------:|:--------:|:-------:|:--------------:|:-----------:|:-----------:|
-| Sữa bò | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Sữa bò | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ |
 | Trứng | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Hạt | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
-| Gluten | ❌ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gluten | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Rượu | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-> ⚠️ = có thể có, cần kiểm tra công thức và nguyên liệu của từng mẻ cụ thể.
+> ⚠️ = thành phần có thể thay đổi theo loại hoặc nhãn nguyên liệu sử dụng. Khách dị ứng nghiêm trọng nên liên hệ MOCO trước khi đặt bánh.
 
 ---
 
@@ -208,7 +207,7 @@ updated: 2026-06-15
 
 | Sản phẩm | Vai trò |
 |----------|---------|
-| Lady Finger Hạnh Nhân (bản điều chỉnh) | Nguyên liệu cho Keto Tiramisu. Bột hạnh nhân + bột số 8, allulose + la hán. ~350g/mẻ, đủ 5 chiếc Tiramisu |
+| Lady Finger Hạnh Nhân (bản điều chỉnh) | Nguyên liệu cho Keto Tiramisu. Bột hạnh nhân, allulose và đường la hán. ~350g/mẻ, đủ 5 chiếc Tiramisu |
 | Bánh Quy Hạnh Nhân Giòn | Dùng làm đế Cheesecake hoặc ăn riêng. Bột hạnh nhân + bột dừa, đường la hán |
 | Sữa Chua Hy Lạp | Dùng làm kem Carrot Cake và kem BM Cuộn Quế |
 

@@ -8,7 +8,7 @@ updated: 2026-06-15
 
 # MOCO Kitchen — Sample Posts
 
-Các sample post dưới đây được tạo với sự hỗ trợ của Gemini. Chúng không phải customer review thật và cần được founder kiểm tra lại giá, khẩu phần, nguyên liệu và thời gian bảo quản trước khi đăng.
+Các sample post dưới đây được tạo với sự hỗ trợ của Gemini để minh họa cách áp dụng brand voice và Product Knowledge. Nội dung không được trình bày như đánh giá thật của khách hàng.
 
 ## 1. Keto Tiramisu
 
