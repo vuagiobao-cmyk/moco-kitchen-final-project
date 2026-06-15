@@ -25,6 +25,7 @@ Dự án xây dựng một hệ thống gồm hai phần:
 - Lịch nội dung và bộ bài đăng mẫu cho Facebook/Instagram.
 - Landing page giới thiệu sản phẩm.
 - Chatbot hỏi đáp về sản phẩm, thành phần, bảo quản và đặt hàng.
+- Hệ thống nhận diện thương hiệu gồm logo, màu sắc, chữ và định hướng hình ảnh.
 
 ### 2. Operations & Automation
 
@@ -40,7 +41,7 @@ Dự án xây dựng một hệ thống gồm hai phần:
 | NotebookLM | Đọc và tổng hợp knowledge base sản phẩm |
 | Gemini | Hỗ trợ viết content và trả lời câu hỏi của khách hàng |
 | Google Apps Script | Xây dựng automation trong Google Sheets |
-| Công cụ tạo ảnh của Google | Tạo hình minh họa sản phẩm cho bài trình bày và website |
+| Công cụ tạo ảnh của Google | Hỗ trợ thử bối cảnh, ánh sáng và hình minh họa |
 | Veo 3 | Thử nghiệm ý tưởng video giới thiệu |
 | Vercel | Deploy landing page |
 
@@ -71,8 +72,9 @@ Dự án xây dựng một hệ thống gồm hai phần:
 1. [Báo cáo tiến độ sáu tuần](_Deliverables/Weekly_Reports/README.md)
 2. [Mô tả bài toán](1_Research/problem_statement_RCGC.md)
 3. [Tổng hợp dữ liệu kinh doanh đến 15/06/2026](1_Research/business_data_snapshot_2026-06-15.md)
-4. [Thông tin bảy sản phẩm](3_Content_Engine/moco_menu_products.md)
-5. [Hướng dẫn triển khai và trình diễn](6_Deployment_Demo/README.md)
+4. [Design — Nhận diện thương hiệu](3_Creative_Content/design.md)
+5. [Thông tin bảy sản phẩm](3_Content_Engine/moco_menu_products.md)
+6. [Hướng dẫn triển khai và trình diễn](6_Deployment_Demo/README.md)
 
 ## Lưu ý về nội dung sức khỏe
 

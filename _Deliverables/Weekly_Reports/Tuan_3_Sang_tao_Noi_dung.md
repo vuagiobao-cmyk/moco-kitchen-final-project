@@ -7,7 +7,7 @@
 ## Mục tiêu
 
 - Chuẩn bị bài đăng có mục tiêu rõ cho giới thiệu sản phẩm, giải thích thành phần và hậu trường.
-- Thống nhất giọng thương hiệu và phong cách hình ảnh của MOCO Kitchen.
+- Thống nhất nhận diện thương hiệu, giọng nói và phong cách hình ảnh của MOCO Kitchen.
 - Thử nghiệm tạo ảnh và video bằng công cụ AI của Google.
 
 ## Cách thực hiện
@@ -20,6 +20,7 @@
 ## Công việc đã hoàn thành
 
 - Hoàn thiện bộ hướng dẫn viết nội dung theo giọng thương hiệu MOCO.
+- Xây dựng tài liệu design cho nhận diện MOCO, gồm logo, màu sắc, chữ, hình ảnh và cách áp dụng trên website/social/bao bì.
 - Lập lịch nội dung trong hai tuần và viết năm bài có thể dùng cho Facebook/Instagram sau khi duyệt.
 - Xây dựng ý tưởng hình ảnh “Bếp nhỏ, vị thật” với ba nhóm: buổi sáng nhẹ nhàng, khoảnh khắc tráng miệng và từ căn bếp.
 - Quy định bộ bốn góc chụp cho mỗi sản phẩm, bố cục Feed/Carousel/Reel và dấu hiệu riêng của cả bảy món.
@@ -31,6 +32,7 @@
 
 | Nội dung | Liên kết |
 |---|---|
+| Design nhận diện thương hiệu | [Xem tài liệu](../../3_Creative_Content/design.md) |
 | Hướng dẫn giọng thương hiệu và viết nội dung | [Xem tài liệu](../../3_Content_Engine/gem_system_prompt_moco.md) |
 | Lịch nội dung Facebook và Instagram | [Xem tài liệu](../../3_Content_Engine/moco_content_calendar_sample.md) |
 | Bộ bài đăng Facebook và Instagram | [Xem tài liệu](../../3_Content_Engine/moco_sample_posts_gem.md) |
@@ -39,7 +41,7 @@
 
 ## Kết quả
 
-- Thương hiệu có giọng nói và phong cách hình ảnh thống nhất.
+- Thương hiệu có nền nhận diện rõ: logo, màu, chữ, hình ảnh và cách ứng dụng.
 - Founder có thể tạo bản nháp nhanh hơn nhưng vẫn kiểm tra lại thông tin trước khi đăng.
 - Nhóm dự án có danh sách hình ưu tiên cần chụp, thay vì tiếp tục dùng hình minh họa không đúng sản phẩm hoặc không đúng căn bếp MOCO.
 - Các mẫu đã xây dựng được dùng tiếp cho trang giới thiệu, trợ lý hỏi đáp và công cụ viết nội dung ở những tuần sau.

@@ -4,6 +4,8 @@
 
 Tài liệu này mô tả thiết kế kỹ thuật để tái cấu trúc landing page MOCO Kitchen theo **bố cục + ngôn ngữ thiết kế của Monte Cafe** (montecafe.com.au), trong khi giữ **bản sắc MOCO**: bảng màu Matcha Green và logo `moco-logo-green.png`.
 
+Nhận diện thương hiệu tổng thể của MOCO Kitchen được mô tả trong [Design — Nhận diện thương hiệu](../../3_Creative_Content/design.md). File hiện tại chỉ tập trung vào cách áp dụng nhận diện đó vào landing page.
+
 Thiết kế dựa trên 2 nguồn tham khảo:
 1. **Layout/cấu trúc:** trình tự section của montecafe.com.au (utility status bar → hero marquee → statement blocks → menu list → social grid → CTA → footer 3 cột).
 2. **Design system (refero.design — "Monte / Warm Terracotta Cafe"):** palette giới hạn, tương phản typography mạnh, **bề mặt phẳng + viền mảnh thay vì shadow nặng**, bo góc 14px (card) / 9999px (input/pill), nút primary dạng **outline**, spacing thoáng (section gap ~48px+), density "comfortable".
