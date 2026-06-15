@@ -3,14 +3,14 @@ id: 20260513223800
 aliases: ["MOCO Menu Products V2", "Menu san pham MOCO Kitchen"]
 tags: ["#moco-kitchen", "#menu", "#knowledge-base"]
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-15
 ---
 
 # MOCO Kitchen — Menu & Thông Tin Sản Phẩm (V2)
 
-> Cập nhật theo công thức thật từ Google Sheet founder. 7 sản phẩm bán, loại bỏ Sữa Chua Hy Lạp, Bánh Quy Hạnh Nhân Giòn (dùng nội bộ), Lady Finger (nguyên liệu Tiramisu).
+> Cập nhật theo dữ liệu công thức thực tế của MOCO Kitchen. Danh mục gồm 7 sản phẩm bán; Sữa Chua Hy Lạp, Bánh Quy Hạnh Nhân Giòn và Lady Finger được quản lý như nguyên liệu hoặc bán thành phẩm nội bộ.
 
-> **⚠️ Disclaimer:** Thông tin dinh dưỡng là ước tính sơ bộ dựa trên nguyên liệu. Chưa qua lab test. Cần founder xác nhận trước khi công bố chính thức. MOCO Kitchen không đưa lời khuyên y tế — khách có bệnh nền nên hỏi bác sĩ/chuyên gia dinh dưỡng.
+> **⚠️ Disclaimer:** Thông tin dinh dưỡng là ước tính sơ bộ dựa trên nguyên liệu và chưa qua kiểm nghiệm phòng thí nghiệm. Công thức theo từng mẻ cần được đội vận hành xác nhận trước khi công bố chính thức. MOCO Kitchen không đưa lời khuyên y tế; khách có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng.
 
 ---
 
@@ -42,7 +42,7 @@ updated: 2026-06-07
 | Sữa bò | ✅ Mascarpone, whipping cream, sữa tươi |
 | Trứng | ✅ Lòng đỏ trứng |
 | Hạt | ✅ Bột hạnh nhân (lady finger) |
-| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, KHÔNG dùng bột mì (founder đã xác nhận) |
+| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, không dùng bột mì theo dữ liệu công thức hiện tại |
 | Rượu | ✅ Rum, Baileys |
 | Đậu nành | ❓ Kiểm tra nhãn chocolate/cream |
 
@@ -185,7 +185,7 @@ updated: 2026-06-07
 | Gluten | ❌ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Rượu | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-> ⚠️ = có thể có, cần founder xác nhận batch/công thức cụ thể.
+> ⚠️ = có thể có, cần kiểm tra công thức và nguyên liệu của từng mẻ cụ thể.
 
 ---
 
@@ -214,15 +214,13 @@ updated: 2026-06-07
 
 ---
 
-*Nguồn: Google Sheet công thức founder MOCO Kitchen, cập nhật 2026-05-13.*
-*Audit: Antigravity theo @Manager_May + @QA_Thanh.*
+*Nguồn: Google Sheet công thức MOCO Kitchen, cập nhật 2026-05-13.*
 *Phiên bản: V2 — thay thế hoàn toàn V1 (5 sản phẩm cũ).*
 
 ---
 
 ## Related
 
-- [[CODEX_AUDIT_HANDOFF_2026-05-13_KB_CONTENT]]
 - [[gem_system_prompt_moco]]
 - [[moco_content_calendar_sample]]
 - [[moco_faq_nutrition]]

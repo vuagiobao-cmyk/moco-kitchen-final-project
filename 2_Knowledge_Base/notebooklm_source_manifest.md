@@ -3,7 +3,7 @@ id: 20260513223000
 aliases: ["NotebookLM Source Manifest MOCO", "MOCO Knowledge Base Manifest"]
 tags: ["#moco-kitchen", "#notebooklm", "#knowledge-base"]
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-15
 version: V2
 ---
 
@@ -17,8 +17,8 @@ version: V2
 
 - **Tên notebook:** MOCO Kitchen — AI Marketing Hub Knowledge Base
 - **Notebook URL:** https://notebooklm.google.com/notebook/b7594329-7387-43fc-9a10-1a0d738b2e18
-- **Trạng thái trong handoff Antigravity:** 7 sources đã nạp, chatbot đã configure và test.
-- **Trạng thái Codex kiểm tra:** Chưa xác minh trực tiếp được notebook vì phiên Codex hiện tại không có NotebookLM MCP/CLI. Codex đã kiểm tra và chuẩn hóa các source Markdown trong repo.
+- **Trạng thái nguồn:** 7 tài liệu đã được chuẩn hóa cho knowledge base và kịch bản demo.
+- **Yêu cầu trước khi trình bày:** Đối chiếu danh sách nguồn đang có trong NotebookLM với manifest này và chạy lại bộ câu hỏi kiểm thử nếu tài liệu vừa được cập nhật.
 
 ---
 
@@ -43,7 +43,7 @@ version: V2
 3. Với khách tiểu đường, mẹ bầu, trẻ nhỏ, dị ứng, người đang điều trị: luôn khuyên hỏi bác sĩ/chuyên gia dinh dưỡng.
 4. Khi nói dinh dưỡng: ghi rõ số liệu là ước tính nếu chưa có công thức/lab test.
 5. Khi nói allergen: hỏi kỹ sữa, trứng, hạt, gluten/cross-contamination trước khi gợi ý món.
-6. Khi chưa chắc: trả lời “chúng mình cần founder xác nhận batch/công thức trước khi chốt”.
+6. Khi chưa chắc: trả lời “chúng mình cần kiểm tra lại công thức của mẻ bánh trước khi xác nhận”.
 
 ---
 
@@ -65,11 +65,11 @@ version: V2
 
 Phase 2 đủ điều kiện dùng làm **knowledge base nội bộ và demo có kiểm soát** sau khi nạp lại các source đã sửa. Chưa nên dùng như chatbot tư vấn công khai nếu chưa:
 
-- Founder xác nhận công thức và allergen theo từng batch.
+- Đội vận hành xác nhận công thức và chất gây dị ứng theo từng mẻ.
 - Chạy lại test query trong NotebookLM.
 - Lưu screenshot/list source trong deliverables.
 - Chốt chính sách vận chuyển, đổi trả và vùng giao hàng.
 
 ---
 
-*Audit: Codex theo @Manager_May + @QA_Thanh, 2026-05-13.*
+*Manifest được rà soát lần cuối ngày 15/06/2026.*

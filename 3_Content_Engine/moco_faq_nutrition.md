@@ -3,7 +3,7 @@ id: 20260513213600
 aliases: ["MOCO FAQ Nutrition V2", "FAQ va tu van dinh duong MOCO"]
 tags: ["#moco-kitchen", "#faq", "#nutrition", "#knowledge-base"]
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-15
 ---
 
 # MOCO Kitchen — FAQ & Tư Vấn Dinh Dưỡng (V2)
@@ -135,7 +135,6 @@ Facebook Messenger `facebook.com/mocokitchen` hoặc Zalo.
 
 ## Related
 
-- [[CODEX_AUDIT_HANDOFF_2026-05-13_KB_CONTENT]]
 - [[gem_system_prompt_moco]]
 - [[moco_content_calendar_sample]]
 - [[moco_menu_products]]

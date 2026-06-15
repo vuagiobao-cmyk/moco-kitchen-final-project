@@ -1,91 +1,86 @@
 ---
 id: "20260530102500"
 aliases: ["MOCO Customer Insight", "Insight khách hàng MOCO Kitchen"]
-tags: ["#moco-kitchen", "#customer-insight", "#research", "#skill-09"]
+tags: ["#moco-kitchen", "#customer-insight", "#research"]
 created: 2026-05-30
-updated: 2026-05-30
-skill: "09-insight-khach-hang"
+updated: 2026-06-15
 ---
 
 # INSIGHT KHÁCH HÀNG — MOCO Kitchen
 
-> Áp dụng skill `09-insight-khach-hang`. Dựa trên dữ liệu đơn hàng thật (41 đơn) + nhóm đối tượng trong problem statement.
-> ⚠️ Phần Internal Monologue cần đối chiếu thêm comment/inbox thật của founder để tránh phỏng đoán.
+## 1. Cơ sở phân tích
 
----
+Phân tích được xây dựng từ dữ liệu 41 đơn hàng đã ghi nhận, đặc điểm của danh mục sản phẩm và các nhóm nhu cầu xuất hiện trong hồ sơ dự án. Các persona dưới đây là nhóm hành vi phục vụ thiết kế nội dung và trải nghiệm, không phải kết luận nhân khẩu học cho toàn bộ thị trường.
 
-## 1. Consumer vs Shopper
+## 2. Người sử dụng và người mua
 
-| | Consumer (người ăn) | Shopper (người mua) |
+| Khía cạnh | Người sử dụng sản phẩm | Người mua sản phẩm |
 |---|---|---|
-| Ai | Người tiểu đường/ăn kiêng/mẹ bầu/trẻ dị ứng | Có thể là chính họ HOẶC người thân (con mua cho mẹ tiểu đường, chồng mua cho vợ bầu) |
-| Quan tâm | "Ăn vào có hại sức khỏe không?" | "Có đáng tin không, có đúng healthy không?" |
-| Hệ quả content | Nhấn an toàn + minh bạch thành phần | Nhấn bằng chứng + review + disclaimer trung thực |
+| Vai trò | Trực tiếp ăn bánh và quan tâm đến hương vị, thành phần, khẩu phần | Có thể mua cho bản thân hoặc cho người thân có nhu cầu ăn kiêng, dị ứng hoặc kiểm soát đường |
+| Câu hỏi chính | “Sản phẩm này có phù hợp với nhu cầu của tôi không?” | “Thông tin có đáng tin và đủ rõ để tôi lựa chọn không?” |
+| Kỳ vọng | Bánh ngon, dễ ăn, thông tin dinh dưỡng không bị thổi phồng | Thành phần minh bạch, cảnh báo rõ và quy trình đặt hàng thuận tiện |
+| Hàm ý truyền thông | Giải thích sản phẩm bằng ngôn ngữ dễ hiểu | Cung cấp bằng chứng, hướng dẫn chọn bánh và disclaimer trung thực |
 
-→ Content cần nói được với **cả người ăn lẫn người mua hộ** (một số đơn thật là mua cho người thân).
+Nội dung của MOCO cần phục vụ đồng thời cả người ăn và người mua hộ, vì quyết định mua có thể liên quan trực tiếp đến sức khỏe của người thân.
 
----
+## 3. Ba nhóm nhu cầu chính
 
-## 2. Persona chính
+### Nhóm A — Người cần kiểm soát lượng đường hoặc carbohydrate
 
-### Persona A — "Chị Lan, 34, quản lý đường huyết"
-- **Demographics:** nữ, 30-45, Hà Nội, nhân viên văn phòng/mẹ bỉm, thu nhập khá.
-- **Psychographics:** sợ tăng đường huyết/cân nặng; khao khát vẫn được ăn ngọt; nghi ngờ quảng cáo "healthy" thổi phồng.
-- **Behaviors:** đặt qua Facebook/Zalo, đọc kỹ thành phần, hỏi trước khi mua.
-- **JTBD:** *"Khi thèm đồ ngọt mà đang kiểm soát đường huyết, tôi muốn một loại bánh ít đường minh bạch thành phần, để vẫn được thưởng thức mà bớt lo, và cảm thấy được tôn trọng (không bị lừa)."*
+- Muốn tiếp tục thưởng thức bánh nhưng thận trọng với đường và khẩu phần.
+- Có xu hướng đọc kỹ nguyên liệu, chất tạo ngọt và hỏi trước khi mua.
+- Nhạy cảm với các lời quảng cáo tuyệt đối như “an toàn cho mọi người tiểu đường”.
+- Công việc cần giải quyết: tìm một lựa chọn bánh có thông tin rõ để tự cân nhắc hoặc trao đổi thêm với chuyên gia y tế.
 
-### Persona B — "Mẹ bầu / mẹ có con dị ứng"
-- Cần biết rõ allergen (sữa bò, gluten, cồn). Rất nhạy cảm với cảnh báo nhiễm chéo.
-- JTBD: *"Khi muốn ăn/mua bánh an toàn cho thai kỳ hoặc cho con dị ứng, tôi muốn biết chính xác thành phần và cảnh báo, để yên tâm chọn đúng."*
+### Nhóm B — Người mua quan tâm đến dị ứng và thai kỳ
 
-### Persona C — "Người tập gym / eat-clean"
-- Quan tâm macro, ít đường, protein. Mua lặp lại nếu hợp khẩu vị + đúng macro.
+- Cần biết sản phẩm có sữa, trứng, hạt, gluten, cồn hoặc nguy cơ nhiễm chéo hay không.
+- Ưu tiên sự chính xác và nhất quán hơn các thông điệp quảng cáo cảm tính.
+- Công việc cần giải quyết: chọn đúng sản phẩm cho bản thân hoặc người thân mà không phải hỏi lại nhiều lần.
 
----
+### Nhóm C — Người theo lối sống eat-clean hoặc tập luyện
 
-## 3. Insight 4 giai đoạn
+- Quan tâm đến khẩu phần, lượng đường, nguyên liệu và khả năng duy trì chế độ ăn.
+- Có khả năng mua lại nếu sản phẩm vừa phù hợp mục tiêu vừa đảm bảo hương vị.
+- Công việc cần giải quyết: có món tráng miệng thuận tiện, dễ kiểm soát và không làm trải nghiệm ăn uống trở nên quá khắt khe.
 
-| Giai đoạn | Insight |
-|-----------|---------|
-| Awareness | Khách biết "bánh ngọt không tốt khi kiểm soát đường" nhưng nghĩ phải kiêng hoàn toàn → MOCO mở ra lựa chọn thứ 3 |
-| Consideration | Khách nghi ngờ chữ "healthy" bị lạm dụng → cần minh bạch thành phần + disclaimer trung thực để tạo tin |
-| Conversion | Khách sợ mua nhầm/dị ứng → tư vấn 1:1 qua Zalo + chatbot nhắc allergen → giảm rủi ro tâm lý |
-| Retention | Khách hài lòng nhưng dễ quên → cần nhắc nhẹ, content giá trị, không spam |
+## 4. Insight theo hành trình mua
 
----
+| Giai đoạn | Suy nghĩ chính của khách hàng | Nhu cầu thông tin | Vai trò của MOCO |
+|---|---|---|---|
+| Nhận biết | “Tôi muốn ăn bánh nhưng không muốn bỏ qua mục tiêu sức khỏe.” | Có lựa chọn nào khác bánh truyền thống? | Giới thiệu rõ hai dòng Keto và Healthy Baking |
+| Cân nhắc | “Từ ‘healthy’ có thực sự phản ánh thành phần sản phẩm không?” | Nguyên liệu, chất tạo ngọt, khẩu phần và chất gây dị ứng | Công khai knowledge base và FAQ dễ đọc |
+| Quyết định | “Tôi có đang chọn nhầm sản phẩm cho nhu cầu của mình không?” | Gợi ý sản phẩm và cảnh báo phù hợp | Chatbot và tư vấn 1:1 hỗ trợ lựa chọn, không tư vấn điều trị |
+| Sau mua | “Sản phẩm có đúng như mô tả và đáng để mua lại không?” | Bảo quản, cách dùng và kênh phản hồi | Chăm sóc sau mua, ghi nhận phản hồi và cải thiện nội dung |
 
-## 4. Insight chính (đã qua bộ 3 tiêu chí TRUE/TENSION/ACTIONABLE)
+## 5. Insight trung tâm
 
-> **"Khách có nhu cầu sức khỏe MUỐN ăn bánh ngon nhưng SỢ bị quảng cáo healthy lừa và sợ ăn vào hại sức khỏe."**
+> **Khách hàng vẫn muốn thưởng thức bánh ngon, nhưng họ chỉ yên tâm lựa chọn khi thương hiệu minh bạch thành phần, không phóng đại lợi ích sức khỏe và giúp họ hiểu rõ giới hạn của từng sản phẩm.**
 
-- **TRUE:** có cơ sở từ bối cảnh tiểu đường (deep research) + hành vi hỏi kỹ trước mua.
-- **TENSION:** mâu thuẫn giữa thèm ngọt và lo sức khỏe + nghi ngờ marketing.
-- **ACTIONABLE:** MOCO thắng bằng minh bạch thành phần + guardrails y tế + không hô hào → đúng điều đã làm trong System Prompt/chatbot.
+Insight này đáp ứng ba điều kiện:
 
----
+- **Có cơ sở:** phù hợp với hành vi đọc thành phần, hỏi về chất tạo ngọt và dị ứng trước khi mua.
+- **Có mâu thuẫn:** khách vừa muốn thưởng thức đồ ngọt, vừa lo lựa chọn không phù hợp với mục tiêu sức khỏe.
+- **Có thể hành động:** MOCO có thể giải quyết bằng knowledge base, FAQ, chatbot và quy trình tư vấn có trách nhiệm.
 
-## 5. Internal Monologue (cần founder bổ sung từ inbox thật)
+## 6. Những câu hỏi điển hình cần được giải đáp
 
-| Giai đoạn | Họ nói | Họ thực sự nghĩ |
-|-----------|--------|-----------------|
-| Consideration | "Bánh này ăn được cho người tiểu đường không?" | "Có đúng ít đường thật không hay chỉ nói cho có?" |
-| Conversion | "Để mình xem đã" | "Lỡ ăn vào tăng đường/dị ứng thì sao?" |
+| Câu hỏi của khách hàng | Nỗi lo phía sau | Nội dung MOCO cần cung cấp |
+|---|---|---|
+| “Bánh này dùng loại đường nào?” | Sợ thông tin “ít đường” không đủ cụ thể | Tên chất tạo ngọt, vai trò trong công thức và lưu ý khẩu phần |
+| “Sản phẩm có sữa, trứng hoặc hạt không?” | Lo dị ứng hoặc mua nhầm cho người thân | Bảng chất gây dị ứng theo từng sản phẩm và cảnh báo nhiễm chéo |
+| “Người tiểu đường hoặc mẹ bầu có dùng được không?” | Muốn một câu trả lời chắc chắn cho vấn đề sức khỏe | Thông tin sản phẩm thận trọng, disclaimer và khuyến nghị hỏi chuyên gia y tế |
+| “Bánh bảo quản được bao lâu và đặt như thế nào?” | Lo chất lượng sau giao hàng và quy trình mua phức tạp | Hướng dẫn bảo quản, thời gian nhận đơn và kênh đặt hàng rõ ràng |
 
-> [CẦN FOUNDER bổ sung 3-5 câu hỏi lặp lại nhiều nhất trong inbox/comment thật.]
+## 7. Hàm ý triển khai
 
----
+1. Đặt thông tin thành phần, chất gây dị ứng và bảo quản ở vị trí dễ tìm trên mọi kênh.
+2. Dùng chatbot để hỗ trợ lựa chọn sản phẩm, không đưa ra chẩn đoán hoặc bảo đảm y khoa.
+3. Xây nội dung giáo dục bằng ngôn ngữ đơn giản, có nguồn và tránh gây sợ hãi.
+4. Ghi nhận câu hỏi lặp lại và phản hồi sau mua để cập nhật knowledge base định kỳ.
 
-## 6. Ý nghĩa hành động
+## Tài liệu liên quan
 
-1. Mọi content/chatbot phải minh bạch thành phần + có disclaimer → đã triển khai.
-2. Nhấn mạnh "không hô hào, không hứa chữa bệnh" như điểm khác biệt tin cậy.
-3. Tư vấn 1:1 (Zalo) + chatbot để gỡ nỗi sợ trước khi chốt đơn.
-
-## Cross-reference
-- Đối thủ → `08-nghien-cuu-doi-thu` (`competitor_analysis_moco.md`)
-- Kế hoạch tổng → `00-ke-hoach-mkt` (`marketing_plan_moco.md`)
-
-## Related
-- [[problem_statement_RCGC]]
-- [[marketing_plan_moco]]
-- [[competitor_analysis_moco]]
+- [Mô tả bài toán](problem_statement_RCGC.md)
+- [Phân tích cạnh tranh](competitor_analysis_moco.md)
+- [Kế hoạch marketing](marketing_plan_moco.md)

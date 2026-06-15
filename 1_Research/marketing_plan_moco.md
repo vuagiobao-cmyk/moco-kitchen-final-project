@@ -1,22 +1,18 @@
 ---
 id: "20260530101500"
 aliases: ["MOCO Marketing Plan", "Kế hoạch Marketing MOCO Kitchen"]
-tags: ["#moco-kitchen", "#marketing-plan", "#skill-00", "#strategy"]
+tags: ["#moco-kitchen", "#marketing-plan", "#strategy"]
 created: 2026-05-30
-updated: 2026-05-30
-skill: "00-ke-hoach-mkt"
+updated: 2026-06-15
 ---
 
-# KẾ HOẠCH FULLSTACK MARKETING — MOCO Kitchen
+# KẾ HOẠCH MARKETING TÍCH HỢP — MOCO Kitchen
 
-> Áp dụng skill `00-ke-hoach-mkt` (master) — neo dự án MOCO vào khung marketing chuẩn.
-> Skill chain: `08-nghien-cuu-doi-thu` → `09-insight-khach-hang` → `10-tinh-kpi-nguoc` → `01-lich-noi-dung`.
->
-> ⚠️ Một số ô ngân sách/KPI để `[CẦN SẾP CHỐT]` vì dự án cuối khóa chạy organic $0; nếu mở rộng kinh doanh thật mới cần điền số ads.
+Kế hoạch được xây dựng cho giai đoạn sáu tuần của dự án cuối khóa, ưu tiên tăng hiệu quả từ các kênh sẵn có và không sử dụng ngân sách quảng cáo. Các chỉ tiêu mở rộng chỉ được thiết lập khi thương hiệu có mục tiêu doanh thu, ngân sách và dữ liệu chuyển đổi đủ tin cậy.
 
 ---
 
-## Thu thập thông tin (4 câu input skill 00)
+## Thông tin nền
 
 1. **Sản phẩm:** Bánh Healthy online MOCO — 7 SP (Keto + Healthy Baking), giá 40k–180k, USP: không đường tinh luyện, không phẩm màu, không chất bảo quản, thủ công số lượng nhỏ.
 2. **Khách mục tiêu:** Người tiểu đường/tiền tiểu đường, ăn kiêng/eat-clean, mẹ bầu, người tập gym/fitness, gia đình có trẻ dị ứng đạm sữa bò — tại Hà Nội.
@@ -44,13 +40,11 @@ Xem chi tiết tại `competitor_analysis_moco.md` mục 4. Tóm tắt:
 - **O:** khoảng trống content giáo dục + minh bạch allergen + tư vấn 24/7.
 - **T:** đối thủ có thể mạnh hơn về tệp khách; thuật toán FB.
 
-### 1.3 Competitive Moat
-> Nguồn: skill `08-nghien-cuu-doi-thu` → `competitor_analysis_moco.md`.
+### 1.3 Lợi thế cạnh tranh có thể xây dựng
 
 Moat MOCO đang xây: **Content depth** (nội dung dinh dưỡng có nguồn) + **Data advantage** (biết cost/lãi từng bánh) + **Brand trust** (minh bạch thành phần, không claim chữa bệnh).
 
-### 1.4 Customer Insight
-> Nguồn: skill `09-insight-khach-hang` → `customer_insight_moco.md`.
+### 1.4 Insight khách hàng
 
 Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưng SỢ ăn vào hại sức khỏe và sợ bị quảng cáo lừa."* → MOCO thắng bằng minh bạch + tư vấn có trách nhiệm, không hô hào.
 
@@ -85,7 +79,8 @@ Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưn
 ---
 
 ## Phần 3 — Kế hoạch nội dung
-> Chi tiết: skill `01-lich-noi-dung`. Hiện đã có `moco_content_calendar_sample.md` (2 tuần mẫu) + `moco_sample_posts_gem.md` (5 bài mẫu).
+
+Kế hoạch được cụ thể hóa bằng lịch nội dung mẫu hai tuần và năm bài viết mẫu trong thư mục `3_Content_Engine`.
 
 ### Content Pillar
 | Pillar | Tỉ lệ | Ví dụ MOCO |
@@ -107,7 +102,7 @@ Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưn
 | Facebook organic | TOFU+MOFU | 0 (organic) | Reach, mess |
 | Instagram organic | TOFU | 0 | Reach, follow |
 | Zalo | BOFU | 0 | Chốt đơn |
-| (Mở rộng) Meta Ads | BOFU | [CẦN SẾP CHỐT nếu chạy thật] | CPMess, ROAS |
+| Meta Ads trong giai đoạn mở rộng | BOFU | Chỉ xác lập sau khi có mục tiêu doanh thu và dữ liệu chuyển đổi | Chi phí/tin nhắn, ROAS |
 
 ---
 
@@ -122,8 +117,9 @@ Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưn
 | Thời gian viết 1 bài content | 2-3h → ~20 phút |
 | Food cost tính tự động | VD Tiramisu 46,6% |
 
-### KPI mở rộng (nếu kinh doanh thật)
-> Dùng skill `10-tinh-kpi-nguoc` để tính ngược ngân sách từ doanh thu mục tiêu. [CẦN SẾP CHỐT doanh thu mục tiêu/tháng]
+### Nguyên tắc thiết lập KPI mở rộng
+
+Khi chuyển từ case study sang vận hành thương mại, KPI cần được tính ngược từ mục tiêu doanh thu tháng, giá trị đơn hàng trung bình, tỷ lệ chốt đơn và biên lợi nhuận. Báo cáo hiện tại không tự đặt ngân sách hoặc mục tiêu doanh thu khi chưa có quyết định kinh doanh chính thức.
 
 ---
 
@@ -143,7 +139,7 @@ Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưn
 
 | Tuần | Hạng mục marketing | Trạng thái |
 |------|--------------------|-----------|
-| 1 | Research thị trường + đối thủ + định vị | ✅ (đang bổ sung đối thủ) |
+| 1 | Research thị trường + đối thủ + định vị | ✅ |
 | 2 | Knowledge base + brand voice (System Prompt) | ✅ |
 | 3 | Content engine + visual + lịch nội dung | ✅ |
 | 4 | Automation vận hành (cost/đơn/thu chi) | ✅ |
@@ -152,21 +148,11 @@ Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưn
 
 ---
 
-## Skill Chaining đã áp dụng
+## Hệ thống tài liệu triển khai
 
-```
-00-ke-hoach-mkt (file này)
-  ├── 08-nghien-cuu-doi-thu  → competitor_analysis_moco.md
-  ├── 09-insight-khach-hang  → customer_insight_moco.md
-  ├── 10-tinh-kpi-nguoc      → (mở rộng khi kinh doanh thật)
-  ├── 01-lich-noi-dung       → moco_content_calendar_sample.md
-  ├── 05-copy-quang-cao      → moco_sample_posts_gem.md
-  ├── 12-brief-landing-page  → 5_Landing_Page_Chatbot/00_Spec/
-  └── 17-pricing-strategy    → 4_App_Automation/MOCO_COST_AUTO.gs (food cost)
-```
-
-## Related
-- [[problem_statement_RCGC]]
-- [[deep_research_banh_healthy_vn]]
-- [[competitor_analysis_moco]]
-- [[customer_insight_moco]]
+- [Mô tả bài toán](problem_statement_RCGC.md)
+- [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
+- [Phân tích cạnh tranh](competitor_analysis_moco.md)
+- [Insight khách hàng](customer_insight_moco.md)
+- [Lịch nội dung mẫu](../3_Content_Engine/moco_content_calendar_sample.md)
+- [Bài viết mẫu](../3_Content_Engine/moco_sample_posts_gem.md)
