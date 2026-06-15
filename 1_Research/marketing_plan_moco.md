@@ -1,14 +1,14 @@
 ---
 id: "20260530101500"
-aliases: ["Kế hoạch truyền thông MOCO Kitchen"]
+aliases: ["MOCO Marketing Plan", "Kế hoạch Marketing MOCO Kitchen"]
 tags: ["#moco-kitchen", "#marketing"]
 created: 2026-05-30
 updated: 2026-06-15
 ---
 
-# Kế hoạch truyền thông tích hợp cho MOCO Kitchen
+# Kế hoạch Marketing tích hợp — MOCO Kitchen
 
-Kế hoạch được xây dựng cho sáu tuần của dự án cuối khóa. Trọng tâm là tận dụng các kênh sẵn có, giảm thời gian làm nội dung và xây dựng niềm tin bằng thông tin rõ ràng. Dự án không đặt mục tiêu quảng cáo trả phí khi chưa có ngân sách và dữ liệu chuyển đổi đủ tin cậy.
+Kế hoạch được xây dựng cho sáu tuần của dự án cuối khóa. Trọng tâm là tận dụng các kênh sẵn có, giảm thời gian làm content và xây dựng niềm tin thương hiệu bằng thông tin rõ ràng. Dự án không đặt mục tiêu chạy ads khi chưa có ngân sách và dữ liệu chuyển đổi đủ tin cậy.
 
 ## 1. Thông tin nền
 
@@ -16,7 +16,7 @@ Kế hoạch được xây dựng cho sáu tuần của dự án cuối khóa. T
 - **Mức giá tham khảo:** 40.000–180.000 đồng.
 - **Khu vực phục vụ:** Hà Nội.
 - **Kênh hiện có:** Facebook, Instagram và Zalo.
-- **Quy mô:** nhóm vận hành nhỏ, đã có dữ liệu đơn hàng thực tế.
+- **Quy mô:** hai founder vận hành, đã có dữ liệu đơn hàng thực tế.
 
 ## 2. Khách hàng trọng tâm
 
@@ -33,14 +33,14 @@ MOCO không định vị sản phẩm như phương pháp điều trị. Lợi t
 | Điểm thuận lợi | Hạn chế |
 |---|---|
 | Có công thức, dữ liệu sản phẩm và đơn hàng thật | Thương hiệu còn mới, tệp khách chưa lớn |
-| Có công cụ hỗ trợ viết bài và theo dõi vận hành | Nguồn lực sản xuất nội dung còn ít |
+| Có Content Generator và dashboard vận hành | Nguồn lực sản xuất content còn ít |
 | Có thể công khai thành phần và cách bảo quản | Một số thông tin dinh dưỡng mới là ước tính |
 
 | Cơ hội | Rủi ro |
 |---|---|
 | Khách ngày càng quan tâm thành phần và nguồn gốc | Tuyên bố sức khỏe thiếu căn cứ có thể làm mất uy tín |
-| Nội dung giáo dục giúp thương hiệu khác biệt | Bếp dùng chung có nguy cơ nhiễm chéo chất gây dị ứng |
-| Trợ lý AI có thể giảm việc lặp lại | Nội dung do AI tạo có thể sai nếu không được duyệt |
+| Content giáo dục giúp thương hiệu khác biệt | Bếp dùng chung có nguy cơ nhiễm chéo allergen |
+| AI có thể giảm việc lặp lại | Content do AI tạo có thể sai nếu không được duyệt |
 
 ## 4. Vai trò của từng kênh
 
@@ -49,12 +49,12 @@ MOCO không định vị sản phẩm như phương pháp điều trị. Lợi t
 | Facebook | Giới thiệu thương hiệu, chia sẻ kiến thức và nhận câu hỏi | Cao |
 | Instagram | Trưng bày hình ảnh sản phẩm và hậu trường | Trung bình |
 | Zalo | Tư vấn trực tiếp và xác nhận đơn hàng | Cao |
-| Trang giới thiệu | Tổng hợp menu, câu chuyện thương hiệu và kênh liên hệ | Trung bình |
-| Trợ lý hỏi đáp | Trả lời câu hỏi phổ biến, không thay thế tư vấn y tế | Trung bình |
+| Landing page | Tổng hợp menu, brand story và kênh liên hệ | Trung bình |
+| Chatbot | Trả lời FAQ, không thay thế tư vấn y tế | Trung bình |
 
-## 5. Kế hoạch nội dung
+## 5. Content Plan
 
-| Nhóm nội dung | Tỉ lệ gợi ý | Ví dụ |
+| Content pillar | Tỉ lệ gợi ý | Ví dụ |
 |---|---:|---|
 | Kiến thức và hướng dẫn | 35% | Thành phần, khẩu phần, bảo quản, cách đọc thông tin sản phẩm |
 | Câu chuyện và hậu trường | 25% | Chọn nguyên liệu, thử công thức, làm bánh theo mẻ nhỏ |
@@ -62,9 +62,9 @@ MOCO không định vị sản phẩm như phương pháp điều trị. Lợi t
 | Hỏi đáp cộng đồng | 10% | Trả lời câu hỏi thường gặp |
 | Phản hồi khách hàng | 10% | Nhận xét thật đã được cho phép sử dụng |
 
-Lịch minh họa nằm tại [lịch nội dung hai tuần](../3_Content_Engine/moco_content_calendar_sample.md). Các bài mẫu nằm tại [năm bài viết mẫu](../3_Content_Engine/moco_sample_posts_gem.md).
+Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/moco_content_calendar_sample.md). Các bài mẫu nằm tại [Sample Posts](../3_Content_Engine/moco_sample_posts_gem.md).
 
-## 6. Kết quả cần theo dõi
+## 6. KPI cần theo dõi
 
 ### Trong phạm vi dự án
 
@@ -79,7 +79,7 @@ Lịch minh họa nằm tại [lịch nội dung hai tuần](../3_Content_Engine
 - Lượt tiếp cận và tương tác có chất lượng.
 - Số cuộc trò chuyện dẫn đến đơn hàng.
 - Giá trị đơn hàng trung bình.
-- Chi phí nguyên liệu và lợi nhuận theo sản phẩm.
+- Food cost và lợi nhuận theo sản phẩm.
 - Tỷ lệ khách quay lại.
 
 ## 7. Rủi ro và cách xử lý
@@ -88,9 +88,9 @@ Lịch minh họa nằm tại [lịch nội dung hai tuần](../3_Content_Engine
 |---|---|
 | Nội dung đưa ra lời hứa sức khỏe quá mức | Dùng ngôn ngữ thận trọng, kiểm tra nguồn và khuyên khách hỏi chuyên gia khi cần |
 | Thiếu cảnh báo dị ứng | Nêu rõ sữa, trứng, hạt, gluten, đồ uống có cồn và nguy cơ nhiễm chéo |
-| AI tạo thông tin sai | Người vận hành đối chiếu tài liệu sản phẩm trước khi đăng |
-| Hình ảnh không đúng sản phẩm | Ưu tiên ảnh thật và kiểm tra hình minh họa trước khi sử dụng |
-| Nhóm vận hành quá tải | Dùng bảng tính để giảm thao tác lặp lại, nhưng vẫn giữ bước duyệt của con người |
+| AI tạo thông tin sai | Founder đối chiếu product knowledge trước khi đăng |
+| Visual không đúng sản phẩm | Ưu tiên ảnh thật và kiểm tra hình minh họa trước khi sử dụng |
+| Founder quá tải | Dùng automation để giảm thao tác lặp lại, nhưng vẫn giữ bước duyệt của con người |
 
 ## 8. Tiến độ sáu tuần
 
@@ -98,14 +98,14 @@ Lịch minh họa nằm tại [lịch nội dung hai tuần](../3_Content_Engine
 |---|---|
 | 1 | Xác định bài toán, nghiên cứu thị trường và đối thủ |
 | 2 | Chuẩn hóa dữ liệu sản phẩm và câu hỏi thường gặp |
-| 3 | Xây dựng lịch nội dung, bài mẫu và hình ảnh minh họa |
-| 4 | Làm các công cụ hỗ trợ nội dung và vận hành trên Google Sheets |
-| 5 | Hoàn thiện trang giới thiệu và trợ lý hỏi đáp |
-| 6 | Đưa bản trình diễn lên mạng, kiểm tra và chuẩn bị thuyết trình |
+| 3 | Xây dựng Content Calendar, Sample Posts và Visual Concepts |
+| 4 | Xây dựng Core Features & Automation trên Google Sheets |
+| 5 | Hoàn thiện Landing Page & Chatbot |
+| 6 | Deployment, testing và presentation |
 
 ## Tài liệu liên quan
 
 - [Mô tả bài toán](problem_statement_RCGC.md)
 - [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
-- [Phân tích cạnh tranh](competitor_analysis_moco.md)
-- [Phác họa khách hàng](customer_insight_moco.md)
+- [Competitor analysis](competitor_analysis_moco.md)
+- [Customer insight](customer_insight_moco.md)

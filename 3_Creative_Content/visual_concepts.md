@@ -1,16 +1,16 @@
 ---
 id: "20260522154000"
-aliases: ["Ý tưởng hình ảnh MOCO"]
+aliases: ["MOCO Visual Concepts", "Ý tưởng hình ảnh MOCO"]
 tags: ["#moco", "#hinh-anh"]
 created: 2026-05-22
 updated: 2026-06-15
 ---
 
-# Ý tưởng hình ảnh cho MOCO Kitchen
+# Visual Concepts — MOCO Kitchen
 
-Tài liệu này ghi lại quá trình thử nghiệm hình ảnh bằng công cụ tạo ảnh của Google. Bản giao diện hiện tại sử dụng ảnh sản phẩm thật kết hợp một số hình minh họa, với tông xanh lá nhạt, kem và nâu ấm.
+Tài liệu này ghi lại quá trình thử nghiệm visual bằng công cụ tạo ảnh của Google. Landing page hiện tại sử dụng ảnh sản phẩm thật kết hợp một số hình minh họa, với tông xanh lá nhạt, kem và nâu ấm.
 
-## Định hướng hình ảnh hiện tại
+## Visual Direction hiện tại
 
 | Thành phần | Cách thể hiện |
 |---|---|
@@ -20,18 +20,18 @@ Tài liệu này ghi lại quá trình thử nghiệm hình ảnh bằng công c
 | Bố cục | Sạch, ít đạo cụ, tập trung vào sản phẩm |
 | Chữ và logo | Thêm sau khi tạo ảnh để tránh sai chính tả hoặc sai nhận diện |
 
-## Danh mục hình ảnh trên trang giới thiệu
+## Asset List trên Landing Page
 
 | Nhóm | Nội dung |
 |---|---|
-| Ảnh mở đầu | Lemon Cheesecake và các chi tiết trang trí |
-| Ảnh sản phẩm | 7 món bánh trong danh mục MOCO |
-| Ảnh câu chuyện | Không gian làm bánh và nguyên liệu |
-| Ảnh chia sẻ | Hình đại diện khi gửi liên kết qua mạng xã hội |
+| Hero visual | Lemon Cheesecake và các chi tiết trang trí |
+| Product shots | 7 món bánh trong danh mục MOCO |
+| Brand story | Không gian làm bánh và nguyên liệu |
+| Social cover | Hình đại diện khi gửi liên kết qua mạng xã hội |
 
 Các tệp đang sử dụng được lưu trong thư mục [`5_Landing_Page_Chatbot/assets`](../5_Landing_Page_Chatbot/assets/). Danh sách đầy đủ nằm tại [`_Assets/asset_manifest.md`](../_Assets/asset_manifest.md).
 
-## Nguyên tắc sử dụng ảnh do AI hỗ trợ
+## Nguyên tắc sử dụng AI Visual
 
 1. So sánh hình ảnh với sản phẩm thật trước khi công bố.
 2. Không để công cụ tự vẽ lại logo, nhãn hoặc thông tin quan trọng.

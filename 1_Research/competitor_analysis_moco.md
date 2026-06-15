@@ -6,7 +6,7 @@ created: 2026-05-30
 updated: 2026-06-15
 ---
 
-# PHÂN TÍCH BỐI CẢNH CẠNH TRANH — MOCO Kitchen
+# COMPETITOR ANALYSIS — MOCO Kitchen
 
 ## 1. Mục tiêu và phạm vi
 
@@ -37,9 +37,9 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 |---|---|---|
 | **Minh bạch sản phẩm** | Khách khó phân biệt giữa tuyên bố marketing và thông tin có căn cứ | Công khai nguyên liệu chính, chất tạo ngọt, chất gây dị ứng, bảo quản và giới hạn của thông tin dinh dưỡng |
 | **Tư vấn phù hợp nhu cầu** | Người mua có thể hỏi về tiểu đường, thai kỳ, dị ứng hoặc chế độ tập luyện | Trợ lý chỉ cung cấp thông tin lựa chọn sản phẩm, luôn có lưu ý rõ ràng và không đưa lời khuyên điều trị |
-| **Trải nghiệm thương hiệu** | Tiệm nhỏ dễ thiếu đồng nhất giữa bài đăng, hình ảnh và tư vấn | Dùng quy tắc giọng văn, lịch nội dung và mẫu bài thống nhất |
+| **Brand experience** | Tiệm nhỏ dễ thiếu đồng nhất giữa content, visual và tư vấn | Dùng brand voice, content calendar và sample posts thống nhất |
 | **Khả năng tiếp cận** | Phụ thuộc hoàn toàn vào inbox mạng xã hội làm chậm phản hồi | Kết hợp Facebook, Instagram, Zalo với landing page và chatbot |
-| **Hiệu quả vận hành** | Dữ liệu đơn hàng, chi phí và nội dung bị phân tán | Chuẩn hóa trên Google Sheets và Apps Script để giảm thao tác thủ công |
+| **Operations efficiency** | Dữ liệu order, cost và content bị phân tán | Chuẩn hóa trên Google Sheets và Apps Script để giảm thao tác thủ công |
 
 ## 5. SWOT của MOCO Kitchen
 
@@ -53,7 +53,7 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 ### Điểm yếu
 
 1. Quy mô thương hiệu và độ phủ kênh còn hạn chế.
-2. Năng lực sản xuất và phản hồi khách hàng vẫn phụ thuộc nhiều vào hai người vận hành.
+2. Năng lực sản xuất và phản hồi khách hàng vẫn phụ thuộc nhiều vào hai founder.
 3. Chưa có kiểm nghiệm dinh dưỡng trong phòng thí nghiệm cho từng sản phẩm.
 4. Dữ liệu hành vi khách hàng chưa đủ lớn để phân khúc sâu.
 
@@ -62,7 +62,7 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 1. Nhu cầu đối với sản phẩm ít đường, clean label và minh bạch thành phần đang tăng.
 2. Nội dung giáo dục có nguồn giúp thương hiệu xây dựng niềm tin thay vì cạnh tranh bằng giảm giá.
 3. Landing page và chatbot tạo một kênh thông tin do thương hiệu chủ động kiểm soát.
-4. Tự động hóa giúp tiệm nhỏ duy trì chất lượng phục vụ mà chưa cần mở rộng nhân sự sớm.
+4. Automation giúp tiệm nhỏ duy trì chất lượng phục vụ mà chưa cần mở rộng nhân sự sớm.
 
 ### Thách thức
 
@@ -92,7 +92,7 @@ Hai trục định vị được sử dụng là **mức độ minh bạch thôn
 |---|---|
 | Tạo niềm tin | Nêu rõ thành phần, khẩu phần, chất gây dị ứng và giới hạn của thông tin dinh dưỡng |
 | Giúp khách lựa chọn | So sánh các dòng sản phẩm theo nhu cầu, không gắn nhãn y khoa cho khách hàng |
-| Chứng minh tính thủ công | Chia sẻ quy trình làm bánh, nguyên liệu và câu chuyện vận hành thật |
+| Chứng minh tính thủ công | Chia sẻ behind-the-scenes, nguyên liệu và founder story thật |
 | Chuyển đổi | CTA rõ ràng tới Zalo, Instagram hoặc trang đặt hàng; không dùng tuyên bố gây sợ hãi |
 | Duy trì khác biệt | Giữ giọng điệu chân thành, tránh sao chép hình ảnh, câu chữ hoặc chương trình của đối thủ |
 

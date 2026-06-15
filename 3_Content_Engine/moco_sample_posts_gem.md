@@ -1,14 +1,14 @@
 ---
 id: 20260513225500
-aliases: ["Bài viết mẫu MOCO Kitchen"]
+aliases: ["MOCO Sample Posts", "Bài viết mẫu MOCO Kitchen"]
 tags: ["#moco-kitchen", "#bai-viet-mau"]
 created: 2026-05-13
 updated: 2026-06-15
 ---
 
-# Năm bài viết mẫu cho MOCO Kitchen
+# MOCO Kitchen — Sample Posts
 
-Các bài dưới đây là nội dung minh họa được tạo với sự hỗ trợ của Gemini. Chúng không phải phản hồi thật của khách hàng và cần được kiểm tra lại giá, khẩu phần, nguyên liệu và thời gian bảo quản trước khi đăng.
+Các sample post dưới đây được tạo với sự hỗ trợ của Gemini. Chúng không phải customer review thật và cần được founder kiểm tra lại giá, khẩu phần, nguyên liệu và thời gian bảo quản trước khi đăng.
 
 ## 1. Keto Tiramisu
 
@@ -42,12 +42,12 @@ Bánh Mì Cuộn Quế được làm với phần bột mềm, nhân quế và l
 
 MOCO ưu tiên mô tả đúng thành phần thay vì gọi sản phẩm là “không đường” hoặc “ăn không lo”. Khách có yêu cầu đặc biệt về dinh dưỡng hoặc dị ứng nên kiểm tra kỹ trước khi đặt.
 
-## Kiểm tra trước khi sử dụng
+## Checklist trước khi sử dụng
 
-- Không biến nội dung minh họa thành câu chuyện khách hàng có thật.
+- Không biến sample content thành câu chuyện khách hàng có thật.
 - Không thêm lời hứa chữa bệnh hoặc bảo đảm sức khỏe.
-- Kiểm tra chất gây dị ứng của từng sản phẩm.
-- Dùng ảnh đúng món bánh và đúng nhận diện MOCO.
+- Kiểm tra allergen của từng sản phẩm.
+- Dùng visual đúng món bánh và đúng nhận diện MOCO.
 - Chỉ đăng giá, khẩu phần và hạn dùng đã được xác nhận.
 
 Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.
