@@ -5,6 +5,25 @@
 - **Website:** [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app)
 - **Mã nguồn:** [github.com/vuagiobao-cmyk/moco-kitchen-final-project](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project)
 - **Weekly Reports:** [Xem mục lục](../_Deliverables/Weekly_Reports/README.md)
+- **Final Handoff:** [Trạng thái nộp bài 2026-06-15](../_Deliverables/HANDOFF_FINAL_SUBMISSION_2026-06-15.md)
+
+## Deployment Verification
+
+Giao diện mới nằm trong thư mục `5_Landing_Page_Chatbot/`. Khi kiểm tra đúng bản, trang sẽ có các dấu hiệu sau:
+
+- Hero nền xanh lá, logo chữ `moco` ở giữa thanh điều hướng.
+- Menu trái ghi `MENU`, nút phải ghi `ĐẶT BÁNH`.
+- Vòng chữ ở giữa hero với thông điệp `Heart-Healthy, Soul-Tasty`.
+- Dòng bên trái `ĐANG NHẬN ĐƠN · 9–17H` và bên phải `HÀ NỘI · VIỆT NAM`.
+- Phần menu bên dưới có headline `Bánh Của Chúng Mình`.
+
+Nếu mở link mà vẫn thấy giao diện cũ:
+
+1. Xác nhận đang mở đúng domain `https://moco-kitchen-ai-hub.vercel.app`.
+2. Hard refresh hoặc mở `https://moco-kitchen-ai-hub.vercel.app/?v=20260615`.
+3. Kiểm tra Vercel Production deployment có lấy commit mới nhất từ GitHub `main` hay không.
+4. Kiểm tra Vercel project có deploy đúng thư mục `5_Landing_Page_Chatbot/` hay không, vì file `vercel.json` nằm trong thư mục này.
+5. Nếu cần, redeploy Production từ Vercel sau khi chọn đúng commit.
 
 ## Demo Flow
 
