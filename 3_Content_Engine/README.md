@@ -1,13 +1,13 @@
-# Tuần 2: Knowledge Base & Content Engine
+# Tuần 2: Chuẩn hóa dữ liệu sản phẩm
 
-Chào Mentor! Tại thư mục này, dự án MOCO Kitchen tập trung vào việc xây dựng "Bộ Não" cho AI (Knowledge Base) và chuẩn bị dữ liệu đầu vào.
+Thư mục này tập hợp các tài liệu giúp Gemini và NotebookLM trả lời nhất quán về MOCO Kitchen. AI chỉ hỗ trợ tìm kiếm và soạn bản nháp; người vận hành vẫn phải kiểm tra trước khi dùng công khai.
 
-## Các tài liệu chính để Mentor xem:
+## Tài liệu chính
 
-1. **[Quy tắc hành xử của AI (System Prompt)](gem_system_prompt_moco.md)**: Chứa các thiết lập cốt lõi để AI đóng vai trò như một chuyên gia dinh dưỡng và bán hàng cho MOCO Kitchen.
-2. **[Menu 7 Sản phẩm Thực tế](moco_menu_products.md)**: Dữ liệu thực tế về 7 món bánh healthy, bao gồm calo, thành phần, công dụng.
-3. **[FAQ & Giải đáp Dinh dưỡng](moco_faq_nutrition.md)**: Bộ câu hỏi thường gặp được nạp vào AI để xử lý thắc mắc của khách hàng.
-4. **[Lịch nội dung mẫu (Content Calendar)](moco_content_calendar_sample.md)**: Lên lịch 2 tuần mẫu để AI tạo bài viết tự động.
-5. **[Các bài đăng Mẫu (Sample Posts)](moco_sample_posts_gem.md)**: Các bài viết đã được AI gen thử dựa trên System Prompt.
+1. [Bộ hướng dẫn cho trợ lý viết bài](gem_system_prompt_moco.md)
+2. [Danh mục 7 sản phẩm](moco_menu_products.md)
+3. [Câu hỏi thường gặp về sản phẩm và dinh dưỡng](moco_faq_nutrition.md)
+4. [Lịch nội dung mẫu hai tuần](moco_content_calendar_sample.md)
+5. [Năm bài viết minh họa](moco_sample_posts_gem.md)
 
-*(Vui lòng click vào các link trên để đọc trực tiếp nội dung)*
+Thông tin sức khỏe trong các tài liệu chỉ mang tính tham khảo. Khách có bệnh nền, đang mang thai hoặc có dị ứng cần trao đổi với bác sĩ hoặc chuyên gia dinh dưỡng.

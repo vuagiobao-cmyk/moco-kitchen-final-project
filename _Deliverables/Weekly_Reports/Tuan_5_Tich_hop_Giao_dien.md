@@ -1,42 +1,42 @@
-# Tuần 5 — Tích hợp & Giao diện
+# Tuần 5 — Hoàn thiện website và trợ lý hỏi đáp
 
 **Thời gian:** 21/04 – 07/05/2026
-**Tóm tắt:** Ghép các phần đã làm riêng lẻ thành một sản phẩm hoàn chỉnh chạy thông suốt từ đầu đến cuối, đồng thời hoàn thiện giao diện landing page theo nhận diện thương hiệu.
-
----
+**Tóm tắt:** Ghép các phần đã xây dựng thành một trải nghiệm hoàn chỉnh cho khách hàng và đội vận hành.
 
 ## Mục tiêu
 
-- Tích hợp tất cả các phần đã xây dựng riêng (landing page, chatbot, knowledge base, automation) thành một sản phẩm hoàn chỉnh, sử dụng được trong thực tế.
-- Hoàn thiện giao diện landing page theo đúng nhận diện thương hiệu — phiên bản Monte v3 với tông xanh matcha.
-- Tích hợp chatbot vào landing page.
+- Hoàn thiện trang giới thiệu MOCO Kitchen theo nhận diện thương hiệu.
+- Tích hợp trợ lý hỏi đáp về sản phẩm vào website.
+- Kết nối các công cụ quản lý để đội vận hành sử dụng tập trung.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- Landing page được chuyển sang phong cách editorial tươi, gọn, tông xanh matcha (#355C3B), phù hợp với định hướng "healthy" của thương hiệu và tạo cảm giác sạch sẽ, dễ chịu.
-- Chatbot được tích hợp theo cách không để lộ API key (khóa kết nối tới Gemini) ra phía người dùng, thông qua một lớp trung gian. Cách làm này bảo đảm an toàn, tránh bị lạm dụng key.
-- Các module quản lý của tiệm (giá vốn, nhập hàng, thu chi, dashboard) được gom về chung một file Google Sheet để vận hành tập trung, thuận tiện cho founder. Đây là phần làm thêm theo nhu cầu thực tế của tiệm (bonus), ngoài yêu cầu của khóa học vốn chỉ tập trung vào marketing.
+- Giao diện sử dụng tông xanh matcha, bố cục thoáng và hình ảnh sản phẩm nổi bật.
+- Khóa truy cập dịch vụ Gemini được đặt ở phía máy chủ, không xuất hiện trong mã gửi tới trình duyệt của người dùng.
+- Trợ lý có thể ghi nhớ nội dung trong một cuộc trò chuyện để trả lời liền mạch hơn.
+- Các bảng giá vốn, nhập hàng, thu chi và tổng hợp số liệu được gom vào cùng một tệp Google Sheets.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Hoàn thiện landing page với đầy đủ các phần: cuộn mượt, hiệu ứng hiển thị, phần FAQ, hiển thị tốt trên cả điện thoại và máy tính.
-- Tích hợp chatbot có khả năng ghi nhớ ngữ cảnh trong suốt cuộc trò chuyện (multi-turn), giúp tư vấn liền mạch hơn.
-- Hợp nhất bộ công cụ vận hành; chuẩn hóa lại module nhập hàng và dashboard giá vốn.
+- Hoàn thiện website hiển thị tốt trên máy tính và điện thoại.
+- Tích hợp phần hỏi đáp, câu hỏi thường gặp và các nút đặt hàng.
+- Kết nối trợ lý hỏi đáp với dữ liệu sản phẩm đã chuẩn hóa.
+- Hợp nhất các công cụ quản lý nội bộ vào một hệ thống dễ sử dụng.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Landing page (xem trực tiếp) | https://moco-kitchen-ai-hub.vercel.app |
-| Mã nguồn landing page và chatbot | [5_Landing_Page_Chatbot/](../../5_Landing_Page_Chatbot/) |
-| Tình trạng dự án | [CONTEXT.md](../../CONTEXT.md) |
+|---|---|
+| Website MOCO Kitchen | [Xem trực tiếp](https://moco-kitchen-ai-hub.vercel.app) |
+| Mã nguồn website và trợ lý hỏi đáp | [Xem thư mục](../../5_Landing_Page_Chatbot/) |
+| Tổng quan dự án | [Xem README](../../README.md) |
 
 ## Kết quả
 
-- Sản phẩm chạy thông suốt theo đúng hành trình người dùng: khách xem landing page, đặt câu hỏi với chatbot và nhận tư vấn đúng sản phẩm.
-- Bộ công cụ vận hành nội bộ hoạt động trong thực tế trên Google Sheet của tiệm.
-- Số liệu giai đoạn: hơn 10 file mới và hàng nghìn dòng code; landing page, chatbot và bộ công cụ vận hành đã được tích hợp hoàn chỉnh.
+- Khách hàng có thể xem sản phẩm, đọc thông tin cần thiết và đặt câu hỏi trên cùng một website.
+- Trợ lý trả lời dựa trên dữ liệu sản phẩm của MOCO và có cảnh báo phù hợp với câu hỏi sức khỏe.
+- Đội vận hành quản lý đơn hàng, giá vốn và thu chi tập trung hơn trước.
 
 ---
 
-**Điều hướng:** [← Tuần 4](Tuan_4_Core_Features.md) · [Mục lục các tuần](README.md) · [Tuần 6 →](Tuan_6_Deployment_Trinh_bay.md)
+**Điều hướng:** [← Tuần 4](Tuan_4_Core_Features.md) · [Mục lục](README.md) · [Tuần 6 →](Tuan_6_Deployment_Trinh_bay.md)

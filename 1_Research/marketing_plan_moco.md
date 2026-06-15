@@ -1,158 +1,111 @@
 ---
 id: "20260530101500"
-aliases: ["MOCO Marketing Plan", "Kế hoạch Marketing MOCO Kitchen"]
-tags: ["#moco-kitchen", "#marketing-plan", "#strategy"]
+aliases: ["Kế hoạch truyền thông MOCO Kitchen"]
+tags: ["#moco-kitchen", "#marketing"]
 created: 2026-05-30
 updated: 2026-06-15
 ---
 
-# KẾ HOẠCH MARKETING TÍCH HỢP — MOCO Kitchen
+# Kế hoạch truyền thông tích hợp cho MOCO Kitchen
 
-Kế hoạch được xây dựng cho giai đoạn sáu tuần của dự án cuối khóa, ưu tiên tăng hiệu quả từ các kênh sẵn có và không sử dụng ngân sách quảng cáo. Các chỉ tiêu mở rộng chỉ được thiết lập khi thương hiệu có mục tiêu doanh thu, ngân sách và dữ liệu chuyển đổi đủ tin cậy.
+Kế hoạch được xây dựng cho sáu tuần của dự án cuối khóa. Trọng tâm là tận dụng các kênh sẵn có, giảm thời gian làm nội dung và xây dựng niềm tin bằng thông tin rõ ràng. Dự án không đặt mục tiêu quảng cáo trả phí khi chưa có ngân sách và dữ liệu chuyển đổi đủ tin cậy.
 
----
+## 1. Thông tin nền
 
-## Thông tin nền
+- **Sản phẩm:** 7 món bánh thuộc hai nhóm Keto và Healthy Baking.
+- **Mức giá tham khảo:** 40.000–180.000 đồng.
+- **Khu vực phục vụ:** Hà Nội.
+- **Kênh hiện có:** Facebook, Instagram và Zalo.
+- **Quy mô:** nhóm vận hành nhỏ, đã có dữ liệu đơn hàng thực tế.
 
-1. **Sản phẩm:** Bánh Healthy online MOCO — 7 SP (Keto + Healthy Baking), giá 40k–180k, USP: không đường tinh luyện, không phẩm màu, không chất bảo quản, thủ công số lượng nhỏ.
-2. **Khách mục tiêu:** Người tiểu đường/tiền tiểu đường, ăn kiêng/eat-clean, mẹ bầu, người tập gym/fitness, gia đình có trẻ dị ứng đạm sữa bò — tại Hà Nội.
-3. **Mục tiêu & ngân sách:** Dự án cuối khóa — ngân sách $0 (organic). Mục tiêu chính: chứng minh AI giúp tiệm 2 người vận hành marketing + operations chuyên nghiệp.
-4. **Giai đoạn:** Đang vận hành nhỏ (đã có 41 đơn thật), kênh hiện có: Facebook, Instagram, Zalo.
+## 2. Khách hàng trọng tâm
 
----
+1. Người muốn giảm lượng đường tinh luyện trong chế độ ăn.
+2. Người đang kiểm soát khẩu phần hoặc cân nặng.
+3. Người tập luyện cần bữa phụ thuận tiện.
+4. Gia đình quan tâm thành phần và chất gây dị ứng.
+5. Người có bệnh nền hoặc đang mang thai, cần thông tin thận trọng để trao đổi thêm với chuyên gia y tế.
 
-## Phần 1 — Chiến lược tổng thể
+MOCO không định vị sản phẩm như phương pháp điều trị. Lợi thế cần xây dựng là công khai nguyên liệu, giải thích rõ khẩu phần và trả lời có trách nhiệm.
 
-### 1.1 Tóm tắt tình hình
+## 3. Phân tích tình hình
 
-| Hạng mục | Nội dung |
-|----------|----------|
-| Sản phẩm / Dịch vụ | MOCO Kitchen — bánh healthy, 7 SP, USP minh bạch + healthy |
-| Thị trường | Bánh healthy Hà Nội (giao nội thành) |
-| Giai đoạn | Early growth — đã có đơn thật, đang chuẩn hóa hệ thống |
-| Thời gian kế hoạch | 6 tuần (khóa học) + roadmap mở rộng sau khóa |
-| Ngân sách tổng | $0 (organic) — case study cuối khóa |
+| Điểm thuận lợi | Hạn chế |
+|---|---|
+| Có công thức, dữ liệu sản phẩm và đơn hàng thật | Thương hiệu còn mới, tệp khách chưa lớn |
+| Có công cụ hỗ trợ viết bài và theo dõi vận hành | Nguồn lực sản xuất nội dung còn ít |
+| Có thể công khai thành phần và cách bảo quản | Một số thông tin dinh dưỡng mới là ước tính |
 
-### 1.2 SWOT
-Xem chi tiết tại `competitor_analysis_moco.md` mục 4. Tóm tắt:
-- **S:** hệ thống AI 2 trục (content + vận hành), guardrails y tế, định giá theo food cost.
-- **W:** thương hiệu mới, chưa chạy ads, phụ thuộc organic.
-- **O:** khoảng trống content giáo dục + minh bạch allergen + tư vấn 24/7.
-- **T:** đối thủ có thể mạnh hơn về tệp khách; thuật toán FB.
+| Cơ hội | Rủi ro |
+|---|---|
+| Khách ngày càng quan tâm thành phần và nguồn gốc | Tuyên bố sức khỏe thiếu căn cứ có thể làm mất uy tín |
+| Nội dung giáo dục giúp thương hiệu khác biệt | Bếp dùng chung có nguy cơ nhiễm chéo chất gây dị ứng |
+| Trợ lý AI có thể giảm việc lặp lại | Nội dung do AI tạo có thể sai nếu không được duyệt |
 
-### 1.3 Lợi thế cạnh tranh có thể xây dựng
+## 4. Vai trò của từng kênh
 
-Moat MOCO đang xây: **Content depth** (nội dung dinh dưỡng có nguồn) + **Data advantage** (biết cost/lãi từng bánh) + **Brand trust** (minh bạch thành phần, không claim chữa bệnh).
+| Kênh | Vai trò chính | Mức ưu tiên |
+|---|---|---|
+| Facebook | Giới thiệu thương hiệu, chia sẻ kiến thức và nhận câu hỏi | Cao |
+| Instagram | Trưng bày hình ảnh sản phẩm và hậu trường | Trung bình |
+| Zalo | Tư vấn trực tiếp và xác nhận đơn hàng | Cao |
+| Trang giới thiệu | Tổng hợp menu, câu chuyện thương hiệu và kênh liên hệ | Trung bình |
+| Trợ lý hỏi đáp | Trả lời câu hỏi phổ biến, không thay thế tư vấn y tế | Trung bình |
 
-### 1.4 Insight khách hàng
+## 5. Kế hoạch nội dung
 
-Insight chính: *"Khách có bệnh nền/ăn kiêng MUỐN ăn bánh ngon nhưng SỢ ăn vào hại sức khỏe và sợ bị quảng cáo lừa."* → MOCO thắng bằng minh bạch + tư vấn có trách nhiệm, không hô hào.
+| Nhóm nội dung | Tỉ lệ gợi ý | Ví dụ |
+|---|---:|---|
+| Kiến thức và hướng dẫn | 35% | Thành phần, khẩu phần, bảo quản, cách đọc thông tin sản phẩm |
+| Câu chuyện và hậu trường | 25% | Chọn nguyên liệu, thử công thức, làm bánh theo mẻ nhỏ |
+| Giới thiệu sản phẩm | 20% | Hương vị, kết cấu, cách dùng và chất gây dị ứng |
+| Hỏi đáp cộng đồng | 10% | Trả lời câu hỏi thường gặp |
+| Phản hồi khách hàng | 10% | Nhận xét thật đã được cho phép sử dụng |
 
----
+Lịch minh họa nằm tại [lịch nội dung hai tuần](../3_Content_Engine/moco_content_calendar_sample.md). Các bài mẫu nằm tại [năm bài viết mẫu](../3_Content_Engine/moco_sample_posts_gem.md).
 
-## Phần 2 — SAVE Framework
+## 6. Kết quả cần theo dõi
 
-### Solution (thay Product)
-- Vấn đề khách: thèm đồ ngọt nhưng lo đường huyết/cân nặng/dị ứng.
-- Giải pháp: bánh ít đường tinh luyện, minh bạch thành phần + allergen, có tư vấn.
+### Trong phạm vi dự án
 
-### Access (thay Place)
-| Kênh | Vai trò phễu | Ưu tiên |
-|------|--------------|---------|
-| Facebook | TOFU + MOFU + chốt đơn | Cao |
-| Instagram | TOFU (visual) | TB |
-| Zalo | BOFU (chốt đơn 1:1) | Cao |
-| Landing page + Chatbot | MOFU + BOFU (tư vấn 24/7) | TB |
+- Số bài được chuẩn bị và duyệt.
+- Thời gian trung bình để hoàn thành một bài.
+- Số câu hỏi của khách được trả lời bằng tài liệu có sẵn.
+- Số đơn hàng và doanh thu được ghi nhận đúng trong bảng tính.
+- Tỷ lệ thông tin sản phẩm được cập nhật đầy đủ.
 
-### Value (thay Price)
-- Giá 40k–180k, định giá theo food cost (vd Tiramisu food cost 46,6%).
-- Giá trị: an tâm sức khỏe + minh bạch + thủ công tươi mỗi ngày.
+### Khi vận hành thương mại
 
-### Education (thay Promotion)
-| Giai đoạn | Nội dung giáo dục |
-|-----------|-------------------|
-| Chưa biết vấn đề | "Bánh thường ảnh hưởng đường huyết thế nào" |
-| Biết vấn đề | Allulose/trehalose là gì, khác đường thường ra sao |
-| So sánh | Vì sao chọn MOCO (minh bạch, có disclaimer) |
-| Chốt | Cách đặt qua Zalo/IG, ưu đãi |
+- Lượt tiếp cận và tương tác có chất lượng.
+- Số cuộc trò chuyện dẫn đến đơn hàng.
+- Giá trị đơn hàng trung bình.
+- Chi phí nguyên liệu và lợi nhuận theo sản phẩm.
+- Tỷ lệ khách quay lại.
 
----
+## 7. Rủi ro và cách xử lý
 
-## Phần 3 — Kế hoạch nội dung
+| Rủi ro | Cách xử lý |
+|---|---|
+| Nội dung đưa ra lời hứa sức khỏe quá mức | Dùng ngôn ngữ thận trọng, kiểm tra nguồn và khuyên khách hỏi chuyên gia khi cần |
+| Thiếu cảnh báo dị ứng | Nêu rõ sữa, trứng, hạt, gluten, đồ uống có cồn và nguy cơ nhiễm chéo |
+| AI tạo thông tin sai | Người vận hành đối chiếu tài liệu sản phẩm trước khi đăng |
+| Hình ảnh không đúng sản phẩm | Ưu tiên ảnh thật và kiểm tra hình minh họa trước khi sử dụng |
+| Nhóm vận hành quá tải | Dùng bảng tính để giảm thao tác lặp lại, nhưng vẫn giữ bước duyệt của con người |
 
-Kế hoạch được cụ thể hóa bằng lịch nội dung mẫu hai tuần và năm bài viết mẫu trong thư mục `3_Content_Engine`.
+## 8. Tiến độ sáu tuần
 
-### Content Pillar
-| Pillar | Tỉ lệ | Ví dụ MOCO |
-|--------|-------|------------|
-| Giáo dục | 35% | Allulose, đọc nhãn, ăn healthy đúng cách |
-| Cảm hứng | 25% | Câu chuyện founder, behind-the-scenes mẻ bánh |
-| Giải trí | 20% | Trend, POV làm bánh |
-| Bán hàng | 15% | Giới thiệu SP, ưu đãi |
-| Cộng đồng | 5% | Review khách, Q&A |
+| Tuần | Công việc chính |
+|---|---|
+| 1 | Xác định bài toán, nghiên cứu thị trường và đối thủ |
+| 2 | Chuẩn hóa dữ liệu sản phẩm và câu hỏi thường gặp |
+| 3 | Xây dựng lịch nội dung, bài mẫu và hình ảnh minh họa |
+| 4 | Làm các công cụ hỗ trợ nội dung và vận hành trên Google Sheets |
+| 5 | Hoàn thiện trang giới thiệu và trợ lý hỏi đáp |
+| 6 | Đưa bản trình diễn lên mạng, kiểm tra và chuẩn bị thuyết trình |
 
----
-
-## Phần 4 — Hệ thống kênh & Ngân sách
-
-> Dự án cuối khóa: ngân sách ads = 0 (organic). Bảng dưới là khung cho giai đoạn mở rộng thật.
-
-| Kênh | Tầng phễu | Ngân sách/tháng | KPI chính |
-|------|----------|-----------------|-----------|
-| Facebook organic | TOFU+MOFU | 0 (organic) | Reach, mess |
-| Instagram organic | TOFU | 0 | Reach, follow |
-| Zalo | BOFU | 0 | Chốt đơn |
-| Meta Ads trong giai đoạn mở rộng | BOFU | Chỉ xác lập sau khi có mục tiêu doanh thu và dữ liệu chuyển đổi | Chi phí/tin nhắn, ROAS |
-
----
-
-## Phần 5 — KPI & Performance
-
-### KPI dự án cuối khóa (đã đạt — đo được)
-| Chỉ số | Kết quả thực |
-|--------|--------------|
-| Đơn hàng thật quản lý trên hệ thống | 41 đơn |
-| Đơn đã thanh toán | 31 |
-| Doanh thu sau CK (ghi nhận) | 8.235.000đ |
-| Thời gian viết 1 bài content | 2-3h → ~20 phút |
-| Food cost tính tự động | VD Tiramisu 46,6% |
-
-### Nguyên tắc thiết lập KPI mở rộng
-
-Khi chuyển từ case study sang vận hành thương mại, KPI cần được tính ngược từ mục tiêu doanh thu tháng, giá trị đơn hàng trung bình, tỷ lệ chốt đơn và biên lợi nhuận. Báo cáo hiện tại không tự đặt ngân sách hoặc mục tiêu doanh thu khi chưa có quyết định kinh doanh chính thức.
-
----
-
-## Phần 6 — Risk Matrix
-
-| Rủi ro | Xác suất | Ảnh hưởng | Xử lý |
-|--------|----------|-----------|-------|
-| Claim sức khỏe sai → rủi ro pháp lý/uy tín | TB | Rất cao | Guardrails y tế bắt buộc (đã làm), luôn disclaimer + khuyên hỏi bác sĩ |
-| Nhiễm chéo allergen (bếp chung) | TB | Cao | Nêu rõ cảnh báo nhiễm chéo trên mọi kênh |
-| Reach organic giảm (thuật toán FB) | Cao | TB | Đa kênh (FB+IG+Zalo+landing), content giá trị |
-| Đối thủ giảm giá mạnh | TB | TB | Cạnh tranh bằng minh bạch + trust, không đua giá |
-| Founder quá tải vận hành thủ công | Cao | TB | Đã có Operations Suite (đơn/cost/thu chi tự động) |
-
----
-
-## Phần 7 — Timeline (ánh xạ 6 tuần dự án)
-
-| Tuần | Hạng mục marketing | Trạng thái |
-|------|--------------------|-----------|
-| 1 | Research thị trường + đối thủ + định vị | ✅ |
-| 2 | Knowledge base + brand voice (System Prompt) | ✅ |
-| 3 | Content engine + visual + lịch nội dung | ✅ |
-| 4 | Automation vận hành (cost/đơn/thu chi) | ✅ |
-| 5 | Landing page + chatbot tư vấn | ✅ |
-| 6 | Deploy + đo lường + trình bày | ✅ |
-
----
-
-## Hệ thống tài liệu triển khai
+## Tài liệu liên quan
 
 - [Mô tả bài toán](problem_statement_RCGC.md)
 - [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
 - [Phân tích cạnh tranh](competitor_analysis_moco.md)
-- [Insight khách hàng](customer_insight_moco.md)
-- [Lịch nội dung mẫu](../3_Content_Engine/moco_content_calendar_sample.md)
-- [Bài viết mẫu](../3_Content_Engine/moco_sample_posts_gem.md)
+- [Phác họa khách hàng](customer_insight_moco.md)

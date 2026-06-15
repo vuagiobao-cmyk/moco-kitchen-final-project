@@ -1,132 +1,74 @@
----
-id: "20260522154400"
-aliases: ["Demo Script MOCO", "Kịch bản demo 5 phút"]
-tags: ["#moco", "#demo", "#presentation"]
-created: 2026-05-22
-updated: 2026-05-22
----
+# Kịch bản trình diễn dự án trong 5 phút
 
-# DEMO SCRIPT — MOCO AI Creative & Operations Hub
+## Chuẩn bị
 
-> Kịch bản demo 5 phút cho thuyết trình dự án cuối khóa Google AI Bootcamp 2026
+Mở sẵn bốn thẻ trình duyệt:
 
-## Chuẩn bị trước demo
+1. [Website MOCO Kitchen](https://moco-kitchen-ai-hub.vercel.app)
+2. NotebookLM của dự án
+3. Google Sheets vận hành MOCO
+4. Slide thuyết trình
 
-### Tabs mở sẵn trên Chrome:
-1. **Tab 1:** Landing Page — [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app)
-2. **Tab 2:** NotebookLM — [notebook](https://notebooklm.google.com/notebook/b7594329-7387-43fc-9a10-1a0d738b2e18)
-3. **Tab 3:** Google Sheets (Apps Script Content Generator)
-4. **Tab 4:** Google Slides (backup, nếu cần switch)
+Kiểm tra internet, âm thanh và thử trước một câu hỏi với trợ lý.
 
-### Checklist:
-- [ ] Internet ổn định
-- [ ] Zoom/loa đủ nghe (nếu online)
-- [ ] Chatbot đang hoạt động (test 1 query trước)
+## Phút 0:00 – 0:40 | Giới thiệu bài toán
 
----
+**Nội dung nói:**
 
-## Kịch bản 5 phút
+> MOCO Kitchen là một tiệm bánh healthy trực tuyến với bảy sản phẩm. Hai người vận hành phải đồng thời làm bánh, viết bài, trả lời khách và quản lý đơn hàng. Dự án này sử dụng các công cụ Google AI để giảm công việc lặp lại, tập trung thông tin sản phẩm và tạo một website dễ sử dụng hơn cho khách hàng.
 
-### 🕐 Phút 0:00 – 0:30 | Giới thiệu bài toán
+## Phút 0:40 – 1:10 | Giới thiệu giải pháp
 
-**Nói:**
-> "MOCO Kitchen là thương hiệu bánh Healthy online — bán Keto Tiramisu, Lemon Cheesecake và 5 loại bánh healthy khác. Bài toán: founder viết content mất 2-3 giờ/ngày, thông tin dinh dưỡng dễ sai, brand voice không nhất quán khi thuê CTV."
+**Nội dung nói:**
 
-**Hiển thị:** Slide 2 (Problem Statement)
+> Giải pháp gồm bốn phần: kho thông tin sản phẩm, công cụ hỗ trợ viết bài, website giới thiệu và trợ lý hỏi đáp. Ngoài ra, Google Sheets được bổ sung các chức năng theo dõi đơn hàng, nguyên liệu, giá vốn và thu chi.
 
----
+## Phút 1:10 – 2:30 | Trình diễn website và trợ lý
 
-### 🕐 Phút 0:30 – 1:00 | Giải pháp 4 tầng
+1. Mở website và lướt qua phần giới thiệu, danh mục sản phẩm, câu chuyện thương hiệu và câu hỏi thường gặp.
+2. Mở trợ lý hỏi đáp.
+3. Nhập câu hỏi:
 
-**Nói:**
-> "Giải pháp: Xây AI Hub 4 tầng — Knowledge Base bằng NotebookLM, Content Engine bằng Apps Script + Gemini API, Landing Page responsive, và Chatbot tư vấn sản phẩm. Tổng cộng sử dụng 6 Google AI Tools."
-
-**Hiển thị:** Slide 3-4 (Solution + Tools Matrix)
-
----
-
-### 🕐 Phút 1:00 – 2:30 | Demo Live: Landing Page + Chatbot
-
-**Chuyển sang Tab 1 (Landing Page)**
-
-**Nói:**
-> "Đây là landing page MOCO Kitchen — theme Matcha Green, layout editorial kiểu Monte, 9 section, responsive. Chúng ta scroll qua nhanh."
-
-**Thao tác:**
-1. Scroll chậm qua Brand Hero → Menu (2 dòng SP, có giá) → Story → Gallery → FAQ
-2. Click mở 1 FAQ "Bánh có phù hợp cho người tiểu đường không?" → chỉ disclaimer
-3. **Click chatbot widget** (góc phải dưới)
-
-**Nói:**
-> "Và đây là chatbot tư vấn — powered by Gemini 2.5 Flash. Thử hỏi một câu nhạy cảm."
-
-**Gõ vào chatbot:**
-```
-Tôi bị tiểu đường, ăn bánh nào được?
+```text
+Tôi đang kiểm soát đường, khi chọn bánh cần lưu ý điều gì?
 ```
 
-**Chờ response → chỉ vào guardrails:**
-> "Chatbot tự động khuyên hỏi bác sĩ — đây là guardrails y tế được nhúng trong System Prompt. Không tuyên bố chữa bệnh, không nói ăn thoải mái."
+**Nội dung nói:**
 
----
+> Trợ lý cung cấp thông tin về sản phẩm và khẩu phần, đồng thời nhắc người có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng. Trợ lý không chẩn đoán và không khẳng định sản phẩm phù hợp tuyệt đối với mọi người.
 
-### 🕐 Phút 2:30 – 3:30 | Demo Live: Apps Script
+## Phút 2:30 – 3:30 | Trình diễn công cụ viết bài
 
-**Chuyển sang Tab 3 (Google Sheets)**
+1. Mở Google Sheets.
+2. Giới thiệu bảng nhập yêu cầu gồm sản phẩm, loại bài và nhóm người đọc.
+3. Chạy chức năng tạo bản nháp hoặc mở một kết quả đã chuẩn bị.
+4. Chỉ ra bài viết và gợi ý hình ảnh được tạo tự động.
 
-**Nói:**
-> "Tầng Content Engine — founder điền brief trong Google Sheet, bấm 1 nút, Apps Script gọi Gemini API tạo bài viết chuẩn brand voice."
+**Nội dung nói:**
 
-**Thao tác:**
-1. Chỉ sheet Brief — cột Sản Phẩm, Loại Bài, Đối Tượng
-2. Chỉ menu "🍰 MOCO Content AI" → chạy generate (hoặc show output đã có)
-3. Chỉ sheet Output — bài viết thật + image ideas
-4. Chỉ sheet Log — timestamp, status
+> Người vận hành chỉ cần nhập một số thông tin cơ bản. Gemini tạo bản nháp theo giọng thương hiệu, sau đó con người kiểm tra lại thông tin trước khi đăng. Thời gian chuẩn bị một bài giảm từ khoảng 2–3 giờ xuống khoảng 20 phút chỉnh sửa.
 
----
+## Phút 3:30 – 4:15 | Giới thiệu NotebookLM
 
-### 🕐 Phút 3:30 – 4:15 | NotebookLM Knowledge Base
+1. Mở danh sách tài liệu của dự án trong NotebookLM.
+2. Đặt một câu hỏi về thành phần hoặc cách bảo quản.
+3. Chỉ ra phần trích dẫn nguồn trong câu trả lời.
 
-**Chuyển sang Tab 2 (NotebookLM)**
+**Nội dung nói:**
 
-**Nói:**
-> "Nền tảng của tất cả là Knowledge Base trong NotebookLM — 7 nguồn tài liệu đã chuẩn hóa. NotebookLM đóng vai 'bộ nhớ vàng' — chatbot và content engine đều dựa trên data từ đây."
+> NotebookLM giúp kiểm tra câu trả lời dựa trên tài liệu sản phẩm đã chuẩn hóa. Nhờ vậy, thông tin dùng trong bài viết và phần hỏi đáp nhất quán hơn.
 
-**Thao tác:**
-1. Chỉ danh sách 7 sources
-2. Hỏi 1 query nhanh trong NotebookLM chat
-3. Chỉ kết quả — có citation từ nguồn
+## Phút 4:15 – 5:00 | Kết quả và bài học
 
----
+**Nội dung nói:**
 
-### 🕐 Phút 4:15 – 5:00 | Kết quả & Bài học
+> Sau sáu tuần, dự án đã chuẩn hóa bảy sản phẩm, xây dựng website, trợ lý hỏi đáp và các công cụ trên Google Sheets. Bài học quan trọng nhất là AI chỉ tạo giá trị khi dữ liệu đầu vào rõ ràng và con người vẫn chịu trách nhiệm kiểm tra kết quả, đặc biệt với nội dung liên quan đến sức khỏe.
 
-**Quay lại Slides**
+## Phương án dự phòng
 
-**Nói:**
-> "Kết quả: 7 sản phẩm document đầy đủ, 5/5 test queries PASS, 4 tầng automation hoạt động, 6 Google AI tools tích hợp. Thời gian viết content giảm từ 2-3 giờ xuống 20 phút review."
-
-> "Bài học quan trọng nhất: Responsible AI — guardrails y tế không phải hạn chế, đó là bảo vệ cả khách hàng lẫn thương hiệu."
-
-**Hiển thị:** Slide 12-13 (Results + Lessons)
-
-**Kết:**
-> "Cảm ơn mọi người. MOCO Kitchen — Heart-Healthy, Soul-Tasty."
-
----
-
-## Backup Plan
-
-| Tình huống | Xử lý |
-|-----------|--------|
-| Internet chậm/mất | Dùng screenshots trong slides, không demo live |
-| Chatbot API lỗi/quota | Show screenshot kết quả test đã lưu |
-| Apps Script lỗi | Show sheet Output có sẵn kết quả |
-| NotebookLM chậm | Show screenshot test results |
-
----
-
-## Related
-
-- [[SLIDE_OUTLINE_TUAN6]]
-- [[PHASE5_SIGNOFF]]
+| Tình huống | Cách xử lý |
+|---|---|
+| Mất kết nối internet | Dùng ảnh chụp đã chèn trong slide |
+| Trợ lý tạm thời không phản hồi | Mở ảnh chụp kết quả kiểm tra đã chuẩn bị |
+| Google Sheets tải chậm | Dùng kết quả bài viết đã có sẵn |
+| NotebookLM tải chậm | Trình bày danh sách nguồn và ảnh chụp câu trả lời |

@@ -1,45 +1,44 @@
-# Tuần 2 — Dữ liệu & Phân tích nghiệp vụ
+# Tuần 2 — Chuẩn hóa dữ liệu sản phẩm và khách hàng
 
 **Thời gian:** 29/03 – 05/04/2026
-**Tóm tắt:** Chuẩn hóa toàn bộ dữ liệu thực tế của thương hiệu thành một bộ knowledge base có cấu trúc để AI sử dụng chính xác, đồng thời phân tích thị trường và khách hàng.
-
----
+**Tóm tắt:** Sắp xếp dữ liệu thực tế của MOCO Kitchen thành một kho thông tin rõ ràng để AI có thể trả lời chính xác.
 
 ## Mục tiêu
 
-- Chuẩn hóa toàn bộ thông tin sản phẩm: 7 món bánh thật của MOCO Kitchen kèm công thức và nguyên liệu chi tiết.
-- Xây dựng một knowledge base (kho dữ liệu nền) để AI trả lời đúng và không suy diễn.
-- Thực hành NotebookLM — công cụ của Google giúp AI đọc tài liệu và trả lời dựa trên đúng nguồn được cung cấp.
+- Chuẩn hóa thông tin của bảy sản phẩm đang bán, gồm nguyên liệu, cách bảo quản và các thành phần cần lưu ý.
+- Xây dựng một nguồn thông tin thống nhất cho NotebookLM và trợ lý hỏi đáp.
+- Tìm hiểu nhu cầu khách hàng và bối cảnh cạnh tranh để lựa chọn hướng định vị phù hợp.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- Toàn bộ công thức được lấy từ dữ liệu thật của founder, sau đó phân thành hai dòng sản phẩm rõ ràng: dòng Keto (sử dụng các chất tạo ngọt ăn kiêng như allulose, đường la hán) và dòng Healthy Baking (giảm đường tinh luyện, dùng nguyên liệu tự nhiên).
-- Lập một bảng đối chiếu thành phần theo từng món để biết món nào có sữa, trứng, hạt hay gluten. Nhờ đó, các câu hỏi nhạy cảm về tiểu đường, thai sản hoặc dị ứng đều được trả lời thận trọng, kèm khuyến nghị tham khảo ý kiến bác sĩ thay vì khẳng định tuyệt đối.
-- Tham khảo một số đối thủ trực tiếp và phác họa chân dung khách hàng mục tiêu để xác định điểm khác biệt và định vị cho thương hiệu.
+- Đối chiếu công thức thực tế và chia sản phẩm thành hai nhóm: Keto và Healthy Baking.
+- Lập bảng thành phần cho từng món, đặc biệt là sữa, trứng, hạt, gluten và cồn.
+- Viết câu trả lời thận trọng cho các câu hỏi liên quan đến tiểu đường, thai kỳ và dị ứng. Trợ lý chỉ cung cấp thông tin sản phẩm, không thay thế tư vấn của bác sĩ.
+- Phân tích nhu cầu của người mua, người sử dụng và các lựa chọn cạnh tranh trên thị trường.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Biên soạn tài liệu menu 7 món bánh, gồm công thức, nguyên liệu và lưu ý dị ứng cho từng món.
-- Biên soạn phần FAQ (hỏi – đáp) về dinh dưỡng, có bổ sung khuyến nghị an toàn cho nhóm khách hàng cần lưu ý.
-- Lập danh mục nguồn tài liệu cho NotebookLM kèm bộ câu hỏi kiểm tra để đánh giá độ chính xác khi AI trả lời.
-- Ghi nhận và phân tích thông tin về đối thủ cùng nhóm khách hàng mục tiêu.
+- Biên soạn tài liệu cho bảy sản phẩm thật của MOCO Kitchen.
+- Xây dựng bộ câu hỏi thường gặp về thành phần, dinh dưỡng, bảo quản và đặt hàng.
+- Lập danh sách tài liệu dùng trong NotebookLM và bộ câu hỏi kiểm tra trước khi trình diễn.
+- Hoàn thiện phân tích cạnh tranh và insight khách hàng ở mức phù hợp với phạm vi dự án.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Tài liệu menu 7 món bánh | [3_Content_Engine/moco_menu_products.md](../../3_Content_Engine/moco_menu_products.md) |
-| FAQ dinh dưỡng | [3_Content_Engine/moco_faq_nutrition.md](../../3_Content_Engine/moco_faq_nutrition.md) |
-| Danh mục nguồn cho NotebookLM | [2_Knowledge_Base/notebooklm_source_manifest.md](../../2_Knowledge_Base/notebooklm_source_manifest.md) |
-| Phân tích đối thủ | [1_Research/competitor_analysis_moco.md](../../1_Research/competitor_analysis_moco.md) |
-| Phác họa khách hàng mục tiêu | [1_Research/customer_insight_moco.md](../../1_Research/customer_insight_moco.md) |
+|---|---|
+| Thông tin bảy sản phẩm | [Xem tài liệu](../../3_Content_Engine/moco_menu_products.md) |
+| Bộ câu hỏi thường gặp | [Xem tài liệu](../../3_Content_Engine/moco_faq_nutrition.md) |
+| Danh sách nguồn cho NotebookLM | [Xem tài liệu](../../2_Knowledge_Base/notebooklm_source_manifest.md) |
+| Phân tích cạnh tranh | [Xem tài liệu](../../1_Research/competitor_analysis_moco.md) |
+| Phân tích nhu cầu khách hàng | [Xem tài liệu](../../1_Research/customer_insight_moco.md) |
 
 ## Kết quả
 
-- Hoàn thiện knowledge base chuẩn theo 7 sản phẩm thật, giúp AI trả lời đúng sản phẩm và đúng nguyên liệu.
-- Có sẵn bộ khuyến nghị an toàn cho các câu hỏi nhạy cảm về sức khỏe, sẵn sàng đưa vào chatbot ở các giai đoạn sau.
-- Xác định được định vị khác biệt của thương hiệu so với đối thủ, làm cơ sở cho định hướng content.
+- AI có một nguồn thông tin thống nhất về sản phẩm, hạn chế trả lời sai hoặc tự suy diễn.
+- Khách hàng có thể tra cứu rõ thành phần, cách bảo quản và những điểm cần lưu ý trước khi mua.
+- MOCO xác định được hướng khác biệt: sản phẩm thủ công, thông tin minh bạch và trải nghiệm tư vấn thuận tiện.
 
 ---
 
-**Điều hướng:** [← Tuần 1](Tuan_1_Tu_duy_AI_Nghien_cuu.md) · [Mục lục các tuần](README.md) · [Tuần 3 →](Tuan_3_Sang_tao_Noi_dung.md)
+**Điều hướng:** [← Tuần 1](Tuan_1_Tu_duy_AI_Nghien_cuu.md) · [Mục lục](README.md) · [Tuần 3 →](Tuan_3_Sang_tao_Noi_dung.md)

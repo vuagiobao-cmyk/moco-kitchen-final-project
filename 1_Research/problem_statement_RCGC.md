@@ -1,93 +1,63 @@
----
-id: 20260507170200
-tags: ["#problem-statement", "#RCGC", "#moco-kitchen"]
-created: 2026-05-07
-updated: 2026-06-07
----
+# Mô tả bài toán — MOCO Kitchen
 
-# Problem Statement — MOCO Kitchen AI Marketing Hub
+## 1. Bối cảnh
 
-> Framework: **RCGC** (Role – Context – Goal – Constraint) theo yêu cầu Google AI Bootcamp 2026
+MOCO Kitchen là tiệm bánh healthy trực tuyến tại Hà Nội, do hai người trực tiếp sản xuất và vận hành. Thương hiệu bán hàng qua Facebook, Instagram và Zalo với bảy sản phẩm thuộc hai nhóm Keto và Healthy Baking.
 
----
+MOCO đã có sản phẩm và khách hàng thật, nhưng quy mô nhỏ khiến cùng một người phải đảm nhiệm nhiều việc: làm bánh, viết bài, trả lời khách, nhập đơn, theo dõi nguyên liệu và quản lý thu chi.
 
-## Mục lục
+## 2. Vấn đề cần giải quyết
 
-1. [Role (Vai trò)](#role-vai-trò)
-2. [Context (Bối cảnh)](#context-bối-cảnh)
-3. [Goal (Mục tiêu)](#goal-mục-tiêu)
-4. [Constraint (Ràng buộc)](#constraint-ràng-buộc)
-5. [Tài liệu liên quan](#tài-liệu-liên-quan)
-
----
-
-## Role (Vai trò)
-
-Xây dựng hệ thống **AI Creative & Operations Hub** cho MOCO Kitchen — thương hiệu bánh Healthy online tại Hà Nội, phục vụ nhóm khách hàng quan tâm sức khỏe: người tiểu đường, người ăn kiêng, mẹ bầu, người tập luyện và gia đình muốn ăn lành.
-
-## Context (Bối cảnh)
-
-### Thực trạng ngành
-- Thị trường bánh Healthy VN tăng trưởng mạnh (2025–2026), đặc biệt trên thương mại điện tử (Shopee, TikTok Shop).
-- Khoảng **7 triệu người** mắc tiểu đường type 2 tại VN — nhu cầu thực phẩm thay thế đường rất lớn.
-- Gen Z và Millennials dẫn dắt xu hướng "clean label" — minh bạch thành phần, không phụ gia.
-
-### Thực trạng doanh nghiệp (MOCO Kitchen)
-- **Quy mô:** Tiệm bánh online nhỏ do 2 founder vận hành tại **Hà Nội**, bán qua Facebook, Instagram và Zalo.
-- **Sản phẩm (7 SP thật):** 2 dòng Keto (Keto Tiramisu, Keto Lemon Cheesecake) + 5 dòng Healthy Baking (Chuối Yến Mạch Choco, Bánh Mì Soda Nguyên Cám, Bông Lan Trứng Muối, Carrot Cake Kem Hy Lạp, Bánh Cuộn Quế) — dùng Allulose/đường la hán, trehalose, đường dừa, bột nguyên cám, mascarpone Anchor.
-- **Lợi thế:** Thương hiệu đã có sản phẩm thật và khách hàng thật; giọng điệu thương hiệu (brand voice) đã được hệ thống hóa thành bộ quy tắc giao tiếp cho AI — xem [System Prompt / Brand Voice](../3_Content_Engine/gem_system_prompt_moco.md).
-- **Hạn chế:**
-  - Founder viết mỗi bài Facebook mất 2–3 tiếng.
-  - Không có lịch content (content calendar) nhất quán.
-  - Quên reply khách → mất đơn hàng.
-  - Chưa có landing page/chatbot tư vấn.
-  - Ảnh sản phẩm tự chụp, chưa đồng bộ visual.
-  - Chưa quản lý cost/đơn hàng/thu chi tập trung.
-
-### Bài toán cốt lõi
-> **Làm thế nào để một tiệm bánh Healthy online 2 người có thể vận hành marketing chuyên nghiệp bằng Google AI — từ sáng tạo nội dung, tư vấn khách hàng, quản lý đơn hàng, đến hiện diện online — mà không cần thuê thêm nhân sự?**
-
-## Goal (Mục tiêu)
-
-Xây dựng **"AI Creative & Operations Hub"** — hệ thống tích hợp 6 công cụ Google AI giải quyết 5 bài toán cụ thể:
-
-| # | Bài toán | Công cụ AI | Sản phẩm bàn giao |
-|---|---|---|---|
-| 1 | Viết content chậm, thiếu nhất quán | **Gemini** (Gem) + bộ quy tắc brand voice | Content Generator: viết bài FB/IG đúng giọng thương hiệu trong vài phút |
-| 2 | Thiếu kiến thức dinh dưỡng hệ thống | **NotebookLM** | Kho kiến thức gồm 7 nguồn tài liệu, kèm bộ quy tắc an toàn về sức khỏe (luôn nhắc hỏi bác sĩ, không tuyên bố chữa bệnh) |
-| 3 | Hình ảnh chưa chuyên nghiệp | **Banana Pro** + **Veo 3** | Ảnh sản phẩm tạo bằng AI + storyboard video |
-| 4 | Quản lý vận hành thủ công (đơn, cost, thu chi) | **Apps Script** + Google Sheets | Order Form + tính cost/food cost + Thu-Chi tự động + Dashboard *(phần bổ sung theo nhu cầu thực tế của tiệm — xem ghi chú bên dưới)* |
-| 5 | Chưa có hiện diện online | **Vercel** | Landing page + chatbot tư vấn sản phẩm |
-
-> **Ghi chú về phạm vi (bonus):** Khóa học chỉ yêu cầu phần marketing (nội dung, hình ảnh, landing page, chatbot). Phần vận hành ở mục 4 — file Google Sheet quản lý đơn hàng và công cụ tính cost/food cost, thu chi, dashboard — là phần **làm thêm theo nhu cầu thực tế của tiệm**, mang tính bonus ngoài yêu cầu của bài tập.
-
-### Kết quả mong đợi (đã đạt thực tế)
-- **Thời gian tạo content:** 2–3 tiếng → khoảng 20 phút/bài (gõ tên bánh, bấm một nút → bài đúng brand voice kèm gợi ý ảnh).
-- **Tư vấn khách 24/7:** Chatbot trả lời về sản phẩm và FAQ, tự gắn khuyến nghị an toàn về sức khỏe.
-- **Vận hành tập trung:** Đơn hàng, cost (food cost %), thu chi và dashboard KPI trên cùng một Google Sheet.
-- **Hiện diện online:** Landing page chạy trên Vercel kèm chatbot.
-
-## Constraint (Ràng buộc)
-
-| Ràng buộc | Chi tiết |
+| Vấn đề | Ảnh hưởng |
 |---|---|
-| **Thời gian** | 6 tuần (theo timeline Google AI Bootcamp). |
-| **Ngân sách** | $0 — chỉ dùng bản miễn phí (free tier) của Vercel, Google AI Studio và Google Sheets. |
-| **Nhân lực** | 1 người thực hiện. |
-| **Công cụ** | Yêu cầu tối thiểu 3 công cụ Google AI; dự án sử dụng 6 công cụ: **NotebookLM, Gemini, Google Apps Script, Banana Pro, Veo 3, Vercel**. |
-| **Brand voice** | Tuân thủ bộ quy tắc giao tiếp đã thống nhất — "chân thành, không phóng đại" (xem [System Prompt / Brand Voice](../3_Content_Engine/gem_system_prompt_moco.md)). |
-| **Tính thực tế** | Sản phẩm hướng tới khả năng áp dụng được cho một doanh nghiệp đang hoạt động, thay vì chỉ dừng ở mức bài tập mô phỏng. |
+| Viết một bài mạng xã hội mất khoảng 2–3 giờ | Không duy trì được lịch đăng đều đặn |
+| Thông tin sản phẩm nằm ở nhiều nơi | Dễ trả lời thiếu hoặc không nhất quán |
+| Khách thường hỏi về đường, dị ứng và bảo quản | Người vận hành mất thời gian trả lời lặp lại |
+| Hình ảnh và giọng văn chưa đồng nhất | Nhận diện thương hiệu thiếu ổn định |
+| Đơn hàng, giá vốn và thu chi xử lý thủ công | Khó theo dõi hiệu quả kinh doanh |
+| Chưa có website riêng | Khách phải tìm thông tin qua nhiều bài đăng và tin nhắn |
 
----
+## 3. Câu hỏi của dự án
+
+> Làm thế nào để một tiệm bánh trực tuyến quy mô nhỏ ứng dụng các công cụ Google AI nhằm tiết kiệm thời gian viết nội dung, cung cấp thông tin sản phẩm rõ ràng và giảm thao tác quản lý thủ công, mà chưa cần tăng nhân sự?
+
+## 4. Mục tiêu
+
+1. Tập trung thông tin của bảy sản phẩm thành một nguồn thống nhất.
+2. Hỗ trợ tạo bản nháp bài viết theo đúng giọng thương hiệu.
+3. Xây dựng website và trợ lý hỏi đáp về sản phẩm.
+4. Tự động hóa một số thao tác trên Google Sheets.
+5. Trình bày được kết quả bằng một sản phẩm chạy trực tuyến và bộ báo cáo sáu tuần.
+
+## 5. Sản phẩm dự kiến
+
+| Hạng mục | Sản phẩm bàn giao |
+|---|---|
+| Dữ liệu sản phẩm | Menu bảy món, bảng thành phần cần lưu ý và bộ câu hỏi thường gặp |
+| Nội dung | Hướng dẫn giọng văn, lịch đăng và các bài viết mẫu |
+| Hình ảnh | Định hướng hình ảnh và kịch bản video ngắn |
+| Website | Trang giới thiệu sản phẩm và trợ lý hỏi đáp |
+| Vận hành | Công cụ nhập đơn, theo dõi nguyên liệu, tính giá vốn và thu chi trên Google Sheets |
+| Báo cáo | Sáu báo cáo tuần, dàn ý thuyết trình và kịch bản trình diễn |
+
+## 6. Giới hạn
+
+- Thời gian thực hiện chính: sáu tuần.
+- Ngân sách: sử dụng các gói miễn phí hoặc công cụ sẵn có.
+- Nhân lực thực hiện dự án: một người.
+- Các số liệu dinh dưỡng chỉ mang tính tham khảo nếu chưa được kiểm nghiệm trong phòng thí nghiệm.
+- Trợ lý hỏi đáp chỉ hỗ trợ thông tin sản phẩm, không thay thế chuyên gia y tế.
+
+## 7. Tiêu chí hoàn thành
+
+- Website truy cập được trên internet.
+- Trợ lý trả lời đúng thông tin sản phẩm và biết từ chối tư vấn điều trị.
+- Công cụ viết bài tạo được bản nháp từ dữ liệu nhập trên Google Sheets.
+- Thông tin bảy sản phẩm, thành phần cần lưu ý và cách bảo quản được trình bày rõ ràng.
+- Có báo cáo tiến độ và tài liệu trình diễn để giảng viên kiểm tra.
 
 ## Tài liệu liên quan
 
-- [Nghiên cứu thị trường bánh Healthy VN](./deep_research_banh_healthy_vn.md)
-- [System Prompt / Brand Voice](../3_Content_Engine/gem_system_prompt_moco.md)
-- [Báo cáo theo tuần](../_Deliverables/Weekly_Reports/README.md)
-
-[↑ Về mục lục](#mục-lục)
-
----
-
-*Ngày tạo: 2026-05-07 · Cập nhật: 2026-06-07 · Dự án cuối khóa Google AI Bootcamp 2026*
+- [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
+- [Hướng dẫn cho trợ lý viết nội dung](../3_Content_Engine/gem_system_prompt_moco.md)
+- [Báo cáo sáu tuần](../_Deliverables/Weekly_Reports/README.md)

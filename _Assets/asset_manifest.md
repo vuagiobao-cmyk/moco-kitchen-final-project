@@ -6,12 +6,11 @@ created: 2026-05-22
 updated: 2026-05-29
 ---
 
-# _Assets — Danh mục tài nguyên dự án MOCO Kitchen
+# Danh mục hình ảnh của dự án MOCO Kitchen
 
-> Manifest tổng hợp tất cả assets của dự án. Ảnh gốc nằm tại `5_Landing_Page_Chatbot/assets/`.
-> Cập nhật 2026-05-29 cho khớp landing Monte v3 (17 file ảnh thực tế).
+> Tài liệu tổng hợp các hình ảnh đang dùng trong dự án. Tệp gốc nằm tại `5_Landing_Page_Chatbot/assets/`.
 
-## Ảnh trong landing page (Banana Pro / ImageFX + ảnh thật)
+## Ảnh trên trang giới thiệu
 
 | # | File | Sử dụng tại |
 |---|------|-------------|
@@ -37,9 +36,9 @@ updated: 2026-05-29
 
 > Lưu ý: các sketch (nữ đầu bếp, whisk, chanh/bạc hà) là **SVG line-art inline** trong `index.html`, không phải file ảnh.
 
-## Slide images (thuyết trình Tuần 6)
+## Hình ảnh trình chiếu Tuần 6
 
-- `6_Deployment_Demo/slide_images/` — **15 file PNG** (cover, architecture, product, landing mockup, chatbot concept, content engine, safety, results, lessons, thank you...).
+- `6_Deployment_Demo/slide_images/` — 15 tệp PNG dùng trong bài thuyết trình.
 
 ## Font
 
@@ -47,7 +46,7 @@ updated: 2026-05-29
 - **Quicksand** (body) — Google Fonts
 - **Pacifico** (brand accent) — Google Fonts
 
-## Color Palette (Monte v3 — matcha green)
+## Bảng màu
 
 | Token | Hex | Sử dụng |
 |-------|-----|---------|
@@ -67,8 +66,4 @@ updated: 2026-05-29
 
 ---
 
-## Related
-
-- [[visual_concepts]]
-- [[HANDOFF_LANDING_2026-05-29]]
-- [[README]]
+Tài liệu liên quan: [Ý tưởng hình ảnh](../3_Creative_Content/visual_concepts.md).

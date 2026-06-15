@@ -89,7 +89,7 @@
         {
           "name": "Vận hành & Website",
           "children": [
-            { "name": "Chatbot tư vấn Antigravity" },
+            { "name": "Trợ lý tư vấn sản phẩm 24/7" },
             { "name": "Auto-email Apps Script" },
             { "name": "Landing page Vercel" }
           ]

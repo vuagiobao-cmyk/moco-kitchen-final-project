@@ -1,46 +1,43 @@
-# Tuần 6 — Deployment & Trình bày
+# Tuần 6 — Đưa sản phẩm lên mạng và chuẩn bị trình bày
 
-**Thời gian:** 08/05 – 22/05/2026 (kèm các nâng cấp bổ sung trong tháng 06/2026)
-**Tóm tắt:** Đưa sản phẩm lên internet (deploy), hoàn thiện tài liệu và chuẩn bị nội dung trình bày; sau đó tiếp tục nâng cấp phần content automation cho vận hành thực tế.
-
----
+**Thời gian:** 08/05 – 22/05/2026, kèm một số nâng cấp trong tháng 06/2026
+**Tóm tắt:** Hoàn thiện sản phẩm, công bố website, kiểm tra các chức năng và chuẩn bị tài liệu thuyết trình.
 
 ## Mục tiêu
 
-- Deploy landing page lên internet để mọi người đều có thể truy cập.
-- Hoàn thiện tài liệu hướng dẫn, chuẩn bị slide thuyết trình và kịch bản demo.
-- Đưa bộ công cụ vận hành vào sử dụng thực tế cùng tiệm.
+- Đưa website lên internet để giảng viên và người dùng có thể truy cập.
+- Kiểm tra lại trang giới thiệu, trợ lý hỏi đáp và bộ công cụ trên Google Sheets.
+- Chuẩn bị dàn ý thuyết trình và kịch bản trình diễn sản phẩm.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- Landing page được deploy lên Vercel — một nền tảng hosting (lưu trữ web) miễn phí — kèm cấu hình bảo mật và lớp trung gian để chatbot hoạt động an toàn.
-- Tài liệu được biên soạn theo hướng chi tiết, dễ làm theo, để bất kỳ ai mở lại cũng có thể tiếp tục công việc.
-- Sau khi kết thúc khóa học, dự án được nâng cấp thêm để phục vụ vận hành thực tế: đưa công cụ viết content vào hoạt động, bổ sung content calendar, thêm chức năng tạo prompt làm ảnh, và thiết lập một Gem (trợ lý chuyên biệt trên Gemini) chuyên tạo ảnh giữ đúng phong cách thương hiệu.
+- Website được đưa lên Vercel, một dịch vụ lưu trữ website trực tuyến.
+- Trợ lý hỏi đáp được kiểm tra bằng các câu hỏi về sản phẩm, thành phần và sức khỏe.
+- Tài liệu được sắp xếp theo từng tuần để người đọc dễ theo dõi quá trình phát triển.
+- Sau giai đoạn chính, công cụ viết bài được bổ sung lịch đăng và chức năng tạo yêu cầu làm ảnh để hỗ trợ vận hành thực tế.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Deploy landing page lên internet: https://moco-kitchen-ai-hub.vercel.app
-- Hoàn thiện tài liệu, biên bản nghiệm thu (sign-off), dàn ý 15 slide và kịch bản demo.
-- Biên soạn lại knowledge base theo 7 sản phẩm thật; chatbot vượt qua bài kiểm tra 5/5 câu hỏi nhạy cảm về sức khỏe.
-- Nâng cấp tháng 06/2026: đưa MOCO Content Generator vào vận hành thực tế; bổ sung Content Calendar; thêm chức năng tạo prompt làm ảnh (Banana Pro); thiết lập Gem làm ảnh đúng phong cách; hợp nhất toàn bộ mã nguồn về một nơi duy nhất để dễ quản lý.
+- Công bố website tại [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app).
+- Hoàn thiện tài liệu hướng dẫn, dàn ý 15 slide và kịch bản trình diễn trong 5 phút.
+- Kiểm tra trợ lý hỏi đáp với năm tình huống nhạy cảm; các câu trả lời đều giữ đúng giới hạn tư vấn sản phẩm.
+- Bổ sung lịch nội dung và công cụ hỗ trợ viết bài trên Google Sheets.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Landing page (xem trực tiếp) | https://moco-kitchen-ai-hub.vercel.app |
-| Phần deployment và demo | [6_Deployment_Demo/README.md](../../6_Deployment_Demo/README.md) |
-| Kịch bản demo | [6_Deployment_Demo/DEMO_SCRIPT.md](../../6_Deployment_Demo/DEMO_SCRIPT.md) |
-| Biên bản nghiệm thu (sign-off) | [_Deliverables/PHASE5_SIGNOFF.md](../PHASE5_SIGNOFF.md) |
-| Dàn ý slide thuyết trình | [_Deliverables/SLIDE_OUTLINE_TUAN6.md](../SLIDE_OUTLINE_TUAN6.md) |
-| Hướng dẫn thiết lập Gem làm ảnh | [3_Creative_Content/MOCO_VISUAL_GEM_CONFIG.md](../../3_Creative_Content/MOCO_VISUAL_GEM_CONFIG.md) |
+|---|---|
+| Website MOCO Kitchen | [Xem trực tiếp](https://moco-kitchen-ai-hub.vercel.app) |
+| Hướng dẫn trình diễn | [Xem tài liệu](../../6_Deployment_Demo/README.md) |
+| Kịch bản trình diễn 5 phút | [Xem tài liệu](../../6_Deployment_Demo/DEMO_SCRIPT.md) |
+| Dàn ý bài thuyết trình | [Xem tài liệu](../SLIDE_OUTLINE_TUAN6.md) |
 
 ## Kết quả
 
-- Sản phẩm hoàn chỉnh, vận hành trực tuyến và có tài liệu đầy đủ để tái sử dụng.
-- Bộ công cụ vận hành và sản xuất content hoạt động thực tế cùng tiệm.
-- Số liệu toàn dự án: 6 tuần, hơn 55 lần commit (lưu mã nguồn), hơn 100 file, hơn 30.000 dòng code và 6 công cụ Google AI (NotebookLM, Gemini, Apps Script, Banana Pro, Veo 3, Vercel).
+- Sản phẩm hoạt động trực tuyến và có thể trình diễn từ đầu đến cuối.
+- Sáu tuần thực hiện được trình bày bằng báo cáo, mã nguồn và website thực tế.
+- Dự án chứng minh AI có thể hỗ trợ một tiệm bánh nhỏ ở cả nội dung, tư vấn khách hàng và quản lý dữ liệu, đồng thời vẫn cần con người kiểm tra thông tin trước khi sử dụng.
 
 ---
 
-**Điều hướng:** [← Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) · [Mục lục các tuần](README.md)
+**Điều hướng:** [← Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) · [Mục lục](README.md)

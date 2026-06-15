@@ -10,7 +10,7 @@ updated: 2026-06-15
 
 > Cập nhật theo dữ liệu công thức thực tế của MOCO Kitchen. Danh mục gồm 7 sản phẩm bán; Sữa Chua Hy Lạp, Bánh Quy Hạnh Nhân Giòn và Lady Finger được quản lý như nguyên liệu hoặc bán thành phẩm nội bộ.
 
-> **⚠️ Disclaimer:** Thông tin dinh dưỡng là ước tính sơ bộ dựa trên nguyên liệu và chưa qua kiểm nghiệm phòng thí nghiệm. Công thức theo từng mẻ cần được đội vận hành xác nhận trước khi công bố chính thức. MOCO Kitchen không đưa lời khuyên y tế; khách có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng.
+> **Lưu ý:** Thông tin dinh dưỡng là ước tính sơ bộ dựa trên nguyên liệu và chưa qua kiểm nghiệm phòng thí nghiệm. Công thức theo từng mẻ cần được đội vận hành xác nhận trước khi công bố chính thức. MOCO Kitchen không đưa lời khuyên y tế; khách có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng.
 
 ---
 
@@ -209,7 +209,7 @@ updated: 2026-06-15
 | Sản phẩm | Vai trò |
 |----------|---------|
 | Lady Finger Hạnh Nhân (bản điều chỉnh) | Nguyên liệu cho Keto Tiramisu. Bột hạnh nhân + bột số 8, allulose + la hán. ~350g/mẻ, đủ 5 chiếc Tiramisu |
-| Bánh Quy Hạnh Nhân Giòn | Dùng làm đế Cheesecake hoặc snack test nội bộ. Bột hạnh nhân + bột dừa, đường la hán |
+| Bánh Quy Hạnh Nhân Giòn | Dùng làm đế Cheesecake hoặc ăn riêng. Bột hạnh nhân + bột dừa, đường la hán |
 | Sữa Chua Hy Lạp | Dùng làm kem Carrot Cake và kem BM Cuộn Quế |
 
 ---
@@ -219,9 +219,9 @@ updated: 2026-06-15
 
 ---
 
-## Related
+## Tài liệu liên quan
 
-- [[gem_system_prompt_moco]]
-- [[moco_content_calendar_sample]]
-- [[moco_faq_nutrition]]
-- [[moco_sample_posts_gem]]
+- [Bộ hướng dẫn viết bài](gem_system_prompt_moco.md)
+- [Lịch nội dung mẫu](moco_content_calendar_sample.md)
+- [Câu hỏi thường gặp](moco_faq_nutrition.md)
+- [Bài viết minh họa](moco_sample_posts_gem.md)

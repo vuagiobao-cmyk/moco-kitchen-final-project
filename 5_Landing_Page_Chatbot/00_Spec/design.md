@@ -88,7 +88,7 @@ flowchart TD
 - Mobile: marquee giảm font, hero body + visual xếp dọc 1 cột; `overflow-x: hidden` ở mức section để chỉ marquee được tràn có kiểm soát.
 
 ### 4. Statement Blocks (R3)
-- 2–4 khối chữ lớn (font display, ~`clamp(1.6rem, 4vw, 3rem)`), căn trái/lệch xen kẽ, mỗi khối 1 câu giá trị MOCO. Lấy từ story/disclaimer hiện có, ví dụ:
+- 2–4 khối chữ lớn, căn trái và xen kẽ, mỗi khối là một thông điệp của MOCO. Nội dung lấy từ phần câu chuyện và các lưu ý hiện có, ví dụ:
   - "MOCO là dành cho những buổi sáng nhẹ nhàng, những lời hẹn cà phê, và món ngọt không cần thấy có lỗi."
   - "Không đường tinh luyện. Không phẩm màu. Không chất bảo quản. Chỉ có nguyên liệu thật và sự tỉ mỉ."
   - "Mỗi mẻ bánh nướng tươi mỗi ngày tại Hà Nội — số lượng giới hạn."
@@ -101,7 +101,7 @@ flowchart TD
 - Mỗi danh mục là một khối có tiêu đề + (tuỳ chọn) accordion mở/đóng.
 - **Hàng món (menu row)** bố cục: `[thumbnail] · Tên món · ……dotted leader…… · Giá` + dòng mô tả nhỏ + tag đặc trưng + cảnh báo (nếu có rượu).
 - Dotted leader (đường chấm nối tên → giá) là chi tiết kiểu thực đơn cổ điển, hợp tinh thần Monte.
-- Dữ liệu giá (founder duyệt):
+- Dữ liệu giá đã xác nhận:
 
   **Dòng Keto (Keto dessert)**
   | Món | Size | Giá |
@@ -118,7 +118,7 @@ flowchart TD
   | Chuối Yến Mạch Choco | 200g | Healthy cake | 40.000đ |
   | Bánh Cuộn Quế Nguyên Cám | 100g | Healthy pastry | 40.000đ |
 
-- Giữ disclaimer dị ứng/nhiễm chéo dưới menu (border-left accent).
+- Giữ lưu ý về dị ứng và nguy cơ nhiễm chéo dưới menu.
 - Mobile: mỗi hàng món xếp dọc (thumbnail trên, tên + giá hàng, mô tả dưới); ẩn dotted leader.
 
 ### 6. Social Gallery "Ô, Chào Bạn" (R5)
@@ -131,12 +131,12 @@ flowchart TD
 - Section nền `--color-primary` (matcha đậm), chữ cream — điểm nhấn tương phản như khối CTA của Monte.
 - Tiêu đề "Đặt bánh MOCO ngay hôm nay 🤎" + mô tả: làm thủ công số lượng nhỏ, nhắn sớm, giao khu vực **Hà Nội**.
 - Nút: **Zalo**, **Instagram** (+ Facebook), dạng pill, mở tab mới `rel="noopener"`.
-- Không form email, không endpoint bên thứ ba.
+- Không có biểu mẫu email và không gửi dữ liệu đến dịch vụ bên thứ ba.
 
 ### 8. Footer 3 cột (R7)
 - Grid 3 cột (mobile 1 cột): **Liên Hệ** (Zalo, Instagram, Facebook, email placeholder) · **Giờ Nhận Đơn** (Cả tuần / khung giờ) · **Tìm MOCO** (Hà Nội + link bản đồ placeholder).
 - Hàng trên: logo MOCO + tagline "Heart-Healthy, Soul-Tasty".
-- Hàng dưới: disclaimer dinh dưỡng + copyright "© 2026 MOCO Kitchen. Dự án AI Marketing Hub — Google AI Bootcamp".
+- Hàng dưới: lưu ý dinh dưỡng và dòng bản quyền “© 2026 MOCO Kitchen. Dự án cuối khóa Google AI Bootcamp”.
 
 ### 9. Chatbot Widget (R9)
 - Giữ nguyên markup `.chatbot-widget` + nạp `chatbot.js`; không đụng `api/`.
@@ -241,4 +241,4 @@ Giữ các module cũ còn dùng, thêm/sửa:
 - **Refactor làm hỏng chatbot** → không động `chatbot.js`/`api/`; chỉ đổi markup landing.
 - **Gỡ JS cũ (parallax/stats) gây lỗi tham chiếu** → rà soát `app.js`, guard `if (el)` hoặc xoá hẳn block không dùng.
 - **Cache CSS** → bản hiện tại dùng query version (`style.css?v=...`); cập nhật version khi đổi CSS để tránh cache cũ.
-- **Giá hiển thị sai** → dùng đúng bảng giá founder đã duyệt trong tài liệu này.
+- **Giá hiển thị sai** → dùng đúng bảng giá đã xác nhận trong tài liệu này.

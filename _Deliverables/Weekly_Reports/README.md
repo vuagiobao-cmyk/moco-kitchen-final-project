@@ -1,24 +1,23 @@
-# Báo cáo theo tuần — MOCO Kitchen AI Creative & Operations Hub
+# Báo cáo 6 tuần — Dự án MOCO Kitchen
 
-Dự án cuối khóa Google AI Bootcamp 2026 (CES Global). Thực hiện: Vũ Hoàng Phong.
+Đây là báo cáo tiến độ của dự án cuối khóa Google AI Bootcamp 2026, do Vũ Hoàng Phong thực hiện.
 
-Mỗi tuần là một báo cáo ngắn, trình bày theo cùng bố cục: Mục tiêu, Hướng tiếp cận, Công việc đã thực hiện, Sản phẩm bàn giao và Kết quả.
+Mỗi báo cáo trình bày ngắn gọn mục tiêu, cách thực hiện, sản phẩm đã hoàn thành và kết quả của từng tuần.
 
-| Tuần | Chủ đề | Báo cáo |
-|------|--------|---------|
-| 1 | Tư duy AI & Nghiên cứu | [Tuần 1](Tuan_1_Tu_duy_AI_Nghien_cuu.md) |
-| 2 | Dữ liệu & Phân tích nghiệp vụ | [Tuần 2](Tuan_2_Du_lieu_Phan_tich.md) |
-| 3 | Khung nội dung & Sáng tạo | [Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) |
-| 4 | Xây dựng các tính năng chính | [Tuần 4](Tuan_4_Core_Features.md) |
-| 5 | Tích hợp & Giao diện | [Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) |
-| 6 | Triển khai & Trình bày | [Tuần 6](Tuan_6_Deployment_Trinh_bay.md) |
+| Tuần | Nội dung chính | Báo cáo |
+|---|---|---|
+| 1 | Xác định bài toán và nghiên cứu thị trường | [Đọc báo cáo Tuần 1](Tuan_1_Tu_duy_AI_Nghien_cuu.md) |
+| 2 | Chuẩn hóa dữ liệu sản phẩm và nhu cầu khách hàng | [Đọc báo cáo Tuần 2](Tuan_2_Du_lieu_Phan_tich.md) |
+| 3 | Xây dựng nội dung và định hướng hình ảnh | [Đọc báo cáo Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) |
+| 4 | Xây dựng các công cụ hỗ trợ vận hành | [Đọc báo cáo Tuần 4](Tuan_4_Core_Features.md) |
+| 5 | Hoàn thiện trang giới thiệu và trợ lý hỏi đáp | [Đọc báo cáo Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) |
+| 6 | Đưa sản phẩm lên mạng và chuẩn bị trình bày | [Đọc báo cáo Tuần 6](Tuan_6_Deployment_Trinh_bay.md) |
 
-## Liên kết chung
+## Liên kết chính
 
-- Trang web: https://moco-kitchen-ai-hub.vercel.app
-- Kho mã nguồn: https://github.com/vuagiobao-cmyk/moco-kitchen-final-project
-- Báo cáo Git tổng hợp: [GIT_WEEKLY_REPORT.md](../GIT_WEEKLY_REPORT.md)
+- [Xem website MOCO Kitchen](https://moco-kitchen-ai-hub.vercel.app)
+- [Xem toàn bộ mã nguồn](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project)
 
-## Công cụ Google AI đã sử dụng
+## Công cụ đã sử dụng
 
-NotebookLM, Gemini, Google Apps Script, Banana Pro, Veo 3, Vercel.
+Gemini, NotebookLM, Google Sheets, Google Apps Script, công cụ tạo ảnh của Google, Veo 3 và Vercel.

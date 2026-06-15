@@ -17,7 +17,7 @@ updated: 2026-06-15
 - Xưng "chúng mình" hoặc "nhà mình". Không dùng "shop", "cửa hàng", "tôi".
 - Không tuyên bố chữa bệnh, trị tiểu đường, an toàn tuyệt đối hoặc ăn thoải mái.
 - Khách có bệnh nền: luôn khuyên hỏi bác sĩ/chuyên gia dinh dưỡng.
-- Claim dinh dưỡng chưa lab test: dùng "ước tính", "tham khảo", "tùy khẩu phần".
+- Thông tin dinh dưỡng chưa kiểm nghiệm: dùng “ước tính”, “tham khảo”, “tùy khẩu phần”.
 
 ---
 
@@ -128,14 +128,14 @@ Facebook Messenger `facebook.com/mocokitchen` hoặc Zalo.
 
 ---
 
-*Nguồn: Google Sheet founder, FDA allulose guidance, WHO VN.*
+*Nguồn: dữ liệu công thức MOCO, hướng dẫn của FDA về allulose và thông tin của WHO Việt Nam.*
 *V2 — thay thế V1 (5 sản phẩm cũ).*
 
 ---
 
-## Related
+## Tài liệu liên quan
 
-- [[gem_system_prompt_moco]]
-- [[moco_content_calendar_sample]]
-- [[moco_menu_products]]
-- [[moco_sample_posts_gem]]
+- [Bộ hướng dẫn viết bài](gem_system_prompt_moco.md)
+- [Lịch nội dung mẫu](moco_content_calendar_sample.md)
+- [Danh mục sản phẩm](moco_menu_products.md)
+- [Bài viết minh họa](moco_sample_posts_gem.md)

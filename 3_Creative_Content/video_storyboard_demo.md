@@ -1,84 +1,56 @@
 ---
 id: "20260522154100"
-aliases: ["Video Storyboard MOCO", "Veo 3 Demo"]
+aliases: ["Kịch bản video MOCO"]
 tags: ["#moco", "#video", "#veo3"]
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-06-15
 ---
 
-# Video Storyboard — Demo Sản Phẩm MOCO Kitchen (Veo 3 Concept)
+# Kịch bản video giới thiệu MOCO Kitchen
 
-> Concept video demo ngắn cho MOCO Kitchen, thiết kế theo khả năng của **Google Veo 3**. Video 30–60 giây, phong cách cinematic food photography.
+Đây là phương án video 30–60 giây được xây dựng để minh họa khả năng ứng dụng Google Veo 3. Video chưa được sản xuất thành bản chính thức.
 
-## Thông số kỹ thuật
+## Thông số dự kiến
 
 | Thuộc tính | Giá trị |
-|------------|---------|
+|---|---|
 | Thời lượng | 30–60 giây |
-| Tỉ lệ | 16:9 (landscape) + 9:16 (vertical cho Reels/TikTok) |
-| Phong cách | Cinematic food photography, warm tones, slow motion |
-| Âm nhạc | Lo-fi piano, acoustic guitar (no vocals) |
-| Text overlay | Minimal — brand name + slogan cuối video |
+| Tỉ lệ | 16:9 cho trình chiếu và 9:16 cho video ngắn |
+| Phong cách | Ấm áp, chậm rãi, tập trung vào món bánh |
+| Âm nhạc | Piano hoặc guitar không lời |
+| Chữ trên hình | Tối giản, chỉ dùng tên thương hiệu và thông điệp cuối video |
 
-## Storyboard 6 cảnh
+## Sáu cảnh chính
 
-### Cảnh 1 — Opening (0:00 – 0:05)
-**Hình ảnh:** Close-up bàn tay rắc bột hạnh nhân lên mặt bánh. Ánh sáng warm gold từ bên trái. Slow motion.
-**Text overlay:** *(không có)*
-**Veo 3 prompt concept:**
-```
-Cinematic close-up of hands gently dusting almond flour over a golden cake surface, warm side lighting, slow motion, shallow depth of field, dark moody bakery background
-```
+### Cảnh 1: Mở đầu, 0–5 giây
 
-### Cảnh 2 — Nguyên liệu (0:05 – 0:12)
-**Hình ảnh:** Montage nhanh: allulose đổ vào bát → chanh vàng cắt đôi → quế Ceylon → cream cheese → chuối chín
-**Text overlay:** *"Nguyên liệu thật. Không chất bảo quản."*
-**Veo 3 prompt concept:**
-```
-Quick montage of premium baking ingredients on dark marble: allulose crystals pouring into bowl, fresh lemon cut in half with juice dripping, cinnamon sticks, cream cheese block, ripe banana — cinematic food photography, warm lighting
-```
+Cận cảnh bàn tay hoàn thiện mặt bánh dưới ánh sáng tự nhiên. Không đặt chữ trên hình.
 
-### Cảnh 3 — Quy trình (0:12 – 0:22)
-**Hình ảnh:** Trộn bột → đổ khuôn → lò nướng (qua kính, ánh lửa cam) → lấy ra thơm phức
-**Text overlay:** *"Thủ công từng mẻ"*
-**Veo 3 prompt concept:**
-```
-Artisan baker mixing batter by hand, pouring into mold, oven through glass with warm orange glow, freshly baked cake steaming on cooling rack — time-lapse style, warm cinematic tones
-```
+### Cảnh 2: Nguyên liệu, 5–12 giây
 
-### Cảnh 4 — Sản phẩm hero (0:22 – 0:35)
-**Hình ảnh:** Turntable shot 7 sản phẩm lần lượt — mỗi bánh 2 giây, xoay chậm 360°. Background cream ấm (#FDFAF5) với sage green accent.
-**Text overlay:** Tên từng sản phẩm xuất hiện nhẹ bên cạnh
-**Veo 3 prompt concept:**
-```
-Rotating turntable shot of artisan cake on warm cream background with sage green accents, 360 degree slow rotation, professional food photography lighting, clean minimal Japanese-inspired composition
-```
+Các cảnh ngắn về chanh vàng, quế, cream cheese, chuối chín và nguyên liệu làm bánh. Chữ xuất hiện: “Nguyên liệu rõ ràng. Làm theo từng mẻ nhỏ.”
 
-### Cảnh 5 — Trải nghiệm (0:35 – 0:48)
-**Hình ảnh:** Khách hàng cắt miếng bánh → nĩa xúc lên → cận cảnh texture (ẩm, mềm, lớp kem). Slow motion.
-**Text overlay:** *"Heart-Healthy, Soul-Tasty"*
-**Veo 3 prompt concept:**
-```
-Close-up of fork cutting through layered cake revealing moist texture, cream oozing, warm bokeh background, slow motion, food ASMR aesthetic, cinematic warm tones
-```
+### Cảnh 3: Quy trình, 12–22 giây
 
-### Cảnh 6 — Closing (0:48 – 0:60)
-**Hình ảnh:** Logo MOCO Kitchen fade in trên nền sage green gradient (#2E4A28 → #4A6741). Slogan xuất hiện dưới. Ánh bụi kem nhẹ bay.
-**Text overlay:** *"MOCO Kitchen — Heart-Healthy, Soul-Tasty"*
-**Veo 3 prompt concept:**
-```
-Elegant logo reveal on deep sage green gradient background, soft cream dust particles floating slowly, warm natural cinematic atmosphere, minimal text animation
-```
+Trộn bột, đổ khuôn, nướng bánh và đặt bánh lên giá làm nguội. Chữ xuất hiện: “Thủ công từng mẻ.”
 
-## Ghi chú sản xuất
+### Cảnh 4: Danh mục sản phẩm, 22–35 giây
 
-- Video demo cho dự án cuối khóa — chưa sản xuất thực tế bằng Veo 3
-- Storyboard này là concept để trình bày trong slide thuyết trình (Slide 14 — Next Steps)
-- Nếu sản xuất thực tế: cần Veo 3 access + chỉnh sửa prompt theo output thực
+Lần lượt giới thiệu bảy món bánh trên nền kem và xanh lá nhạt. Tên từng sản phẩm xuất hiện cạnh hình.
 
----
+### Cảnh 5: Trải nghiệm, 35–48 giây
 
-## Related
+Cận cảnh cắt bánh để thể hiện kết cấu, lớp kem và độ mềm. Không thêm tuyên bố dinh dưỡng hoặc sức khỏe.
 
-- [[visual_concepts]]
-- [[SLIDE_OUTLINE_TUAN6]]
+### Cảnh 6: Kết thúc, 48–60 giây
+
+Logo MOCO Kitchen và thông điệp “Heart-Healthy, Soul-Tasty” xuất hiện trên nền xanh lá. Logo và chữ cần được thêm trong khâu dựng cuối để bảo đảm chính xác.
+
+## Lưu ý khi sản xuất
+
+- Dùng ảnh sản phẩm thật làm tài liệu đối chiếu.
+- Kiểm tra kỹ hình dạng, nguyên liệu và khẩu phần trong từng cảnh.
+- Không dùng hình ảnh do AI tạo để thay thế thông tin thực tế về sản phẩm.
+- Nhạc, hình ảnh và phông chữ phải có quyền sử dụng phù hợp.
+
+Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.

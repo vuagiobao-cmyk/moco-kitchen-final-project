@@ -1,209 +1,52 @@
----
-id: 20260514073400
-aliases: ["MOCO Content Gen Deploy Guide", "Apps Script Content Generator Guide"]
-tags: ["#moco-kitchen", "#apps-script", "#gemini-api", "#phase4d"]
-created: 2026-05-14
-updated: 2026-05-14
----
+# Hướng dẫn cài đặt công cụ soạn nội dung
 
-# Deploy Guide — MOCO Content Generator (Apps Script)
+Tài liệu này hướng dẫn đưa tệp [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) vào một Google Sheet thử nghiệm. Công cụ nhận yêu cầu trong bảng tính, gửi yêu cầu đến Gemini và lưu bản nháp để người dùng kiểm tra.
 
-> **Script:** `MOCO_CONTENT_GEN.gs`  
-> **Phase:** 4D — Apps Script Content Generator  
-> **Mục tiêu:** Tự động sinh bài viết Facebook/Instagram cho MOCO Kitchen bằng Gemini AI trực tiếp trong Google Sheets
+## 1. Chuẩn bị
 
----
+1. Tạo khóa truy cập tại [Google AI Studio](https://aistudio.google.com/apikey).
+2. Tạo một Google Sheet dùng riêng cho việc thử nghiệm.
+3. Không đăng khóa truy cập lên GitHub, tài liệu chia sẻ hoặc ảnh chụp màn hình.
 
-## 1. Lấy API Key (Miễn phí)
+## 2. Cài mã nguồn
 
-1. Truy cập **[aistudio.google.com/apikey](https://aistudio.google.com/apikey)** — đăng nhập bằng bất kỳ tài khoản Google nào
-2. Bấm **"Create API key"**
-3. Copy key dạng `AIzaSy...`
-4. Lưu key — **không chia sẻ, không commit lên Git**
+1. Trong Google Sheet, chọn **Tiện ích mở rộng → Apps Script**.
+2. Tạo tệp mới tên `MOCO_CONTENT_GEN`.
+3. Dán nội dung của [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) vào tệp.
+4. Mở **Cài đặt dự án → Thuộc tính tập lệnh**.
+5. Tạo thuộc tính `GEMINI_API_KEY` và nhập khóa truy cập.
+6. Lưu dự án, chạy hàm `setupSheets` và cấp quyền theo hướng dẫn của Google.
 
-> **Quota miễn phí:** ~60 requests/phút với `gemini-2.5-flash` — đủ dùng thoải mái cho demo
+## 3. Các bảng được tạo
 
----
-
-## 2. Cài Script vào Google Sheets MOCO
-
-### Bước 1: Mở Google Sheet MOCO Kitchen
-
-> ⚠️ **Cài vào sheet vận hành MOCO** (`Bản sao của Moco Kitchen`) — KHÔNG cài vào sheet thủ tục nộp bài của lớp.
-
-```text
-https://docs.google.com/spreadsheets/d/1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y/edit
-```
-
-### Bước 2: Mở Apps Script Editor
-
-```
-Extensions → Apps Script
-```
-
-### Bước 3: Tạo file script mới
-
-- Trong Apps Script Editor, bấm **"+"** bên cạnh "Files"
-- Chọn **"Script"**
-- Đặt tên: **`MOCO_CONTENT_GEN`**
-- Xóa code mặc định, **paste toàn bộ nội dung file `MOCO_CONTENT_GEN.gs`** vào
-
-### Bước 4: Thêm API Key vào Script Properties
-
-```
-(Apps Script Editor) → Project Settings (⚙️) → Script Properties → Add property
-```
-
-| Property | Value |
+| Bảng | Mục đích |
 |---|---|
-| `GEMINI_API_KEY` | `AIzaSy...` (key của bạn) |
+| `Content Brief` | Nhập sản phẩm, loại bài, nhóm khách hàng và điểm cần nhấn mạnh |
+| `Content Output` | Nhận bản nháp nội dung và gợi ý hình ảnh |
+| `Generation Log` | Ghi lại thời gian chạy và trạng thái xử lý |
 
-> ⚠️ **KHÔNG paste API Key trực tiếp vào code** — dùng Script Properties để bảo mật
+## 4. Cách sử dụng
 
-### Bước 5: Lưu và Authorize
+1. Điền một dòng yêu cầu trong `Content Brief`.
+2. Đặt trạng thái là `Chờ xử lý`.
+3. Chọn menu **MOCO Content AI → Tạo nội dung**.
+4. Đọc kết quả tại `Content Output`.
+5. Đối chiếu với [tài liệu sản phẩm](../3_Content_Engine/moco_menu_products.md) và [quy tắc viết bài](../3_Content_Engine/gem_system_prompt_moco.md).
+6. Người dùng sửa và duyệt trước khi đăng.
 
-- Bấm **Save** (Ctrl+S)
-- Bấm **Run** → chọn hàm `setupSheets`
-- Lần đầu sẽ yêu cầu **Authorize** — bấm "Review permissions" → chọn tài khoản Google → "Allow"
+Không nhập yêu cầu khẳng định một sản phẩm có thể chữa bệnh, an toàn tuyệt đối hoặc phù hợp với mọi người. Thông tin về giá, thành phần, chất gây dị ứng và bảo quản phải được kiểm tra bằng dữ liệu thực tế.
 
----
+## 5. Một số lỗi thường gặp
 
-## 3. Sử Dụng
-
-### Bước 1: Setup Sheets (chỉ làm 1 lần)
-
-Trong Google Sheet:
-```
-Menu 🍰 MOCO Content AI → 📋 Setup Sheets
-```
-
-Script sẽ tạo 3 sheets:
-- **Content Brief** — điền yêu cầu ở đây
-- **Content Output** — xem kết quả ở đây
-- **Generation Log** — nhật ký mỗi lần chạy
-
-### Bước 2: Điền Brief
-
-Mở sheet **"Content Brief"**, điền vào các cột:
-
-| Cột | Mô tả | Ví dụ |
-|---|---|---|
-| Sản phẩm | Tên sản phẩm MOCO | `Keto Tiramisu` |
-| Loại bài | Dropdown chọn loại | `Product Post` |
-| Nhóm đối tượng | Target khách hàng | `Người kiểm soát đường huyết` |
-| Điểm nhấn | Thông điệp muốn nhấn | `Allulose không tăng đường huyết` |
-| Ghi chú thêm | (Tùy chọn) | `Nhắc đặt hàng qua Zalo` |
-| Trạng thái | Để: **Chờ xử lý** | `Chờ xử lý` |
-
-**Loại bài hỗ trợ:**
-- `Product Post` — Giới thiệu sản phẩm
-- `Education Post` — Bài giáo dục/thông tin
-- `BTS / Storytelling` — Hậu trường làm bánh
-- `Review / Social Proof` — Trải nghiệm khách hàng
-- `Seasonal / Event` — Theo mùa/sự kiện
-
-### Bước 3: Generate
-
-```
-Menu 🍰 MOCO Content AI → ✨ Generate Content
-```
-
-- Script sẽ xử lý tất cả rows có trạng thái **"Chờ xử lý"**
-- Mỗi bài mất khoảng 3-5 giây
-- Kết quả ghi vào sheet **"Content Output"**
-
-### Bước 4: Xem & Dùng
-
-Mở sheet **"Content Output"**:
-- Cột **"Nội dung bài viết"** — copy vào Facebook/Instagram
-- Cột **"Idea ảnh"** — gợi ý concept ảnh cho bài
-
----
-
-## 4. Troubleshooting
-
-| Lỗi | Nguyên nhân | Cách sửa |
-|---|---|---|
-| "Chưa cấu hình API Key" | Script Properties chưa có key | Thêm `GEMINI_API_KEY` vào Script Properties |
-| "HTTP 429" | Quá nhiều request trong 1 phút | Đợi 1-2 phút rồi chạy lại |
-| "HTTP 400" | Prompt lỗi hoặc content bị filter | Kiểm tra lại nội dung brief |
-| "Không có brief nào" | Không có row trạng thái "Chờ xử lý" | Đổi cột Trạng thái → "Chờ xử lý" |
-| Script không load | Chưa refresh menu | Reload Google Sheet (F5) |
-
----
-
-## 5. Mở Rộng (Optional)
-
-### Trigger tự động hàng ngày
-
-Để script tự chạy mỗi sáng lúc 8h:
-
-```
-(Apps Script Editor) → Triggers (⏱️) → Add Trigger
-→ Function: generateContentFromBrief
-→ Time-based → Day timer → 8am-9am
-```
-
-### Gửi output qua Gmail (bonus)
-
-Có thể mở rộng script để tự động gửi draft bài qua Gmail cho founder sau mỗi lần generate — hỏi tôi nếu cần.
-
----
-
-## 6. File liên quan
-
-| File | Vai trò |
+| Hiện tượng | Cách xử lý |
 |---|---|
-| `MOCO_CONTENT_GEN.gs` | Script chính |
-| `3_Content_Engine/gem_system_prompt_moco.md` | Nguồn System Prompt (đã embed trong script) |
-| `3_Content_Engine/moco_sample_posts_gem.md` | Ví dụ output mẫu để so sánh |
+| Chưa cấu hình khóa truy cập | Kiểm tra thuộc tính `GEMINI_API_KEY` |
+| Quá nhiều yêu cầu trong thời gian ngắn | Chờ một lúc rồi chạy lại |
+| Không có dòng cần xử lý | Kiểm tra cột trạng thái trong `Content Brief` |
+| Menu chưa xuất hiện | Tải lại Google Sheet |
 
----
+## 6. Lịch nội dung
 
-*Phase 4D — MOCO AI Marketing Hub | Google AI Bootcamp 2026*
+Tệp [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) bổ sung bảng theo dõi ngày đăng. Người dùng có thể chuyển các chủ đề đến hạn sang `Content Brief`, sau đó tạo bản nháp theo quy trình trên.
 
----
-
-## Related
-
-- [[ANTIGRAVITY_HANDOFF_GOOGLE_SHEET_CONTROL]]
-- [[CODEX_TASK_DEPLOY_DASHBOARD_V2]]
-- [[DEPLOY_GUIDE]]
-- [[MOCO_HANDOFF_2026-05-13_COST_UI_DROPDOWN]]
-- [[MOCO_HANDOFF_2026-05-13_UI_YIELD_SYNCOUT]]
-
-
----
-
-## NÂNG CẤP 2026-06-07 — Lịch nội dung + Prompt ảnh Banana Pro
-
-File bổ sung: `MOCO_CONTENT_CALENDAR.gs` (đã whitelist trong `.claspignore`, push chung qua clasp).
-
-Sau khi push, **F5 lại sheet** để menu cập nhật. Không cần cấp quyền lại (không thêm scope mới).
-
-### A. Lịch nội dung (Content Calendar)
-
-Menu `🍰 MOCO Content AI → 📅 Lịch nội dung`:
-
-1. **🆕 Setup Content Calendar** — tạo sheet `Content Calendar` với cột: Ngày đăng, Kênh, Sản phẩm, Loại bài, Đối tượng, Điểm nhấn / Occasion, Ghi chú thêm, Đã đẩy? (kèm dropdown Kênh & Loại bài).
-2. Điền lịch theo từng dòng = 1 bài cần đăng.
-3. **➡️ Đẩy toàn bộ lịch chưa xử lý sang Brief** — copy mọi dòng chưa có dấu `✅ Đã đẩy` xuống sheet `Content Brief` (status `Chờ xử lý`), kèm thông tin `Kênh:` vào ghi chú, rồi đánh dấu dòng lịch là `✅ Đã đẩy` để không trùng.
-4. **📆 Chỉ đẩy bài đến hạn hôm nay** — như trên nhưng chỉ lấy dòng có `Ngày đăng <= hôm nay`.
-5. Sang `Content Brief` bấm `✨ Generate Content` như bình thường.
-
-### B. Prompt ảnh Banana Pro
-
-Menu `🍰 MOCO Content AI → 🎨 Tạo prompt ảnh Banana Pro`:
-
-- Đọc sheet `Content Output`, với mỗi bài chưa có prompt sẽ lấy "Idea ảnh" (tiếng Việt) + tên sản phẩm → gọi Gemini sinh **1 prompt tiếng Anh chuẩn Nano Banana Pro** (food photography), ghi vào cột mới `Banana Pro Prompt` (cột G).
-- Copy prompt ở cột G → dán vào **Nano Banana Pro** để gen ảnh minh hoạ kèm bài.
-- Quy ước prompt theo bộ template logo/visual MOCO (warm earthy palette: sage green, oatmeal beige, cocoa brown, milk white; soft natural light; no text/logo/watermark).
-- Hàm an toàn: chỉ sinh cho bài chưa có prompt (bỏ qua bài đã có), có retry khi model quá tải.
-
-### C. Gen ảnh đúng style bằng Gem trên Gemini
-
-Prompt ở cột "Banana Pro Prompt" KHÔNG dán trực tiếp vào Gemini thường (mỗi lần ra một kiểu).
-Thay vào đó dùng **Gem "MOCO Visual Art Director"** đã khóa sẵn nhận diện Moco để mọi ảnh đồng nhất:
-
-- Cấu hình + hướng dẫn tạo Gem: `Du_An_Cuoi_Khoa/3_Creative_Content/MOCO_VISUAL_GEM_CONFIG.md`
-- Luồng: copy prompt cột G → mở Gem → dán → Gem gen ảnh đúng brand + trả prompt EN tái lập.
+Tài liệu này chỉ mô tả cách cài đặt cho mục đích học tập và trình diễn. Không sử dụng bảng dữ liệu thật của khách hàng khi chưa có biện pháp phân quyền và bảo vệ thông tin phù hợp.

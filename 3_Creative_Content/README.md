@@ -6,22 +6,15 @@ created: 2026-05-22
 updated: 2026-05-22
 ---
 
-# 3_Creative_Content — Ảnh AI & Video Concept
+# Tuần 3: Hình ảnh và phương án video
 
-> Thư mục chứa các sản phẩm sáng tạo được tạo bằng Google AI Tools (Banana Pro / ImageFX, Veo 3) cho dự án MOCO Kitchen.
+Thư mục này trình bày cách dự án sử dụng các công cụ tạo ảnh và video của Google để minh họa sản phẩm MOCO Kitchen.
 
 ## Nội dung
 
-| File | Mô tả |
-|------|--------|
-| `visual_concepts.md` | Liệt kê 13 ảnh AI đã generate cho Landing Page |
-| `video_storyboard_demo.md` | Storyboard video demo sản phẩm (Veo 3 concept) |
+| Tài liệu | Mô tả |
+|---|---|
+| [Ý tưởng hình ảnh](visual_concepts.md) | Định hướng màu sắc, ánh sáng và nguyên tắc sử dụng ảnh do AI hỗ trợ |
+| [Kịch bản video](video_storyboard_demo.md) | Phương án video giới thiệu sản phẩm dài 30–60 giây |
 
-## Google AI Tools sử dụng
-
-- **Banana Pro / ImageFX** — Tạo ảnh sản phẩm AI cho Landing Page
-- **Veo 3** — Concept video demo sản phẩm (storyboard)
-
-## Vị trí ảnh gốc
-
-Tất cả 13 file ảnh AI nằm tại: `5_Landing_Page_Chatbot/assets/`
+Ảnh đang sử dụng trên trang giới thiệu nằm trong thư mục [`5_Landing_Page_Chatbot/assets`](../5_Landing_Page_Chatbot/assets/). Ảnh thật được ưu tiên cho menu và nội dung bán hàng.

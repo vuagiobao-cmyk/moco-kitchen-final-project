@@ -13,7 +13,7 @@ Moodboard này là một phần của case study dự án cuối khóa Google AI
 
 - Sản phẩm thật của MOCO Kitchen.
 - Công thức/ingredient từ Google Sheet.
-- Pinterest screenshots/ref do founder chọn.
+- Hình tham khảo trên Pinterest do người vận hành lựa chọn.
 - Direction đã khóa: Japanese airy, sáng ấm, soft shadow, kem/gỗ/giấy/vải sáng, 1-2 props phụ.
 
 ## Process

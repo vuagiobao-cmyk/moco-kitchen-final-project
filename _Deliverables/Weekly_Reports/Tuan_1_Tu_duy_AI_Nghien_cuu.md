@@ -1,42 +1,42 @@
-# Tuần 1 — Tư duy AI & Nghiên cứu
+# Tuần 1 — Xác định bài toán và nghiên cứu thị trường
 
 **Thời gian:** 22/03 – 28/03/2026
-**Tóm tắt:** Tìm hiểu nhu cầu thực tế của thương hiệu MOCO Kitchen, xác lập tư duy làm việc với AI và chốt phạm vi cho dự án cuối khóa.
-
----
+**Tóm tắt:** Tìm hiểu nhu cầu thực tế của MOCO Kitchen và xác định phạm vi cho dự án cuối khóa.
 
 ## Mục tiêu
 
-- Hiểu rõ bối cảnh kinh doanh thực tế của MOCO Kitchen — một thương hiệu bánh healthy và keto bán online — thông qua trao đổi trực tiếp với founder.
-- Hình thành cách làm việc với AI một cách bài bản: xem AI như một trợ lý có định hướng rõ ràng, thay vì hỏi đáp ngẫu nhiên.
-- Xác định phạm vi và mục tiêu của dự án cuối khóa để có định hướng xuyên suốt 6 tuần.
+- Hiểu cách MOCO Kitchen đang bán bánh, làm nội dung và quản lý công việc hằng ngày.
+- Xác định những việc AI có thể hỗ trợ thiết thực, thay vì xây dựng một sản phẩm chỉ để minh họa.
+- Chốt mục tiêu và lộ trình thực hiện trong sáu tuần.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- Khi viết prompt cho AI, mỗi yêu cầu được trình bày theo bốn ý: AI đóng vai trò gì, bối cảnh là gì, cần đạt được kết quả nào và cần tránh điều gì. Cách đặt yêu cầu rõ ràng này giúp AI trả lời sát mục tiêu hơn hẳn so với việc hỏi chung chung, đồng thời dễ kiểm soát chất lượng đầu ra.
-- Qua trao đổi, xác định MOCO Kitchen đang có hai nhóm vấn đề cần hỗ trợ. Thứ nhất là marketing: cần sản xuất content đều đặn cho Facebook và Instagram nhưng vẫn giữ đúng giọng điệu (brand voice) của thương hiệu. Thứ hai là vận hành: cần quản lý chi phí, nhập hàng và thu chi một cách gọn gàng, chính xác.
-- Trên cơ sở đó, dự án được định hướng để AI hỗ trợ song song hai mảng — sáng tạo nội dung và vận hành — thay vì chỉ làm một chatbot đơn lẻ.
+- Trao đổi với người trực tiếp vận hành MOCO Kitchen để ghi nhận khó khăn thực tế.
+- Chia bài toán thành hai nhóm: hỗ trợ viết nội dung và hỗ trợ quản lý dữ liệu vận hành.
+- Quy định rõ vai trò, bối cảnh, kết quả mong muốn và giới hạn trong mỗi yêu cầu gửi cho AI. Cách làm này giúp kết quả sát mục tiêu và dễ kiểm tra hơn.
+- Nghiên cứu sơ bộ thị trường bánh ít đường và bánh healthy tại Việt Nam để đánh giá tính phù hợp của dự án.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Viết bản mô tả vấn đề (problem statement) của MOCO Kitchen, nêu rõ bối cảnh, đối tượng khách hàng và những việc cần giải quyết.
-- Xây dựng bộ quy tắc giao tiếp (system prompt) cho trợ lý AI để giữ đúng phong cách ấm áp, chân thành và đáng tin của brand.
-- Dựng một landing page mẫu nhỏ để thử nghiệm và làm quen với quy trình.
-- Nghiên cứu sơ bộ thị trường bánh healthy tại Việt Nam: nhu cầu, xu hướng và vai trò của AI trong marketing ngành F&B.
+- Viết bản mô tả bài toán, đối tượng khách hàng và phạm vi dự án.
+- Xây dựng bộ hướng dẫn để trợ lý AI viết đúng giọng thương hiệu MOCO.
+- Tạo bản thử nghiệm ban đầu của trang giới thiệu sản phẩm.
+- Tổng hợp xu hướng thị trường, nhu cầu khách hàng và các lưu ý khi truyền thông về sức khỏe.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Bản mô tả vấn đề (problem statement) | [1_Research/problem_statement_RCGC.md](../../1_Research/problem_statement_RCGC.md) |
-| Nghiên cứu thị trường bánh healthy | [1_Research/deep_research_banh_healthy_vn.md](../../1_Research/deep_research_banh_healthy_vn.md) |
-| Bộ quy tắc giao tiếp (system prompt) của trợ lý AI | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
+|---|---|
+| Mô tả bài toán | [Xem tài liệu](../../1_Research/problem_statement_RCGC.md) |
+| Nghiên cứu thị trường | [Xem tài liệu](../../1_Research/deep_research_banh_healthy_vn.md) |
+| Hướng dẫn cho trợ lý viết nội dung | [Xem tài liệu](../../3_Content_Engine/gem_system_prompt_moco.md) |
 
 ## Kết quả
 
-- Xác định được đề bài rõ ràng, có thể đo lường, làm nền tảng cho toàn bộ các tuần tiếp theo.
-- Thống nhất một nguyên tắc xuyên suốt dự án: AI phải bám đúng đặc điểm của thương hiệu và không đưa ra thông tin thiếu căn cứ, đặc biệt với các nội dung liên quan đến sức khỏe.
+- Đề bài được xác định rõ và có thể triển khai theo từng tuần.
+- Dự án tập trung vào hai giá trị: giúp thương hiệu tạo nội dung nhất quán và giảm công việc quản lý thủ công.
+- Nguyên tắc xuyên suốt được thống nhất: AI phải dựa trên dữ liệu của thương hiệu và không đưa ra khẳng định thiếu căn cứ, đặc biệt với nội dung liên quan đến sức khỏe.
 
 ---
 
-**Điều hướng:** [Mục lục các tuần](README.md) · [Tuần 2 → Dữ liệu & Phân tích nghiệp vụ](Tuan_2_Du_lieu_Phan_tich.md)
+**Điều hướng:** [Mục lục](README.md) · [Tuần 2 →](Tuan_2_Du_lieu_Phan_tich.md)

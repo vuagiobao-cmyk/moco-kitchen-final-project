@@ -1,39 +1,31 @@
----
-id: "20260522154300"
-aliases: ["Deployment Demo README"]
-tags: ["#moco", "#deploy", "#demo"]
-created: 2026-05-22
-updated: 2026-05-22
----
+# Hướng dẫn trình diễn dự án MOCO Kitchen
 
-# 6_Deployment_Demo — Hướng dẫn Demo dự án MOCO Kitchen
+## Liên kết
 
-> Thư mục chứa hướng dẫn demo, kịch bản trình bày, screenshots và URL deploy.
+- **Website:** [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app)
+- **Mã nguồn:** [github.com/vuagiobao-cmyk/moco-kitchen-final-project](https://github.com/vuagiobao-cmyk/moco-kitchen-final-project)
+- **Báo cáo sáu tuần:** [Xem mục lục](../_Deliverables/Weekly_Reports/README.md)
 
-## 🔗 URL Deploy
+## Nội dung cần trình diễn
 
-| Kênh | URL | Trạng thái |
-|------|-----|-----------|
-| **Vercel Production** | [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) | ✅ Live |
-| Vercel Inspect | [Vercel Dashboard](https://vercel.com/phong7890-6763s-projects/moco-kitchen-ai-hub) | ✅ |
+1. Mở website và giới thiệu danh mục bảy sản phẩm.
+2. Mở phần câu hỏi thường gặp để minh họa cách trình bày thông tin về thành phần và bảo quản.
+3. Đặt một câu hỏi cho trợ lý, ví dụ: “Tôi cần lưu ý gì khi chọn bánh nếu đang kiểm soát đường?”
+4. Mở Google Sheets và giới thiệu công cụ hỗ trợ viết bài.
+5. Giới thiệu các bảng quản lý đơn hàng, giá vốn và thu chi.
+6. Mở NotebookLM để cho thấy các câu trả lời dựa trên tài liệu đã chuẩn hóa.
 
-## Nội dung thư mục
+## Chuẩn bị trước khi trình diễn
 
-| File | Mô tả |
-|------|--------|
-| `README.md` | File này — hướng dẫn tổng quan |
-| `DEMO_SCRIPT.md` | Kịch bản demo 5 phút |
+- Kiểm tra website và trợ lý hỏi đáp đang hoạt động.
+- Mở sẵn website, NotebookLM, Google Sheets và slide trong các thẻ trình duyệt riêng.
+- Chuẩn bị ảnh chụp dự phòng nếu kết nối internet không ổn định.
+- Không hiển thị khóa truy cập, mật khẩu hoặc dữ liệu cá nhân của khách hàng.
 
-## Cách demo
+## Tài liệu trong thư mục
 
-1. Mở [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) trên Chrome
-2. Scroll qua các section (Monte v3): Brand Hero → Cake Hero → Menu (7 SP có giá) → Story → Gallery → FAQ → Order → Footer
-3. Click chatbot widget (góc phải dưới) → test 3 queries
-4. Show Apps Script trên Google Sheets (tab riêng)
-5. Show NotebookLM notebook (tab riêng)
-
-## Lưu ý bảo mật
-
-- Chatbot gọi Gemini qua serverless `api/chat.js`; key đọc từ `GEMINI_API_KEY` trên Vercel env (KHÔNG hardcode trong frontend)
-- Key là loại miễn phí của AI Studio
-- Không share URL rộng rãi ngoài phạm vi lớp học
+| Tài liệu | Nội dung |
+|---|---|
+| `README.md` | Hướng dẫn tổng quan |
+| `DEMO_SCRIPT.md` | Kịch bản trình diễn trong 5 phút |
+| `slide_images/` | Hình minh họa dùng cho bài thuyết trình |

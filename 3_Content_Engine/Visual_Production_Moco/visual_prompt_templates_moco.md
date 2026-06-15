@@ -252,7 +252,7 @@ warm light, shallow depth of field, bakery quality, 4K macro photo
 3. **Gemini Image Gen:** Paste prompt, thêm "high resolution, 4K" nếu cần
 4. **Negative prompt:** Luôn thêm vào phần settings nếu tool hỗ trợ
 
-### Lưu ý QA (@QA_Thanh)
+### Lưu ý kiểm tra chất lượng
 - Ảnh AI không được gây ấn tượng sai lệch về kích cỡ/hình dạng sản phẩm thật
 - Không có text/logo giả trong ảnh
 - Nếu dùng cho quảng cáo chính thức, cần ghi chú "Ảnh minh họa" hoặc kết hợp ảnh chụp thật

@@ -1,45 +1,41 @@
-# Tuần 4 — Xây dựng các tính năng chính (Core Features)
+# Tuần 4 — Xây dựng các công cụ hỗ trợ vận hành
 
 **Thời gian:** 13/04 – 20/04/2026
-**Tóm tắt:** Bắt đầu hiện thực hóa các phần chính của hệ thống để chạy được trong thực tế, trọng tâm là tự động hóa quy trình trên Google Sheet bằng Apps Script.
-
----
+**Tóm tắt:** Chuyển các ý tưởng thành những công cụ có thể sử dụng trực tiếp trên Google Sheets.
 
 ## Mục tiêu
 
-Xây dựng bốn phần chính của hệ thống:
-1. Landing page giới thiệu sản phẩm.
-2. Chatbot tư vấn, trả lời câu hỏi về sản phẩm.
-3. Automation (tự động hóa) trên Google Sheet để giảm thao tác thủ công cho vận hành.
-4. Knowledge base kết nối với chatbot để đảm bảo trả lời đúng.
+- Tạo công cụ hỗ trợ viết bài từ thông tin sản phẩm có sẵn.
+- Giảm thao tác thủ công khi quản lý đơn hàng, nhập hàng và thu chi.
+- Chuẩn bị phần hỏi đáp sản phẩm để tích hợp vào website.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- MOCO Kitchen đang vận hành trực tiếp trên Google Sheet, nên phần automation được xây ngay trong Sheet bằng Google Apps Script — công cụ lập trình tự động hóa của Google. Cách làm này giúp founder sử dụng ngay trong công cụ quen thuộc, không phải học thêm phần mềm mới.
-- Hệ thống được chia thành các module riêng biệt để dễ phát triển và bảo trì: tạo content, nhập hàng, thu chi, dashboard tổng hợp và tính giá vốn (cost).
-- Lưu ý phạm vi: khóa học chỉ yêu cầu phần marketing. Các phần quản lý đơn hàng trên Google Sheet và công cụ tính cost/food cost là phần làm thêm theo nhu cầu thực tế của tiệm, mang tính bonus ngoài yêu cầu bài tập.
-- Chatbot sử dụng model Gemini, có cấu hình an toàn và kèm khuyến nghị cho các câu hỏi liên quan đến sức khỏe.
+- Xây dựng các chức năng ngay trong Google Sheets bằng Google Apps Script, để người vận hành tiếp tục làm việc trong công cụ quen thuộc.
+- Chia công việc thành các chức năng độc lập: tạo bài viết, nhập hàng, quản lý thu chi, tổng hợp số liệu và tính giá vốn nguyên liệu.
+- Mỗi chức năng được thử riêng trước khi ghép thành một hệ thống hoàn chỉnh.
+- Trợ lý hỏi đáp sử dụng Gemini và tuân theo các quy tắc an toàn đã xây dựng ở Tuần 2.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Xây dựng Google Form đặt hàng tự động gửi email xác nhận cho khách.
-- Xây dựng module quản lý kho hàng kèm cảnh báo tự động khi sắp hết hàng.
-- Xây dựng web app quản lý đơn hàng cơ bản.
-- Khởi tạo công cụ tạo content tự động (MOCO Content Generator) hoạt động ngay trong Google Sheet.
+- Tạo biểu mẫu đặt hàng có email xác nhận tự động.
+- Xây dựng bảng quản lý kho và cảnh báo khi nguyên liệu sắp hết.
+- Xây dựng ứng dụng nhỏ để theo dõi đơn hàng.
+- Tạo công cụ hỗ trợ viết bài ngay trong Google Sheets.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Giới thiệu phần automation | [4_App_Automation/README.md](../../4_App_Automation/README.md) |
-| Công cụ tạo content trong Sheet | [4_App_Automation/MOCO_CONTENT_GEN.gs](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
-| Hướng dẫn cài đặt và deploy | [4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md](../../4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) |
+|---|---|
+| Tổng quan bộ công cụ | [Xem tài liệu](../../4_App_Automation/README.md) |
+| Mã nguồn công cụ viết bài | [Xem mã nguồn](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
 
 ## Kết quả
 
-- Nắm vững cách dùng Apps Script để tự động hóa Google Sheet (gửi email tự động, web app, kết nối tới Gemini). Đây là nền tảng cho bộ công cụ vận hành của MOCO ở tuần 5 – 6.
-- Các tính năng chính đã chạy độc lập được, sẵn sàng để tích hợp thành một hệ thống hoàn chỉnh.
+- Các chức năng chính đã hoạt động độc lập và sẵn sàng tích hợp.
+- Người vận hành có thể tạo bài viết, theo dõi đơn hàng và tổng hợp dữ liệu trên cùng hệ thống Google Sheets.
+- Phần quản lý chi phí và đơn hàng là phần mở rộng từ nhu cầu thực tế của MOCO, ngoài phạm vi tối thiểu của bài tập marketing.
 
 ---
 
-**Điều hướng:** [← Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) · [Mục lục các tuần](README.md) · [Tuần 5 →](Tuan_5_Tich_hop_Giao_dien.md)
+**Điều hướng:** [← Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) · [Mục lục](README.md) · [Tuần 5 →](Tuan_5_Tich_hop_Giao_dien.md)

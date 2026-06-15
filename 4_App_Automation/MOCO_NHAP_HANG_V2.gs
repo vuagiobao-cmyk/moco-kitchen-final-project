@@ -20,7 +20,7 @@
 const SHEET_NAME = 'NHẬP HÀNG';
 const MOCO_SPREADSHEET_ID = '1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y';
 const WEB_APP_TOKEN_PROPERTY = 'MOCO_WEB_APP_TOKEN';
-const CODEX_TEMP_WEB_APP_TOKEN = '';
+const TEMP_WEB_APP_TOKEN = '';
 const CLEAN_CONFIRM_PHRASE = 'RUN_CLEAN_NHAP_HANG';
 
 const HEADERS = [
@@ -1403,8 +1403,8 @@ function MOCO_APPEND_VINEGAR_PURCHASE() {
   const sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) throw new Error('Không tìm thấy sheet: ' + SHEET_NAME);
 
-  const marker = 'CODEX_DAM_2026-05-13';
-  const oldMarker = 'CODEX_VINEGAR_2026-05-13';
+  const marker = 'MOCO_DAM_2026-05-13';
+  const oldMarker = 'MOCO_VINEGAR_2026-05-13';
   const targetRow = 119;
   const lastRow = Math.max(sheet.getLastRow(), targetRow);
   const width = Math.max(sheet.getLastColumn(), 10);
@@ -1676,15 +1676,15 @@ function MOCO_APPLY_ORDER_AUDIT_NOTES() {
   const title = 'ORDER IMPORT REVIEW - CHỜ DUYỆT MAPPING TRƯỚC KHI GHI VÀO ĐƠN HÀNG';
   const rows = [
     [title, '', '', '', '', ''],
-    ['Trạng thái', 'Chưa nhập dữ liệu từ file nguồn vì Google đang chặn quyền đọc nội dung file khác. Đã xác định ứng viên khả nghi: file Moco Kitchen của founder thuduyen16@gmail.com.', '', '', '', ''],
-    ['Nguyên tắc', 'Không tự sửa câu chữ/tên món/nội dung founder nhập. Dữ liệu nguồn phải vào review trước; chỉ ghi sang ĐƠN HÀNG sau khi Sếp duyệt các sai khác.', '', '', '', ''],
-    ['Rule đặt tên', 'Tên món phải khớp MENU & GIÁ/SKU. Tên lạ như Cheese Cake/Bánh mỳ/Bánh Cà rốt chỉ được map sau khi Sếp duyệt.', '', '', '', ''],
+    ['Trạng thái', 'Chưa nhập dữ liệu vì tài khoản hiện tại chưa có quyền đọc tệp nguồn.', '', '', '', ''],
+    ['Nguyên tắc', 'Không tự sửa câu chữ hoặc tên món trong dữ liệu nguồn. Chỉ ghi sang ĐƠN HÀNG sau khi người vận hành duyệt các sai khác.', '', '', '', ''],
+    ['Quy tắc đặt tên', 'Tên món phải khớp MENU & GIÁ/SKU. Tên chưa thống nhất chỉ được chuẩn hóa sau khi người vận hành duyệt.', '', '', '', ''],
     ['Rule tiền/ship', 'Tách doanh thu bánh, phí ship khách trả, phí ship thực tế, shop bù ship. Không gộp ship vào giá bánh nếu chưa có rule rõ.', '', '', '', ''],
     ['Vấn đề hiện tại', 'ĐƠN HÀNG đang trộn bảng đơn chính A:M, summary phụ O:Q, nhiều merged cells và cột G vừa là giờ giao vừa là trạng thái.', '', '', '', ''],
     ['', '', '', '', '', ''],
-    ['Hạng mục', 'Hiện trạng/rủi ro', 'Đề xuất xử lý', 'Có tự sửa không?', 'Cần Sếp duyệt?', 'Ghi chú'],
+    ['Hạng mục', 'Hiện trạng/rủi ro', 'Đề xuất xử lý', 'Có tự sửa không?', 'Cần duyệt?', 'Ghi chú'],
     ['Nguồn đơn hàng', 'File nguồn chưa đọc được do quyền Google', 'Dùng URL/ID nguồn hoặc owner authorize Drive/Sheets scope rồi chạy import dry-run', 'Không', 'Có', 'Chỉ đọc trước, chưa ghi'],
-    ['Cấu trúc dòng', 'Một đơn nhiều dòng item, A:G/K:M bị merge', 'Tách thành order header + order line, mỗi item một dòng sạch', 'Không', 'Có', 'Không phá dữ liệu founder'],
+    ['Cấu trúc dòng', 'Một đơn có nhiều dòng sản phẩm và một số ô được gộp', 'Tách thông tin chung của đơn và từng sản phẩm thành các dòng rõ ràng', 'Không', 'Có', 'Không thay đổi dữ liệu nguồn'],
     ['Tên món', 'Nhiều biến thể tên món', 'Map qua SKU/menu chuẩn, giữ raw name ở cột riêng', 'Không', 'Có', 'Không tự đổi câu chữ'],
     ['Trạng thái', 'Cột G lẫn done/Done/Chưa tt/giờ giao', 'Tách Payment status, Fulfillment status, Delivery time', 'Không', 'Có', 'Giảm lỗi dashboard/thu chi'],
     ['Giá/CK', 'Tiền là text; CK lẫn %, k', 'Tách discount type/value và tính tiền bằng công thức chuẩn', 'Không', 'Có', 'Không sửa số gốc'],
@@ -1705,9 +1705,9 @@ function MOCO_APPLY_ORDER_AUDIT_NOTES() {
   [180, 360, 360, 120, 130, 280].forEach((width, idx) => auditSheet.setColumnWidth(idx + 1, width));
   auditSheet.setFrozenRows(8);
 
-  orderSheet.getRange('A1').setNote('ĐƠN HÀNG hiện là dữ liệu founder/raw. Không tự ghi đè từ source nếu chưa qua ORDER IMPORT REVIEW.');
+  orderSheet.getRange('A1').setNote('ĐƠN HÀNG hiện chứa dữ liệu gốc. Không tự ghi đè từ nguồn nếu chưa qua bước kiểm tra.');
   orderSheet.getRange('G1').setNote('Cột này đang lẫn giờ giao và trạng thái thanh toán/giao hàng. Cần tách status trước khi tối ưu dashboard/thu chi.');
-  orderSheet.getRange('H1').setNote('Tên bánh phải map qua MENU & GIÁ/SKU. Không tự đổi các khác biệt câu chữ nếu chưa được Sếp duyệt.');
+  orderSheet.getRange('H1').setNote('Tên bánh phải đối chiếu với MENU & GIÁ/SKU. Không tự đổi câu chữ nếu chưa được người vận hành duyệt.');
   orderSheet.getRange('J1:M1').setNote('Giá/chiết khấu đang có text, khoảng trắng, ký hiệu đ, %, k. Khi import cần giữ raw value và tính bằng cột chuẩn riêng.');
   orderSheet.getRange('O1').setNote('Khối O:Q là summary phụ, không nên trộn với bảng đơn raw khi import/sync.');
 
@@ -1747,9 +1747,9 @@ function MOCO_SETUP_ORDER_COPY_BUFFER() {
   ];
   const guideRows = [
     [title, '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
-    ['CÁCH DÙNG', 'Sếp copy dữ liệu từ file founder và dán từ dòng 5 trở xuống. Giữ nguyên câu chữ founder nhập. Không cần tự sửa tên bánh/giá/ship ở đây.', '', '', '', '', '', '', '', '', '', '', '', '', ''],
+    ['CÁCH DÙNG', 'Sao chép dữ liệu nguồn và dán từ dòng 6 trở xuống. Giữ nguyên câu chữ ban đầu; không cần tự sửa tên bánh, giá hoặc phí giao hàng tại đây.', '', '', '', '', '', '', '', '', '', '', '', '', ''],
     ['NGUYÊN TẮC', 'Sheet này là vùng raw/staging. Hệ thống chỉ đọc để lập ORDER IMPORT REVIEW; chưa tự ghi sang ĐƠN HÀNG nếu chưa có duyệt mapping.', '', '', '', '', '', '', '', '', '', '', '', '', ''],
-    ['CẢNH BÁO', 'Tên món khác danh mục, chiết khấu dạng 10%/20k, phí ship lẫn ghi chú sẽ được đưa vào review để Sếp duyệt trước khi chuẩn hóa.', '', '', '', '', '', '', '', '', '', '', '', '', ''],
+    ['CẢNH BÁO', 'Tên món khác danh mục, cách ghi chiết khấu hoặc phí giao hàng chưa thống nhất sẽ được đưa vào bước kiểm tra trước khi chuẩn hóa.', '', '', '', '', '', '', '', '', '', '', '', '', ''],
     headers,
   ];
   sheet.getRange(1, 1, guideRows.length, headers.length).setValues(guideRows);
@@ -1795,7 +1795,7 @@ function MOCO_SETUP_ORDER_COPY_BUFFER() {
     title,
     pasteStartCell: bufferName + '!A6',
     auditSheet: auditResult.auditSheet,
-    nextAction: 'Sau khi Sếp dán data founder vào ORDER RAW - DÁN FOUNDER từ dòng 6, chạy bước review/mapping trong cùng file.',
+    nextAction: 'Sau khi dán dữ liệu nguồn từ dòng 6, chạy bước kiểm tra và đối chiếu trong cùng tệp.',
   };
 }
 
@@ -1838,7 +1838,7 @@ function MOCO_DELETE_ORDER_STAGING_SHEETS() {
   return {
     deleted,
     notFound,
-    reason: 'Không dùng staging riêng nữa; cập nhật trực tiếp từ tab nguồn sang ĐƠN HÀNG theo yêu cầu Sếp.',
+    reason: 'Không dùng vùng dữ liệu tạm riêng; cập nhật trực tiếp từ trang nguồn sang ĐƠN HÀNG theo quy trình đã thống nhất.',
   };
 }
 
@@ -5816,11 +5816,11 @@ function parseWebAppPayload_(e) {
 function assertWebAppToken_(providedToken) {
   const expectedToken = PropertiesService.getScriptProperties()
     .getProperty(WEB_APP_TOKEN_PROPERTY);
-  if (!expectedToken && !CODEX_TEMP_WEB_APP_TOKEN) {
+  if (!expectedToken && !TEMP_WEB_APP_TOKEN) {
     throw new Error('Web App token is not configured in Script Properties: ' + WEB_APP_TOKEN_PROPERTY);
   }
   const provided = String(providedToken || '');
-  if (!provided || (String(expectedToken || '') !== provided && String(CODEX_TEMP_WEB_APP_TOKEN || '') !== provided)) {
+  if (!provided || (String(expectedToken || '') !== provided && String(TEMP_WEB_APP_TOKEN || '') !== provided)) {
     throw new Error('Unauthorized: invalid token');
   }
 }

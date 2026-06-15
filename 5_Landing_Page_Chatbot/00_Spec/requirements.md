@@ -13,7 +13,7 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 - Bảng màu cần giữ: định nghĩa trong `:root` của `style.css` (matcha green `#355C3B`, cream `#FFF8E7`, accent `#C86F4E`...).
 - Logo cần giữ: `/assets/moco-logo-green.png`.
 - Dữ liệu sản phẩm: 7 sản phẩm (2 Keto + 5 Healthy Baking) từ `3_Content_Engine/moco_menu_products.md`, ảnh tương ứng trong `/assets`.
-- **Bảng giá chính thức (founder duyệt):**
+- **Bảng giá đã xác nhận:**
 
   | Bánh | Khối lượng / size | Nhóm | Giá bán |
   |------|------|------|---------|
@@ -30,8 +30,8 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 - **Lưu ý quan trọng (rút kinh nghiệm bản hiện tại):** Đây là landing page **bán bánh**, nên một số mục cuối trang của Monte (vốn là quán cà phê dine-in) cần được thay bằng mục phù hợp bán hàng/đặt online — ưu tiên rõ giá, cách đặt, khu vực giao, thay vì "book a table".
 
 ### Phạm vi (Scope)
-- **Trong scope:** Redesign `index.html` + `style.css` (+ điều chỉnh `app.js` cho tương tác mới như marquee, scroll-reveal, accordion menu, newsletter form UI). Giữ chatbot widget. Giữ nội dung sản phẩm/FAQ/disclaimer hiện có.
-- **Ngoài scope (Non-goals):** Backend mới cho newsletter (chỉ làm UI + validate phía client, hoặc mailto/no-op submit); thay đổi logic chatbot/API; tạo asset ảnh mới bằng AI; thay đổi bảng giá khi chưa được founder duyệt; thay đổi bảng màu/logo thương hiệu.
+- **Trong phạm vi:** Thiết kế lại `index.html` và `style.css`, đồng thời điều chỉnh `app.js` cho các tương tác mới. Giữ trợ lý hỏi đáp, thông tin sản phẩm, câu hỏi thường gặp và các lưu ý hiện có.
+- **Ngoài phạm vi:** Không xây thêm hệ thống gửi bản tin; không thay đổi cách hoạt động của trợ lý hỏi đáp; không tạo thêm ảnh mới; không đổi bảng giá khi chưa được xác nhận; không đổi bảng màu hoặc logo thương hiệu.
 
 ---
 
@@ -67,7 +67,7 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 1. WHEN khách cuộn qua hero THEN hệ thống SHALL hiển thị tuần tự 2–4 khối statement chữ lớn (font display), mỗi khối là một câu/đoạn ngắn về giá trị MOCO (thủ công, không đường tinh luyện, nguyên liệu thật...).
 2. WHEN một khối statement vào viewport THEN nó SHALL xuất hiện với hiệu ứng reveal (fade/slide) nhẹ.
 3. THE khối statement chính SHALL có một CTA phụ (ví dụ "Khám phá menu" hoặc "Đặt một chiếc").
-4. THE nội dung statement SHALL lấy từ thông điệp thương hiệu MOCO hiện có (story section / disclaimer), KHÔNG dùng nội dung của Monte.
+4. Nội dung phải lấy từ thông điệp thương hiệu MOCO hiện có, không sao chép nội dung của mẫu Monte.
 
 ### Requirement 4 — Menu dạng cột/list (theo "COFFEE & TEA / ALL DAY MENU")
 
@@ -75,9 +75,9 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 
 #### Acceptance Criteria
 1. THE section menu SHALL nhóm sản phẩm theo 2 danh mục hiện có: "Dòng Keto" (2 món) và "Dòng Healthy Baking" (5 món).
-2. WHEN hiển thị mỗi món THEN hệ thống SHALL hiển thị tên món, mô tả ngắn, tag đặc trưng (ví dụ Allulose, Đường dừa), và **giá bán** (founder đã duyệt bảng giá — xem mục Bối cảnh).
+2. Khi hiển thị mỗi món, hệ thống phải có tên món, mô tả ngắn, đặc điểm chính và **giá bán** theo bảng giá đã xác nhận.
 3. THE menu SHALL trình bày theo phong cách danh sách/cột (column list) gợi nhớ menu Monte, thay vì chỉ là lưới card như bản hiện tại; cho phép có ảnh thumbnail của món.
-4. THE section menu SHALL giữ lại disclaimer dị ứng/nhiễm chéo hiện có.
+4. Phần menu phải giữ lưu ý về dị ứng và nguy cơ nhiễm chéo.
 5. WHERE khách tương tác với một danh mục (nếu dùng dạng accordion/tab) THE hệ thống SHALL mở/đóng đúng nhóm tương ứng.
 6. WHERE màn hình mobile THE menu SHALL xếp về 1 cột dễ đọc.
 
@@ -100,7 +100,7 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 1. THE section này SHALL thay thế khối "CAFFEINATE YOUR INBOX" của Monte bằng một khối **Đặt Hàng / Kết Nối** phù hợp bán bánh, với dòng mời gọi (ví dụ "Đặt bánh MOCO ngay hôm nay").
 2. THE khối SHALL có các nút CTA đặt hàng: **Zalo** và **Instagram** (và có thể Facebook), trỏ tới kênh MOCO; mỗi nút mở tab mới an toàn (`rel="noopener"`).
 3. THE khối SHALL nêu rõ quy trình đặt: nhắn qua Zalo/Instagram, làm thủ công số lượng nhỏ nên nên đặt sớm; và khu vực giao **Hà Nội**.
-4. THE hệ thống SHALL KHÔNG có form email/backend; KHÔNG gửi dữ liệu tới endpoint bên thứ ba không xác định.
+4. Hệ thống không có biểu mẫu email và không gửi dữ liệu tới dịch vụ bên thứ ba không xác định.
 5. THE các nút CTA SHALL truy cập được bằng bàn phím và có nhãn/aria rõ ràng.
 
 ### Requirement 7 — Footer 3 khối: Contact / Opening Hours / Find Us
@@ -111,7 +111,7 @@ Mục tiêu là sao chép *bố cục, trình tự section, và phong cách trì
 1. THE footer SHALL có khối "Liên Hệ" (Contact) với phương thức liên hệ MOCO (Zalo, Facebook, email/placeholder).
 2. THE footer SHALL có khối "Giờ Nhận Đơn" (Opening Hours) dạng ngày thường / cuối tuần.
 3. THE footer SHALL có khối "Tìm MOCO" (Find Us) với khu vực hoạt động (Hà Nội) và link bản đồ placeholder nếu phù hợp.
-4. THE footer SHALL hiển thị logo MOCO, tagline "Heart-Healthy, Soul-Tasty" và disclaimer dinh dưỡng hiện có.
+4. Chân trang phải hiển thị logo MOCO, thông điệp “Heart-Healthy, Soul-Tasty” và lưu ý dinh dưỡng hiện có.
 5. THE footer SHALL giữ dòng copyright dự án ("© 2026 MOCO Kitchen. Dự án AI Marketing Hub — Google AI Bootcamp").
 
 ### Requirement 8 — Giữ nguyên bản sắc thương hiệu (Màu + Logo)

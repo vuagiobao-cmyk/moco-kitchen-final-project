@@ -2,7 +2,7 @@
 
 Triển khai redesign theo `requirements.md` + `design.md`. Stack: HTML/CSS/JS tĩnh. Giữ chatbot + palette + logo MOCO.
 
-> **Trạng thái:** ✅ Hoàn thành — baseline Monte v3 (xem `HANDOFF_LANDING_2026-05-29.md`). Toàn bộ 14 task đã triển khai và đang live trên Vercel.
+> **Trạng thái:** Hoàn thành. Toàn bộ 14 hạng mục đã được triển khai và bản trình diễn đang hoạt động trên Vercel.
 
 - [x] 1. Chuẩn bị design tokens & nền CSS
   - Bổ sung biến `--space-section`, `--space-card`, `--radius-card`, `--radius-pill`, `--fs-display`, `--fs-statement` vào `:root` của `style.css`.
@@ -25,13 +25,13 @@ Triển khai redesign theo `requirements.md` + `design.md`. Stack: HTML/CSS/JS t
   - _Requirements: R2, R8, R10_
 
 - [x] 5. Statement Blocks
-  - Thêm `section.statements` với 3 khối câu giá trị MOCO (lấy từ story/disclaimer), khối chính có CTA phụ.
+  - Thêm `section.statements` với 3 khối thông điệp của MOCO, khối chính có nút điều hướng phụ.
   - Dùng `.animate-on-scroll` cho reveal.
   - _Requirements: R3_
 
 - [x] 6. Menu List CÓ GIÁ
   - Dựng `section.menu` dạng list theo 2 nhóm (Keto / Healthy Baking) với thumbnail + tên + dotted leader + giá + mô tả + tag + cảnh báo rượu.
-  - Điền đúng bảng giá founder duyệt; giữ disclaimer dị ứng.
+  - Điền đúng bảng giá đã xác nhận; giữ lưu ý về dị ứng.
   - Mobile: xếp dọc, ẩn dotted leader.
   - _Requirements: R4, R8_
 
@@ -42,7 +42,7 @@ Triển khai redesign theo `requirements.md` + `design.md`. Stack: HTML/CSS/JS t
 
 - [x] 8. CTA Đặt Hàng (Zalo/Instagram)
   - Thay khối newsletter bằng `section.order` nền matcha: tiêu đề + mô tả (thủ công, đặt sớm, giao Hà Nội) + nút Zalo/Instagram/Facebook `rel="noopener"`.
-  - Không form email, không endpoint lạ.
+  - Không có biểu mẫu email và không gửi dữ liệu đến dịch vụ không xác định.
   - _Requirements: R6_
 
 - [x] 9. FAQ (giữ) + xử lý Testimonials
@@ -51,7 +51,7 @@ Triển khai redesign theo `requirements.md` + `design.md`. Stack: HTML/CSS/JS t
   - _Requirements: R10_
 
 - [x] 10. Footer 3 cột
-  - Dựng footer 3 cột: Liên Hệ (Zalo/Instagram/Facebook) · Giờ Nhận Đơn · Tìm MOCO (Hà Nội + map placeholder); logo + tagline + disclaimer + copyright.
+  - Dựng chân trang 3 cột: Liên hệ, giờ nhận đơn và địa chỉ tại Hà Nội; kèm logo, thông điệp thương hiệu, lưu ý dinh dưỡng và bản quyền.
   - _Requirements: R7, R8_
 
 - [x] 11. Refactor `app.js`

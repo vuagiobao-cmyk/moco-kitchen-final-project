@@ -36,8 +36,8 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 | Tiêu chí | Thách thức phổ biến của ngành hàng | Hướng đáp ứng của MOCO |
 |---|---|---|
 | **Minh bạch sản phẩm** | Khách khó phân biệt giữa tuyên bố marketing và thông tin có căn cứ | Công khai nguyên liệu chính, chất tạo ngọt, chất gây dị ứng, bảo quản và giới hạn của thông tin dinh dưỡng |
-| **Tư vấn phù hợp nhu cầu** | Người mua có thể hỏi về tiểu đường, thai kỳ, dị ứng hoặc chế độ tập luyện | Chatbot chỉ tư vấn lựa chọn sản phẩm, luôn có disclaimer và không đưa lời khuyên điều trị |
-| **Trải nghiệm thương hiệu** | Tiệm nhỏ dễ thiếu đồng nhất giữa bài đăng, hình ảnh và tư vấn | Dùng brand voice, content calendar và mẫu nội dung thống nhất |
+| **Tư vấn phù hợp nhu cầu** | Người mua có thể hỏi về tiểu đường, thai kỳ, dị ứng hoặc chế độ tập luyện | Trợ lý chỉ cung cấp thông tin lựa chọn sản phẩm, luôn có lưu ý rõ ràng và không đưa lời khuyên điều trị |
+| **Trải nghiệm thương hiệu** | Tiệm nhỏ dễ thiếu đồng nhất giữa bài đăng, hình ảnh và tư vấn | Dùng quy tắc giọng văn, lịch nội dung và mẫu bài thống nhất |
 | **Khả năng tiếp cận** | Phụ thuộc hoàn toàn vào inbox mạng xã hội làm chậm phản hồi | Kết hợp Facebook, Instagram, Zalo với landing page và chatbot |
 | **Hiệu quả vận hành** | Dữ liệu đơn hàng, chi phí và nội dung bị phân tán | Chuẩn hóa trên Google Sheets và Apps Script để giảm thao tác thủ công |
 
@@ -47,7 +47,7 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 
 1. Có dữ liệu thật về sản phẩm, công thức, đơn hàng và chi phí để xây dựng hệ thống.
 2. Danh mục sản phẩm được tách rõ giữa Keto và Healthy Baking.
-3. Knowledge base, chatbot và nội dung đều áp dụng nguyên tắc minh bạch thành phần và thận trọng với tuyên bố sức khỏe.
+3. Tài liệu sản phẩm, trợ lý hỏi đáp và nội dung đều áp dụng nguyên tắc minh bạch thành phần và thận trọng với tuyên bố sức khỏe.
 4. Hệ thống AI kết nối cả truyền thông và vận hành, phù hợp với nguồn lực của tiệm nhỏ.
 
 ### Điểm yếu

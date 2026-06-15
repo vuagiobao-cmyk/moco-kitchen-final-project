@@ -1,44 +1,44 @@
-# Tuần 3 — Khung nội dung & Sáng tạo
+# Tuần 3 — Xây dựng nội dung và định hướng hình ảnh
 
 **Thời gian:** 06/04 – 12/04/2026
-**Tóm tắt:** Xây dựng các template nội dung và bộ chuẩn hình ảnh để mọi sản phẩm content và visual tạo bằng AI đều nhất quán với brand.
-
----
+**Tóm tắt:** Xây dựng các mẫu nội dung và nguyên tắc hình ảnh để thương hiệu thể hiện nhất quán trên nhiều kênh.
 
 ## Mục tiêu
 
-- Chuẩn bị sẵn các template bài viết cho nhiều dạng content khác nhau: giới thiệu sản phẩm (Product Post), chia sẻ kiến thức (Education Post), hậu trường (Behind-the-scenes), đánh giá của khách hàng (Review).
-- Thống nhất phong cách hình ảnh để các ảnh sản phẩm đều có nhận diện rõ ràng của MOCO.
-- Bảo đảm giọng điệu (brand voice) nhất quán giữa tất cả các bài.
+- Chuẩn bị mẫu bài viết cho giới thiệu sản phẩm, chia sẻ kiến thức, hậu trường và đánh giá của khách hàng.
+- Thống nhất giọng văn và phong cách hình ảnh của MOCO Kitchen.
+- Thử nghiệm tạo ảnh và video bằng công cụ AI của Google.
 
-## Hướng tiếp cận
+## Cách thực hiện
 
-- Mỗi bài viết được xây theo một bố cục thống nhất gồm ba phần: mở đầu tạo sự đồng cảm với người đọc, phần thân mô tả nguyên liệu và quá trình làm bánh, phần kết là lời mời nhẹ nhàng. Cách viết hướng đến sự chân thành, tránh lối quảng cáo phóng đại hay hô hào "mua ngay".
-- Thống nhất bảng màu và phong cách chụp hình (ánh sáng tự nhiên, dịu, tông ấm, bối cảnh mộc mạc) để làm chuẩn cho việc tạo ảnh bằng AI. Đây là cơ sở để các ảnh sản phẩm về sau đồng nhất với nhau.
-- Thử nghiệm tạo video ngắn bằng Veo 3, hướng tới các clip giới thiệu sản phẩm phục vụ kênh TikTok và Reels.
+- Mỗi bài viết gồm ba phần: mở đầu gần gũi, thông tin sản phẩm rõ ràng và lời mời đặt hàng nhẹ nhàng.
+- Nội dung tránh phóng đại lợi ích sức khỏe và luôn nêu rõ giới hạn của thông tin dinh dưỡng.
+- Hình ảnh sử dụng ánh sáng tự nhiên, tông ấm, nền mộc và tập trung vào cảm giác thủ công.
+- Video ngắn được xây dựng từ kịch bản phân cảnh để giữ hình ảnh, chuyển động và thông điệp nhất quán.
 
-## Công việc đã thực hiện
+## Công việc đã hoàn thành
 
-- Hoàn thiện bộ quy tắc giao tiếp (system prompt) cho trợ lý viết content, trong đó nêu rõ cả những cách diễn đạt cần tránh.
-- Soạn content calendar mẫu cho 2 tuần và viết bài mẫu cho từng món bánh.
-- Xây dựng bộ prompt tạo ảnh sản phẩm bằng Gemini (Banana Pro).
-- Soạn bản phác kịch bản (storyboard) cho video demo.
+- Hoàn thiện bộ hướng dẫn viết nội dung theo giọng thương hiệu MOCO.
+- Lập lịch nội dung mẫu trong hai tuần và viết các bài minh họa.
+- Xây dựng yêu cầu mẫu để tạo ảnh sản phẩm bằng AI.
+- Soạn kịch bản phân cảnh cho video giới thiệu.
 
 ## Sản phẩm bàn giao
 
 | Nội dung | Liên kết |
-|----------|----------|
-| Bộ quy tắc cho trợ lý viết content | [3_Content_Engine/gem_system_prompt_moco.md](../../3_Content_Engine/gem_system_prompt_moco.md) |
-| Content calendar mẫu | [3_Content_Engine/moco_content_calendar_sample.md](../../3_Content_Engine/moco_content_calendar_sample.md) |
-| Bài viết mẫu | [3_Content_Engine/moco_sample_posts_gem.md](../../3_Content_Engine/moco_sample_posts_gem.md) |
-| Ý tưởng và ảnh AI | [3_Creative_Content/visual_concepts.md](../../3_Creative_Content/visual_concepts.md) |
-| Storyboard video | [3_Creative_Content/video_storyboard_demo.md](../../3_Creative_Content/video_storyboard_demo.md) |
+|---|---|
+| Hướng dẫn cho trợ lý viết nội dung | [Xem tài liệu](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Lịch nội dung mẫu | [Xem tài liệu](../../3_Content_Engine/moco_content_calendar_sample.md) |
+| Các bài viết minh họa | [Xem tài liệu](../../3_Content_Engine/moco_sample_posts_gem.md) |
+| Định hướng hình ảnh | [Xem tài liệu](../../3_Creative_Content/visual_concepts.md) |
+| Kịch bản phân cảnh video | [Xem tài liệu](../../3_Creative_Content/video_storyboard_demo.md) |
 
 ## Kết quả
 
-- Hình thành một "content engine" có thể tái sử dụng: chỉ cần đưa yêu cầu là tạo được bài viết đúng giọng kèm ý tưởng hình ảnh.
-- Bộ chuẩn hình ảnh được dùng làm cơ sở cho việc tạo các ảnh sản phẩm và cho trợ lý làm ảnh ở các giai đoạn sau.
+- Thương hiệu có một cách viết và cách thể hiện hình ảnh thống nhất.
+- Đội vận hành có thể tạo bản nháp nhanh hơn nhưng vẫn kiểm tra lại thông tin trước khi đăng.
+- Các mẫu đã xây dựng được dùng tiếp cho trang giới thiệu, trợ lý hỏi đáp và công cụ viết nội dung ở những tuần sau.
 
 ---
 
-**Điều hướng:** [← Tuần 2](Tuan_2_Du_lieu_Phan_tich.md) · [Mục lục các tuần](README.md) · [Tuần 4 →](Tuan_4_Core_Features.md)
+**Điều hướng:** [← Tuần 2](Tuan_2_Du_lieu_Phan_tich.md) · [Mục lục](README.md) · [Tuần 4 →](Tuan_4_Core_Features.md)

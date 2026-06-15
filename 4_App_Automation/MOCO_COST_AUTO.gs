@@ -3889,7 +3889,7 @@ function refreshMocoDataValidationLists_(ss) {
   return {
     sheet: MOCO_DATA_VALIDATION_SHEET,
     lists: counts,
-    mode: 'text-only SSOT; no dropdowns inside DATA VALIDATION',
+    mode: 'danh sách văn bản; không dùng danh sách chọn trong DATA VALIDATION',
     validationCells: countMocoDataValidationCells_(sheet),
   };
 }
@@ -3901,7 +3901,7 @@ function MOCO_FIX_VALIDATION_SHEETS_UI() {
     dvSheet.getRange(1, 1, dvSheet.getMaxRows(), dvSheet.getMaxColumns())
       .clearDataValidations();
     dvSheet.getRange(1, 1).setNote(
-      'DATA VALIDATION là SSOT list nguồn. Nhập/sửa text trực tiếp, không dùng dropdown trong chính sheet này.'
+      'DATA VALIDATION là danh sách nguồn. Nhập hoặc sửa văn bản trực tiếp, không dùng danh sách chọn trong chính trang này.'
     );
   }
   const masterResult = typeof MOCO_APPLY_MASTER_NVL_VALIDATIONS_ONLY === 'function'
@@ -3911,7 +3911,7 @@ function MOCO_FIX_VALIDATION_SHEETS_UI() {
     dataValidation: {
       sheet: MOCO_DATA_VALIDATION_SHEET,
       validationCells: dvSheet ? countMocoDataValidationCells_(dvSheet) : null,
-      mode: 'plain text SSOT',
+      mode: 'danh sách văn bản',
       policy: 'Không rebuild DATA VALIDATION để tránh ghi đè text user đã sửa.',
     },
     masterNvl: masterResult,

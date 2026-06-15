@@ -1,14 +1,23 @@
-# Tuần 4: App Automation & Core Features
+# Tuần 4: Các công cụ hỗ trợ vận hành
 
-Chào Mentor! Đây là thư mục trọng tâm của phần kỹ thuật, nơi chứa toàn bộ mã nguồn Google Apps Script (GAS) tự động hóa vận hành cho MOCO Kitchen.
+Thư mục này chứa các chương trình Google Apps Script được xây dựng để giảm thao tác thủ công trong Google Sheets của MOCO Kitchen.
 
-## Các tài liệu chính để Mentor xem:
+## Các chức năng chính
 
-1. **[Hướng dẫn Triển khai (Deploy Guide)](DEPLOY_GUIDE.md)**: Tài liệu hướng dẫn cách đưa các script này lên Google Sheets để nó tự động chạy.
-2. **[MOCO Dashboard (`MOCO_DASHBOARD.gs`)](MOCO_DASHBOARD.gs)**: Script tạo Dashboard thống kê doanh thu và báo cáo tổng quan.
-3. **[MOCO Content Gen (`MOCO_CONTENT_GEN.gs`)](MOCO_CONTENT_GEN.gs)**: Script tự động gọi API AI để sinh nội dung đăng bài mỗi ngày.
-4. **[MOCO Nhập Hàng (`MOCO_NHAP_HANG_V2.gs`)](MOCO_NHAP_HANG_V2.gs)**: Script quản lý tồn kho và tự động lên danh sách mua nguyên liệu.
-5. **[MOCO Thu Chi (`MOCO_THU_CHI_AUTO.gs`)](MOCO_THU_CHI_AUTO.gs)**: Script tự động ghi nhận thu chi mỗi khi có đơn hàng.
-6. **[MOCO Cost Auto (`MOCO_COST_AUTO.gs`)](MOCO_COST_AUTO.gs)**: Script tự động cập nhật giá vốn nguyên vật liệu.
+| Chức năng | Tệp mã nguồn | Mục đích |
+|---|---|---|
+| Soạn nội dung | [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) | Tạo bản nháp bài đăng từ yêu cầu trong bảng tính |
+| Lập lịch nội dung | [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) | Quản lý ngày đăng và chuyển chủ đề sang danh sách cần soạn |
+| Tính giá vốn | [`MOCO_COST_AUTO.gs`](MOCO_COST_AUTO.gs) | Tổng hợp chi phí nguyên liệu theo công thức |
+| Quản lý nhập hàng | [`MOCO_NHAP_HANG_V2.gs`](MOCO_NHAP_HANG_V2.gs) | Theo dõi nguyên liệu và hỗ trợ lập danh sách mua |
+| Theo dõi đơn hàng | [`MOCO_Order_Form.html`](MOCO_Order_Form.html) | Nhập thông tin đơn hàng bằng biểu mẫu |
+| Ghi nhận thu chi | [`MOCO_THU_CHI_AUTO.gs`](MOCO_THU_CHI_AUTO.gs) | Cập nhật dòng tiền từ dữ liệu đơn hàng |
+| Tổng hợp kết quả | [`MOCO_DASHBOARD.gs`](MOCO_DASHBOARD.gs) | Hiển thị doanh thu, chi phí và sản phẩm bán chạy |
 
-*(Click vào các file .md để đọc chữ hoặc .gs để xem mã nguồn automation)*
+## Cách xem
+
+- Đọc [hướng dẫn cài đặt công cụ soạn nội dung](APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md).
+- Mở các tệp `.gs` để xem mã nguồn Google Apps Script.
+- Không cần cài đặt để đọc và đánh giá cấu trúc chương trình.
+
+Các tệp chứa thông tin bàn giao kỹ thuật, nhật ký thử nghiệm và dữ liệu truy cập không thuộc bộ tài liệu nộp bài công khai.
