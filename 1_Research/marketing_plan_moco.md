@@ -15,8 +15,8 @@ Kế hoạch được xây dựng cho sáu tuần của dự án cuối khóa. T
 - **Sản phẩm:** 7 món bánh thuộc hai nhóm Keto và Healthy Baking.
 - **Mức giá tham khảo:** 40.000–180.000 đồng.
 - **Khu vực phục vụ:** Hà Nội.
-- **Kênh hiện có:** Facebook, Instagram và Zalo.
-- **Quy mô:** hai founder vận hành, đã có dữ liệu đơn hàng thực tế.
+- **Kênh hiện có:** Threads, Instagram, Facebook, Zalo và mạng lưới cá nhân.
+- **Quy mô:** hai founder vận hành; bảng dữ liệu ghi nhận 73 đơn và 169 sản phẩm đến ngày 15/06/2026.
 
 ## 2. Khách hàng trọng tâm
 
@@ -39,22 +39,26 @@ MOCO không định vị sản phẩm như phương pháp điều trị. Lợi t
 | Cơ hội | Rủi ro |
 |---|---|
 | Khách ngày càng quan tâm thành phần và nguồn gốc | Tuyên bố sức khỏe thiếu căn cứ có thể làm mất uy tín |
-| Content giáo dục giúp thương hiệu khác biệt | Bếp dùng chung có nguy cơ nhiễm chéo allergen |
+| Nội dung giải thích kiến thức giúp thương hiệu khác biệt | Bếp dùng chung có nguy cơ nhiễm chéo chất gây dị ứng |
 | AI có thể giảm việc lặp lại | Content do AI tạo có thể sai nếu không được duyệt |
 
 ## 4. Vai trò của từng kênh
 
 | Kênh | Vai trò chính | Mức ưu tiên |
 |---|---|---|
-| Facebook | Giới thiệu thương hiệu, chia sẻ kiến thức và nhận câu hỏi | Cao |
-| Instagram | Trưng bày hình ảnh sản phẩm và hậu trường | Trung bình |
+| Threads | Chia sẻ câu chuyện, trao đổi với cộng đồng và chuyển người quan tâm thành người mua | Cao |
+| Instagram | Trưng bày hình ảnh sản phẩm, hậu trường và nhận đơn | Cao |
+| Mạng lưới cá nhân | Tạo niềm tin ban đầu, nhận giới thiệu và chăm sóc khách quen | Cao |
+| Facebook | Giới thiệu thương hiệu, lưu nội dung dài và nhận câu hỏi | Trung bình |
 | Zalo | Tư vấn trực tiếp và xác nhận đơn hàng | Cao |
 | Landing page | Tổng hợp menu, brand story và kênh liên hệ | Trung bình |
 | Chatbot | Trả lời FAQ, không thay thế tư vấn y tế | Trung bình |
 
-## 5. Content Plan
+Mức ưu tiên được điều chỉnh theo dữ liệu bán hàng: Threads chiếm 32,9% số đơn và 38% số tiền thực nhận; Instagram chiếm 23,3% số đơn. Nguồn “Bạn” trong bảng gốc được tạm phân loại là mạng lưới cá nhân.
 
-| Content pillar | Tỉ lệ gợi ý | Ví dụ |
+## 5. Kế hoạch nội dung
+
+| Nhóm nội dung | Tỉ lệ gợi ý | Ví dụ |
 |---|---:|---|
 | Kiến thức và hướng dẫn | 35% | Thành phần, khẩu phần, bảo quản, cách đọc thông tin sản phẩm |
 | Câu chuyện và hậu trường | 25% | Chọn nguyên liệu, thử công thức, làm bánh theo mẻ nhỏ |
@@ -62,7 +66,7 @@ MOCO không định vị sản phẩm như phương pháp điều trị. Lợi t
 | Hỏi đáp cộng đồng | 10% | Trả lời câu hỏi thường gặp |
 | Phản hồi khách hàng | 10% | Nhận xét thật đã được cho phép sử dụng |
 
-Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/moco_content_calendar_sample.md). Các bài mẫu nằm tại [Sample Posts](../3_Content_Engine/moco_sample_posts_gem.md).
+Lịch triển khai nằm tại [lịch nội dung Facebook và Instagram trong hai tuần](../3_Content_Engine/moco_content_calendar_sample.md). Caption hoàn chỉnh nằm tại [bộ bài đăng mẫu cho Facebook và Instagram](../3_Content_Engine/moco_sample_posts_gem.md).
 
 ## 6. KPI cần theo dõi
 
@@ -79,7 +83,7 @@ Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/
 - Lượt tiếp cận và tương tác có chất lượng.
 - Số cuộc trò chuyện dẫn đến đơn hàng.
 - Giá trị đơn hàng trung bình.
-- Food cost và lợi nhuận theo sản phẩm.
+- Chi phí trực tiếp và lợi nhuận theo sản phẩm.
 - Tỷ lệ khách quay lại.
 
 ## 7. Rủi ro và cách xử lý
@@ -88,7 +92,7 @@ Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/
 |---|---|
 | Nội dung đưa ra lời hứa sức khỏe quá mức | Dùng ngôn ngữ thận trọng, kiểm tra nguồn và khuyên khách hỏi chuyên gia khi cần |
 | Thiếu cảnh báo dị ứng | Nêu rõ sữa, trứng, hạt, gluten, đồ uống có cồn và nguy cơ nhiễm chéo |
-| AI tạo thông tin sai | Founder đối chiếu product knowledge trước khi đăng |
+| AI tạo thông tin sai | Founder đối chiếu tài liệu sản phẩm trước khi đăng |
 | Visual không đúng sản phẩm | Ưu tiên ảnh thật và kiểm tra hình minh họa trước khi sử dụng |
 | Founder quá tải | Dùng automation để giảm thao tác lặp lại, nhưng vẫn giữ bước duyệt của con người |
 
@@ -98,7 +102,7 @@ Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/
 |---|---|
 | 1 | Xác định bài toán, nghiên cứu thị trường và đối thủ |
 | 2 | Chuẩn hóa dữ liệu sản phẩm và câu hỏi thường gặp |
-| 3 | Xây dựng Content Calendar, Sample Posts và Visual Concepts |
+| 3 | Xây dựng lịch nội dung, bài đăng mẫu và định hướng hình ảnh |
 | 4 | Xây dựng Core Features & Automation trên Google Sheets |
 | 5 | Hoàn thiện Landing Page & Chatbot |
 | 6 | Deployment, testing và presentation |
@@ -107,5 +111,6 @@ Lịch minh họa nằm tại [Content Calendar hai tuần](../3_Content_Engine/
 
 - [Mô tả bài toán](problem_statement_RCGC.md)
 - [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
-- [Competitor analysis](competitor_analysis_moco.md)
-- [Customer insight](customer_insight_moco.md)
+- [Phân tích đối thủ](competitor_analysis_moco.md)
+- [Nghiên cứu nhu cầu khách hàng](customer_insight_moco.md)
+- [Tổng hợp dữ liệu kinh doanh đến 15/06/2026](business_data_snapshot_2026-06-15.md)

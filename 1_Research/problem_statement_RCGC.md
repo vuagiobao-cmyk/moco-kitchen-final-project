@@ -2,9 +2,9 @@
 
 ## 1. Bối cảnh
 
-MOCO Kitchen là tiệm bánh healthy online tại Hà Nội, do hai founder trực tiếp sản xuất và vận hành. Thương hiệu bán hàng qua Facebook, Instagram và Zalo với bảy sản phẩm thuộc hai nhóm Keto và Healthy Baking.
+MOCO Kitchen là tiệm bánh healthy online tại Hà Nội, do hai founder trực tiếp sản xuất và vận hành. Thương hiệu nhận đơn chủ yếu qua mạng lưới cá nhân, Threads và Instagram, với bảy sản phẩm thuộc hai nhóm Keto và Healthy Baking.
 
-MOCO đã có sản phẩm và khách hàng thật, nhưng quy mô nhỏ khiến cùng một người phải đảm nhiệm nhiều việc: làm bánh, viết bài, trả lời khách, nhập đơn, theo dõi nguyên liệu và quản lý thu chi.
+MOCO đã có sản phẩm và khách hàng thật. Đến ngày 15/06/2026, bảng vận hành ghi nhận 73 đơn và 169 sản phẩm. Tuy nhiên, quy mô nhỏ khiến cùng một người phải đảm nhiệm nhiều việc: làm bánh, viết bài, trả lời khách, nhập đơn, theo dõi nguyên liệu và quản lý thu chi.
 
 ## 2. Vấn đề cần giải quyết
 
@@ -19,11 +19,11 @@ MOCO đã có sản phẩm và khách hàng thật, nhưng quy mô nhỏ khiến
 
 ## 3. Câu hỏi của dự án
 
-> Làm thế nào để một tiệm bánh online quy mô nhỏ ứng dụng Google AI nhằm tiết kiệm thời gian làm content, cung cấp product knowledge rõ ràng và giảm thao tác quản lý thủ công, mà chưa cần tăng nhân sự?
+> Làm thế nào để một tiệm bánh online quy mô nhỏ ứng dụng Google AI nhằm tiết kiệm thời gian làm content, cung cấp thông tin sản phẩm rõ ràng và giảm thao tác quản lý thủ công, mà chưa cần tăng nhân sự?
 
 ## 4. Mục tiêu
 
-1. Tập trung thông tin của bảy sản phẩm thành một knowledge base thống nhất.
+1. Tập trung thông tin của bảy sản phẩm thành một kho thông tin thống nhất.
 2. Hỗ trợ tạo content draft theo đúng brand voice.
 3. Xây dựng landing page và chatbot tư vấn sản phẩm.
 4. Xây dựng automation cho một số thao tác trên Google Sheets.
@@ -33,11 +33,11 @@ MOCO đã có sản phẩm và khách hàng thật, nhưng quy mô nhỏ khiến
 
 | Hạng mục | Sản phẩm bàn giao |
 |---|---|
-| Product knowledge | Menu bảy món, bảng allergen (chất gây dị ứng) và FAQ |
-| Content | Brand voice guide, content calendar và sample posts |
+| Thông tin sản phẩm | Menu bảy món, bảng chất gây dị ứng và câu hỏi thường gặp |
+| Nội dung | Hướng dẫn giọng thương hiệu, lịch nội dung và bài đăng mẫu |
 | Visual | Visual direction và video storyboard |
 | Website | Landing page và chatbot |
-| Operations | Order form, theo dõi nguyên liệu, food cost, thu chi và dashboard |
+| Vận hành | Biểu mẫu đơn hàng, theo dõi nguyên liệu, chi phí trực tiếp, thu chi và bảng tổng hợp |
 | Báo cáo | Sáu báo cáo tuần, slide outline và demo script |
 
 ## 6. Giới hạn
@@ -59,5 +59,6 @@ MOCO đã có sản phẩm và khách hàng thật, nhưng quy mô nhỏ khiến
 ## Tài liệu liên quan
 
 - [Nghiên cứu thị trường](deep_research_banh_healthy_vn.md)
+- [Tổng hợp dữ liệu kinh doanh đến 15/06/2026](business_data_snapshot_2026-06-15.md)
 - [Brand voice guide cho trợ lý AI](../3_Content_Engine/gem_system_prompt_moco.md)
 - [Báo cáo sáu tuần](../_Deliverables/Weekly_Reports/README.md)

@@ -6,35 +6,35 @@ created: 2026-05-13
 updated: 2026-06-15
 ---
 
-# MOCO Kitchen — Content Calendar mẫu 2 tuần
+# MOCO Kitchen — Lịch nội dung Facebook và Instagram trong 2 tuần
 
-Content Calendar dưới đây kết hợp Product Post, Education, Behind-the-scenes và Customer Review trên Facebook hoặc Instagram. Thành phần, giá và cách bảo quản được đối chiếu với Product Knowledge trong bước duyệt nội dung.
+Lịch dưới đây không chỉ liệt kê chủ đề. Mỗi bài có nhóm người đọc, mục tiêu và hành động mong muốn để nội dung phục vụ việc nhận biết thương hiệu, tạo tin tưởng hoặc hỗ trợ đặt hàng.
 
 ## Nguyên tắc chung
 
 - Đăng 3–4 bài mỗi tuần.
-- Ưu tiên useful content và câu chuyện thật thay vì chỉ bán hàng.
+- Xen kẽ bài bán hàng với bài giải thích và hậu trường.
 - Không dùng phản hồi khách hàng làm bằng chứng về tác dụng điều trị.
 - Không khẳng định sản phẩm phù hợp với người có bệnh nền nếu chưa có ý kiến chuyên môn.
 - Nêu rõ chất gây dị ứng và đồ uống có cồn khi liên quan.
 
 ## Tuần thứ nhất
 
-| Ngày | Content Type | Nội dung chính | Visual gợi ý |
-|---|---|---|---|
-| Thứ Hai | Keto Tiramisu | Giới thiệu mascarpone, cà phê, lớp bánh hạnh nhân và khẩu phần vừa phải | Cận cảnh bánh dưới ánh sáng tự nhiên |
-| Thứ Tư | Các loại chất tạo ngọt | Giải thích vì sao MOCO giảm đường trắng nhưng vẫn khuyến nghị kiểm soát khẩu phần | Ảnh nguyên liệu được ghi chú rõ |
-| Thứ Sáu | Chuối Yến Mạch Choco | Quá trình chọn chuối chín và làm bánh theo từng mẻ nhỏ | Ảnh trộn bột và bánh vừa cắt |
-| Chủ Nhật | Customer Review | Chia sẻ nhận xét thật sau khi đã xin phép và che thông tin cá nhân | Ảnh sản phẩm kèm đoạn phản hồi ngắn |
+| Ngày | Kênh và định dạng | Người đọc | Mục tiêu | Nội dung chính | Hành động mong muốn |
+|---|---|---|---|---|---|
+| Thứ Hai | Instagram/Facebook Carousel | Người mới biết MOCO | Giúp chọn món lần đầu | So sánh Chuối Yến Mạch Choco, Cheesecake và Tiramisu theo hương vị, khối lượng và giá | Nhắn món đang quan tâm |
+| Thứ Tư | Instagram Carousel, Facebook | Người quan tâm thành phần | Tạo tin tưởng | Giải thích “không dùng đường trắng” không đồng nghĩa không có carbohydrate | Lưu bài hoặc hỏi thành phần |
+| Thứ Sáu | Instagram/Facebook Feed | Người đi làm cần bữa phụ | Tạo đơn cho sản phẩm dễ thử | Chuối Yến Mạch Choco cho buổi sáng bận rộn | Nhắn “CHUỐI” để hỏi lịch |
+| Chủ Nhật | Instagram/Facebook Reel | Người đã theo dõi MOCO | Tạo sự gần gũi | Hậu trường chọn chuối chín, trộn bột và cắt bánh | Bình luận phần thích nhất |
 
 ## Tuần thứ hai
 
-| Ngày | Content Type | Nội dung chính | Visual gợi ý |
-|---|---|---|---|
-| Thứ Hai | Carrot Cake Kem Hy Lạp | Cà rốt, quế, óc chó và lớp kem sữa chua Hy Lạp | Bánh trên đĩa gốm, nền sáng |
-| Thứ Tư | Dị ứng thực phẩm | Những thông tin khách nên cung cấp trước khi đặt bánh | Hình minh họa sữa, trứng, hạt và gluten |
-| Thứ Sáu | Bánh Mì Cuộn Quế | Các bước làm bánh, mùi quế và cách hâm nóng | Khay bánh vừa ra lò |
-| Chủ Nhật | Founder Story | Lý do lựa chọn nguyên liệu và cách kiểm tra từng mẻ | Ảnh hậu trường trong bếp |
+| Ngày | Kênh và định dạng | Người đọc | Mục tiêu | Nội dung chính | Hành động mong muốn |
+|---|---|---|---|---|---|
+| Thứ Hai | Instagram/Facebook Feed | Người thích cà phê và tráng miệng | Tăng giá trị đơn hàng | Keto Tiramisu 350g, vị cà phê, mascarpone, rum và Baileys | Đặt trước 1–2 ngày |
+| Thứ Tư | Instagram Carousel, Facebook | Người cần tránh một số thành phần | Giảm câu hỏi lặp lại và tránh mua nhầm | Cách báo cho MOCO về sữa, trứng, hạt, gluten và đồ uống có cồn | Gửi nhu cầu trước khi đặt |
+| Thứ Sáu | Instagram/Facebook Reel | Người theo dõi thích hậu trường | Tạo tương tác và nhu cầu cuối tuần | Cán bột, cuộn quế, nướng và phủ cream cheese | Nhắn hỏi mẻ cuối tuần |
+| Chủ Nhật | Instagram/Facebook Feed | Người quan tâm thương hiệu nhỏ | Xây dựng sự tin tưởng | Hai founder kiểm tra công thức, nguyên liệu và từng mẻ bánh | Theo dõi để xem mẻ tiếp theo |
 
 ## Các sản phẩm tiếp theo
 
@@ -46,10 +46,8 @@ Content Calendar dưới đây kết hợp Product Post, Education, Behind-the-s
 
 ## Quy trình sử dụng
 
-1. Chọn content topic trong lịch.
-2. Gửi product, target audience và key message cho trợ lý AI.
-3. Đối chiếu draft với [Brand Voice & Content Guide](gem_system_prompt_moco.md) và [Product Knowledge](moco_menu_products.md).
-4. Founder kiểm tra thông tin, chỉnh tone of voice và duyệt visual.
+1. Chọn bài theo mục tiêu cần đạt trong tuần.
+2. Gửi tên sản phẩm, nhóm người đọc, mục tiêu và kênh đăng cho trợ lý AI.
+3. Đối chiếu bản nháp với [hướng dẫn giọng thương hiệu](gem_system_prompt_moco.md) và [thông tin sản phẩm](moco_menu_products.md).
+4. Founder kiểm tra thông tin, chỉnh cách nói và duyệt hình ảnh.
 5. Đăng bài, ghi nhận câu hỏi và phản hồi để cải thiện các bài sau.
-
-Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.

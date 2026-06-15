@@ -1,26 +1,26 @@
-# Tuần 3 — Creative Content & Visual
+# Tuần 3 — Nội dung và hình ảnh
 
 **Thời gian:** 06/04 – 12/04/2026
 
-**Tóm tắt:** Xây dựng content mẫu và visual direction để thương hiệu thể hiện nhất quán trên nhiều kênh.
+**Tóm tắt:** Xây dựng bài đăng mẫu và định hướng hình ảnh để thương hiệu thể hiện nhất quán trên nhiều kênh.
 
 ## Mục tiêu
 
-- Chuẩn bị content mẫu cho bài giới thiệu sản phẩm, education, behind-the-scenes và customer review.
-- Thống nhất brand voice và visual style của MOCO Kitchen.
+- Chuẩn bị bài đăng có mục tiêu rõ cho giới thiệu sản phẩm, giải thích thành phần và hậu trường.
+- Thống nhất giọng thương hiệu và phong cách hình ảnh của MOCO Kitchen.
 - Thử nghiệm tạo ảnh và video bằng công cụ AI của Google.
 
 ## Cách thực hiện
 
-- Mỗi bài viết gồm ba phần: hook gần gũi, thông tin sản phẩm rõ ràng và CTA nhẹ nhàng.
+- Mỗi bài xác định rõ người đọc, mục tiêu, câu mở đầu, thông tin sản phẩm và lời kêu gọi.
 - Nội dung tránh phóng đại lợi ích sức khỏe và luôn nêu rõ giới hạn của thông tin dinh dưỡng.
 - Hình ảnh sử dụng ánh sáng tự nhiên, tông ấm, nền mộc và tập trung vào cảm giác thủ công.
 - Video ngắn được xây dựng từ storyboard để giữ hình ảnh, chuyển động và thông điệp nhất quán.
 
 ## Công việc đã hoàn thành
 
-- Hoàn thiện bộ hướng dẫn viết content theo brand voice MOCO.
-- Lập content calendar mẫu trong hai tuần và viết các sample post.
+- Hoàn thiện bộ hướng dẫn viết nội dung theo giọng thương hiệu MOCO.
+- Lập lịch nội dung trong hai tuần và viết năm bài có thể dùng cho Facebook/Instagram sau khi duyệt.
 - Xây dựng prompt mẫu để tạo ảnh sản phẩm bằng AI.
 - Soạn storyboard cho video giới thiệu.
 
@@ -28,16 +28,16 @@
 
 | Nội dung | Liên kết |
 |---|---|
-| Brand voice & hướng dẫn viết content | [Xem tài liệu](../../3_Content_Engine/gem_system_prompt_moco.md) |
-| Content calendar mẫu | [Xem tài liệu](../../3_Content_Engine/moco_content_calendar_sample.md) |
-| Sample posts | [Xem tài liệu](../../3_Content_Engine/moco_sample_posts_gem.md) |
-| Visual concepts | [Xem tài liệu](../../3_Creative_Content/visual_concepts.md) |
-| Video storyboard | [Xem tài liệu](../../3_Creative_Content/video_storyboard_demo.md) |
+| Hướng dẫn giọng thương hiệu và viết nội dung | [Xem tài liệu](../../3_Content_Engine/gem_system_prompt_moco.md) |
+| Lịch nội dung Facebook và Instagram | [Xem tài liệu](../../3_Content_Engine/moco_content_calendar_sample.md) |
+| Bộ bài đăng Facebook và Instagram | [Xem tài liệu](../../3_Content_Engine/moco_sample_posts_gem.md) |
+| Định hướng hình ảnh | [Xem tài liệu](../../3_Creative_Content/visual_concepts.md) |
+| Kịch bản phân cảnh video | [Xem tài liệu](../../3_Creative_Content/video_storyboard_demo.md) |
 
 ## Kết quả
 
-- Thương hiệu có brand voice và visual style thống nhất.
-- Founder có thể tạo draft nhanh hơn nhưng vẫn kiểm tra lại thông tin trước khi đăng.
+- Thương hiệu có giọng nói và phong cách hình ảnh thống nhất.
+- Founder có thể tạo bản nháp nhanh hơn nhưng vẫn kiểm tra lại thông tin trước khi đăng.
 - Các mẫu đã xây dựng được dùng tiếp cho trang giới thiệu, trợ lý hỏi đáp và công cụ viết nội dung ở những tuần sau.
 
 ---

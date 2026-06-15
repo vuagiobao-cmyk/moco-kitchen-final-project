@@ -20,7 +20,7 @@
 ## Slide 3 — Project Goals
 
 - Tập trung thông tin của bảy sản phẩm.
-- Hỗ trợ viết content đúng brand voice.
+- Hỗ trợ viết nội dung đúng giọng thương hiệu.
 - Xây dựng landing page và chatbot.
 - Xây dựng automation trên Google Sheets.
 
@@ -35,13 +35,13 @@
 | Veo 3 | Thử nghiệm ý tưởng video |
 | Vercel | Đưa website lên internet |
 
-## Slide 5 — Product Knowledge Base
+## Slide 5 — Kho thông tin sản phẩm
 
 - Bảy sản phẩm được mô tả theo cùng một cấu trúc.
 - Có thành phần, cách bảo quản và các chất cần lưu ý.
 - NotebookLM đọc tài liệu và đưa nguồn tham chiếu trong câu trả lời.
 
-## Slide 6 — Brand Voice Guide
+## Slide 6 — Hướng dẫn giọng thương hiệu
 
 - Xưng “chúng mình”.
 - Giọng văn chân thành, không phóng đại.
@@ -50,15 +50,15 @@
 
 ## Slide 7 — Content Generator
 
-1. Nhập product, content type và target audience trên Google Sheets.
+1. Nhập tên sản phẩm, loại bài viết và nhóm người đọc trên Google Sheets.
 2. Bấm nút generate.
 3. Gemini tạo content draft và visual idea.
 4. Founder kiểm tra, edit rồi mới đăng.
 
-## Slide 8 — Sample Post
+## Slide 8 — Bài đăng Facebook/Instagram
 
 - Hiển thị một bài giới thiệu Keto Tiramisu.
-- Đánh dấu phần mô tả nguyên liệu, lưu ý về rượu và lời mời đặt hàng.
+- Nêu rõ người đọc, mục tiêu, mô tả sản phẩm, lưu ý về rượu và lời mời đặt hàng.
 - So sánh thời gian viết thủ công với thời gian chỉnh sửa bản nháp.
 
 ## Slide 9 — Operations Automation

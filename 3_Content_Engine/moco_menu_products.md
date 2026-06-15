@@ -18,7 +18,7 @@ updated: 2026-06-15
 
 | Dòng | Sản phẩm | Đặc trưng |
 |------|----------|-----------|
-| **Keto** | Keto Tiramisu, Keto Lemon Cheesecake | Dùng allulose + đường la hán, bột hạnh nhân, không bột mì |
+| **Keto** | Keto Tiramisu, Keto Lemon Cheesecake | Tên nhóm sản phẩm hiện tại của MOCO; dùng allulose, riêng Tiramisu có thêm đường la hán. Cả hai sản phẩm đều có gluten |
 | **Healthy Baking** | Chuối Yến Mạch Choco, Bánh Mì Soda Nguyên Cám, Bông Lan Trứng Muối, Carrot Cake Kem Hy Lạp, Bánh Mì Cuộn Quế | Giảm đường tinh luyện, dùng trehalose/đường dừa/maple, bột nguyên cám/yến mạch |
 
 **Điểm chung:** Không dùng đường trắng tinh luyện, không phẩm màu, không chất bảo quản. Làm thủ công số lượng nhỏ.
@@ -30,8 +30,8 @@ updated: 2026-06-15
 ### 1. Keto Tiramisu
 
 - **Mô tả:** Tiramisu kiểu Ý làm từ mascarpone Anchor, kem trứng nấu chín, lady finger hạnh nhân tự làm, ngọt bằng allulose và đường la hán. Thơm cà phê, nồng đượm rum và Baileys.
-- **Thành phẩm:** ~250-280g/hộp
-- **Nguyên liệu chính:** Mascarpone (250g), whipping cream (150ml), trứng (2 lòng đỏ), đường allulose (35g), đường la hán (10g), cà phê (2 gói), rượu rum (20ml), rượu Baileys (20ml), lady finger hạnh nhân tự làm (70g), vani, muối
+- **Thành phẩm:** ~350g/hộp
+- **Nguyên liệu chính:** Mascarpone (250g), whipping cream (150ml), trứng (2 lòng đỏ), đường allulose (40g), đường la hán (10g), sữa tươi (50ml), cà phê (2 gói), rượu rum (20ml), rượu Baileys (20ml), lady finger hạnh nhân tự làm (100g), vani, muối
 - **Chất tạo ngọt:** Allulose + đường la hán (monk fruit)
 - **Bảo quản:** Ngăn mát tủ lạnh, dùng trong 3-5 ngày
 - **Khẩu phần gợi ý:** 1 hộp chia 2-3 lần ăn
@@ -42,7 +42,7 @@ updated: 2026-06-15
 | Sữa bò | ✅ Mascarpone, whipping cream, sữa tươi |
 | Trứng | ✅ Lòng đỏ trứng |
 | Hạt | ✅ Bột hạnh nhân (lady finger) |
-| Gluten | ❌ Lady finger làm hoàn toàn từ bột hạnh nhân, không dùng bột mì theo dữ liệu công thức hiện tại |
+| Gluten | ✅ Lady finger có bột mì số 8 theo công thức hiện tại |
 | Rượu | ✅ Rum, Baileys |
 
 ---
@@ -51,7 +51,7 @@ updated: 2026-06-15
 
 - **Mô tả:** Cheesecake chanh vàng tươi, lớp đế giòn từ bánh quy hạnh nhân tự làm, lớp kem cream cheese mềm mịn ngọt dịu bằng allulose. Vị chua thanh tự nhiên từ chanh vàng.
 - **Thành phẩm:** ~250g cả decor, kem 190g
-- **Nguyên liệu chính:** Cream cheese (250g), whipping cream (200ml), đường allulose (60g), chanh vàng (1 quả — nước + vỏ bào), gelatin (3 lá), sữa tươi không đường (40ml). Đế: bánh quy hạnh nhân (60g), bánh cosy (30g), bơ (30g)
+- **Nguyên liệu chính:** Cream cheese (250g), whipping cream (200ml), đường allulose (60g), chanh vàng (1 quả — nước + vỏ bào), gelatin (3 lá), sữa tươi không đường (40ml). Đế: bánh quy hạnh nhân (60g), bánh Cosy (30g), bơ (40g)
 - **Chất tạo ngọt:** Allulose
 - **Bảo quản:** Ngăn mát tủ lạnh, dùng trong 3-5 ngày
 - **Khẩu phần gợi ý:** 1 chiếc chia 4-6 miếng
@@ -73,7 +73,7 @@ updated: 2026-06-15
 
 - **Mô tả:** Bánh chuối yến mạch với socola chip, hạt bí, mềm ẩm tự nhiên từ chuối chín. Không dùng đường, ngọt hoàn toàn từ chuối. Phù hợp ăn sáng hoặc snack nhẹ.
 - **Thành phẩm:** 2,5 chiếc nhỏ, mỗi chiếc ~200g
-- **Nguyên liệu chính:** Chuối (3 quả), trứng (1 quả), sữa yến mạch (70ml), dầu dừa (30ml), bột yến mạch (80g), bột mì số 8 (80g), socola chip (20g), hạt bí (5g), baking soda, baking powder, vani
+- **Nguyên liệu chính:** Chuối (230g), trứng (1 quả), sữa yến mạch (70ml), dầu dừa (30ml), bột yến mạch (80g), bột mì số 8 (60g), socola chip (20g), hạt bí (5g), baking soda, baking powder, vani
 - **Chất tạo ngọt:** Không thêm đường — ngọt tự nhiên từ chuối chín
 - **Bảo quản:** Ngăn mát tủ lạnh 5-7 ngày
 - **Khẩu phần gợi ý:** 1 chiếc (~200g) chia 2-3 lần ăn
@@ -111,7 +111,7 @@ updated: 2026-06-15
 ### 5. Bông Lan Trứng Muối
 
 - **Mô tả:** Bông lan mềm xốp từ bột yến mạch và bột số 8, phủ kem trứng muối béo ngậy và chà bông rong biển. Ngọt dịu bằng trehalose, vị mặn ngọt hài hoà.
-- **Thành phẩm:** 1 bánh ~220g đã decor
+- **Thành phẩm:** 1 bánh ~230g đã decor
 - **Nguyên liệu chính:**
   - *Bánh:* Trứng (4 quả), sữa tươi không đường (60ml), dầu dừa (30ml), bột số 8 (40g), bột yến mạch (50g), đường trehalose (55g), vani, muối, giấm
   - *Kem trứng:* Trứng (1 lòng đỏ), đường trehalose (25g), sữa tươi (100ml), bột ngô (10g), bơ (10g), cream cheese (80g)
@@ -133,13 +133,13 @@ updated: 2026-06-15
 ### 6. Carrot Cake Kem Hy Lạp
 
 - **Mô tả:** Bánh cà rốt với óc chó, nho khô, thơm quế, phủ kem sữa chua Hy Lạp và cream cheese. Dùng bột hạnh nhân + bột nguyên cám, ngọt bằng đường dừa.
-- **Thành phẩm:** 3 chiếc, mỗi chiếc ~230g
+- **Thành phẩm:** 3 chiếc, mỗi chiếc ~220g
 - **Nguyên liệu chính:**
   - *Bánh:* Cà rốt bào sợi (180g), bột hạnh nhân (60g), bột nguyên cám (20g), bột yến mạch (40g), bột quế (5g), trứng (2 quả), đường dừa (50g), dầu dừa (60ml), nho khô (20g), óc chó (20g), baking powder, baking soda
   - *Kem:* Sữa chua Hy Lạp (100g), cream cheese (60g), whipping cream (40ml), đường trehalose (20g)
 - **Chất tạo ngọt:** Đường dừa (bánh) + trehalose (kem)
 - **Bảo quản:** Ngăn mát tủ lạnh, dùng trong 3-5 ngày
-- **Khẩu phần gợi ý:** 1 chiếc (~230g) chia 2 lần ăn
+- **Khẩu phần gợi ý:** 1 chiếc (~220g) chia 2 lần ăn
 
 **Lưu ý dị ứng:**
 | Dị ứng | Có/Không |
@@ -181,7 +181,7 @@ updated: 2026-06-15
 | Sữa bò | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ |
 | Trứng | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Hạt | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
-| Gluten | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gluten | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Rượu | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 > ⚠️ = thành phần có thể thay đổi theo loại hoặc nhãn nguyên liệu sử dụng. Khách dị ứng nghiêm trọng nên liên hệ MOCO trước khi đặt bánh.
@@ -192,10 +192,10 @@ updated: 2026-06-15
 
 | Chất tạo ngọt | Đặc điểm | Dùng trong |
 |----------------|----------|------------|
-| **Allulose** | ~0,4 kcal/g; FDA cho phép không tính vào Total/Added Sugars; vẫn cần kiểm soát khẩu phần | Keto Tiramisu, Keto Cheesecake |
-| **Đường la hán (Monk fruit)** | 0 calorie; ngọt tự nhiên từ quả la hán; không ảnh hưởng GI theo nghiên cứu hiện có | Keto Tiramisu |
-| **Trehalose** | ~2 kcal/g; GI thấp hơn đường trắng (~70 vs ~65); vẫn là đường | Bông Lan Trứng Muối, Carrot Cake (kem), BM Cuộn Quế (kem) |
-| **Đường dừa** | ~4 kcal/g; GI ~35 (thấp hơn đường trắng ~65); vẫn cần kiểm soát | Carrot Cake, BM Cuộn Quế |
+| **Allulose** | Chất tạo ngọt có năng lượng thấp hơn đường thông thường; vẫn cần tính tổng thành phần và khẩu phần | Keto Tiramisu, Keto Cheesecake |
+| **Đường la hán (Monk fruit)** | Chất tạo ngọt dùng với lượng nhỏ trong công thức | Keto Tiramisu |
+| **Trehalose** | Một loại đường dùng trong công thức; không nên mô tả là phù hợp cho mọi người cần kiểm soát đường huyết | Bông Lan Trứng Muối, Carrot Cake (kem), BM Cuộn Quế (kem) |
+| **Đường dừa** | Vẫn là đường và cần kiểm soát khẩu phần | Carrot Cake, BM Cuộn Quế |
 | **Maple syrup** | ~3,3 kcal/g; lượng nhỏ (15g/ổ bánh) | BM Soda Nguyên Cám |
 | **Chuối chín** | Ngọt tự nhiên từ fructose; không thêm đường | Chuối Yến Mạch Choco |
 
@@ -207,13 +207,13 @@ updated: 2026-06-15
 
 | Sản phẩm | Vai trò |
 |----------|---------|
-| Lady Finger Hạnh Nhân (bản điều chỉnh) | Nguyên liệu cho Keto Tiramisu. Bột hạnh nhân, allulose và đường la hán. ~350g/mẻ, đủ 5 chiếc Tiramisu |
+| Lady Finger Hạnh Nhân (bản điều chỉnh) | Nguyên liệu cho Keto Tiramisu. Công thức gồm bột hạnh nhân (80g), bột mì số 8 (70g), allulose và đường la hán; vì vậy có gluten |
 | Bánh Quy Hạnh Nhân Giòn | Dùng làm đế Cheesecake hoặc ăn riêng. Bột hạnh nhân + bột dừa, đường la hán |
 | Sữa Chua Hy Lạp | Dùng làm kem Carrot Cake và kem BM Cuộn Quế |
 
 ---
 
-*Nguồn: Google Sheet công thức MOCO Kitchen, cập nhật 2026-05-13.*
+*Nguồn: [Google Sheet công thức MOCO Kitchen](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?gid=1015945673#gid=1015945673), đối chiếu ngày 15/06/2026.*
 *Phiên bản: V2 — thay thế hoàn toàn V1 (5 sản phẩm cũ).*
 
 ---

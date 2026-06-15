@@ -37,9 +37,9 @@ Hai thương hiệu được dùng làm điểm tham chiếu định tính, khô
 |---|---|---|
 | **Minh bạch sản phẩm** | Khách khó phân biệt giữa tuyên bố marketing và thông tin có căn cứ | Công khai nguyên liệu chính, chất tạo ngọt, chất gây dị ứng, bảo quản và giới hạn của thông tin dinh dưỡng |
 | **Tư vấn phù hợp nhu cầu** | Người mua có thể hỏi về tiểu đường, thai kỳ, dị ứng hoặc chế độ tập luyện | Trợ lý chỉ cung cấp thông tin lựa chọn sản phẩm, luôn có lưu ý rõ ràng và không đưa lời khuyên điều trị |
-| **Brand experience** | Tiệm nhỏ dễ thiếu đồng nhất giữa content, visual và tư vấn | Dùng brand voice, content calendar và sample posts thống nhất |
-| **Khả năng tiếp cận** | Phụ thuộc hoàn toàn vào inbox mạng xã hội làm chậm phản hồi | Kết hợp Facebook, Instagram, Zalo với landing page và chatbot |
-| **Operations efficiency** | Dữ liệu order, cost và content bị phân tán | Chuẩn hóa trên Google Sheets và Apps Script để giảm thao tác thủ công |
+| **Trải nghiệm thương hiệu** | Tiệm nhỏ dễ thiếu đồng nhất giữa nội dung, hình ảnh và cách tư vấn | Dùng chung hướng dẫn giọng thương hiệu, lịch nội dung và bộ bài đăng mẫu |
+| **Khả năng tiếp cận** | Phụ thuộc hoàn toàn vào tin nhắn mạng xã hội làm chậm phản hồi | Kết hợp Threads, Instagram, Facebook, Zalo với trang giới thiệu và chatbot |
+| **Hiệu quả vận hành** | Dữ liệu đơn hàng, chi phí và nội dung bị phân tán | Chuẩn hóa trên Google Sheets và Apps Script để giảm thao tác thủ công |
 
 ## 5. SWOT của MOCO Kitchen
 

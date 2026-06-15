@@ -1,53 +1,136 @@
 ---
 id: 20260513225500
-aliases: ["MOCO Sample Posts", "Bài viết mẫu MOCO Kitchen"]
+aliases: ["Bộ bài đăng MOCO", "Bài viết mẫu MOCO Kitchen"]
 tags: ["#moco-kitchen", "#bai-viet-mau"]
 created: 2026-05-13
 updated: 2026-06-15
 ---
 
-# MOCO Kitchen — Sample Posts
+# MOCO Kitchen — Bộ bài đăng mẫu cho Facebook và Instagram
 
-Các sample post dưới đây được tạo với sự hỗ trợ của Gemini để minh họa cách áp dụng brand voice và Product Knowledge. Nội dung không được trình bày như đánh giá thật của khách hàng.
+Đây là các bài đăng thông thường, không chạy quảng cáo. Nội dung có thể dùng cho Facebook và Instagram sau khi ghép ảnh thật, kiểm tra tình trạng nhận đơn và duyệt lần cuối. Mỗi bài có một nhóm người đọc, mục tiêu và lời kêu gọi riêng; không dùng như đánh giá giả của khách hàng.
 
-## 1. Keto Tiramisu
+## 1. Chuối Yến Mạch Choco — Bài kéo khách mới
 
-Có những ngày mình muốn một món tráng miệng vừa đủ ngọt nhưng vẫn giữ được vị cà phê và lớp kem đặc trưng của tiramisu.
+| Hạng mục | Nội dung |
+|---|---|
+| Kênh | Instagram Feed, Facebook |
+| Người đọc | Người đi làm cần bữa sáng hoặc bữa phụ gọn nhẹ |
+| Mục tiêu | Giới thiệu sản phẩm dễ thử lần đầu và tạo tin nhắn đặt hàng |
+| Hình ảnh | Bánh cắt đôi cạnh ly cà phê; thêm một ảnh cận kết cấu mềm ẩm |
 
-Keto Tiramisu của MOCO được làm theo từng mẻ nhỏ, với mascarpone, cà phê, lớp bánh hạnh nhân và vị ngọt vừa phải. Rum và Baileys tạo thêm hương thơm cho bánh.
+### Nội dung đăng
 
-Sản phẩm có sữa, trứng, hạt và đồ uống có cồn. Vì vậy, bánh không phù hợp với trẻ em, người mang thai, người kiêng cồn hoặc dị ứng các thành phần trên. Người có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng trước khi sử dụng.
+Sáng bận đến mức chỉ kịp pha một ly cà phê? Chúng mình thường để sẵn một phần Chuối Yến Mạch Choco cho những hôm như vậy.
 
-## 2. Chất tạo ngọt trong bánh MOCO
+Bánh mềm ẩm từ chuối chín, có chocolate chip và hạt bí để mỗi miếng không bị đơn điệu. Công thức không thêm đường trắng; vị ngọt chính đến từ chuối.
 
-MOCO sử dụng nhiều loại chất tạo ngọt khác nhau tùy công thức, thay vì áp dụng một công thức chung cho mọi món bánh.
+**40.000 đồng/phần khoảng 200g.** Có thể chia làm 2 lần ăn nếu bạn chỉ cần một bữa phụ nhỏ.
 
-Việc giảm đường trắng không đồng nghĩa sản phẩm không còn năng lượng hoặc phù hợp với tất cả mọi người. Chúng mình luôn khuyến nghị khách đọc thành phần, chọn khẩu phần hợp lý và trao đổi với chuyên gia nếu đang kiểm soát chế độ ăn vì lý do sức khỏe.
+Bánh có trứng, bột mì và yến mạch; chocolate chip có thể chứa sữa tùy nhãn nguyên liệu.
 
-## 3. Chuối Yến Mạch Choco
+Nhắn MOCO chữ **“CHUỐI”** để chúng mình báo lịch bánh mới nhất nhé.
 
-Mùi chuối chín trong lò là phần dễ nhớ nhất của món bánh này. Chuối càng chín thì hương thơm và vị ngọt tự nhiên càng rõ, nhờ vậy công thức không cần thêm đường.
+#MOCOKitchen #BanhChuoiYenMach #BuaPhu
 
-Bột yến mạch, dầu dừa, sữa yến mạch, chocolate chip và hạt bí tạo nên kết cấu mềm ẩm, xen chút giòn. Đây là lựa chọn thuận tiện cho bữa sáng hoặc bữa phụ, nhưng khẩu phần vẫn nên được cân đối theo nhu cầu của từng người.
+## 2. Keto Tiramisu — Bài tăng giá trị đơn hàng
 
-## 4. Carrot Cake Kem Hy Lạp
+| Hạng mục | Nội dung |
+|---|---|
+| Kênh | Instagram Carousel, Facebook |
+| Người đọc | Người trưởng thành thích cà phê và món tráng miệng có vị đậm |
+| Mục tiêu | Giới thiệu sản phẩm giá trị cao cho dịp cuối tuần hoặc mua dùng chung |
+| Hình ảnh | Ảnh mở hộp, ảnh múc một thìa bánh và ảnh thể hiện kích thước hộp |
 
-Carrot Cake của MOCO kết hợp cà rốt tươi, quế, óc chó, nho khô và lớp kem sữa chua Hy Lạp pha cream cheese.
+### Nội dung đăng
 
-Món bánh hướng đến vị ngọt vừa phải và cảm giác nhẹ hơn lớp kem bơ truyền thống. Sản phẩm có sữa, trứng và hạt; khách dị ứng cần trao đổi với MOCO trước khi đặt.
+Tiramisu ngon nhất với chúng mình là lúc vị cà phê vẫn rõ, kem mascarpone đủ mượt và miếng bánh không bị ngọt gắt.
 
-## 5. Bánh Mì Cuộn Quế
+Mỗi hộp Keto Tiramisu của MOCO khoảng **350g**, làm theo mẻ nhỏ với mascarpone, cà phê, lady finger hạnh nhân, rum và Baileys. Một hộp có thể chia 2–3 phần để dùng sau bữa tối hoặc mang tới một buổi gặp cuối tuần.
 
-Bánh Mì Cuộn Quế được làm với phần bột mềm, nhân quế và lớp kem cream cheese. Khi dùng, có thể hâm nóng nhẹ để hương quế rõ hơn và bánh mềm trở lại.
+**Giá 180.000 đồng/hộp.**
 
-MOCO ưu tiên mô tả đúng thành phần thay vì gọi sản phẩm là “không đường” hoặc “ăn không lo”. Khách có yêu cầu đặc biệt về dinh dưỡng hoặc dị ứng nên kiểm tra kỹ trước khi đặt.
+Lưu ý: sản phẩm có sữa, trứng, hạnh nhân, gluten và đồ uống có cồn; không phù hợp với trẻ em, người mang thai hoặc người kiêng cồn.
 
-## Checklist trước khi sử dụng
+Nhắn MOCO trước 1–2 ngày để giữ lịch bánh.
 
-- Không biến sample content thành câu chuyện khách hàng có thật.
-- Không thêm lời hứa chữa bệnh hoặc bảo đảm sức khỏe.
-- Kiểm tra allergen của từng sản phẩm.
-- Dùng visual đúng món bánh và đúng nhận diện MOCO.
-- Chỉ đăng giá, khẩu phần và hạn dùng đã được xác nhận.
+#MOCOKitchen #KetoTiramisu #Tiramisu
 
-Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.
+## 3. “Không dùng đường trắng” có nghĩa là gì? — Bài tạo tin tưởng
+
+| Hạng mục | Nội dung |
+|---|---|
+| Kênh | Instagram Carousel, Facebook |
+| Người đọc | Người quan tâm thành phần và còn nghi ngại cách các thương hiệu dùng chữ “healthy” |
+| Mục tiêu | Giải thích minh bạch, tăng lượt lưu bài và giảm hiểu nhầm trước khi mua |
+| Hình ảnh | Carousel 4 trang: câu hỏi, các chất tạo ngọt, lưu ý về carbohydrate, cách đọc thông tin sản phẩm |
+
+### Nội dung đăng
+
+**“Không dùng đường trắng” không có nghĩa là bánh không còn đường, không có carbohydrate hay phù hợp với tất cả mọi người.**
+
+Tại MOCO, mỗi công thức dùng nguyên liệu tạo ngọt khác nhau:
+
+- Tiramisu và Cheesecake dùng allulose; Tiramisu có thêm đường la hán.
+- Carrot Cake và Bánh Mì Cuộn Quế có đường dừa.
+- Chuối Yến Mạch Choco lấy vị ngọt chính từ chuối chín.
+
+Ngoài chất tạo ngọt, bánh vẫn có carbohydrate từ bột, trái cây và các nguyên liệu khác. Vì vậy, chúng mình luôn ghi rõ thành phần để mỗi người tự cân nhắc khẩu phần phù hợp.
+
+Bạn có thể lưu bài này và nhắn tên món đang quan tâm; MOCO sẽ gửi lại thành phần và lưu ý cụ thể của món đó.
+
+#MOCOKitchen #ThanhPhanRoRang #BanhHealthy
+
+## 4. Bánh Mì Cuộn Quế — Bài hậu trường tạo sự gần gũi
+
+| Hạng mục | Nội dung |
+|---|---|
+| Kênh | Instagram Reel, Facebook Reel |
+| Người đọc | Người đã theo dõi MOCO và thích xem quá trình làm bánh |
+| Mục tiêu | Tăng tương tác, cho thấy sản phẩm được làm theo mẻ nhỏ và gợi nhu cầu cuối tuần |
+| Hình ảnh | Video 15–25 giây: cán bột, cuộn quế, bánh nở, phủ kem và bẻ đôi bánh |
+
+### Nội dung đăng
+
+Mẻ Cuộn Quế bắt đầu khá yên: một lớp bột được cán mỏng, quét bơ, rắc quế rồi cuộn lại từng chiếc.
+
+Đến lúc lò nóng lên thì căn bếp thơm hẳn. Bánh vừa ra lò mềm, phần giữa đậm mùi quế; lớp cream cheese được phủ sau cùng để giữ vị chua béo vừa đủ.
+
+Mỗi cuộn khoảng **100g, giá 40.000 đồng**. Khi ăn lại, bạn chỉ cần hâm ở 150°C khoảng 5 phút để bánh mềm và thơm hơn.
+
+Bánh có sữa, trứng và gluten. Nhắn MOCO nếu bạn muốn lấy bánh cho bữa sáng cuối tuần.
+
+#MOCOKitchen #CinnamonRoll #BepNhaMOCO
+
+## 5. Chọn bánh lần đầu — Bài hỗ trợ ra quyết định
+
+| Hạng mục | Nội dung |
+|---|---|
+| Kênh | Instagram Carousel, Facebook |
+| Người đọc | Người mới biết MOCO, chưa biết nên bắt đầu với món nào |
+| Mục tiêu | Giảm phân vân và đưa người đọc vào cuộc trò chuyện đặt hàng |
+| Hình ảnh | Ba sản phẩm đặt cạnh nhau; mỗi trang ghi hương vị, khối lượng và giá |
+
+### Nội dung đăng
+
+Lần đầu thử bánh MOCO, bạn có thể chọn theo sở thích thế này:
+
+🍌 **Muốn một phần dễ ăn cho buổi sáng:** Chuối Yến Mạch Choco, mềm ẩm, có chocolate chip và hạt bí — **40.000 đồng/200g**.
+
+🍋 **Muốn món chua dịu, mát và dễ chia:** Keto Lemon Cheesecake — **140.000 đồng/250g**.
+
+☕ **Muốn vị cà phê đậm cho buổi tối:** Keto Tiramisu — **180.000 đồng/350g**, có rum và Baileys.
+
+Tên dòng sản phẩm không thay thế thông tin dinh dưỡng. Nếu bạn cần tránh sữa, trứng, hạt, gluten hoặc đồ uống có cồn, hãy nói rõ khi nhắn để chúng mình kiểm tra đúng món.
+
+Gửi MOCO **món bạn đang nghiêng về nhất**, chúng mình sẽ tư vấn thêm về hương vị và lịch bánh.
+
+#MOCOKitchen #MenuMOCO #ChonBanh
+
+## Kiểm tra trước khi đăng
+
+- Dùng ảnh đúng sản phẩm, đúng khối lượng và bao bì đang bán.
+- Kiểm tra lại giá và lịch nhận đơn tại thời điểm đăng.
+- Không biến nội dung mẫu thành nhận xét có thật của khách hàng.
+- Giữ nguyên các lưu ý về sữa, trứng, hạt, gluten và đồ uống có cồn.
+- Điều chỉnh câu mở đầu theo ảnh hoặc video thực tế, nhưng không thay đổi thông tin sản phẩm.

@@ -9,7 +9,7 @@
 MOCO Kitchen có sản phẩm và khách hàng thật nhưng chỉ có hai founder trực tiếp vận hành. Những khó khăn chính gồm:
 
 - Viết content mất nhiều thời gian và khó giữ brand voice nhất quán.
-- Product knowledge, thành phần và cách bảo quản chưa được tập trung ở một nơi.
+- Thông tin sản phẩm, thành phần và cách bảo quản chưa được tập trung ở một nơi.
 - Khách hàng thường hỏi lại các câu về đường, dị ứng và cách chọn sản phẩm.
 - Đơn hàng, giá vốn, nhập hàng và thu chi được xử lý bằng nhiều thao tác thủ công.
 - Thương hiệu chưa có landing page riêng để giới thiệu sản phẩm và hỗ trợ đặt hàng.
@@ -22,7 +22,7 @@ Dự án xây dựng một hệ thống gồm hai phần:
 
 - Knowledge base của bảy sản phẩm MOCO Kitchen.
 - Bộ hướng dẫn để AI viết đúng brand voice.
-- Content calendar và sample posts.
+- Lịch nội dung và bộ bài đăng mẫu cho Facebook/Instagram.
 - Landing page giới thiệu sản phẩm.
 - Chatbot hỏi đáp về sản phẩm, thành phần, bảo quản và đặt hàng.
 
@@ -58,8 +58,8 @@ Dự án xây dựng một hệ thống gồm hai phần:
 | Thư mục | Nội dung |
 |---|---|
 | `1_Research/` | Mô tả bài toán, nghiên cứu thị trường, khách hàng và cạnh tranh |
-| `2_Knowledge_Base/` | Source list sử dụng trong NotebookLM |
-| `3_Content_Engine/` | Product knowledge, FAQ, content calendar và sample posts |
+| `2_Knowledge_Base/` | Danh mục nguồn sử dụng trong NotebookLM |
+| `3_Content_Engine/` | Thông tin sản phẩm, câu hỏi thường gặp, lịch nội dung và bài viết mẫu |
 | `3_Creative_Content/` | Visual concepts và video storyboard |
 | `4_App_Automation/` | Mã nguồn automation trên Google Sheets |
 | `5_Landing_Page_Chatbot/` | Landing page và chatbot |
@@ -70,8 +70,9 @@ Dự án xây dựng một hệ thống gồm hai phần:
 
 1. [Báo cáo tiến độ sáu tuần](_Deliverables/Weekly_Reports/README.md)
 2. [Mô tả bài toán](1_Research/problem_statement_RCGC.md)
-3. [Product knowledge của bảy sản phẩm](3_Content_Engine/moco_menu_products.md)
-4. [Deployment & demo guide](6_Deployment_Demo/README.md)
+3. [Tổng hợp dữ liệu kinh doanh đến 15/06/2026](1_Research/business_data_snapshot_2026-06-15.md)
+4. [Thông tin bảy sản phẩm](3_Content_Engine/moco_menu_products.md)
+5. [Hướng dẫn triển khai và trình diễn](6_Deployment_Demo/README.md)
 
 ## Lưu ý về nội dung sức khỏe
 

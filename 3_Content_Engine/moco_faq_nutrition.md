@@ -6,7 +6,7 @@ created: 2026-05-13
 updated: 2026-06-15
 ---
 
-# MOCO Kitchen — FAQ & Tư Vấn Dinh Dưỡng (V2)
+# MOCO Kitchen — Câu hỏi thường gặp về sản phẩm và dinh dưỡng (V2)
 
 > Cập nhật theo 7 sản phẩm thật. Loại bỏ Cookie Hạnh Nhân, Panna Cotta, Granola.
 
@@ -26,7 +26,8 @@ updated: 2026-06-15
 ### Bánh MOCO có thật sự không đường không?
 
 Không dùng đường trắng tinh luyện. Tuỳ dòng:
-- **Keto:** Allulose + đường la hán (Tiramisu, Cheesecake)
+- **Keto Tiramisu:** Allulose + đường la hán
+- **Keto Lemon Cheesecake:** Allulose
 - **Healthy Baking:** Trehalose, đường dừa, maple syrup hoặc ngọt từ chuối
 
 Vẫn có carbohydrate từ nguyên liệu khác — cần kiểm soát khẩu phần.
@@ -35,10 +36,10 @@ Vẫn có carbohydrate từ nguyên liệu khác — cần kiểm soát khẩu p
 
 Calories ~0,4 kcal/g. Theo FDA, có thể không tính vào Total/Added Sugars trên nhãn. Không đồng nghĩa "không carb".
 
-### Trehalose và đường dừa là gì?
+### Trehalose và đường dừa được dùng như thế nào?
 
-- **Trehalose:** ~2 kcal/g, GI thấp hơn đường trắng. Dùng trong Bông Lan Trứng Muối, kem Carrot Cake, kem Bánh Mì Cuộn Quế.
-- **Đường dừa:** ~4 kcal/g, GI ~35. Dùng trong Carrot Cake, Bánh Mì Cuộn Quế.
+- **Trehalose:** là một loại đường dùng trong Bông Lan Trứng Muối, kem Carrot Cake và kem Bánh Mì Cuộn Quế.
+- **Đường dừa:** được dùng trong Carrot Cake và Bánh Mì Cuộn Quế. Đây vẫn là đường và cần kiểm soát khẩu phần.
 
 ### Bánh có dùng bột mì không?
 
@@ -75,15 +76,15 @@ Hâm lò 150°C/5 phút. Bảo quản ngăn mát 2-3 ngày.
 ## 4. FAQ Theo Nhóm Khách
 
 ### Người tiểu đường ăn được không?
-Dòng Keto dùng allulose — ít đường hơn bánh truyền thống. Dòng Healthy Baking dùng trehalose/đường dừa — vẫn là đường, chỉ GI thấp hơn. Cần kiểm soát khẩu phần và hỏi bác sĩ.
+Không thể kết luận chỉ từ tên dòng sản phẩm. Cần xem toàn bộ công thức, lượng carbohydrate và khẩu phần; người đang điều trị tiểu đường nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng trước khi dùng.
 
 ### Mẹ bầu ăn được không?
 Không khẳng định an toàn tuyệt đối. Keto Tiramisu có rượu — không khuyến cáo. Các sản phẩm khác cần hỏi bác sĩ sản khoa.
 
 ### Người ăn kiêng nên chọn món nào?
-- **Keto:** Tiramisu, Cheesecake (ít carb nhất)
-- **Ăn sáng:** Chuối Yến Mạch Choco, Bánh Mì Soda
-- Vẫn cần kiểm soát khẩu phần.
+- MOCO chưa có bảng dinh dưỡng hoàn chỉnh để xếp hạng sản phẩm nào ít carbohydrate nhất.
+- Chuối Yến Mạch Choco và Bánh Mì Soda có thể dùng như lựa chọn bữa phụ hoặc bữa sáng tùy khẩu phần.
+- Nên chọn theo thành phần, mục tiêu cá nhân và tổng khẩu phần trong ngày.
 
 ### Trẻ dị ứng đạm sữa bò ăn được không?
 Hầu hết sản phẩm có sữa, cream cheese hoặc bơ nên không phù hợp. Riêng Chuối Yến Mạch Choco không dùng sữa bò trong công thức; tuy nhiên, socola chip có thể chứa sữa tùy nhãn nguyên liệu.
@@ -128,7 +129,7 @@ Facebook Messenger `facebook.com/mocokitchen` hoặc Zalo.
 
 ---
 
-*Nguồn: dữ liệu công thức MOCO, hướng dẫn của FDA về allulose và thông tin của WHO Việt Nam.*
+*Nguồn: dữ liệu công thức MOCO đối chiếu ngày 15/06/2026, hướng dẫn của FDA về allulose và thông tin của WHO Việt Nam.*
 *V2 — thay thế V1 (5 sản phẩm cũ).*
 
 ---

@@ -1,14 +1,14 @@
 ---
 id: "20260522154100"
-aliases: ["MOCO Video Storyboard", "Kịch bản video MOCO"]
+aliases: ["Kịch bản phân cảnh MOCO", "Kịch bản video MOCO"]
 tags: ["#moco", "#video", "#veo3"]
 created: 2026-05-22
 updated: 2026-06-15
 ---
 
-# Video Storyboard — MOCO Kitchen
+# Kịch bản phân cảnh video — MOCO Kitchen
 
-Đây là storyboard video 30–60 giây được xây dựng để minh họa khả năng ứng dụng Google Veo 3. Video chưa được sản xuất thành bản chính thức.
+Đây là kịch bản video 30–60 giây được xây dựng để minh họa khả năng ứng dụng Google Veo 3. Video chưa được sản xuất thành bản chính thức.
 
 ## Thông số dự kiến
 
@@ -20,9 +20,9 @@ updated: 2026-06-15
 | Âm nhạc | Piano hoặc guitar không lời |
 | Chữ trên hình | Tối giản, chỉ dùng tên thương hiệu và thông điệp cuối video |
 
-## Storyboard 6 cảnh
+## Sáu cảnh chính
 
-### Cảnh 1: Opening, 0–5 giây
+### Cảnh 1: Mở đầu, 0–5 giây
 
 Cận cảnh bàn tay hoàn thiện mặt bánh dưới ánh sáng tự nhiên. Không đặt chữ trên hình.
 
@@ -34,7 +34,7 @@ Các cảnh ngắn về chanh vàng, quế, cream cheese, chuối chín và nguy
 
 Trộn bột, đổ khuôn, nướng bánh và đặt bánh lên giá làm nguội. Chữ xuất hiện: “Thủ công từng mẻ.”
 
-### Cảnh 4: Product Showcase, 22–35 giây
+### Cảnh 4: Giới thiệu sản phẩm, 22–35 giây
 
 Lần lượt giới thiệu bảy món bánh trên nền kem và xanh lá nhạt. Tên từng sản phẩm xuất hiện cạnh hình.
 
@@ -42,9 +42,9 @@ Lần lượt giới thiệu bảy món bánh trên nền kem và xanh lá nhạ
 
 Cận cảnh cắt bánh để thể hiện kết cấu, lớp kem và độ mềm. Không thêm tuyên bố dinh dưỡng hoặc sức khỏe.
 
-### Cảnh 6: Closing, 48–60 giây
+### Cảnh 6: Kết thúc, 48–60 giây
 
-Logo MOCO Kitchen và tagline “Heart-Healthy, Soul-Tasty” xuất hiện trên nền xanh lá. Logo và text cần được thêm trong khâu hậu kỳ để bảo đảm chính xác.
+Logo MOCO Kitchen và thông điệp “Heart-Healthy, Soul-Tasty” xuất hiện trên nền xanh lá. Logo và chữ cần được thêm trong khâu hậu kỳ để bảo đảm chính xác.
 
 ## Lưu ý khi sản xuất
 
@@ -52,5 +52,3 @@ Logo MOCO Kitchen và tagline “Heart-Healthy, Soul-Tasty” xuất hiện trê
 - Kiểm tra kỹ hình dạng, nguyên liệu và khẩu phần trong từng cảnh.
 - Không dùng hình ảnh do AI tạo để thay thế thông tin thực tế về sản phẩm.
 - Nhạc, hình ảnh và phông chữ phải có quyền sử dụng phù hợp.
-
-Tài liệu này là một phần của dự án cuối khóa Google AI Bootcamp 2026.
