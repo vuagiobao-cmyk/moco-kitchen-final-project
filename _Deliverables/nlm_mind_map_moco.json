@@ -87,7 +87,7 @@
           ]
         },
         {
-          "name": "Vận hành & Website",
+          "name": "Landing page & Demo",
           "children": [
             { "name": "Trợ lý tư vấn sản phẩm 24/7" },
             { "name": "Auto-email Apps Script" },
@@ -114,7 +114,7 @@
           "children": [
             { "name": "Facebook" },
             { "name": "Zalo" },
-            { "name": "Website" }
+            { "name": "Landing page" }
           ]
         }
       ]

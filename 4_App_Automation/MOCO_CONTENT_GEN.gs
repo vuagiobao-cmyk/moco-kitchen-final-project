@@ -64,7 +64,7 @@ Sau bài viết, thêm "---" rồi gợi ý 2-3 idea ảnh minh họa.`;
 
 // ==================== MENU ====================
 // LƯU Ý: project Apps Script chỉ được có MỘT onOpen(). onOpen() chính nằm ở
-// MOCO_NHAP_HANG_V2.gs và sẽ gọi buildContentAiMenu_() bên dưới (guarded).
+// File menu chinh se goi buildContentAiMenu_() ben duoi (guarded).
 // KHÔNG đặt tên hàm này là onOpen() để tránh trùng → vỡ menu vận hành.
 
 function buildContentAiMenu_() {

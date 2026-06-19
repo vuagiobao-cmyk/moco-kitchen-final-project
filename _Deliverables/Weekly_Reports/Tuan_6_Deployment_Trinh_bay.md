@@ -1,44 +1,44 @@
-# Tuần 6 — Deployment & Presentation
+# Tuan 6 - Deployment & Presentation
 
-**Thời gian:** 08/05 – 22/05/2026, kèm một số nâng cấp trong tháng 06/2026
+**Thoi gian:** Tuan 6 cua du an
 
-**Tóm tắt:** Deploy sản phẩm, kiểm tra các chức năng và chuẩn bị slide cùng demo script.
+**Tom tat:** Deploy landing page, kiem tra cac chuc nang demo va chuan bi slide cung demo script.
 
-## Mục tiêu
+## Muc tieu
 
-- Deploy website để giảng viên và người dùng có thể truy cập.
-- Kiểm tra lại landing page, chatbot và bộ automation trên Google Sheets.
-- Chuẩn bị slide outline và demo script.
+- Deploy landing page de giang vien va nguoi xem co the truy cap.
+- Kiem tra lai landing page, chatbot, Content Generator va visual workflow.
+- Chuan bi slide outline va demo script.
 
-## Cách thực hiện
+## Cach thuc hien
 
-- Landing page được deploy lên Vercel.
-- Chatbot được test bằng các câu hỏi về sản phẩm, thành phần và sức khỏe.
-- Tài liệu được sắp xếp theo từng tuần để người đọc dễ theo dõi quá trình phát triển.
-- Sau giai đoạn chính, Content Generator được bổ sung Content Calendar và chức năng tạo prompt ảnh để hỗ trợ vận hành thực tế.
+- Landing page duoc deploy len Vercel.
+- Chatbot duoc test bang cac cau hoi ve san pham, thanh phan va suc khoe.
+- Tai lieu duoc sap xep theo tung tuan de nguoi doc de theo doi qua trinh phat trien.
+- Repo cong khai duoc lam gon, chi giu cac phan can cho mentor doc va demo.
 
-## Công việc đã hoàn thành
+## Cong viec da hoan thanh
 
-- Công bố website tại [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app).
-- Hoàn thiện documentation, slide outline 15 trang và demo script 5 phút.
-- Test chatbot với năm tình huống nhạy cảm; các câu trả lời đều giữ đúng giới hạn tư vấn sản phẩm.
-- Bổ sung Content Calendar và Content Generator trên Google Sheets.
+- Cong bo landing page tai [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app).
+- Hoan thien documentation, slide outline va demo script.
+- Test chatbot voi cac tinh huong nhay cam; cau tra loi giu dung gioi han tu van san pham.
+- Bo sung Content Generator va visual workflow vao cau chuyen demo.
 
-## Sản phẩm bàn giao
+## San pham ban giao
 
-| Nội dung | Liên kết |
+| Noi dung | Lien ket |
 |---|---|
-| Website MOCO Kitchen | [Xem trực tiếp](https://moco-kitchen-ai-hub.vercel.app) |
-| Deployment & demo guide | [Xem tài liệu](../../6_Deployment_Demo/README.md) |
-| Demo script 5 phút | [Xem tài liệu](../../6_Deployment_Demo/DEMO_SCRIPT.md) |
-| Slide outline | [Xem tài liệu](../SLIDE_OUTLINE_TUAN6.md) |
+| Landing page MOCO Kitchen | [Xem truc tiep](https://moco-kitchen-ai-hub.vercel.app) |
+| Deployment & demo guide | [Xem tai lieu](../../6_Deployment_Demo/README.md) |
+| Demo script 5 phut | [Xem tai lieu](../../6_Deployment_Demo/DEMO_SCRIPT.md) |
+| Slide outline | [Xem tai lieu](../SLIDE_OUTLINE_TUAN6.md) |
 
-## Kết quả
+## Ket qua
 
-- Sản phẩm hoạt động trực tuyến và có thể trình diễn từ đầu đến cuối.
-- Sáu tuần thực hiện được trình bày bằng báo cáo, mã nguồn và website thực tế.
-- Dự án chứng minh AI có thể hỗ trợ một tiệm bánh nhỏ ở cả nội dung, tư vấn khách hàng và quản lý dữ liệu, đồng thời vẫn cần con người kiểm tra thông tin trước khi sử dụng.
+- San pham hoat dong truc tuyen va co the trinh dien tu dau den cuoi.
+- Sau tuan thuc hien duoc trinh bay bang bao cao, ma nguon va landing page thuc te.
+- Du an chung minh AI co the ho tro mot thuong hieu nho o noi dung, hinh anh, knowledge base va chatbot, dong thoi van can con nguoi kiem tra thong tin truoc khi su dung.
 
 ---
 
-**Điều hướng:** [← Tuần 5](Tuan_5_Tich_hop_Giao_dien.md) · [Mục lục](README.md)
+**Dieu huong:** [Tuan 5](Tuan_5_Tich_hop_Giao_dien.md) · [Muc luc](README.md)

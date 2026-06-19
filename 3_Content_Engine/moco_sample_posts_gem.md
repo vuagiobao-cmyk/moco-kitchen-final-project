@@ -1,136 +1,115 @@
 ---
 id: 20260513225500
-aliases: ["Bộ bài đăng MOCO", "Bài viết mẫu MOCO Kitchen"]
-tags: ["#moco-kitchen", "#bai-viet-mau"]
+aliases: ["Bo bai dang MOCO", "Bai viet mau MOCO Kitchen"]
+tags: ["#moco-kitchen", "#bai-viet-mau", "#demo"]
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-06-19
 ---
 
-# MOCO Kitchen — Bộ bài đăng mẫu cho Facebook và Instagram
+# MOCO Kitchen - Bo Bai Dang Mau
 
-Đây là các bài đăng thông thường, không chạy quảng cáo. Nội dung có thể dùng cho Facebook và Instagram sau khi ghép ảnh thật, kiểm tra tình trạng nhận đơn và duyệt lần cuối. Mỗi bài có một nhóm người đọc, mục tiêu và lời kêu gọi riêng; không dùng như đánh giá giả của khách hàng.
+Day la bo bai dang mau cho Facebook va Instagram. Ban public khong chua du lieu van hanh nhay cam. Truoc khi dang that, founder can cap nhat lich nhan banh, hinh anh san pham va thong tin ban hang moi nhat o kenh noi bo.
 
-## 1. Chuối Yến Mạch Choco — Bài kéo khách mới
+## 1. Chuoi Yen Mach Choco - Bai Keo Khach Moi
 
-| Hạng mục | Nội dung |
+| Hang muc | Noi dung |
 |---|---|
-| Kênh | Instagram Feed, Facebook |
-| Người đọc | Người đi làm cần bữa sáng hoặc bữa phụ gọn nhẹ |
-| Mục tiêu | Giới thiệu sản phẩm dễ thử lần đầu và tạo tin nhắn đặt hàng |
-| Hình ảnh | Bánh cắt đôi cạnh ly cà phê; thêm một ảnh cận kết cấu mềm ẩm |
+| Kenh | Instagram Feed, Facebook |
+| Nguoi doc | Nguoi di lam can bua sang hoac bua phu gon nhe |
+| Muc tieu | Gioi thieu san pham de thu lan dau va tao hoi thoai |
+| Hinh anh | Banh cat doi canh ly ca phe; them anh can ket cau mem am |
 
-### Nội dung đăng
+### Noi dung dang
 
-Sáng bận đến mức chỉ kịp pha một ly cà phê? Chúng mình thường để sẵn một phần Chuối Yến Mạch Choco cho những hôm như vậy.
+Sang ban den muc chi kip pha mot ly ca phe? MOCO thuong chuan bi nhung phan Chuoi Yen Mach Choco cho cac bua sang gon nhe nhu vay.
 
-Bánh mềm ẩm từ chuối chín, có chocolate chip và hạt bí để mỗi miếng không bị đơn điệu. Công thức không thêm đường trắng; vị ngọt chính đến từ chuối.
+Banh mem am tu chuoi chin, co chocolate chip va hat bi de moi mieng khong bi don dieu. Cong thuc khong dung duong trang; vi ngot chinh den tu chuoi.
 
-**40.000 đồng/phần khoảng 200g.** Có thể chia làm 2 lần ăn nếu bạn chỉ cần một bữa phụ nhỏ.
-
-Bánh có trứng, bột mì và yến mạch; chocolate chip có thể chứa sữa tùy nhãn nguyên liệu.
-
-Nhắn MOCO chữ **“CHUỐI”** để chúng mình báo lịch bánh mới nhất nhé.
+Banh co trung, bot mi va yen mach; chocolate chip co the chua sua tuy nhan nguyen lieu. Nhan MOCO de hoi lich banh moi nhat.
 
 #MOCOKitchen #BanhChuoiYenMach #BuaPhu
 
-## 2. Keto Tiramisu — Bài tăng giá trị đơn hàng
+## 2. Keto Tiramisu - Bai Gioi Thieu San Pham
 
-| Hạng mục | Nội dung |
+| Hang muc | Noi dung |
 |---|---|
-| Kênh | Instagram Carousel, Facebook |
-| Người đọc | Người trưởng thành thích cà phê và món tráng miệng có vị đậm |
-| Mục tiêu | Giới thiệu sản phẩm giá trị cao cho dịp cuối tuần hoặc mua dùng chung |
-| Hình ảnh | Ảnh mở hộp, ảnh múc một thìa bánh và ảnh thể hiện kích thước hộp |
+| Kenh | Instagram Carousel, Facebook |
+| Nguoi doc | Nguoi thich ca phe va mon trang mieng vi dam |
+| Muc tieu | Gioi thieu huong vi, thanh phan va dip dung phu hop |
+| Hinh anh | Anh mo hop, anh muc mot thia banh va anh can lop kem |
 
-### Nội dung đăng
+### Noi dung dang
 
-Tiramisu ngon nhất với chúng mình là lúc vị cà phê vẫn rõ, kem mascarpone đủ mượt và miếng bánh không bị ngọt gắt.
+Tiramisu ngon voi MOCO la luc vi ca phe van ro, kem mascarpone du muot va mieng banh khong bi ngot gat.
 
-Mỗi hộp Keto Tiramisu của MOCO khoảng **350g**, làm theo mẻ nhỏ với mascarpone, cà phê, lady finger hạnh nhân, rum và Baileys. Một hộp có thể chia 2–3 phần để dùng sau bữa tối hoặc mang tới một buổi gặp cuối tuần.
+Keto Tiramisu duoc lam theo me nho voi mascarpone, ca phe, lady finger hanh nhan, rum va Baileys. Mon nay phu hop de dung sau bua toi hoac mang toi mot buoi gap cuoi tuan.
 
-**Giá 180.000 đồng/hộp.**
-
-Lưu ý: sản phẩm có sữa, trứng, hạnh nhân, gluten và đồ uống có cồn; không phù hợp với trẻ em, người mang thai hoặc người kiêng cồn.
-
-Nhắn MOCO trước 1–2 ngày để giữ lịch bánh.
+Luu y: san pham co sua, trung, hanh nhan, gluten va do uong co con; khong phu hop voi tre em, nguoi mang thai hoac nguoi kieng con.
 
 #MOCOKitchen #KetoTiramisu #Tiramisu
 
-## 3. “Không dùng đường trắng” có nghĩa là gì? — Bài tạo tin tưởng
+## 3. "Khong Dung Duong Trang" Co Nghia La Gi?
 
-| Hạng mục | Nội dung |
+| Hang muc | Noi dung |
 |---|---|
-| Kênh | Instagram Carousel, Facebook |
-| Người đọc | Người quan tâm thành phần và còn nghi ngại cách các thương hiệu dùng chữ “healthy” |
-| Mục tiêu | Giải thích minh bạch, tăng lượt lưu bài và giảm hiểu nhầm trước khi mua |
-| Hình ảnh | Carousel 4 trang: câu hỏi, các chất tạo ngọt, lưu ý về carbohydrate, cách đọc thông tin sản phẩm |
+| Kenh | Instagram Carousel, Facebook |
+| Nguoi doc | Nguoi quan tam thanh phan va cach dung chu "healthy" |
+| Muc tieu | Giai thich minh bach va giam hieu nham |
+| Hinh anh | Carousel ve chat tao ngot, carbohydrate va cach doc thong tin san pham |
 
-### Nội dung đăng
+### Noi dung dang
 
-**“Không dùng đường trắng” không có nghĩa là bánh không còn đường, không có carbohydrate hay phù hợp với tất cả mọi người.**
+"Khong dung duong trang" khong co nghia la banh khong con duong, khong co carbohydrate hay phu hop voi tat ca moi nguoi.
 
-Tại MOCO, mỗi công thức dùng nguyên liệu tạo ngọt khác nhau:
+Tai MOCO, moi cong thuc dung nguyen lieu tao ngot khac nhau. Ngoai chat tao ngot, banh van co carbohydrate tu bot, trai cay va cac nguyen lieu khac. Vi vay, MOCO luon ghi ro thanh phan de moi nguoi tu can nhac khau phan phu hop.
 
-- Tiramisu và Cheesecake dùng allulose; Tiramisu có thêm đường la hán.
-- Carrot Cake và Bánh Mì Cuộn Quế có đường dừa.
-- Chuối Yến Mạch Choco lấy vị ngọt chính từ chuối chín.
-
-Ngoài chất tạo ngọt, bánh vẫn có carbohydrate từ bột, trái cây và các nguyên liệu khác. Vì vậy, chúng mình luôn ghi rõ thành phần để mỗi người tự cân nhắc khẩu phần phù hợp.
-
-Bạn có thể lưu bài này và nhắn tên món đang quan tâm; MOCO sẽ gửi lại thành phần và lưu ý cụ thể của món đó.
+Neu Anh/Chi co benh nen, di ung hoac dang theo che do an dac biet, hay hoi bac si hoac chuyen gia dinh duong truoc khi dung.
 
 #MOCOKitchen #ThanhPhanRoRang #BanhHealthy
 
-## 4. Bánh Mì Cuộn Quế — Bài hậu trường tạo sự gần gũi
+## 4. Banh Mi Cuon Que - Bai Hau Truong
 
-| Hạng mục | Nội dung |
+| Hang muc | Noi dung |
 |---|---|
-| Kênh | Instagram Reel, Facebook Reel |
-| Người đọc | Người đã theo dõi MOCO và thích xem quá trình làm bánh |
-| Mục tiêu | Tăng tương tác, cho thấy sản phẩm được làm theo mẻ nhỏ và gợi nhu cầu cuối tuần |
-| Hình ảnh | Video 15–25 giây: cán bột, cuộn quế, bánh nở, phủ kem và bẻ đôi bánh |
+| Kenh | Instagram Reel, Facebook Reel |
+| Nguoi doc | Nguoi da theo doi MOCO va thich xem qua trinh lam banh |
+| Muc tieu | Tang tuong tac va cho thay san pham duoc lam theo me nho |
+| Hinh anh | Video ngan: can bot, cuon que, banh no, phu kem va be doi banh |
 
-### Nội dung đăng
+### Noi dung dang
 
-Mẻ Cuộn Quế bắt đầu khá yên: một lớp bột được cán mỏng, quét bơ, rắc quế rồi cuộn lại từng chiếc.
+Me Cuon Que bat dau bang mot lop bot duoc can mong, quet bo, rac que roi cuon lai tung chiec.
 
-Đến lúc lò nóng lên thì căn bếp thơm hẳn. Bánh vừa ra lò mềm, phần giữa đậm mùi quế; lớp cream cheese được phủ sau cùng để giữ vị chua béo vừa đủ.
+Khi lo nong len, can bep thom ro mui que. Banh vua ra lo mem, phan giua dam mui que; lop cream cheese duoc phu sau cung de giu vi chua beo vua du.
 
-Mỗi cuộn khoảng **100g, giá 40.000 đồng**. Khi ăn lại, bạn chỉ cần hâm ở 150°C khoảng 5 phút để bánh mềm và thơm hơn.
-
-Bánh có sữa, trứng và gluten. Nhắn MOCO nếu bạn muốn lấy bánh cho bữa sáng cuối tuần.
+Banh co sua, trung va gluten. Nhan MOCO neu ban muon hoi lich banh cho bua sang cuoi tuan.
 
 #MOCOKitchen #CinnamonRoll #BepNhaMOCO
 
-## 5. Chọn bánh lần đầu — Bài hỗ trợ ra quyết định
+## 5. Chon Banh Lan Dau
 
-| Hạng mục | Nội dung |
+| Hang muc | Noi dung |
 |---|---|
-| Kênh | Instagram Carousel, Facebook |
-| Người đọc | Người mới biết MOCO, chưa biết nên bắt đầu với món nào |
-| Mục tiêu | Giảm phân vân và đưa người đọc vào cuộc trò chuyện đặt hàng |
-| Hình ảnh | Ba sản phẩm đặt cạnh nhau; mỗi trang ghi hương vị, khối lượng và giá |
+| Kenh | Instagram Carousel, Facebook |
+| Nguoi doc | Nguoi moi biet MOCO, chua biet nen bat dau voi mon nao |
+| Muc tieu | Giam phan van va dua nguoi doc vao cuoc tro chuyen tu van |
+| Hinh anh | Ba san pham dat canh nhau, moi trang ghi huong vi va luu y thanh phan |
 
-### Nội dung đăng
+### Noi dung dang
 
-Lần đầu thử bánh MOCO, bạn có thể chọn theo sở thích thế này:
+Lan dau thu banh MOCO, ban co the chon theo vi:
 
-🍌 **Muốn một phần dễ ăn cho buổi sáng:** Chuối Yến Mạch Choco, mềm ẩm, có chocolate chip và hạt bí — **40.000 đồng/200g**.
+- Thich mon mem am, de an buoi sang: Chuoi Yen Mach Choco.
+- Thich vi chua diu, mat va de chia: Keto Lemon Cheesecake.
+- Thich ca phe dam va kem beo: Keto Tiramisu.
 
-🍋 **Muốn món chua dịu, mát và dễ chia:** Keto Lemon Cheesecake — **140.000 đồng/250g**.
-
-☕ **Muốn vị cà phê đậm cho buổi tối:** Keto Tiramisu — **180.000 đồng/350g**, có rum và Baileys.
-
-Tên dòng sản phẩm không thay thế thông tin dinh dưỡng. Nếu bạn cần tránh sữa, trứng, hạt, gluten hoặc đồ uống có cồn, hãy nói rõ khi nhắn để chúng mình kiểm tra đúng món.
-
-Gửi MOCO **món bạn đang nghiêng về nhất**, chúng mình sẽ tư vấn thêm về hương vị và lịch bánh.
+Ten dong san pham khong thay the thong tin dinh duong. Neu ban can tranh sua, trung, hat, gluten hoac do uong co con, hay noi ro khi nhan de MOCO kiem tra dung mon.
 
 #MOCOKitchen #MenuMOCO #ChonBanh
 
-## Kiểm tra trước khi đăng
+## Kiem Tra Truoc Khi Dang
 
-- Dùng ảnh đúng sản phẩm, đúng khối lượng và bao bì đang bán.
-- Kiểm tra lại giá và lịch nhận đơn tại thời điểm đăng.
-- Không biến nội dung mẫu thành nhận xét có thật của khách hàng.
-- Giữ nguyên các lưu ý về sữa, trứng, hạt, gluten và đồ uống có cồn.
-- Điều chỉnh câu mở đầu theo ảnh hoặc video thực tế, nhưng không thay đổi thông tin sản phẩm.
+- Dung anh dung san pham, dung bao bi va dung tinh trang nhan banh hien tai.
+- Cap nhat thong tin ban hang ngoai repo public.
+- Khong bien noi dung mau thanh nhan xet co that cua khach hang.
+- Giu nguyen cac luu y ve sua, trung, hat, gluten va do uong co con.

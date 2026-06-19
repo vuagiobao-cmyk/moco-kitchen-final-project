@@ -1,6 +1,6 @@
 ---
 project: MOCO Kitchen AI Marketing Hub
-module: Visual Production
+section: Visual Production
 artifact: Moodboard workflow
 created: 2026-05-09
 ---

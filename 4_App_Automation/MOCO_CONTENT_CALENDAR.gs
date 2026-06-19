@@ -79,7 +79,7 @@ function setupContentCalendar() {
   cal.getRange(2, 1, sample.length, sample[0].length).setValues(sample);
 
   // Dropdown: Kênh
-  const channels = ['Facebook', 'Instagram', 'TikTok', 'Zalo', 'Website'];
+  const channels = ['Facebook', 'Instagram', 'TikTok', 'Zalo', 'Landing page'];
   cal.getRange(2, CAL_COL_CHANNEL, 100, 1).setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(channels, true).setAllowInvalid(false).build()
   );

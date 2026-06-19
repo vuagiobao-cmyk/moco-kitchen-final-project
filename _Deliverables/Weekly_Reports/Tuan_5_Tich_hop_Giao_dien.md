@@ -1,43 +1,44 @@
-# Tuần 5 — Integration & UI
+# Tuan 5 - Integration & UI
 
-**Thời gian:** 21/04 – 07/05/2026
+**Thoi gian:** Tuan 5 cua du an
 
-**Tóm tắt:** Tích hợp landing page, chatbot và các module vận hành thành một trải nghiệm hoàn chỉnh.
+**Tom tat:** Tich hop landing page, chatbot, content workflow va visual assets thanh mot trai nghiem hoan chinh.
 
-## Mục tiêu
+## Muc tieu
 
-- Hoàn thiện landing page MOCO Kitchen theo nhận diện thương hiệu.
-- Tích hợp chatbot tư vấn sản phẩm vào website.
-- Kết nối các công cụ quản lý để đội vận hành sử dụng tập trung.
+- Hoan thien landing page MOCO Kitchen theo nhan dien thuong hieu.
+- Tich hop chatbot tu van san pham.
+- Dua hinh anh san pham vao bo cuc ro rang, de xem tren desktop va mobile.
+- Giu public demo tap trung vao marketing, content va trai nghiem khach hang.
 
-## Cách thực hiện
+## Cach thuc hien
 
-- UI sử dụng tông xanh matcha, bố cục thoáng và hình ảnh sản phẩm nổi bật.
-- Gemini API key được đặt ở backend, không xuất hiện trong mã gửi tới trình duyệt của người dùng.
-- Chatbot có thể ghi nhớ nội dung trong một cuộc trò chuyện để trả lời liền mạch hơn.
-- Các module cost, nhập hàng, thu chi và dashboard được gom vào cùng một Google Sheet.
+- UI su dung tong xanh matcha, bo cuc thoang va hinh anh san pham noi bat.
+- Gemini API key duoc dat o backend, khong xuat hien trong ma frontend.
+- Chatbot tra loi theo knowledge base va guardrails suc khoe.
+- Hinh anh san pham duoc chon loc tu anh that va cac bien the duoc AI ho tro.
 
-## Công việc đã hoàn thành
+## Cong viec da hoan thanh
 
-- Hoàn thiện responsive landing page cho máy tính và điện thoại.
-- Tích hợp chatbot, FAQ và các CTA đặt hàng.
-- Kết nối chatbot với dữ liệu sản phẩm đã chuẩn hóa.
-- Hợp nhất các module vận hành vào một hệ thống dễ sử dụng.
+- Hoan thien responsive landing page cho may tinh va dien thoai.
+- Tich hop chatbot, FAQ va CTA dat hang.
+- Ket noi chatbot voi du lieu san pham da chuan hoa.
+- Hoan thien visual direction cho san pham banh.
 
-## Sản phẩm bàn giao
+## San pham ban giao
 
-| Nội dung | Liên kết |
+| Noi dung | Lien ket |
 |---|---|
-| Website MOCO Kitchen | [Xem trực tiếp](https://moco-kitchen-ai-hub.vercel.app) |
-| Mã nguồn landing page và chatbot | [Xem thư mục](../../5_Landing_Page_Chatbot/) |
-| Tổng quan dự án | [Xem README](../../README.md) |
+| Landing page MOCO Kitchen | [Xem truc tiep](https://moco-kitchen-ai-hub.vercel.app) |
+| Ma nguon landing page va chatbot | [Xem thu muc](../../5_Landing_Page_Chatbot/) |
+| Tong quan du an | [Xem README](../../README.md) |
 
-## Kết quả
+## Ket qua
 
-- Khách hàng có thể xem sản phẩm, đọc thông tin cần thiết và chat trên cùng một landing page.
-- Chatbot trả lời dựa trên dữ liệu sản phẩm của MOCO và có lưu ý phù hợp với câu hỏi sức khỏe.
-- Founder quản lý đơn hàng, cost và thu chi tập trung hơn trước.
+- Khach hang co the xem san pham, doc thong tin can thiet va chat tren cung mot landing page.
+- Chatbot tra loi dua tren du lieu san pham cua MOCO va co luu y phu hop voi cau hoi suc khoe.
+- Visual san pham dong bo hon giua landing page va social concept.
 
 ---
 
-**Điều hướng:** [← Tuần 4](Tuan_4_Core_Features.md) · [Mục lục](README.md) · [Tuần 6 →](Tuan_6_Deployment_Trinh_bay.md)
+**Dieu huong:** [Tuan 4](Tuan_4_Core_Features.md) · [Muc luc](README.md) · [Tuan 6](Tuan_6_Deployment_Trinh_bay.md)

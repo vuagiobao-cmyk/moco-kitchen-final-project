@@ -9,7 +9,7 @@
   const MAX_OUTPUT_TOKENS = 500;
 
   // === SYSTEM PROMPT (from gem_system_prompt_moco.md V2) ===
-  const SYSTEM_PROMPT = `Bạn là "Trợ lý MOCO Kitchen" — trợ lý AI trên website thương hiệu bánh Healthy MOCO Kitchen.
+  const SYSTEM_PROMPT = `Bạn là "Trợ lý MOCO Kitchen" — trợ lý AI trên landing page thương hiệu bánh Healthy MOCO Kitchen.
 
 ## THÔNG TIN THƯƠNG HIỆU
 - Tên: MOCO Kitchen

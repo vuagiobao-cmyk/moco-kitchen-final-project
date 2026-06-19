@@ -1,23 +1,15 @@
-# Tuần 4: App Automation & Core Features
+# App Automation - Demo Package
 
-Thư mục này chứa các Google Apps Script module được xây dựng để giảm thao tác thủ công trong Google Sheets của MOCO Kitchen.
+Thu muc nay chi giu cac thanh phan can cho bai nop va demo.
 
-## Các chức năng chính
+## Noi dung giu lai
 
-| Chức năng | Tệp mã nguồn | Mục đích |
+| Chuc nang | Tep ma nguon | Muc dich |
 |---|---|---|
-| Content Generator | [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) | Tạo content draft từ brief trong Google Sheets |
-| Content Calendar | [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) | Quản lý lịch đăng và chuyển topic sang Content Brief |
-| Cost Engine | [`MOCO_COST_AUTO.gs`](MOCO_COST_AUTO.gs) | Tổng hợp food cost theo công thức |
-| Quản lý nhập hàng | [`MOCO_NHAP_HANG_V2.gs`](MOCO_NHAP_HANG_V2.gs) | Theo dõi nguyên liệu và hỗ trợ lập danh sách mua |
-| Order Form | [`MOCO_Order_Form.html`](MOCO_Order_Form.html) | Nhập thông tin đơn hàng bằng form |
-| Ghi nhận thu chi | [`MOCO_THU_CHI_AUTO.gs`](MOCO_THU_CHI_AUTO.gs) | Cập nhật dòng tiền từ dữ liệu đơn hàng |
-| Dashboard | [`MOCO_DASHBOARD.gs`](MOCO_DASHBOARD.gs) | Hiển thị doanh thu, chi phí và sản phẩm bán chạy |
+| Content Generator | [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) | Tao content draft tu brief trong Google Sheets |
+| Content Calendar | [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) | Quan ly lich dang va chuyen topic sang Content Brief |
+| Deploy Guide | [`APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md`](APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) | Huong dan cai dat Content Generator |
 
-## Cách xem
+## Noi dung da tach khoi repo public
 
-- Đọc [Content Generator Deploy Guide](APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md).
-- Mở các tệp `.gs` để xem mã nguồn Google Apps Script.
-- Không cần cài đặt để đọc và đánh giá cấu trúc chương trình.
-
-Các tệp chứa thông tin bàn giao kỹ thuật, nhật ký thử nghiệm và dữ liệu truy cập không thuộc bộ tài liệu nộp bài công khai.
+Nhung phan van hanh noi bo va du lieu nhay cam khong nam trong repo cong khai. Ban nop chi mo ta ket qua va quy trinh o muc tong quan.

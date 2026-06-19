@@ -1,123 +1,125 @@
-# Slide Outline — MOCO Kitchen
+# Slide Outline - MOCO Kitchen
 
-**Thời lượng:** 10–15 phút
-**Số slide:** 16
-**Phong cách:** xanh matcha, nền sáng, ít chữ và ưu tiên hình ảnh thực tế của sản phẩm.
+**Thoi luong:** 10-15 phut  
+**So slide:** 16  
+**Phong cach:** xanh matcha, nen sang, it chu va uu tien hinh anh thuc te cua san pham.
 
-## Slide 1 — Cover
+## Slide 1 - Cover
 
-- MOCO Kitchen — Ứng dụng Google AI cho tiệm bánh trực tuyến
-- Họ tên học viên, khóa học và ngày trình bày
-- Logo cùng một ảnh sản phẩm nổi bật
+- MOCO Kitchen - Ung dung Google AI cho tiem banh truc tuyen
+- Ho ten hoc vien, khoa hoc va ngay trinh bay
+- Logo cung mot anh san pham noi bat
 
-## Slide 2 — Problem
+## Slide 2 - Problem
 
-- Viết bài mạng xã hội mất 2–3 giờ.
-- Thông tin sản phẩm nằm ở nhiều nơi và dễ thiếu nhất quán.
-- Khách hàng thường hỏi về thành phần, dị ứng và cách bảo quản.
-- Đơn hàng, giá vốn và thu chi còn nhiều thao tác thủ công.
+- Viet bai mang xa hoi ton nhieu thoi gian.
+- Thong tin san pham nam o nhieu noi va de thieu nhat quan.
+- Khach hang thuong hoi ve thanh phan, di ung va cach bao quan.
+- Hinh anh san pham can nhieu bien the hon cho menu, landing page va social.
 
-## Slide 3 — Project Goals
+## Slide 3 - Project Goals
 
-- Tập trung thông tin của bảy sản phẩm.
-- Hỗ trợ viết nội dung đúng giọng thương hiệu.
-- Xây dựng landing page và chatbot.
-- Xây dựng automation trên Google Sheets.
+- Tap trung thong tin cua bay san pham.
+- Ho tro viet noi dung dung giong thuong hieu.
+- Xay dung workflow hinh anh dua tren anh banh chup that.
+- Xay dung landing page va chatbot.
 
-## Slide 4 — Tools
+## Slide 4 - Tools
 
-| Công cụ | Vai trò |
+| Cong cu | Vai tro |
 |---|---|
-| NotebookLM | Tổng hợp thông tin từ tài liệu sản phẩm |
-| Gemini | Hỗ trợ viết bài và trả lời câu hỏi |
-| Google Apps Script | Tự động hóa Google Sheets |
-| Công cụ tạo ảnh của Google | Hỗ trợ thử bối cảnh và ánh sáng |
-| Veo 3 | Thử nghiệm ý tưởng video |
-| Vercel | Đưa website lên internet |
+| NotebookLM | Tong hop thong tin tu tai lieu san pham |
+| Gemini | Ho tro viet bai va tra loi cau hoi |
+| Google Apps Script | Tu dong hoa Content Generator |
+| Cong cu tao anh cua Google | Ho tro thu boi canh va anh sang |
+| Veo 3 | Thu nghiem y tuong video |
+| Vercel | Dua landing page len internet |
 
-## Slide 5 — Kho thông tin sản phẩm
+## Slide 5 - Kho thong tin san pham
 
-- Bảy sản phẩm được mô tả theo cùng một cấu trúc.
-- Có thành phần, cách bảo quản và các chất cần lưu ý.
-- NotebookLM đọc tài liệu và đưa nguồn tham chiếu trong câu trả lời.
+- Bay san pham duoc mo ta theo cung mot cau truc.
+- Co thanh phan, cach bao quan va cac chat can luu y.
+- NotebookLM doc tai lieu va dua nguon tham chieu trong cau tra loi.
 
-## Slide 6 — Nhận diện thương hiệu
+## Slide 6 - Nhan dien thuong hieu
 
-- Logo chữ thường, biểu tượng trái tim/lá và rolling pin.
-- Bảng màu matcha green, cream và terracotta.
-- Hướng hình ảnh “Bếp nhỏ, vị thật”.
-- Quy tắc không dùng ảnh hoặc chữ làm sai sản phẩm thật.
+- Logo chu thuong, bieu tuong trai tim/la va rolling pin.
+- Bang mau matcha green, cream va terracotta.
+- Huong hinh anh "bep nho, vi that".
+- Quy tac khong dung anh hoac chu lam sai san pham that.
 
-## Slide 7 — Hướng dẫn giọng thương hiệu
+## Slide 7 - Workflow hinh anh san pham
 
-- Xưng “chúng mình”.
-- Giọng văn chân thành, không phóng đại.
-- Nêu rõ nguyên liệu và giới hạn của thông tin dinh dưỡng.
-- Không sử dụng các câu như “chữa bệnh”, “an toàn tuyệt đối” hoặc “ăn thoải mái”.
+- Anh chup dien thoai cua banh that duoc dung lam nguon chinh.
+- AI ho tro thu background, anh sang va bien the hinh anh.
+- Anh dung cho menu, landing page va social.
+- Con nguoi kiem tra lai de dam bao banh khong bi bien dang hoac khac san pham that.
 
-## Slide 8 — Content Generator
+## Slide 8 - Huong dan giong thuong hieu
 
-1. Nhập tên sản phẩm, loại bài viết và nhóm người đọc trên Google Sheets.
-2. Bấm nút generate.
-3. Gemini tạo bản nháp nội dung và gợi ý hình ảnh.
-4. Founder kiểm tra, chỉnh rồi mới đăng.
+- Xung "chung minh".
+- Giong van chan thanh, khong phong dai.
+- Neu ro nguyen lieu va gioi han cua thong tin dinh duong.
+- Khong su dung cac cau nhu "chua benh", "an toan tuyet doi" hoac "an thoai mai".
 
-## Slide 9 — Bài đăng Facebook/Instagram
+## Slide 9 - Content Generator
 
-- Hiển thị một bài giới thiệu Keto Tiramisu.
-- Nêu rõ người đọc, mục tiêu, mô tả sản phẩm, lưu ý về rượu và lời mời đặt hàng.
-- So sánh thời gian viết thủ công với thời gian chỉnh sửa bản nháp.
+1. Nhap ten san pham, loai bai viet va nhom nguoi doc tren Google Sheets.
+2. Bam nut generate.
+3. Gemini tao ban nhap noi dung va goi y hinh anh.
+4. Founder kiem tra, chinh roi moi dang.
 
-## Slide 10 — Tự động hóa vận hành
+## Slide 10 - Bai dang Facebook/Instagram
 
-- Nhập và theo dõi đơn hàng.
-- Theo dõi nguyên liệu và giá nhập.
-- Tính chi phí trực tiếp theo công thức.
-- Ghi nhận thu chi và cập nhật bảng tổng hợp.
+- Hien thi mot bai mau gioi thieu san pham.
+- Neu ro nguoi doc, muc tieu, mo ta san pham va loi moi dat hang.
+- So sanh cach lam thu cong voi cach dung ban nhap AI de tiet kiem thoi gian.
 
-## Slide 11 — Landing Page
+## Slide 11 - Landing Page
 
-- Giới thiệu thương hiệu và bảy sản phẩm.
-- Hiển thị giá, câu chuyện thương hiệu và câu hỏi thường gặp.
-- Có nút đặt hàng qua các kênh của MOCO.
-- Hoạt động trên máy tính và điện thoại.
+- Gioi thieu thuong hieu va bay san pham.
+- Hien thi cau chuyen thuong hieu va cau hoi thuong gap.
+- Co nut dat hang qua cac kenh cua MOCO.
+- Hoat dong tren may tinh va dien thoai.
 
-## Slide 12 — Chatbot
+## Slide 12 - Chatbot
 
-- Trả lời câu hỏi về sản phẩm, thành phần, bảo quản và đặt hàng.
-- Ghi nhớ ngữ cảnh trong một cuộc trò chuyện.
-- Không đưa ra chẩn đoán hoặc bảo đảm y khoa.
-- Khuyến nghị hỏi bác sĩ khi câu hỏi liên quan đến bệnh nền, thai kỳ hoặc dị ứng.
+- Tra loi cau hoi ve san pham, thanh phan, bao quan va dat hang.
+- Ghi nho ngu canh trong mot cuoc tro chuyen.
+- Khong dua ra chan doan hoac bao dam y khoa.
+- Khuyen nghi hoi bac si khi cau hoi lien quan den benh nen, thai ky hoac di ung.
 
-## Slide 13 — Kết quả
+## Slide 13 - Ket qua
 
-- Bảy sản phẩm được chuẩn hóa thông tin.
-- Landing page hoạt động online.
-- Chatbot vượt qua năm test case về thông tin sản phẩm và sức khỏe.
-- Thời gian chuẩn bị bài viết giảm từ khoảng 2–3 giờ xuống khoảng 20 phút chỉnh sửa.
-- Dữ liệu đơn hàng và chi phí được quản lý tập trung hơn.
+- Bay san pham duoc chuan hoa thong tin.
+- Landing page hoat dong online.
+- Chatbot vuot qua cac test case ve thong tin san pham va suc khoe.
+- Content Generator tao duoc ban nhap theo brand voice.
+- Workflow hinh anh giup tang so luong visual dua tren anh san pham that.
 
-## Slide 14 — Bài học rút ra
+## Slide 14 - Bai hoc rut ra
 
-1. Dữ liệu rõ ràng quan trọng hơn việc dùng công cụ phức tạp.
-2. AI tạo bản nháp nhanh, nhưng con người vẫn phải kiểm tra kết quả.
-3. Nội dung liên quan đến sức khỏe cần ngôn ngữ thận trọng và nguồn tham chiếu.
+1. Du lieu ro rang quan trong hon viec dung cong cu phuc tap.
+2. AI tao ban nhap nhanh, nhung con nguoi van phai kiem tra ket qua.
+3. Noi dung lien quan den suc khoe can ngon ngu than trong va nguon tham chieu.
+4. Hinh anh AI can bam vao anh san pham that de khong lam sai san pham.
 
-## Slide 15 — Hướng phát triển
+## Slide 15 - Huong phat trien
 
-- Thu thập thêm phản hồi thật của khách hàng.
-- Bổ sung số liệu dinh dưỡng khi có kiểm nghiệm phù hợp.
-- Theo dõi hiệu quả nội dung theo từng kênh.
-- Hoàn thiện quy trình đặt hàng và chăm sóc sau mua.
+- Thu thap them phan hoi that cua khach hang.
+- Bo sung so lieu dinh duong khi co kiem nghiem phu hop.
+- Theo doi hieu qua noi dung theo tung kenh.
+- Hoan thien quy trinh anh san pham va cham soc sau mua.
 
-## Slide 16 — Kết thúc
+## Slide 16 - Ket thuc
 
-- Ảnh sản phẩm đẹp nhất.
-- Website và đường dẫn GitHub.
-- Lời cảm ơn và phần hỏi đáp.
+- Anh san pham dep nhat.
+- Landing page va duong dan GitHub.
+- Loi cam on va phan hoi dap.
 
 ## Presentation Tips
 
-- Mỗi trang chỉ giữ một ý chính.
-- Dùng ảnh chụp website, Google Sheets và NotebookLM làm bằng chứng.
-- Không hiển thị khóa truy cập, dữ liệu cá nhân hoặc thông tin vận hành nhạy cảm.
+- Moi trang chi giu mot y chinh.
+- Dung anh chup landing page, Google Sheets Content Generator va NotebookLM lam bang chung.
+- Khi mo Google Sheet, chi mo cac tab AI/content can trinh bay.
+- Khong hien thi khoa truy cap, du lieu ca nhan hoac du lieu van hanh nhay cam.

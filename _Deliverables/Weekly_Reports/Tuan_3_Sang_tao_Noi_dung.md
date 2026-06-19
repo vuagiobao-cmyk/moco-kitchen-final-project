@@ -20,7 +20,7 @@
 ## Công việc đã hoàn thành
 
 - Hoàn thiện bộ hướng dẫn viết nội dung theo giọng thương hiệu MOCO.
-- Xây dựng tài liệu design cho nhận diện MOCO, gồm logo, màu sắc, chữ, hình ảnh và cách áp dụng trên website/social/bao bì.
+- Xây dựng tài liệu design cho nhận diện MOCO, gồm logo, màu sắc, chữ, hình ảnh và cách áp dụng trên landing page, social và bao bì.
 - Lập lịch nội dung trong hai tuần và viết năm bài có thể dùng cho Facebook/Instagram sau khi duyệt.
 - Xây dựng ý tưởng hình ảnh “Bếp nhỏ, vị thật” với ba nhóm: buổi sáng nhẹ nhàng, khoảnh khắc tráng miệng và từ căn bếp.
 - Quy định bộ bốn góc chụp cho mỗi sản phẩm, bố cục Feed/Carousel/Reel và dấu hiệu riêng của cả bảy món.
