@@ -46,12 +46,14 @@ Mot so phan van hanh noi bo da duoc tach khoi repo cong khai de tranh dua du lie
 - Tich hop chatbot qua serverless API, khong de lo API key trong frontend.
 - Tao Content Generator ngay trong Google Sheets.
 - Xay dung workflow hinh anh dua tren anh san pham chup thuc te.
+- Xay dung `DESIGN.md` lam quy chuan thiet ke dai han cho MOCO Kitchen.
 - Chuan hoa tai lieu demo va bao cao tien do sau tuan.
 
 ## Cau truc du an
 
 | Thu muc | Noi dung |
 |---|---|
+| `DESIGN.md` | Quy chuan thiet ke MOCO Kitchen: mau sac, typography, component, hinh anh, voice va guardrails |
 | `1_Research/` | Mo ta bai toan, nghien cuu thi truong, khach hang va canh tranh |
 | `2_Knowledge_Base/` | Danh muc nguon su dung trong NotebookLM |
 | `3_Content_Engine/` | Thong tin san pham, FAQ, lich noi dung va bai viet mau |
@@ -65,7 +67,7 @@ Mot so phan van hanh noi bo da duoc tach khoi repo cong khai de tranh dua du lie
 
 1. [Bao cao tien do sau tuan](_Deliverables/Weekly_Reports/README.md)
 2. [Mo ta bai toan](1_Research/problem_statement_RCGC.md)
-3. [Design - Nhan dien thuong hieu](3_Creative_Content/design.md)
+3. [DESIGN.md - Quy chuan thiet ke MOCO Kitchen](DESIGN.md)
 4. [Thong tin bay san pham](3_Content_Engine/moco_menu_products.md)
 5. [Huong dan trien khai va trinh dien](6_Deployment_Demo/README.md)
 

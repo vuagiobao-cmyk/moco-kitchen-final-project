@@ -46,6 +46,7 @@
 - Logo chu thuong, bieu tuong trai tim/la va rolling pin.
 - Bang mau matcha green, cream va terracotta.
 - Huong hinh anh "bep nho, vi that".
+- Xay dung `DESIGN.md` lam quy chuan cho mau sac, chu, component, hinh anh va giong thuong hieu ve sau.
 - Quy tac khong dung anh hoac chu lam sai san pham that.
 
 ## Slide 7 - Workflow hinh anh san pham
@@ -96,6 +97,7 @@
 - Chatbot vuot qua cac test case ve thong tin san pham va suc khoe.
 - Content Generator tao duoc ban nhap theo brand voice.
 - Workflow hinh anh giup tang so luong visual dua tren anh san pham that.
+- `DESIGN.md` giup tai su dung nhan dien khi mo rong landing page, social va tai lieu ban hang.
 
 ## Slide 14 - Bai hoc rut ra
 
@@ -122,4 +124,5 @@
 - Moi trang chi giu mot y chinh.
 - Dung anh chup landing page, Google Sheets Content Generator va NotebookLM lam bang chung.
 - Khi mo Google Sheet, chi mo cac tab AI/content can trinh bay.
+- Khi noi ve nhan dien, nhan manh `DESIGN.md` la quy chuan thiet ke de MOCO Kitchen tiep tuc dung sau bai nop.
 - Khong hien thi khoa truy cap, du lieu ca nhan hoac du lieu van hanh nhay cam.

@@ -1,246 +1,600 @@
-# Design — MOCO Kitchen Landing Page (Monte Cafe Layout Redesign)
-
-## Tổng quan
-
-Tài liệu này mô tả thiết kế kỹ thuật để tái cấu trúc landing page MOCO Kitchen theo **bố cục + ngôn ngữ thiết kế của Monte Cafe** (montecafe.com.au), trong khi giữ **bản sắc MOCO**: bảng màu Matcha Green và logo `moco-logo-green.png`.
-
-Nhận diện thương hiệu tổng thể của MOCO Kitchen được mô tả trong [Design — Nhận diện thương hiệu](../../3_Creative_Content/design.md). File hiện tại chỉ tập trung vào cách áp dụng nhận diện đó vào landing page.
-
-Thiết kế dựa trên 2 nguồn tham khảo:
-1. **Layout/cấu trúc:** trình tự section của montecafe.com.au (utility status bar → hero marquee → statement blocks → menu list → social grid → CTA → footer 3 cột).
-2. **Design system (refero.design — "Monte / Warm Terracotta Cafe"):** palette giới hạn, tương phản typography mạnh, **bề mặt phẳng + viền mảnh thay vì shadow nặng**, bo góc 14px (card) / 9999px (input/pill), nút primary dạng **outline**, spacing thoáng (section gap ~48px+), density "comfortable".
-
-**Nguyên tắc chuyển hoá thương hiệu:** ánh xạ vai trò màu của Monte sang MOCO.
-
-| Vai trò (Monte) | Monte | MOCO (giữ nguyên palette hiện có) |
-|---|---|---|
-| Brand chủ đạo | Terracotta `#b84b30` | Matcha Green `#355C3B` (`--color-primary`) |
-| Accent | Espresso `#5f1d1a` | `--color-primary-dark` `#223F29` / accent `#C86F4E` |
-| Nền canvas | Cream `#f8f4e9` | `--color-bg` `#F8F4E9` (trùng nhau ✅) |
-| Surface sáng | White | `--color-surface` `#FFFFFF` |
-| Border mảnh | Silver `#e5e7eb` | `--color-border` `rgba(74,103,65,0.12)` |
-
-> Vì nền cream của hai bên gần như trùng, việc port layout giữ được cảm giác "warm, handcrafted" mà không cần đổi màu MOCO.
-
-### Bài học từ bản hiện tại (rút kinh nghiệm)
-- Hero cũ dùng kỹ thuật "typography lớp chồng + ảnh nổi tuyệt đối" (`position: absolute` nhiều lớp) → khó canh trên nhiều màn hình, dễ vỡ ở tablet. **Bản mới dùng marquee + flow layout đơn giản, ít absolute hơn.**
-- Bản cũ phụ thuộc nhiều `position: absolute` cho badge/side-info → mobile phải override nhiều. **Bản mới ưu tiên flexbox/grid theo luồng.**
-- Bản cũ là shop bán bánh nhưng **không hiển thị giá** và **không có khối đặt hàng mạnh**. Bản mới: **menu có giá rõ ràng** + CTA đặt qua Zalo/Instagram nổi bật.
-- Giữ lại những phần đã chạy tốt: chatbot widget, FAQ accordion, IntersectionObserver scroll-reveal, mobile nav toggle.
-
+---
+id: 20260620120000
+aliases: ["MOCO Kitchen DESIGN.md", "MOCO Design System"]
+tags: ["#moco-kitchen", "#design-system", "#brand"]
+created: 2026-06-20
+updated: 2026-06-20
 ---
 
-## Kiến trúc & Cấu trúc trang
+# Hệ Thống Thiết Kế: MOCO Kitchen
 
-### Sơ đồ section (so sánh Monte ↔ MOCO)
+> File này là chuẩn thiết kế thị giác của MOCO Kitchen. Mọi giao diện, landing page, chatbot, menu, nội dung social, ảnh sản phẩm, template bán hàng và công cụ AI hỗ trợ thiết kế cần bám theo tài liệu này để giữ nhận diện nhất quán.
 
-```mermaid
-flowchart TD
-    A["Utility/Status Bar<br/>(OPEN TODAY / BOOK) → ĐANG NHẬN ĐƠN / Đặt bánh"] --> B
-    B["Hero Marquee<br/>(Where coffee meets the coast) → HEART-HEALTHY, SOUL-TASTY"] --> C
-    C["Statement Blocks<br/>(MONTE IS FOR...) → MOCO LÀ DÀNH CHO..."] --> D
-    D["Menu List có giá<br/>(Coffee & Tea / All Day) → Dòng Keto / Healthy Baking"] --> E
-    E["Social Grid<br/>(OH, HELLO / Instagram) → Ô, Chào Bạn / Ghé bếp MOCO"] --> F
-    F["CTA Đặt hàng<br/>(Caffeinate your inbox) → Đặt bánh qua Zalo/Instagram"] --> G
-    G["Footer 3 cột<br/>Contact / Opening Hours / Find Us → Liên hệ / Giờ nhận đơn / Tìm MOCO"]
-    H["Chatbot Widget (giữ nguyên)"]
-```
+## 0. Cách Dùng File Này
 
-### Cấu trúc DOM mục tiêu của `index.html`
+`DESIGN.md` dùng để trả lời một câu hỏi duy nhất: **mọi thứ của MOCO Kitchen nên trông như thế nào, cảm như thế nào và vận hành thị giác ra sao?**
+
+Khi thiết kế hoặc tạo mới bất kỳ điểm chạm nào của MOCO Kitchen, hãy kiểm tra theo thứ tự:
+
+1. Đúng tinh thần thương hiệu chưa?
+2. Đúng bảng màu chưa?
+3. Đúng hệ chữ chưa?
+4. Đúng kiểu nút, card, menu, chatbot chưa?
+5. Ảnh món ăn có thật, ấm, thủ công và đáng tin chưa?
+6. Có giữ cảnh báo dinh dưỡng/dị ứng đúng mức chưa?
+7. Mobile có dễ đọc, dễ bấm và không vỡ bố cục chưa?
+
+## 1. Tinh Thần Thương Hiệu & Ý Đồ Thiết Kế
+
+MOCO Kitchen là một bếp bánh healthy online có tinh thần nhỏ, ấm, kỹ và chân thành. Thiết kế cần tạo cảm giác như một căn bếp làm bánh thủ công được vận hành gọn gàng bằng công cụ số.
+
+Ngôn ngữ thiết kế phải cân bằng 5 điểm:
+
+- **Lành mạnh nhưng không y tế:** tránh cảm giác app dinh dưỡng khô cứng, phòng khám, biểu đồ sức khỏe lạnh lẽo.
+- **Thủ công nhưng không nghiệp dư:** giữ chi tiết handmade, nhưng bố cục vẫn sạch, rõ, có kiểm soát.
+- **Ấm áp nhưng không trẻ con:** thân thiện, mềm, gần gũi, không biến thành phong cách hoạt hình quá đáng.
+- **Tối giản nhưng không lạnh:** lấy cảm hứng từ sự thoáng, gọn, sáng, ít chi tiết thừa; vẫn phải có cảm giác bếp nhà.
+- **Có trách nhiệm nhưng vẫn ngon mắt:** truyền tải lợi ích healthy cẩn trọng, không hứa hẹn y khoa, không làm món ăn mất hấp dẫn.
+
+Thông điệp thị giác cốt lõi:
+
+> MOCO làm món ngọt kỹ hơn, vừa đủ hơn, thật hơn, trong những mẻ nhỏ có sự chăm chút.
+
+### Tín Hiệu Nhận Diện Chính
+
+- Nền kem ấm thay cho nền trắng lạnh.
+- Xanh matcha/olive là trục nhận diện chính.
+- Cam đất/quế chỉ dùng làm điểm ấm hoặc cảnh báo.
+- Chữ thân bài bo mềm, dễ đọc; chữ tiêu đề có cảm giác editorial ấm.
+- Ảnh món ăn thật hoặc ảnh bám sát món thật là bằng chứng chính.
+- Viền mảnh, bóng nhẹ, khoảng thở rộng.
+- Nút đặt hàng và chip tương tác dạng pill.
+- Minh họa nét vẽ thủ công chỉ dùng làm điểm phụ, không lấn át món ăn.
+
+## 2. Chủ Đề Thị Giác & Bầu Không Khí
+
+MOCO Kitchen nên tạo cảm giác như một **nhật ký bếp bánh healthy ấm áp**: sáng, thoáng, có chất thủ công, đặt món ăn làm trung tâm và trình bày như một cuốn tạp chí nhỏ về bếp.
+
+Không khí thị giác được tạo bởi:
+
+- **Nền kem giấy bánh:** toàn bộ trang nên nằm trên lớp nền kem, yến mạch, giấy gói bánh hoặc bề mặt sáng.
+- **Cấu trúc xanh matcha:** màu xanh tổ chức hệ thống điều hướng, CTA, nhãn section, phân loại menu, chatbot và các mảng nhấn.
+- **Món ăn là bằng chứng:** ảnh bánh, texture, lớp kem, topping, lát cắt và hộp bánh phải xuất hiện rõ ở những điểm bán hàng quan trọng.
+- **Dấu hiệu thủ công:** linen, gỗ sáng, gốm, vụn bánh, lớp kem không quá hoàn hảo, ánh sáng cửa sổ và cảm giác mẻ bánh nhỏ.
+- **Nhịp editorial:** hero, câu chuyện, menu, gallery, FAQ và CTA nên có nhịp như một trang tạp chí bếp được chuyển thành web.
+
+### Từ Khóa Mood
+
+Dùng các từ này khi mô tả hoặc prompt cho thiết kế:
+
+- ấm
+- thoáng
+- bình tĩnh
+- thủ công
+- thật từ nguyên liệu
+- mẻ nhỏ
+- xanh matcha
+- nền kem giấy
+- tối giản kiểu Nhật
+- ấm cúng kiểu bếp Việt
+- editorial nhẹ nhàng
+- món ăn là trung tâm
+
+### Không Được Đi Theo Mood Này
+
+- app healthy neon
+- sản phẩm y tế/ăn kiêng kiểu phòng khám
+- bánh luxury đen-vàng
+- mascot dễ thương quá đà
+- ảnh cafe/bánh generic như stock photo
+- bối cảnh tối, điện ảnh, nặng mood
+- landing page bán hàng hô hào
+- ảnh bánh bóng nhựa, quá thương mại, thiếu cảm giác thật
+
+## 3. Hệ Màu & Vai Trò Sử Dụng
+
+MOCO dùng hệ màu kem ấm và xanh matcha. Màu xanh không chỉ là màu trang trí; mỗi sắc xanh có một vai trò riêng: cấu trúc, hành động, chiều sâu, phân loại sản phẩm và tín hiệu lành mạnh.
+
+### Bảng Màu Chính
+
+| Tên màu | Mã màu | Vai trò |
+|---|---:|---|
+| Kem Giấy Bánh | `#F8F4E9` | Nền chính của trang, tạo cảm giác ấm và nhẹ. |
+| Matcha Rất Nhạt | `#EEF2E6` | Nền section phụ, input chatbot, mảng nghỉ dịu mắt. |
+| Trắng Bề Mặt | `#FFFFFF` | Card, modal, menu, chatbot panel, gallery card. |
+| Xanh Matcha MOCO | `#355C3B` | Màu nhận diện chính, CTA, nav, section nhấn, band xanh. |
+| Xanh Bếp Sâu | `#223F29` | Nền xanh đậm có tương phản cao, header/CTA/footer tối. |
+| Olive Matcha Nhạt | `#6F8F57` | Hover, tag phụ, lớp trang trí nhẹ, trạng thái mềm. |
+| Cam Đất Quế | `#C86F4E` | Điểm ấm, nhấn nhỏ, cảnh báo nhẹ. Không dùng tràn lan. |
+| Xanh Mực | `#243127` | Text chính trên nền sáng, mềm hơn đen thuần. |
+| Xanh Thảo Mộc Mờ | `#5A6B55` | Body text, mô tả phụ, giải thích nguyên liệu. |
+| Sage Mờ | `#8A9585` | Caption, meta, disclaimer phụ, trạng thái mờ. |
+| Lá Keto | `#6B8B5E` | Nhãn dòng Keto, trạng thái tích cực nhẹ. |
+| Xanh Healthy Baking | `#4A6741` | Nhãn dòng Healthy Baking, chip phân loại. |
+| Đất Cảnh Báo | `#A95E45` | Dị ứng, rượu, cảnh báo dinh dưỡng, lưu ý y tế. |
+| Kem Sáng | `#FFF8E7` | Text trên nền xanh đậm, pill kem, highlight. |
+| Viền Xanh Mảnh | `rgba(74,103,65,0.16)` | Border, divider, viền card. |
+
+### Bảng Màu Mở Rộng
+
+| Tên màu | Mã màu | Cách dùng |
+|---|---:|---|
+| Sage Green | `#B2BDA0` | Nền rất nhẹ, tint minh họa, swatch phụ. |
+| Olive Green | `#6B7B3A` | Xanh olive ấm cho social/print khi cần cảm giác tự nhiên hơn. |
+| Warm White | `#FFF8F0` | Nền kem thay thế trong social hoặc tài liệu in. |
+| Chocolate Brown | `#5C4033` | Điểm nhấn vị bánh/nguyên liệu, không thay màu CTA chính. |
+
+### Quy Tắc Sử Dụng Màu
+
+- Dùng `#F8F4E9` làm nền mặc định, không dùng trắng lạnh toàn trang.
+- Dùng `#355C3B` cho hành động chính, cấu trúc thương hiệu và nhấn quan trọng.
+- Dùng `#223F29` cho các khối xanh đậm cần tạo điểm dừng mạnh.
+- Dùng `#C86F4E` tiết chế cho điểm ấm và cảnh báo.
+- UI nên tiết chế màu; ảnh món ăn được phép mang nhiều sắc độ tự nhiên hơn.
+- Nếu màn hình quá xanh, thêm kem, trắng, ảnh món ăn và viền mảnh thay vì thêm nhiều xanh.
+- Nếu màn hình quá nhạt, thêm một band xanh đậm hoặc một ảnh sản phẩm mạnh.
+
+### Trạng Thái Màu
+
+| Trạng thái | Màu | Ghi chú |
+|---|---:|---|
+| Thành công / còn hàng | `#6B8B5E` | Xác nhận, còn hàng, input hợp lệ. |
+| Cảnh báo / dị ứng | `#A95E45` | Dị ứng, rượu, lưu ý y tế/dinh dưỡng. |
+| Lỗi | `#B64A3A` | Dùng ít, cần tương phản rõ. |
+| Thông tin | `#5A6B55` | Gợi ý, hướng dẫn bảo quản, ghi chú chatbot. |
+| Vô hiệu | `#8A9585` với opacity thấp | Button hoặc lựa chọn không khả dụng. |
+
+## 4. Hệ Chữ
+
+Typography của MOCO phải vừa có chất editorial ấm, vừa dễ đọc trên điện thoại.
+
+### Font Chính
+
+| Vai trò | Font stack | Tính cách |
+|---|---|---|
+| Tiêu đề / editorial | `Playfair Display, Georgia, serif` | Ấm, có chất tạp chí bếp, hợp headline. |
+| Body / UI | `Quicksand, Inter, system-ui, sans-serif` | Bo mềm, thân thiện, dễ đọc. |
+| Điểm nhấn thương hiệu | `Pacifico, cursive` | Dùng rất ít cho dấu ấn nhỏ. |
+| Fallback tiếng Việt | `Noto Sans Vietnamese, Inter, system-ui, sans-serif` | Dùng khi dấu tiếng Việt cần hiển thị chắc hơn. |
+
+### Phân Cấp Chữ
+
+| Vai trò | Cỡ chữ gợi ý | Weight | Line-height | Cách dùng |
+|---|---:|---:|---:|---|
+| Hero Display | `clamp(2.2rem, 6vw, 4.4rem)` | 700 | 1.08-1.15 | Slogan lớn, marquee, campaign line. |
+| H1 | `clamp(2rem, 4.6vw, 3.4rem)` | 700 | 1.12 | Tiêu đề chính của trang. |
+| H2 | `clamp(1.8rem, 3.4vw, 2.6rem)` | 700 | 1.2 | Menu, chuyện bếp, FAQ, đặt hàng. |
+| Câu statement | `clamp(1.4rem, 2.8vw, 2rem)` | 600 | 1.35 | Brand story, quote, manifesto. |
+| H3 / tên món | `1.15rem-1.3rem` | 700 | 1.3 | Tên món, card heading. |
+| Body | `1rem` | 400-500 | 1.7 | Mô tả món, FAQ, đoạn kể chuyện. |
+| Body nhỏ | `0.88rem-0.92rem` | 400-600 | 1.5-1.6 | Copy trong card, chatbot, menu descriptor. |
+| Label / eyebrow | `0.72rem-0.82rem` | 700-800 | 1.2 | Nhãn section, tag, chữ uppercase. |
+| Caption / disclaimer | `0.72rem-0.78rem` | 400-600 | 1.5 | Dị ứng, dinh dưỡng, ghi chú nhỏ. |
+
+### Quy Tắc Typography
+
+- Dùng `Playfair Display` cho khoảnh khắc cảm xúc, không dùng cho đoạn dài.
+- Dùng `Quicksand` cho nội dung cần đọc nhanh, menu, UI, chatbot.
+- Tiếng Việt phải rõ dấu. Nếu heading serif làm dấu khó đọc, chuyển sang `Quicksand` hoặc `Noto Sans Vietnamese`.
+- Không dùng letter-spacing âm.
+- Label uppercase có thể dùng `letter-spacing: 2px-2.4px`.
+- Body copy nên ngắn, tự nhiên, đọc tốt trên mobile.
+- Disclaimer dinh dưỡng/dị ứng không được quá nhỏ hoặc quá mờ.
+
+## 5. Logo & Tài Sản Thương Hiệu
+
+### Logo
+
+- Logo xanh dùng trên nền kem, trắng hoặc matcha rất nhạt.
+- Logo trắng dùng trên nền `#223F29` hoặc `#355C3B`.
+- Giữ khoảng thở quanh logo. Khoảng an toàn tối thiểu bằng chiều cao heart mark hoặc chiều cao chữ chính.
+- Không vẽ lại logo bằng AI.
+- Không thêm gradient, shadow, bevel, outline hoặc texture lên logo.
+- Không đặt logo trực tiếp lên ảnh bánh quá rối nếu không có nền giữ logo.
+
+### Kích Thước Tối Thiểu
+
+- Header desktop: 110-160px rộng.
+- Header mobile: 92-120px rộng.
+- Icon-only: tối thiểu 32px; nếu là nút bấm, tối thiểu 44px.
+- Avatar social: dùng heart mark hoặc logo isolate đặt giữa nền kem/xanh.
+
+## 6. Component
+
+### Nút
+
+Nút của MOCO nên có dáng pill, nhẹ nhàng và rõ chức năng. Nút mời người dùng hành động, không hô hào.
+
+#### Nút Chính Dạng Filled
+
+- Nền: `#355C3B`
+- Chữ: `#FFF8E7`
+- Viền: `1px solid #355C3B`
+- Bo góc: pill `9999px`
+- Padding: `13px 26px`; CTA hero có thể `13px 28px`
+- Font: `Quicksand`, `0.92rem`, weight 600-800
+- Hover desktop: chuyển `#223F29`, nâng nhẹ `translateY(-2px)`
+- Dùng cho: đặt bánh, submit form, CTA cuối trang, hành động chính.
+
+#### Nút Outline
+
+- Nền: trong suốt
+- Chữ: `#355C3B`
+- Viền: `1px solid #355C3B`
+- Bo góc: pill
+- Hover: nền `#355C3B`, chữ `#FFF8E7`
+- Dùng cho: xem menu, khám phá, CTA phụ.
+
+#### Nút Kem Trên Nền Xanh
+
+- Nền: `#FFF8E7`
+- Chữ: `#223F29`
+- Viền: `1px solid #FFF8E7`
+- Dùng trên section xanh đậm như khu đặt hàng.
+
+#### Chip Cảnh Báo
+
+- Nền: tint đất/cam nhẹ
+- Chữ/viền: `#A95E45`
+- Chỉ dùng cho dị ứng, rượu, cảnh báo dinh dưỡng.
+
+### Card & Container
+
+Card nên giống bề mặt giấy/menu đặt trên bàn bếp ấm.
+
+- Nền: `#FFFFFF` hoặc `#FFFDF6`
+- Viền: `1px solid rgba(74,103,65,0.16)`
+- Bo góc: `14px-16px`
+- Shadow: mặc định phẳng; hover card tương tác dùng `0 14px 40px rgba(36,49,39,0.14)`
+- Padding: `20px-28px`
+- Không dùng shadow nặng, glassmorphism mạnh, glow neon hoặc card lồng card.
+
+### Menu & Product Card
+
+MOCO có thể dùng 2 kiểu trình bày menu:
+
+1. **Menu row:** tên món, mô tả ngắn, tag, giá, dotted leader nếu phù hợp.
+2. **Product card:** ảnh món, tên món, size, giá, tag, mô tả cảm giác và CTA.
+
+Quy tắc chung:
+
+- Giá phải rõ.
+- Size/khẩu phần phải dễ thấy.
+- Tag Keto/Healthy phải đúng chức năng.
+- Cảnh báo rượu/dị ứng phải nằm gần món liên quan.
+- Mobile được xếp dọc, không ép bố cục ngang.
+- Ảnh món không được quá mờ hoặc bị filter làm mất cảm giác ngon.
+
+### Navigation
+
+- Header có thể sticky nếu cần.
+- Trên nền xanh: chữ/logo dùng màu kem hoặc trắng.
+- Trên nền sáng: nền `#F8F4E9`, chữ `#243127`, shadow rất nhẹ `0 2px 16px rgba(36,49,39,0.06)`.
+- Nav label dùng `Quicksand`, nhỏ, rõ, có thể uppercase.
+- Mobile menu có thể mở dạng full-screen xanh đậm hoặc drawer.
+- CTA trong nav ưu tiên outline pill, chỉ dùng filled khi cần nhấn chuyển đổi.
+
+### Chatbot
+
+Chatbot là trợ lý sản phẩm/FAQ, không phải cố vấn y tế.
+
+- Floating button: tròn 56px, xanh matcha.
+- Panel: nền trắng, bo `16px`, viền xanh mảnh, shadow nhẹ.
+- Header: xanh đậm, chữ kem.
+- Tin nhắn bot: nền matcha rất nhạt, viền xanh mảnh.
+- Tin nhắn user: nền xanh matcha, chữ kem.
+- Suggestion chip: pill outline nhỏ, không quá nổi.
+- Khi có câu hỏi về tiểu đường, mẹ bầu, trẻ em, dị ứng, cồn hoặc ăn kiêng đặc biệt, chatbot phải nhắc kiểm tra với chuyên gia phù hợp.
+
+### Form & Input
+
+- Nền input: trắng hoặc matcha rất nhạt.
+- Viền: xanh mảnh.
+- Bo góc: `10px-12px`; chip nhỏ dùng pill.
+- Focus: viền `#355C3B`, outline nhẹ, không neon.
+- Placeholder: `#8A9585`.
+- Lỗi: dùng màu đất/đỏ, có message rõ.
+
+### Badge / Chip
+
+- Keto: dùng `#6B8B5E` hoặc tint xanh nhẹ.
+- Healthy Baking: dùng `#4A6741` hoặc tint xanh nhẹ.
+- Seasonal/New: dùng cam đất tiết chế.
+- Allergen/Alcohol: dùng `#A95E45`, không dùng xanh trang trí.
+
+## 7. Layout
+
+### Nhịp Trang
+
+Một landing page MOCO nên có nhịp:
+
+1. Brand splash hoặc hero có nhận diện rõ.
+2. Navigation.
+3. Hero nội dung có H1, mô tả và CTA.
+4. Statement/story block.
+5. Menu sản phẩm.
+6. Gallery món ăn.
+7. FAQ hoặc ghi chú tin cậy.
+8. CTA đặt hàng.
+9. Footer.
+10. Chatbot.
+
+Nếu dùng brand splash full-screen, cần đảm bảo sau đó vẫn có một hero nội dung rõ với H1, mô tả và ảnh sản phẩm.
+
+### Spacing
+
+- Section lớn: `clamp(64px, 9vw, 116px)`.
+- Section nhỏ: `clamp(40px, 6vw, 76px)`.
+- Gap card: 20-32px.
+- Padding cạnh trang: 20px mobile, 32-48px tablet/desktop.
+- Max width nội dung: 1120-1240px.
+- Visual hero: khoảng 520px rộng tối đa.
+
+### Grid
+
+- Desktop: 12 cột hoặc split 2 cột editorial.
+- Product card: 3 cột desktop, 2 cột tablet, 1 cột mobile nếu copy dài.
+- Gallery: 3-4 cột desktop, 2 cột mobile.
+- Footer: 3 cột desktop, 1 cột mobile.
+
+### Cân Bằng Thị Giác
+
+- Ảnh món ăn nên chiếm 50-70% sức thuyết phục trong khu bán hàng.
+- Text ngắn, rõ, có khoảng thở.
+- Dùng nhịp màu:
+  - Hero xanh hoặc kem
+  - Story matcha nhạt
+  - Menu nền kem/trắng
+  - Gallery nền kem
+  - CTA đặt hàng xanh đậm
+  - Footer kem
+
+### Mobile
+
+- Touch target tối thiểu 44px.
+- Không để chữ chồng ảnh.
+- Không để text bị cắt trong nút/card.
+- Hạn chế absolute positioning phức tạp.
+- Ưu tiên flow layout, grid, flexbox.
+- Tắt hoặc giảm motion với `prefers-reduced-motion`.
+
+## 8. Hình Ảnh & Art Direction
+
+Hình ảnh MOCO phải làm món ăn trông thật, thủ công và đáng tin.
+
+### Hướng Ảnh
+
+- Ánh sáng: tự nhiên từ cửa sổ, mềm, ấm nhưng sạch.
+- Bóng: nhẹ, diffused, không gắt.
+- Bề mặt: gỗ sáng, gốm trắng, gốm thủ công, terrazzo, giấy ấm, linen be/trắng.
+- Props: muỗng gỗ, cà phê/trà, nguyên liệu thô, quế, hạt, chuối, cà rốt, chanh, hoa khô nhỏ nếu phù hợp.
+- Bố cục: thoáng, không rối; mỗi shot có một món chính.
+- Mood: bữa sáng chậm, trà chiều, bếp nhà, mẻ bánh nhỏ.
+
+### Quy Tắc Ảnh AI / Hậu Kỳ
+
+- Ảnh sản phẩm thật là chuẩn cho form, topping, texture và độ thủ công.
+- AI có thể hỗ trợ nền, ánh sáng, mood hoặc mở rộng bối cảnh, nhưng không được thiết kế lại món.
+- Không làm kem quá hoàn hảo, topping quá đều, bánh quá bóng hoặc quá đối xứng.
+- Không thêm chữ/logo giả trong ảnh.
+- Không phóng đại size hoặc trình bày gây hiểu sai khẩu phần.
+- Visual bán hàng chính thức ưu tiên ảnh thật hoặc ảnh chỉnh sửa bám sát món thật.
+
+### Negative Visual Prompt
 
 ```text
-<body>
-  ├── .topbar              (R1 — utility/status bar)
-  ├── nav.navbar           (logo MOCO + menu + CTA; giữ mobile toggle)
-  ├── header.hero          (R2 — marquee tagline + keep-scrolling + ảnh sản phẩm)
-  ├── section.statements   (R3 — 2–4 khối statement reveal)
-  ├── section.menu         (R4 — menu list theo nhóm, CÓ GIÁ)
-  ├── section.gallery      (R5 — social grid "Ô, Chào Bạn")
-  ├── section.order        (R6 — CTA Zalo/Instagram)
-  ├── footer.footer        (R7 — 3 cột: Liên hệ / Giờ nhận đơn / Tìm MOCO)
-  ├── .chatbot-widget      (R9 — giữ nguyên, dùng chatbot.js)
-  └── <script src="/app.js">
-</body>
+không chữ, không logo, không watermark, không đồ ăn nhìn giả,
+không đạo cụ nhựa, không màu neon, không ánh sáng tối nặng,
+không nền rối, không cảm giác stock photo, không glossy quá mức,
+không topping đối xứng hoàn hảo, không tự thiết kế lại hình dáng sản phẩm,
+không phóng đại size, không mood phòng khám hoặc sản phẩm y tế
 ```
 
----
+### Ưu Tiên Theo Sản Phẩm
 
-## Thiết kế chi tiết từng thành phần
+| Sản phẩm | Tín hiệu hình ảnh cần có |
+|---|---|
+| Keto Tiramisu | Lớp bánh rõ, cocoa dust, mascarpone mịn, vị cà phê ấm. |
+| Keto Lemon Cheesecake | Kem cheese mịn, đế hạnh nhân, lemon zest, sắc kem tươi. |
+| Chuối Yến Mạch Choco | Ruột bánh ẩm, chuối chín, chocolate chip, texture yến mạch/hạt. |
+| Bánh Mì Soda Nguyên Cám | Vỏ nứt mộc, ruột nguyên cám, mè, bàn ăn sáng. |
+| Bông Lan Trứng Muối | Bông lan vàng, kem trứng muối, topping mặn-ngọt. |
+| Carrot Cake Kem Hy Lạp | Ruột cà rốt, óc chó/nho khô, lớp kem Hy Lạp. |
+| Bánh Mì Cuộn Quế | Vòng xoắn rõ, glaze cream cheese, mood quế ấm. |
 
-### 1. Topbar / Utility Status Bar (R1)
-- Thanh mảnh ~36–40px phía trên navbar, nền `--color-primary-dark`, chữ cream, uppercase, letter-spacing rộng (gợi phong cách Monte "OPEN TODAY TIL 1:30PM NEWCASTLE 20°C").
-- Nội dung trái: `● ĐANG NHẬN ĐƠN — HÀ NỘI` (chấm trạng thái).
-- Nội dung phải: link `ĐẶT BÁNH ↗` (anchor `#order`).
-- Mobile (≤768px): ẩn phần khu vực, giữ trạng thái + CTA; thu gọn font.
-- `prefers-reduced-motion`: chấm trạng thái không nhấp nháy.
+## 9. Motion & Tương Tác
 
-### 2. Navbar (cập nhật, giữ hành vi)
-- Logo `/assets/moco-logo-green.png` bên trái; links: Sản Phẩm / Câu Chuyện / Bộ Sưu Tập / Hỏi Đáp / **Đặt Hàng** (CTA pill outline 9999px).
-- Sticky, đổi nền nhẹ khi scroll (giữ class `scrolled`).
-- Mobile: hamburger toggle (giữ `#navToggle` / `#navLinks`).
-- Nút CTA: **outline style** (viền `--color-primary`, nền trong suốt) theo guideline Monte — không nền đặc, không shadow nặng.
+Motion phải nhẹ, có chức năng, không làm người xem mệt.
 
-### 3. Hero Marquee (R2)
-- Bố cục dọc theo luồng (không chồng absolute nhiều như bản cũ):
-  - **Marquee row**: dải chữ display lớn chạy ngang lặp lại: `HEART-HEALTHY, SOUL-TASTY • BÁNH HEALTHY THỦ CÔNG •` (lặp). Kỹ thuật: 2 bản copy nội dung đặt cạnh nhau trong track, dịch `translateX(-50%)` bằng `@keyframes marquee` để lặp seamless.
-  - **Hero body**: tiêu đề `h1` (tagline chính), một đoạn mô tả ngắn, CTA outline "Khám phá menu" + "Đặt bánh".
-  - **Hero visual**: ảnh sản phẩm thật (`moco-lemon-hero.png` hoặc `moco-tiramisu-real.png`) bo góc 14px, viền mảnh, không shadow nặng.
-  - **Keep-scrolling**: dòng nhỏ + mũi tên dưới cùng "Cuộn xuống để khám phá nhé ↓".
-- `prefers-reduced-motion: reduce` → `animation: none` cho marquee (chữ đứng yên, vẫn đọc được).
-- Mobile: marquee giảm font, hero body + visual xếp dọc 1 cột; `overflow-x: hidden` ở mức section để chỉ marquee được tràn có kiểm soát.
+- Hover nút: `translateY(-2px)` trên desktop.
+- Hover card: `translateY(-5px)` nếu card tương tác.
+- Transition chuẩn: `0.3s cubic-bezier(0.4,0,0.2,1)`.
+- Scroll reveal: fade/slide nhẹ.
+- Marquee dùng được cho brand line, nhưng phải tắt/giảm với `prefers-reduced-motion`.
+- Chatbot có thể slide-up nhẹ.
+- Không dùng parallax nặng, bounce mascot, flash hoặc animation gây nhiễu.
 
-### 4. Statement Blocks (R3)
-- 2–4 khối chữ lớn, căn trái và xen kẽ, mỗi khối là một thông điệp của MOCO. Nội dung lấy từ phần câu chuyện và các lưu ý hiện có, ví dụ:
-  - "MOCO là dành cho những buổi sáng nhẹ nhàng, những lời hẹn cà phê, và món ngọt không cần thấy có lỗi."
-  - "Không đường tinh luyện. Không phẩm màu. Không chất bảo quản. Chỉ có nguyên liệu thật và sự tỉ mỉ."
-  - "Mỗi mẻ bánh nướng tươi mỗi ngày tại Hà Nội — số lượng giới hạn."
-- Khối chính có CTA phụ ("Khám phá menu ↗").
-- Reveal khi vào viewport bằng `.animate-on-scroll` + IntersectionObserver (giữ cơ chế cũ trong `app.js`).
-- Tách section bằng khoảng trắng rộng + divider mảnh `--color-border` (không shadow).
+## 10. Voice & Copy Đi Kèm Thiết Kế
 
-### 5. Menu List CÓ GIÁ (R4) — khác Monte vì bán bánh
-- Trình bày dạng **danh sách/cột** gợi nhớ menu Monte (Coffee & Tea / All Day Menu), nhóm theo 2 danh mục.
-- Mỗi danh mục là một khối có tiêu đề + (tuỳ chọn) accordion mở/đóng.
-- **Hàng món (menu row)** bố cục: `[thumbnail] · Tên món · ……dotted leader…… · Giá` + dòng mô tả nhỏ + tag đặc trưng + cảnh báo (nếu có rượu).
-- Dotted leader (đường chấm nối tên → giá) là chi tiết kiểu thực đơn cổ điển, hợp tinh thần Monte.
-- Dữ liệu giá đã xác nhận:
+Thiết kế và lời viết phải đi cùng nhau. MOCO cần nghe chân thành, kỹ và ấm.
 
-  **Dòng Keto (Keto dessert)**
-  | Món | Size | Giá |
-  |---|---|---|
-  | Keto Tiramisu ⚠️(có rượu) | 350g | 180.000đ |
-  | Keto Lemon Cheese Cake | 250g, size 10cm | 140.000đ |
+### DNA Giọng Văn
 
-  **Dòng Healthy Baking**
-  | Món | Size | Nhóm | Giá |
-  |---|---|---|---|
-  | Carrot Cake Kem Hy Lạp | 220g | Healthy cake | 90.000đ |
-  | Bông Lan Trứng Muối Yến Mạch | 230g | Healthy cake | 75.000đ |
-  | Bánh Mì Soda Nguyên Cám | 450g | Healthy bread | 70.000đ |
-  | Chuối Yến Mạch Choco | 200g | Healthy cake | 40.000đ |
-  | Bánh Cuộn Quế Nguyên Cám | 100g | Healthy pastry | 40.000đ |
+- Xưng "chúng mình".
+- Gọi khách là "các bạn", "anh chị", hoặc "các bác" tùy ngữ cảnh.
+- Viết có chừng mực, không hype.
+- Tôn trọng nguyên liệu và quy trình.
+- Thành thật về khẩu phần, dị ứng, rượu và giới hạn dinh dưỡng.
+- Không hứa hẹn y khoa.
 
-- Giữ lưu ý về dị ứng và nguy cơ nhiễm chéo dưới menu.
-- Mobile: mỗi hàng món xếp dọc (thumbnail trên, tên + giá hàng, mô tả dưới); ẩn dotted leader.
+### Nên Dùng
 
-### 6. Social Gallery "Ô, Chào Bạn" (R5)
-- Tiêu đề lớn kiểu thân thiện: "Ô, Chào Bạn 👋" + sub "Ghé bếp MOCO" (tương ứng "OH, HELLO").
-- Grid ảnh sản phẩm thật từ `/assets`: `product-*.png`, `moco-*.png`, `story-behind.png` (6–8 ô). Desktop 3–4 cột, tablet 2–3, mobile 2.
-- Hover (desktop): zoom nhẹ + overlay caption tên món; dùng `@media (hover:hover)` để mobile không kẹt hover state.
-- Link "Theo dõi trên Facebook/Instagram ↗" → kênh MOCO.
+- "ngọt vừa đủ"
+- "làm thủ công số lượng nhỏ"
+- "không dùng đường trắng tinh luyện"
+- "không phẩm màu"
+- "không chất bảo quản"
+- "cần kiểm soát khẩu phần"
+- "hỏi bác sĩ/chuyên gia dinh dưỡng nếu có bệnh nền, dị ứng hoặc đang mang thai"
 
-### 7. CTA Đặt Hàng (R6) — thay Newsletter
-- Section nền `--color-primary` (matcha đậm), chữ cream — điểm nhấn tương phản như khối CTA của Monte.
-- Tiêu đề "Đặt bánh MOCO ngay hôm nay 🤎" + mô tả: làm thủ công số lượng nhỏ, nhắn sớm, giao khu vực **Hà Nội**.
-- Nút: **Zalo**, **Instagram** (+ Facebook), dạng pill, mở tab mới `rel="noopener"`.
-- Không có biểu mẫu email và không gửi dữ liệu đến dịch vụ bên thứ ba.
+### Không Dùng
 
-### 8. Footer 3 cột (R7)
-- Grid 3 cột (mobile 1 cột): **Liên Hệ** (Zalo 0904 826 585, Instagram @moco_kitchen242, Facebook MoCo Kitchen) · **Giờ Nhận Đơn** (9:00–17:00 từ Thứ Hai đến Thứ Bảy, nghỉ Chủ Nhật) · **Tìm MOCO** (368B Quang Trung, Hà Đông, Hà Nội + link Google Maps).
-- Hàng trên: logo MOCO + tagline "Heart-Healthy, Soul-Tasty".
-- Hàng dưới: lưu ý dinh dưỡng và dòng bản quyền “© 2026 MOCO Kitchen. Dự án cuối khóa Google AI Bootcamp”.
+- "MUA NGAY"
+- "CLICK NGAY"
+- "tốt nhất"
+- "số 1"
+- "an toàn tuyệt đối"
+- "ăn thoải mái"
+- "trị tiểu đường"
+- "chữa bệnh"
+- "iu", "xỉu", "rấc", "unso"
 
-### 9. Chatbot Widget (R9)
-- Giữ nguyên markup `.chatbot-widget` + nạp `chatbot.js`; không đụng `api/`.
-- Chỉ kiểm tra lại biến màu CSS chatbot vẫn khớp palette.
+### CTA
 
----
+Nên dùng:
 
-## Hệ thống thiết kế (Design Tokens áp dụng)
+- "Đặt bánh"
+- "Xem menu"
+- "Hỏi chúng mình"
+- "Nhắn MOCO để đặt trước"
+- "Chọn món phù hợp"
 
-Giữ nguyên `:root` hiện có, **bổ sung** vài token theo phong cách Monte:
+Không nên dùng:
+
+- "Mua ngay kẻo hết"
+- "Đặt gấp"
+- "Không mua là tiếc"
+
+## 11. Dinh Dưỡng, Dị Ứng & An Toàn Nội Dung
+
+MOCO phục vụ nhóm khách quan tâm sức khỏe, nhưng không phải đơn vị tư vấn y tế.
+
+### Quy Tắc Bắt Buộc
+
+- Không claim bánh chữa, trị, phòng bệnh.
+- Không nói "an toàn cho người tiểu đường" nếu không có caveat rõ.
+- Với tiểu đường, mẹ bầu, trẻ em, dị ứng hoặc chế độ ăn đặc biệt: khuyến nghị hỏi chuyên gia phù hợp.
+- Cần nêu dị ứng liên quan: sữa, trứng, hạt, gluten, khả năng nhiễm chéo.
+- Keto Tiramisu có yếu tố rượu/rum/Baileys nếu dùng trong công thức; không khuyến nghị cho trẻ em, mẹ bầu hoặc người kiêng cồn.
+- "Ít đường hơn" hoặc "không dùng đường trắng tinh luyện" không đồng nghĩa với "ăn thoải mái" hoặc "zero-carb".
+
+### Ứng Dụng Vào UI
+
+- Lưu ý dị ứng phải nằm gần thông tin món, không chỉ giấu trong FAQ.
+- Cảnh báo y tế/dinh dưỡng dùng callout nhỏ màu đất.
+- Product card có thể dùng tag, nhưng tag phải đúng sự thật và tiết chế.
+- Chatbot phải có disclaimer khi câu hỏi chạm đến nhóm nhạy cảm.
+
+## 12. Accessibility & Kỹ Thuật Thiết Kế
+
+- Giữ tương phản tốt giữa chữ kem và nền xanh.
+- Mỗi trang có một `h1`.
+- Dùng `h2` cho section lớn, `h3` cho tên món/card.
+- Ảnh sản phẩm cần `alt` mô tả rõ.
+- Ảnh trang trí được phép `alt=""`.
+- Tôn trọng `prefers-reduced-motion`.
+- Dùng button thật cho hành động, anchor thật cho điều hướng.
+- Focus keyboard phải nhìn thấy.
+- Chatbot phải dùng được bằng bàn phím.
+- Độ dài dòng nội dung nên khoảng 55-75 ký tự.
+- Không đặt chữ lên ảnh món quá rối nếu không có overlay hoặc mảng giữ chữ.
+
+## 13. Nên & Không Nên
+
+### Nên
+
+- Dùng nền kem và xanh matcha làm trục.
+- Dùng ảnh món thật khi có thể.
+- Giữ copy chân thành, cụ thể.
+- Mỗi màu có vai trò rõ.
+- Dùng pill button và card bo mềm.
+- Ưu tiên viền mảnh hơn shadow nặng.
+- Mô tả món ngắn, có cảm giác vị/texture.
+- Hiển thị rõ lưu ý dị ứng/dinh dưỡng.
+- Dùng nét vẽ thủ công tiết chế.
+- Giữ layout mobile ổn định, dễ đọc.
+
+### Không Nên
+
+- Dùng xanh quá nhiều khiến giao diện thành một màu.
+- Dùng neon, dark moody, glossy, nhựa, stock-photo.
+- Làm món ăn quá hoàn hảo, mất chất thủ công.
+- Dùng chữ/logo AI giả trong ảnh món.
+- Giấu disclaimer dinh dưỡng.
+- Dùng copy bán hàng hô hào.
+- Lồng card trong card.
+- Dùng glassmorphism nặng, gradient cực mạnh hoặc blob trang trí lớn.
+- Dùng claim y tế hoặc claim sức khỏe tuyệt đối.
+
+## 14. Prompt Chuẩn Cho AI / Coder
+
+### Prompt UI Tổng Quát
+
+```text
+Thiết kế theo hệ MOCO Kitchen: nền kem giấy bánh (#F8F4E9), xanh matcha thương hiệu (#355C3B), xanh bếp sâu (#223F29), cam đất quế (#C86F4E), heading editorial bằng Playfair Display, body/UI thân thiện bằng Quicksand, CTA dạng pill, card bo 14-16px, viền xanh mảnh, shadow nhẹ, bố cục thoáng kiểu bếp bánh Nhật tối giản nhưng ấm kiểu bếp Việt, ảnh món ăn là trung tâm, copy chân thành và có disclaimer dinh dưỡng/dị ứng khi cần.
+```
+
+### Prompt Landing Page
+
+```text
+Tạo landing page ấm áp cho MOCO Kitchen, một bếp bánh healthy online. Dùng nền kem, xanh matcha, brand splash hoặc hero có nhận diện mạnh, sau đó có hero nội dung với H1, mô tả ngắn, CTA "Xem menu" và "Đặt bánh". Menu chia thành Keto và Healthy Baking, có giá, size, tag, lưu ý dị ứng/dinh dưỡng. Thêm gallery món ăn, FAQ, chatbot và section đặt hàng nền xanh đậm.
+```
+
+### Prompt Product Card
+
+```text
+Thiết kế product card cho MOCO: ảnh món ăn vuông hoặc 4:5, nền card trắng trên nền kem, bo góc 16px, viền xanh mảnh, tên món rõ, mô tả nguyên liệu ngắn, chip phân loại màu matcha, giá, size và CTA dạng pill. Cảm giác cần ấm, thủ công, đáng tin và không hô hào.
+```
+
+### Prompt Menu Section
+
+```text
+Tạo section menu cho MOCO gồm hai nhóm: Keto và Healthy Baking. Mỗi món có tên, giá, size, mô tả cảm giác vị/texture, tag thành phần chính và lưu ý dị ứng/rượu nếu có. Desktop có thể dùng card hoặc menu row; mobile xếp dọc rõ ràng, dễ đọc, dễ bấm.
+```
+
+### Prompt Chatbot
+
+```text
+Style chatbot MOCO như trợ lý sản phẩm/FAQ thân thiện: nút nổi tròn 56px màu matcha, panel trắng bo 16px, header xanh đậm chữ kem, bot bubble nền matcha nhạt, user bubble xanh matcha, suggestion chip dạng pill outline. Với câu hỏi về tiểu đường, mẹ bầu, trẻ em, dị ứng, cồn hoặc ăn kiêng đặc biệt, luôn có disclaimer phù hợp.
+```
+
+### Prompt Hình Ảnh
+
+```text
+Ảnh món ăn MOCO Kitchen: nền kem và xanh matcha, bố cục thoáng, ánh sáng tự nhiên từ cửa sổ, bóng mềm, bề mặt gỗ sáng hoặc gốm trắng, linen be, cảm giác bếp bánh thủ công, nguyên liệu thật, mood bình tĩnh và ấm. Không chữ, không logo, không watermark, không đạo cụ nhựa, không màu neon, không ánh sáng tối nặng, không cảm giác stock photo.
+```
+
+## 15. Token Kỹ Thuật Chuẩn
 
 ```css
 :root {
-  /* ... giữ nguyên các biến màu MOCO hiện có ... */
-
-  /* Spacing kiểu Monte (comfortable) */
-  --space-section: clamp(56px, 8vw, 96px);  /* gap dọc giữa section */
-  --space-card: 24px;                        /* padding card */
-
-  /* Shape */
-  --radius-card: 14px;     /* card theo Monte */
-  --radius-pill: 9999px;   /* nút/pill theo Monte */
-
-  /* Typography display lớn */
-  --fs-display: clamp(2.2rem, 6vw, 4.5rem);
-  --fs-statement: clamp(1.6rem, 4vw, 3rem);
+  --color-bg: #F8F4E9;
+  --color-bg-alt: #EEF2E6;
+  --color-surface: #FFFFFF;
+  --color-header-green: #355C3B;
+  --color-primary: #355C3B;
+  --color-primary-light: #6F8F57;
+  --color-primary-dark: #223F29;
+  --color-accent: #C86F4E;
+  --color-text: #243127;
+  --color-text-muted: #5A6B55;
+  --color-text-dim: #8A9585;
+  --color-keto: #6B8B5E;
+  --color-healthy: #4A6741;
+  --color-warn: #A95E45;
+  --color-cream: #FFF8E7;
+  --color-border: rgba(74,103,65,0.16);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Quicksand', 'Inter', system-ui, sans-serif;
+  --font-brand: 'Pacifico', cursive;
+  --font-hand: 'Playfair Display', Georgia, serif;
+  --radius-md: 12px;
+  --radius-card: 16px;
+  --radius-pill: 9999px;
+  --shadow-soft: 0 6px 28px rgba(36,49,39,0.10);
+  --shadow-card: 0 14px 40px rgba(36,49,39,0.14);
+  --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+  --space-section: clamp(64px, 9vw, 116px);
+  --fs-display: clamp(2.2rem, 6vw, 4.4rem);
 }
 ```
-
-- **Typography:** giữ Playfair Display (display, thay vai trò Riposte), Quicksand (body), Pacifico (brand accent). Tăng letter-spacing cho nhãn uppercase để gần "feel" Monte.
-- **Bề mặt:** ưu tiên **viền mảnh + nền phẳng**; giảm `box-shadow` nặng (đúng guideline "DON'T use heavy box-shadows"). Chỉ dùng shadow rất nhẹ cho ảnh hero/menu thumbnail.
-- **Nút primary:** outline (viền matcha, nền trong suốt, hover fill nhẹ).
-
----
-
-## Thiết kế JavaScript (`app.js`)
-
-Giữ các module cũ còn dùng, thêm/sửa:
-
-| Hành vi | Trạng thái | Ghi chú |
-|---|---|---|
-| Navbar scroll `scrolled` | Giữ | Như cũ |
-| Mobile nav toggle | Giữ | Như cũ |
-| Smooth scroll anchor | Giữ | Như cũ |
-| IntersectionObserver reveal `.animate-on-scroll` | Giữ | Dùng cho statements/menu/gallery |
-| FAQ accordion | Giữ nếu vẫn còn FAQ (xem mục dưới) | — |
-| Testimonial carousel | **Bỏ/tuỳ chọn** | Monte không có; cân nhắc lược bớt cho gọn |
-| Parallax floating leaves | **Bỏ** | Không hợp layout marquee mới |
-| **Marquee** | **Mới** | CSS-driven; JS chỉ cần pause khi `prefers-reduced-motion` (đã xử lý bằng CSS, JS optional) |
-| **Menu accordion** (nếu dùng) | **Mới** | Toggle nhóm Keto/Healthy |
-| **Gallery hover caption** | **Mới (CSS chính)** | JS không bắt buộc |
-
-> Lưu ý refactor: gỡ code parallax/stats-counter không còn dùng để tránh lỗi `null` khi phần tử không còn tồn tại (bản cũ query `.floating-el`, `.stat-number`).
-
-### Quyết định về FAQ & Testimonials
-- **FAQ:** giữ lại (hữu ích cho bán bánh: bảo quản, dị ứng, giao hàng) — đặt **trước footer** hoặc gộp gần menu. Monte không có FAQ nhưng đây là landing bán hàng nên cần. Giữ accordion hiện có.
-- **Testimonials:** Monte không có dạng carousel; có thể **lược** hoặc rút thành 1 khối quote tĩnh để trang gọn theo tinh thần Monte. Đề xuất: giữ tối giản (tĩnh) hoặc bỏ. Sẽ chốt ở phần tasks.
-
----
-
-## Responsive Strategy
-
-| Breakpoint | Hành vi chính |
-|---|---|
-| ≥1024px (desktop) | Topbar đầy đủ; hero marquee + body 2 vùng; menu list rộng có dotted leader; gallery 3–4 cột; footer 3 cột |
-| 768px (tablet) | Gallery 2–3 cột; statement font giảm; menu giữ list |
-| ≤480px (mobile) | Nav hamburger; topbar rút gọn; hero 1 cột; menu row xếp dọc, ẩn dotted leader; gallery 2 cột; footer 1 cột |
-
-- Toàn trang: `overflow-x: hidden` ở body để marquee không tạo scroll ngang ngoài ý muốn.
-- Ảnh dưới fold: `loading="lazy"` + `width/height` để hạn chế CLS.
-
----
-
-## Khả năng truy cập (Accessibility)
-- 1 `h1` duy nhất ở hero; `h2` cho mỗi section; `h3` cho tên món.
-- `alt` mô tả cho mọi ảnh sản phẩm; ảnh trang trí `alt=""`.
-- Nút/anchor đủ tương phản trên nền matcha (cream trên xanh đậm đạt AA).
-- Marquee bọc `aria-hidden="true"` nếu chỉ trang trí, và có tiêu đề thật cho screen reader; tôn trọng `prefers-reduced-motion`.
-- Accordion menu: dùng `<details>/<summary>` hoặc button có `aria-expanded`.
-
----
-
-## Mapping Requirements → Design
-
-| Requirement | Thành phần thiết kế |
-|---|---|
-| R1 Utility bar | §1 Topbar |
-| R2 Hero marquee | §3 Hero Marquee + JS marquee |
-| R3 Statement blocks | §4 Statements + reveal |
-| R4 Menu có giá | §5 Menu List + bảng giá |
-| R5 Social grid | §6 Gallery "Ô, Chào Bạn" |
-| R6 CTA đặt hàng | §7 CTA Zalo/Instagram |
-| R7 Footer 3 cột | §8 Footer |
-| R8 Giữ brand | Token mapping + logo + nội dung MOCO |
-| R9 Chatbot | §9 giữ nguyên |
-| R10 Responsive/A11y/Perf | Responsive Strategy + Accessibility |
-
----
-
-## Rủi ro & Giảm thiểu
-- **Marquee gây scroll ngang** → bọc trong wrapper `overflow:hidden`, test kỹ mobile.
-- **Refactor làm hỏng chatbot** → không động `chatbot.js`/`api/`; chỉ đổi markup landing.
-- **Gỡ JS cũ (parallax/stats) gây lỗi tham chiếu** → rà soát `app.js`, guard `if (el)` hoặc xoá hẳn block không dùng.
-- **Cache CSS** → bản hiện tại dùng query version (`style.css?v=...`); cập nhật version khi đổi CSS để tránh cache cũ.
-- **Giá hiển thị sai** → dùng đúng bảng giá đã xác nhận trong tài liệu này.
