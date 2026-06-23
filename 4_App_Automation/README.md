@@ -1,15 +1,15 @@
 # App Automation - Demo Package
 
-Thu muc nay chi giu cac thanh phan can cho bai nop va demo.
+Thư mục này chỉ giữ các thành phần cần cho bài nộp và demo.
 
-## Noi dung giu lai
+## Nội dung giữ lại
 
-| Chuc nang | Tep ma nguon | Muc dich |
+| Chức năng | Tệp mã nguồn | Mục đích |
 |---|---|---|
-| Content Generator | [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) | Tao content draft tu brief trong Google Sheets |
-| Content Calendar | [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) | Quan ly lich dang va chuyen topic sang Content Brief |
-| Deploy Guide | [`APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md`](APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) | Huong dan cai dat Content Generator |
+| Content Generator | [`MOCO_CONTENT_GEN.gs`](MOCO_CONTENT_GEN.gs) | Tạo content draft từ brief trong Google Sheets |
+| Content Calendar | [`MOCO_CONTENT_CALENDAR.gs`](MOCO_CONTENT_CALENDAR.gs) | Quản lý lịch đăng và chuyển topic sang Content Brief |
+| Deploy Guide | [`APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md`](APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) | Hướng dẫn cài đặt Content Generator |
 
-## Noi dung da tach khoi repo public
+## Nội dung đã tách khỏi repo public
 
-Nhung phan van hanh noi bo va du lieu nhay cam khong nam trong repo cong khai. Ban nop chi mo ta ket qua va quy trinh o muc tong quan.
+Những phần vận hành nội bộ và dữ liệu nhạy cảm không nằm trong repo công khai. Bản nộp chỉ mô tả kết quả và quy trình ở mức tổng quan.

@@ -1,76 +1,76 @@
-# MOCO Kitchen - Du an ung dung Google AI
+# MOCO Kitchen - Dự án ứng dụng Google AI
 
-Day la du an cuoi khoa Google AI Bootcamp 2026 cua Vu Hoang Phong, duoc xay dung tu nhu cau thuc te cua MOCO Kitchen, mot thuong hieu banh healthy truc tuyen tai Ha Noi.
+Đây là dự án cuối khóa Google AI Bootcamp 2026 của Vũ Hoàng Phong, được xây dựng từ nhu cầu thực tế của MOCO Kitchen, một thương hiệu bánh healthy trực tuyến tại Hà Nội.
 
 **Landing page:** [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app)
 
 **Google Sheet demo (view only):** [MOCO Kitchen AI workflow](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing)
 
-## Bai toan
+## Bài toán
 
-MOCO Kitchen co san pham that va can mot he thong gon nhe de ho tro truyen thong, quan ly thong tin san pham va tu van khach hang. Nhung kho khan chinh gom:
+MOCO Kitchen có sản phẩm thật và cần một hệ thống gọn nhẹ để hỗ trợ truyền thông, quản lý thông tin sản phẩm và tư vấn khách hàng. Những khó khăn chính gồm:
 
-- Viet content mat nhieu thoi gian va kho giu brand voice nhat quan.
-- Thong tin san pham, thanh phan va cach bao quan nam rai rac o nhieu noi.
-- Khach hang thuong hoi lai cac cau ve thanh phan, di ung va cach chon san pham.
-- Hinh anh san pham can du so luong va chat luong cho menu, landing page va social.
-- Thuong hieu can mot landing page rieng de gioi thieu san pham va ho tro dat hang.
+- Viết content mất nhiều thời gian và khó giữ brand voice nhất quán.
+- Thông tin sản phẩm, thành phần và cách bảo quản nằm rải rác ở nhiều nơi.
+- Khách hàng thường hỏi lại các câu về thành phần, dị ứng và cách chọn sản phẩm.
+- Hình ảnh sản phẩm cần đủ số lượng và chất lượng cho menu, landing page và social.
+- Thương hiệu cần một landing page riêng để giới thiệu sản phẩm và hỗ trợ đặt hàng.
 
-## Giai phap
+## Giải pháp
 
-Du an xay dung mot he thong gom nam phan co the trinh bay cong khai:
+Dự án xây dựng một hệ thống gồm năm phần có thể trình bày công khai:
 
-1. Knowledge base cho bay san pham MOCO Kitchen.
-2. Huong dan brand voice va Content Generator bang Gemini.
-3. Workflow hinh anh san pham: dung anh chup dien thoai cua banh that lam nguon, sau do dung AI de thu background, anh sang va bien the hinh anh.
-4. Landing page gioi thieu san pham va cau chuyen thuong hieu.
-5. Chatbot hoi dap ve san pham, thanh phan, bao quan va dat hang.
+1. Knowledge base cho bảy sản phẩm MOCO Kitchen.
+2. Hướng dẫn brand voice và Content Generator bằng Gemini.
+3. Workflow hình ảnh sản phẩm: dùng ảnh chụp điện thoại của bánh thật làm nguồn, sau đó dùng AI để thử background, ánh sáng và biến thể hình ảnh.
+4. Landing page giới thiệu sản phẩm và câu chuyện thương hiệu.
+5. Chatbot hỏi đáp về sản phẩm, thành phần, bảo quản và đặt hàng.
 
-Mot so phan van hanh noi bo da duoc tach khoi repo cong khai de tranh dua du lieu nhay cam vao bai nop.
+Một số phần vận hành nội bộ đã được tách khỏi repo công khai để tránh đưa dữ liệu nhạy cảm vào bài nộp.
 
-## Cong cu su dung
+## Công cụ sử dụng
 
-| Cong cu | Vai tro trong du an |
+| Công cụ | Vai trò trong dự án |
 |---|---|
-| NotebookLM | Doc va tong hop knowledge base san pham |
-| Gemini | Ho tro viet content va tra loi cau hoi cua khach hang |
-| Google Sheets + Apps Script | Tao Content Generator va quy trinh tao noi dung |
-| Cong cu tao anh cua Google | Ho tro thu background, anh sang va bien the hinh anh san pham |
-| Veo 3 | Thu nghiem y tuong video gioi thieu |
+| NotebookLM | Đọc và tổng hợp knowledge base sản phẩm |
+| Gemini | Hỗ trợ viết content và trả lời câu hỏi của khách hàng |
+| Google Sheets + Apps Script | Tạo Content Generator và quy trình tạo nội dung |
+| Công cụ tạo ảnh của Google | Hỗ trợ thử background, ánh sáng và biến thể hình ảnh sản phẩm |
+| Veo 3 | Thử nghiệm ý tưởng video giới thiệu |
 | Vercel | Deploy landing page |
 
-## Ket qua chinh
+## Kết quả chính
 
-- Chuan hoa thong tin cho bay san pham that.
-- Xay dung landing page responsive.
-- Tich hop chatbot qua serverless API, khong de lo API key trong frontend.
-- Tao Content Generator ngay trong Google Sheets.
-- Xay dung workflow hinh anh dua tren anh san pham chup thuc te.
-- Xay dung `DESIGN.md` lam quy chuan thiet ke dai han cho MOCO Kitchen.
-- Chuan hoa tai lieu demo va bao cao tien do sau tuan.
+- Chuẩn hóa thông tin cho bảy sản phẩm thật.
+- Xây dựng landing page responsive.
+- Tích hợp chatbot qua serverless API, không để lộ API key trong frontend.
+- Tạo Content Generator ngay trong Google Sheets.
+- Xây dựng workflow hình ảnh dựa trên ảnh sản phẩm chụp thực tế.
+- Xây dựng `DESIGN.md` làm quy chuẩn thiết kế dài hạn cho MOCO Kitchen.
+- Chuẩn hóa tài liệu demo và báo cáo tiến độ sáu tuần.
 
-## Cau truc du an
+## Cấu trúc dự án
 
-| Thu muc | Noi dung |
+| Thư mục | Nội dung |
 |---|---|
-| `DESIGN.md` | Quy chuan thiet ke MOCO Kitchen: mau sac, typography, component, hinh anh, voice va guardrails |
-| `1_Research/` | Mo ta bai toan, nghien cuu thi truong, khach hang va canh tranh |
-| `2_Knowledge_Base/` | Danh muc nguon su dung trong NotebookLM |
-| `3_Content_Engine/` | Thong tin san pham, FAQ, lich noi dung va bai viet mau |
-| `3_Creative_Content/` | He thong hinh anh va kich ban phan canh video |
-| `4_App_Automation/` | Content Generator va huong dan Apps Script cho demo |
-| `5_Landing_Page_Chatbot/` | Landing page va chatbot |
-| `6_Deployment_Demo/` | Deployment guide va demo script |
-| `_Deliverables/Weekly_Reports/` | Bao cao tien do sau tuan |
+| `DESIGN.md` | Quy chuẩn thiết kế MOCO Kitchen: màu sắc, typography, component, hình ảnh, voice và guardrails |
+| `1_Research/` | Mô tả bài toán, nghiên cứu thị trường, khách hàng và cạnh tranh |
+| `2_Knowledge_Base/` | Danh mục nguồn sử dụng trong NotebookLM |
+| `3_Content_Engine/` | Thông tin sản phẩm, FAQ, lịch nội dung và bài viết mẫu |
+| `3_Creative_Content/` | Hệ thống hình ảnh và kịch bản phân cảnh video |
+| `4_App_Automation/` | Content Generator và hướng dẫn Apps Script cho demo |
+| `5_Landing_Page_Chatbot/` | Landing page và chatbot |
+| `6_Deployment_Demo/` | Deployment guide và demo script |
+| `_Deliverables/Weekly_Reports/` | Báo cáo tiến độ sáu tuần |
 
-## Bat dau doc du an
+## Bắt đầu đọc dự án
 
-1. [Bao cao tien do sau tuan](_Deliverables/Weekly_Reports/README.md)
-2. [Mo ta bai toan](1_Research/problem_statement_RCGC.md)
-3. [DESIGN.md - Quy chuan thiet ke MOCO Kitchen](DESIGN.md)
-4. [Thong tin bay san pham](3_Content_Engine/moco_menu_products.md)
-5. [Huong dan trien khai va trinh dien](6_Deployment_Demo/README.md)
+1. [Báo cáo tiến độ sáu tuần](_Deliverables/Weekly_Reports/README.md)
+2. [Mô tả bài toán](1_Research/problem_statement_RCGC.md)
+3. [DESIGN.md - Quy chuẩn thiết kế MOCO Kitchen](DESIGN.md)
+4. [Thông tin bảy sản phẩm](3_Content_Engine/moco_menu_products.md)
+5. [Hướng dẫn triển khai và trình diễn](6_Deployment_Demo/README.md)
 
-## Luu y ve noi dung suc khoe
+## Lưu ý về nội dung sức khỏe
 
-Tro ly cua MOCO chi cung cap thong tin ve san pham. Du an khong dua ra chan doan hoac loi khuyen dieu tri. Nguoi co benh nen, dang mang thai hoac co tien su di ung nen tham khao bac si hay chuyen gia dinh duong truoc khi lua chon thuc pham.
+Trợ lý của MOCO chỉ cung cấp thông tin về sản phẩm. Dự án không đưa ra chẩn đoán hoặc lời khuyên điều trị. Người có bệnh nền, đang mang thai hoặc có tiền sử dị ứng nên tham khảo bác sĩ hay chuyên gia dinh dưỡng trước khi lựa chọn thực phẩm.

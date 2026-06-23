@@ -1,41 +1,41 @@
 # Marketing Plan - MOCO Kitchen
 
-Ke hoach marketing nay tap trung vao cach dung AI de giup MOCO Kitchen tao noi dung deu hon, hinh anh dong bo hon va trai nghiem gioi thieu san pham ro rang hon.
+Kế hoạch marketing này tập trung vào cách dùng AI để giúp MOCO Kitchen tạo nội dung đều hơn, hình ảnh đồng bộ hơn và trải nghiệm giới thiệu sản phẩm rõ ràng hơn.
 
-## Muc tieu
+## Mục tiêu
 
-- Tang tinh nhat quan cua brand voice.
-- Tao duoc noi dung social theo nhieu chu de.
-- Xay landing page lam diem den khi khach muon xem san pham.
-- Tao them bien the anh san pham dua tren anh chup that.
-- Giu noi dung ve suc khoe o muc than trong va co khuyen nghi phu hop.
+- Tăng tính nhất quán của brand voice.
+- Tạo được nội dung social theo nhiều chủ đề.
+- Xây landing page làm điểm đến khi khách muốn xem sản phẩm.
+- Tạo thêm biến thể ảnh sản phẩm dựa trên ảnh chụp thật.
+- Giữ nội dung về sức khỏe ở mức thận trọng và có khuyến nghị phù hợp.
 
-## Kenh uu tien
+## Kênh ưu tiên
 
-| Kenh | Vai tro |
+| Kênh | Vai trò |
 |---|---|
-| Instagram | Hien thi anh san pham, story, visual identity |
-| Facebook | Dang bai gioi thieu san pham, FAQ, thong bao |
-| Threads | Chia se cau chuyen ngan, hau truong va trao doi voi cong dong |
-| Landing page | Tong hop san pham, brand story, FAQ va chatbot |
+| Instagram | Hiển thị ảnh sản phẩm, story, visual identity |
+| Facebook | Đăng bài giới thiệu sản phẩm, FAQ, thông báo |
+| Threads | Chia sẻ câu chuyện ngắn, hậu trường và trao đổi với cộng đồng |
+| Landing page | Tổng hợp sản phẩm, brand story, FAQ và chatbot |
 
-## Tru cot noi dung
+## Trụ cột nội dung
 
-| Tru cot | Noi dung |
+| Trụ cột | Nội dung |
 |---|---|
-| Product | Gioi thieu san pham, thanh phan, cach bao quan |
-| Education | Giai thich nguyen lieu, luu y khi chon banh healthy |
-| Behind the Scenes | Cau chuyen bep nho, qua trinh lam banh |
-| FAQ | Tra loi cau hoi thuong gap cua khach |
-| Visual | Anh san pham tu anh that, duoc ho tro background va anh sang bang AI |
+| Product | Giới thiệu sản phẩm, thành phần, cách bảo quản |
+| Education | Giải thích nguyên liệu, lưu ý khi chọn bánh healthy |
+| Behind the Scenes | Câu chuyện bếp nhỏ, quá trình làm bánh |
+| FAQ | Trả lời câu hỏi thường gặp của khách |
+| Visual | Ảnh sản phẩm từ ảnh thật, được hỗ trợ background và ánh sáng bằng AI |
 
-## Nguyen tac an toan
+## Nguyên tắc an toàn
 
-- Khong noi san pham chua benh.
-- Khong noi an toan tuyet doi cho moi nguoi.
-- Khong noi an thoai mai voi nhom khach co benh nen.
-- Khuyen nghi hoi bac si hoac chuyen gia dinh duong khi cau hoi lien quan den suc khoe.
+- Không nói sản phẩm chữa bệnh.
+- Không nói an toàn tuyệt đối cho mọi người.
+- Không nói ăn thoải mái với nhóm khách có bệnh nền.
+- Khuyến nghị hỏi bác sĩ hoặc chuyên gia dinh dưỡng khi câu hỏi liên quan đến sức khỏe.
 
-## Do luong
+## Đo lường
 
-Repo cong khai chi trinh bay cach tiep can va ket qua o muc tong quan. Cac chi tiet van hanh duoc de trong Google Sheet demo va chi mo dung tab can thiet khi thuyet trinh.
+Repo công khai chỉ trình bày cách tiếp cận và kết quả ở mức tổng quan. Các chi tiết vận hành được để trong Google Sheet demo và chỉ mở đúng tab cần thiết khi thuyết trình.

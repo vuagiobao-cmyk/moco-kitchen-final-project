@@ -1,80 +1,80 @@
-# Demo Script - MOCO Kitchen (5 phut)
+# Demo Script - MOCO Kitchen (5 phút)
 
-## Chuan bi
+## Chuẩn bị
 
-Mo san bon browser tab:
+Mở sẵn bốn browser tab:
 
 1. [Landing page MOCO Kitchen](https://moco-kitchen-ai-hub.vercel.app)
-2. NotebookLM cua du an
+2. NotebookLM của dự án
 3. [Google Sheets Content Generator](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing)
 4. Presentation slide
 
-Kiem tra internet, am thanh va test truoc mot cau hoi voi chatbot.
+Kiểm tra internet, âm thanh và test trước một câu hỏi với chatbot.
 
-## Phut 0:00 - 0:40 | Gioi thieu bai toan
+## Phút 0:00 - 0:40 | Giới thiệu bài toán
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> MOCO Kitchen la mot thuong hieu banh healthy truc tuyen voi bay san pham. Team can mot cach gon hon de viet content, quan ly thong tin san pham, tao hinh anh va tra loi cac cau hoi lap lai cua khach hang. Du an nay su dung Google AI de giam viec lap lai va tao mot landing page de trinh bay san pham ro rang hon.
+> MOCO Kitchen là một thương hiệu bánh healthy trực tuyến với bảy sản phẩm. Team cần một cách gọn hơn để viết content, quản lý thông tin sản phẩm, tạo hình ảnh và trả lời các câu hỏi lặp lại của khách hàng. Dự án này sử dụng Google AI để giảm việc lặp lại và tạo một landing page để trình bày sản phẩm rõ ràng hơn.
 
-## Phut 0:40 - 1:10 | Gioi thieu giai phap
+## Phút 0:40 - 1:10 | Giới thiệu giải pháp
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> Giai phap gom nam phan: knowledge base, Content Generator, workflow hinh anh san pham, landing page va chatbot. Public demo tap trung vao trai nghiem marketing va cach AI ho tro tao noi dung, hinh anh va hoi dap san pham.
+> Giải pháp gồm năm phần: knowledge base, Content Generator, workflow hình ảnh sản phẩm, landing page và chatbot. Public demo tập trung vào trải nghiệm marketing và cách AI hỗ trợ tạo nội dung, hình ảnh và hỏi đáp sản phẩm.
 
-## Phut 1:10 - 2:20 | Demo Landing Page & Chatbot
+## Phút 1:10 - 2:20 | Demo Landing Page & Chatbot
 
-1. Mo landing page va luot qua hero, product menu, brand story va FAQ.
-2. Mo chatbot.
-3. Nhap cau hoi:
+1. Mở landing page và lướt qua hero, product menu, brand story và FAQ.
+2. Mở chatbot.
+3. Nhập câu hỏi:
 
 ```text
-Toi dang kiem soat duong, khi chon banh can luu y dieu gi?
+Tôi đang kiểm soát đường, khi chọn bánh cần lưu ý điều gì?
 ```
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> Chatbot cung cap thong tin ve san pham va khau phan, dong thoi nhac nguoi co benh nen nen hoi bac si hoac chuyen gia dinh duong. Chatbot khong chan doan va khong khang dinh san pham phu hop tuyet doi voi moi nguoi.
+> Chatbot cung cấp thông tin về sản phẩm và khẩu phần, đồng thời nhắc người có bệnh nền nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng. Chatbot không chẩn đoán và không khẳng định sản phẩm phù hợp tuyệt đối với mọi người.
 
-## Phut 2:20 - 3:10 | Demo Content Generator
+## Phút 2:20 - 3:10 | Demo Content Generator
 
-1. Mo Google Sheets Content Generator o che do view.
-2. Gioi thieu Content Brief gom product, content type va target audience.
-3. Mo mot output da chuan bi de minh hoa cach AI tao ban nhap.
-4. Chi ra content draft va visual idea duoc tao tu dong.
+1. Mở Google Sheets Content Generator ở chế độ view.
+2. Giới thiệu Content Brief gồm product, content type và target audience.
+3. Mở một output đã chuẩn bị để minh họa cách AI tạo bản nháp.
+4. Chỉ ra content draft và visual idea được tạo tự động.
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> Founder chi can nhap mot brief ngan. Gemini tao draft theo brand voice, sau do founder kiem tra lai thong tin truoc khi dang.
+> Founder chỉ cần nhập một brief ngắn. Gemini tạo draft theo brand voice, sau đó founder kiểm tra lại thông tin trước khi đăng.
 
-## Phut 3:10 - 3:50 | Demo Workflow hinh anh
+## Phút 3:10 - 3:50 | Demo Workflow hình ảnh
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> Phan hinh anh su dung anh banh chup that bang dien thoai lam nguon. AI duoc dung de thu background, anh sang va bien the hinh anh cho menu, landing page va social. Cach lam nay giup tang so luong anh co the dung trong truyen thong ma van giu san pham that lam goc.
+> Phần hình ảnh sử dụng ảnh bánh chụp thật bằng điện thoại làm nguồn. AI được dùng để thử background, ánh sáng và biến thể hình ảnh cho menu, landing page và social. Cách làm này giúp tăng số lượng ảnh có thể dùng trong truyền thông mà vẫn giữ sản phẩm thật làm gốc.
 
-## Phut 3:50 - 4:30 | Gioi thieu NotebookLM
+## Phút 3:50 - 4:30 | Giới thiệu NotebookLM
 
-1. Mo danh sach tai lieu cua du an trong NotebookLM.
-2. Dat mot cau hoi ve thanh phan hoac cach bao quan.
-3. Chi ra phan trich dan nguon trong cau tra loi.
+1. Mở danh sách tài liệu của dự án trong NotebookLM.
+2. Đặt một câu hỏi về thành phần hoặc cách bảo quản.
+3. Chỉ ra phần trích dẫn nguồn trong câu trả lời.
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> NotebookLM giup kiem tra cau tra loi dua tren knowledge base da chuan hoa. Nho vay, thong tin dung trong content va chatbot nhat quan hon.
+> NotebookLM giúp kiểm tra câu trả lời dựa trên knowledge base đã chuẩn hóa. Nhờ vậy, thông tin dùng trong content và chatbot nhất quán hơn.
 
-## Phut 4:30 - 5:00 | Ket qua va bai hoc
+## Phút 4:30 - 5:00 | Kết quả và bài học
 
-**Noi dung noi:**
+**Nội dung nói:**
 
-> Sau sau tuan, du an da chuan hoa bay san pham, xay dung landing page, chatbot, Content Generator va workflow hinh anh san pham. Bai hoc quan trong nhat la AI chi tao gia tri khi input ro rang va con nguoi van chiu trach nhiem kiem tra output, dac biet voi content lien quan den suc khoe va hinh anh san pham that.
+> Sau sáu tuần, dự án đã chuẩn hóa bảy sản phẩm, xây dựng landing page, chatbot, Content Generator và workflow hình ảnh sản phẩm. Bài học quan trọng nhất là AI chỉ tạo giá trị khi input rõ ràng và con người vẫn chịu trách nhiệm kiểm tra output, đặc biệt với content liên quan đến sức khỏe và hình ảnh sản phẩm thật.
 
-## Phuong an du phong
+## Phương án dự phòng
 
-| Tinh huong | Cach xu ly |
+| Tình huống | Cách xử lý |
 |---|---|
-| Mat ket noi internet | Dung anh chup da chen trong slide |
-| Chatbot tam thoi khong phan hoi | Mo screenshot ket qua test da chuan bi |
-| Google Sheets tai cham | Dung content output da co san |
-| NotebookLM tai cham | Trinh bay danh sach nguon va anh chup cau tra loi |
+| Mất kết nối internet | Dùng ảnh chụp đã chèn trong slide |
+| Chatbot tạm thời không phản hồi | Mở screenshot kết quả test đã chuẩn bị |
+| Google Sheets tải chậm | Dùng content output đã có sẵn |
+| NotebookLM tải chậm | Trình bày danh sách nguồn và ảnh chụp câu trả lời |

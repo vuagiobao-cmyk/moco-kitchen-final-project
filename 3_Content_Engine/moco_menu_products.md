@@ -1,82 +1,82 @@
 ---
 id: 20260513223800
-aliases: ["MOCO Menu Products Public", "Menu san pham MOCO Kitchen"]
+aliases: ["MOCO Menu Products Public", "Menu sản phẩm MOCO Kitchen"]
 tags: ["#moco-kitchen", "#menu", "#knowledge-base", "#demo"]
 created: 2026-05-13
 updated: 2026-06-19
 ---
 
-# MOCO Kitchen - Menu & Thong Tin San Pham
+# MOCO Kitchen - Menu & Thông Tin Sản Phẩm
 
-Tai lieu nay la ban dung cho knowledge base va chatbot demo. Noi dung giu thong tin san pham, thanh phan, bao quan va canh bao dinh duong; khong dua du lieu noi bo nhay cam.
+Tài liệu này là bản dùng cho knowledge base và chatbot demo. Nội dung giữ thông tin sản phẩm, thành phần, bảo quản và cảnh báo dinh dưỡng; không đưa dữ liệu nội bộ nhạy cảm.
 
-## Nhom San Pham
+## Nhóm Sản Phẩm
 
-| Dong | San pham | Dac trung |
+| Dòng | Sản phẩm | Đặc trưng |
 |---|---|---|
-| Keto | Keto Tiramisu, Keto Lemon Cheesecake | Dung nguyen lieu tao ngot thay the; can kiem tra thanh phan vi van co sua, hat hoac gluten tuy mon |
-| Healthy Baking | Chuoi Yen Mach Choco, Banh Mi Soda Nguyen Cam, Bong Lan Trung Muoi, Carrot Cake Kem Hy Lap, Banh Mi Cuon Que | Giam duong trang, dung bot/yến mach/nguyen lieu thu cong va can kiem soat khau phan |
+| Keto | Keto Tiramisu, Keto Lemon Cheesecake | Dùng nguyên liệu tạo ngọt thay thế; cần kiểm tra thành phần vì vẫn có sữa, hạt hoặc gluten tùy món |
+| Healthy Baking | Chuối Yến Mạch Choco, Bánh Mì Soda Nguyên Cám, Bông Lan Trứng Muối, Carrot Cake Kem Hy Lạp, Bánh Mì Cuộn Quế | Giảm đường trắng, dùng bột/yến mạch/nguyên liệu thủ công và cần kiểm soát khẩu phần |
 
-## Danh Sach San Pham
+## Danh Sách Sản Phẩm
 
 ### 1. Keto Tiramisu
 
-- Mo ta: Tiramisu vi ca phe, mascarpone, lady finger hanh nhan, rum va Baileys.
-- Thanh phan can luu y: sua, trung, hat, gluten va do uong co con.
-- Bao quan: ngan mat tu lanh, dung som sau khi nhan.
-- Khau phan goi y: chia nho de dung sau bua an.
+- Mô tả: Tiramisu vị cà phê, mascarpone, lady finger hạnh nhân, rum và Baileys.
+- Thành phần cần lưu ý: sữa, trứng, hạt, gluten và đồ uống có cồn.
+- Bảo quản: ngăn mát tủ lạnh, dùng sớm sau khi nhận.
+- Khẩu phần gợi ý: chia nhỏ để dùng sau bữa ăn.
 
 ### 2. Keto Lemon Cheesecake
 
-- Mo ta: Cheesecake chanh vang, de banh hanh nhan, kem cream cheese mem min.
-- Thanh phan can luu y: sua, hat va gluten tu phan de banh.
-- Bao quan: ngan mat tu lanh.
-- Khau phan goi y: chia thanh mieng nho.
+- Mô tả: Cheesecake chanh vàng, đế bánh hạnh nhân, kem cream cheese mềm mịn.
+- Thành phần cần lưu ý: sữa, hạt và gluten từ phần đế bánh.
+- Bảo quản: ngăn mát tủ lạnh.
+- Khẩu phần gợi ý: chia thành miếng nhỏ.
 
-### 3. Chuoi Yen Mach Choco
+### 3. Chuối Yến Mạch Choco
 
-- Mo ta: Banh chuoi yen mach mem am, co chocolate chip va hat bi.
-- Thanh phan can luu y: trung, bot mi, yen mach; chocolate chip co the chua sua tuy nhan nguyen lieu.
-- Bao quan: ngan mat tu lanh.
-- Khau phan goi y: dung nhu bua sang hoac bua phu.
+- Mô tả: Bánh chuối yến mạch mềm ẩm, có chocolate chip và hạt bí.
+- Thành phần cần lưu ý: trứng, bột mì, yến mạch; chocolate chip có thể chứa sữa tùy nhãn nguyên liệu.
+- Bảo quản: ngăn mát tủ lạnh.
+- Khẩu phần gợi ý: dùng như bữa sáng hoặc bữa phụ.
 
-### 4. Banh Mi Soda Nguyen Cam
+### 4. Bánh Mì Soda Nguyên Cám
 
-- Mo ta: Banh mi soda kieu Ireland, khong can men, vo gian ruot mem.
-- Thanh phan can luu y: sua chua, gluten va me den.
-- Bao quan: ngan mat hoac cap dong tuy nhu cau.
-- Khau phan goi y: cat lat de dung cung bo, mut, mat ong hoac pho mai.
+- Mô tả: Bánh mì soda kiểu Ireland, không cần men, vỏ giòn ruột mềm.
+- Thành phần cần lưu ý: sữa chua, gluten và mè đen.
+- Bảo quản: ngăn mát hoặc cấp đông tùy nhu cầu.
+- Khẩu phần gợi ý: cắt lát để dùng cùng bơ, mứt, mật ong hoặc phô mai.
 
-### 5. Bong Lan Trung Muoi
+### 5. Bông Lan Trứng Muối
 
-- Mo ta: Bong lan mem, phu kem trung muoi va cha bong rong bien.
-- Thanh phan can luu y: sua, trung, gluten; topping co the co thanh phan hai san tuy nguon.
-- Bao quan: ngan mat tu lanh.
-- Khau phan goi y: chia nho de dung trong ngay.
+- Mô tả: Bông lan mềm, phủ kem trứng muối và chà bông rong biển.
+- Thành phần cần lưu ý: sữa, trứng, gluten; topping có thể có thành phần hải sản tùy nguồn.
+- Bảo quản: ngăn mát tủ lạnh.
+- Khẩu phần gợi ý: chia nhỏ để dùng trong ngày.
 
-### 6. Carrot Cake Kem Hy Lap
+### 6. Carrot Cake Kem Hy Lạp
 
-- Mo ta: Banh ca rot voi oc cho, nho kho, que, kem sua chua Hy Lap va cream cheese.
-- Thanh phan can luu y: sua, trung, hat va gluten.
-- Bao quan: ngan mat tu lanh.
-- Khau phan goi y: chia mieng nho.
+- Mô tả: Bánh cà rốt với óc chó, nho khô, quế, kem sữa chua Hy Lạp và cream cheese.
+- Thành phần cần lưu ý: sữa, trứng, hạt và gluten.
+- Bảo quản: ngăn mát tủ lạnh.
+- Khẩu phần gợi ý: chia miếng nhỏ.
 
-### 7. Banh Mi Cuon Que
+### 7. Bánh Mì Cuộn Quế
 
-- Mo ta: Banh mi cuon que mem, nhan que, phu kem cream cheese.
-- Thanh phan can luu y: sua, trung, gluten; thanh phan hat phu thuoc loai sua hat su dung.
-- Bao quan: ngan mat va ham nong lai truoc khi dung neu can.
-- Khau phan goi y: dung nhu bua sang hoac bua phu.
+- Mô tả: Bánh mì cuộn quế mềm, nhân quế, phủ kem cream cheese.
+- Thành phần cần lưu ý: sữa, trứng, gluten; thành phần hạt phụ thuộc loại sữa hạt sử dụng.
+- Bảo quản: ngăn mát và hâm nóng lại trước khi dùng nếu cần.
+- Khẩu phần gợi ý: dùng như bữa sáng hoặc bữa phụ.
 
 ## Guardrails
 
-- Khong noi san pham chua benh, phu hop voi tat ca moi nguoi, hoac an thoai mai khong can kiem soat.
-- Voi nguoi co benh nen, dang mang thai, di ung hoac an theo che do dac biet, khuyen nghi hoi bac si hoac chuyen gia dinh duong.
-- Neu can thong tin ban hang thuc te, cap nhat ngoai repo public.
+- Không nói sản phẩm chữa bệnh, phù hợp với tất cả mọi người, hoặc ăn thoải mái không cần kiểm soát.
+- Với người có bệnh nền, đang mang thai, dị ứng hoặc ăn theo chế độ đặc biệt, khuyến nghị hỏi bác sĩ hoặc chuyên gia dinh dưỡng.
+- Nếu cần thông tin bán hàng thực tế, cập nhật ngoài repo public.
 
-## Tai Lieu Lien Quan
+## Tài Liệu Liên Quan
 
-- [Bo huong dan viet bai](gem_system_prompt_moco.md)
-- [Lich noi dung mau](moco_content_calendar_sample.md)
-- [FAQ dinh duong](moco_faq_nutrition.md)
-- [Bai viet mau](moco_sample_posts_gem.md)
+- [Bộ hướng dẫn viết bài](gem_system_prompt_moco.md)
+- [Lịch nội dung mẫu](moco_content_calendar_sample.md)
+- [FAQ dinh dưỡng](moco_faq_nutrition.md)
+- [Bài viết mẫu](moco_sample_posts_gem.md)

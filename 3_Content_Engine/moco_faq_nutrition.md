@@ -1,6 +1,6 @@
 ---
 id: 20260513213600
-aliases: ["MOCO FAQ Nutrition V2", "FAQ va tu van dinh duong MOCO"]
+aliases: ["MOCO FAQ Nutrition V2", "FAQ và tư vấn dinh dưỡng MOCO"]
 tags: ["#moco-kitchen", "#faq", "#nutrition", "#knowledge-base"]
 created: 2026-05-13
 updated: 2026-06-15

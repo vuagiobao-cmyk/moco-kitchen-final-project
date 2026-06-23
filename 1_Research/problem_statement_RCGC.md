@@ -1,20 +1,20 @@
 # Problem Statement - MOCO Kitchen
 
-MOCO Kitchen la mot thuong hieu banh healthy truc tuyen voi san pham that va nhu cau truyen thong thuc te. Team can mot he thong gon nhe de lam content deu hon, quan ly thong tin san pham tot hon va tao trai nghiem gioi thieu san pham chuyen nghiep hon.
+MOCO Kitchen là một thương hiệu bánh healthy trực tuyến với sản phẩm thật và nhu cầu truyền thông thực tế. Team cần một hệ thống gọn nhẹ để làm content đều hơn, quản lý thông tin sản phẩm tốt hơn và tạo trải nghiệm giới thiệu sản phẩm chuyên nghiệp hơn.
 
-## Van de chinh
+## Vấn đề chính
 
-| Nhom van de | Mo ta | Huong xu ly |
+| Nhóm vấn đề | Mô tả | Hướng xử lý |
 |---|---|---|
-| Content | Viet bai thu cong mat thoi gian va de lech brand voice | Content Generator bang Gemini va Google Sheets |
-| Knowledge | Thong tin san pham, thanh phan va FAQ nam rai rac | Chuan hoa knowledge base va dua vao NotebookLM |
-| Visual | Anh san pham can nhieu bien the hon cho menu, landing page va social | Dung anh chup that lam nguon, AI ho tro background va anh sang |
-| Customer Experience | Khach hang hay hoi lai cac cau ve thanh phan, bao quan va lua chon san pham | Landing page va chatbot hoi dap san pham |
-| Safety | Noi dung lien quan den suc khoe can than trong | Guardrails: khong chan doan, khong hua hen, khuyen nghi hoi chuyen gia khi can |
+| Content | Viết bài thủ công mất thời gian và dễ lệch brand voice | Content Generator bằng Gemini và Google Sheets |
+| Knowledge | Thông tin sản phẩm, thành phần và FAQ nằm rải rác | Chuẩn hóa knowledge base và đưa vào NotebookLM |
+| Visual | Ảnh sản phẩm cần nhiều biến thể hơn cho menu, landing page và social | Dùng ảnh chụp thật làm nguồn, AI hỗ trợ background và ánh sáng |
+| Customer Experience | Khách hàng hay hỏi lại các câu về thành phần, bảo quản và lựa chọn sản phẩm | Landing page và chatbot hỏi đáp sản phẩm |
+| Safety | Nội dung liên quan đến sức khỏe cần thận trọng | Guardrails: không chẩn đoán, không hứa hẹn, khuyến nghị hỏi chuyên gia khi cần |
 
-## Muc tieu du an
+## Mục tiêu dự án
 
-- Tao mot he thong AI ho tro marketing cho MOCO Kitchen.
-- Giu thong tin san pham nhat quan giua knowledge base, content, chatbot va landing page.
-- Tang so luong va chat luong hinh anh bang workflow dua tren anh san pham that.
-- Tao duoc public demo ro rang, de giai thich trong buoi bao cao cuoi khoa.
+- Tạo một hệ thống AI hỗ trợ marketing cho MOCO Kitchen.
+- Giữ thông tin sản phẩm nhất quán giữa knowledge base, content, chatbot và landing page.
+- Tăng số lượng và chất lượng hình ảnh bằng workflow dựa trên ảnh sản phẩm thật.
+- Tạo được public demo rõ ràng, dễ giải thích trong buổi báo cáo cuối khóa.

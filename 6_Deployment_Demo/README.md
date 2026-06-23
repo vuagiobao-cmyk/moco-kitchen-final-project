@@ -2,29 +2,29 @@
 
 ## URL demo
 
-| Kenh | URL | Trang thai |
+| Kênh | URL | Trạng thái |
 |---|---|---|
 | Landing page | [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) | Live |
 | Google Sheet demo | [MOCO Kitchen AI workflow](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing) | View only |
 
-## Noi dung thu muc
+## Nội dung thư mục
 
-| File | Mo ta |
+| File | Mô tả |
 |---|---|
-| `README.md` | Huong dan tong quan |
-| `DEMO_SCRIPT.md` | Kich ban demo 5 phut |
-| `slide_images/` | Anh minh hoa cho slide |
+| `README.md` | Hướng dẫn tổng quan |
+| `DEMO_SCRIPT.md` | Kịch bản demo 5 phút |
+| `slide_images/` | Ảnh minh họa cho slide |
 
-## Cach demo
+## Cách demo
 
-1. Mo landing page tren Chrome.
-2. Scroll qua hero, menu san pham, story, gallery, FAQ va order.
-3. Mo chatbot va test mot cau hoi ve san pham.
-4. Gioi thieu Content Generator trong Google Sheets.
-5. Gioi thieu workflow tao hinh anh tu anh san pham chup thuc te.
-6. Gioi thieu NotebookLM knowledge base.
+1. Mở landing page trên Chrome.
+2. Scroll qua hero, menu sản phẩm, story, gallery, FAQ và order.
+3. Mở chatbot và test một câu hỏi về sản phẩm.
+4. Giới thiệu Content Generator trong Google Sheets.
+5. Giới thiệu workflow tạo hình ảnh từ ảnh sản phẩm chụp thực tế.
+6. Giới thiệu NotebookLM knowledge base.
 
-## Luu y bao mat
+## Lưu ý bảo mật
 
-- Chatbot goi Gemini qua serverless API; key doc tu bien moi truong tren Vercel.
-- Khi demo Google Sheet, chi mo cac tab AI/content can trinh bay va khong trich du lieu nhay cam vao bai viet public.
+- Chatbot gọi Gemini qua serverless API; key đọc từ biến môi trường trên Vercel.
+- Khi demo Google Sheet, chỉ mở các tab AI/content cần trình bày và không trích dữ liệu nhạy cảm vào bài viết public.

@@ -1,34 +1,34 @@
-# Tuan 2 - Du lieu & Phan tich
+# Tuần 2 - Dữ liệu & Phân tích
 
-**Thoi gian:** Tuan 2 cua du an
+**Thời gian:** Tuần 2 của dự án
 
-**Tom tat:** Chuan hoa thong tin san pham va xay nen knowledge base cho cac cong cu AI.
+**Tóm tắt:** Chuẩn hóa thông tin sản phẩm và xây nền knowledge base cho các công cụ AI.
 
-## Muc tieu
+## Mục tiêu
 
-- Gom thong tin san pham, thanh phan, cach bao quan va FAQ ve mot cau truc thong nhat.
-- Xac dinh cac rui ro khi AI tra loi cau hoi lien quan den suc khoe.
-- Chuan bi nguon de dua vao NotebookLM va chatbot.
+- Gom thông tin sản phẩm, thành phần, cách bảo quản và FAQ về một cấu trúc thống nhất.
+- Xác định các rủi ro khi AI trả lời câu hỏi liên quan đến sức khỏe.
+- Chuẩn bị nguồn để đưa vào NotebookLM và chatbot.
 
-## Cach thuc hien
+## Cách thực hiện
 
-- Chuan hoa thong tin bay san pham.
-- Viet FAQ theo huong than trong, co disclaimer khi can.
-- Xay quy tac brand voice cho content va chatbot.
-- Chi trinh bay cach phan tich o muc tong quan, khong dua chi tiet van hanh noi bo vao repo cong khai.
+- Chuẩn hóa thông tin bảy sản phẩm.
+- Viết FAQ theo hướng thận trọng, có disclaimer khi cần.
+- Xây quy tắc brand voice cho content và chatbot.
+- Chỉ trình bày cách phân tích ở mức tổng quan, không đưa chi tiết vận hành nội bộ vào repo công khai.
 
-## Cong viec da hoan thanh
+## Công việc đã hoàn thành
 
-- Tao bo thong tin san pham de dung cho NotebookLM.
-- Tao FAQ ve thanh phan, bao quan, di ung va cach lua chon san pham.
-- Tao guardrails: khong chan doan, khong hua hen, khong noi "an toan tuyet doi".
+- Tạo bộ thông tin sản phẩm để dùng cho NotebookLM.
+- Tạo FAQ về thành phần, bảo quản, dị ứng và cách lựa chọn sản phẩm.
+- Tạo guardrails: không chẩn đoán, không hứa hẹn, không nói "an toàn tuyệt đối".
 
-## Ket qua
+## Kết quả
 
-- Knowledge base san sang cho cac buoc tiep theo.
-- Noi dung co co so ro rang hon va giam rui ro AI tra loi sai.
-- Du an co nen tang de xay Content Generator, landing page va chatbot.
+- Knowledge base sẵn sàng cho các bước tiếp theo.
+- Nội dung có cơ sở rõ ràng hơn và giảm rủi ro AI trả lời sai.
+- Dự án có nền tảng để xây Content Generator, landing page và chatbot.
 
 ---
 
-**Dieu huong:** [Muc luc](README.md) · [Tuan 3](Tuan_3_Sang_tao_Noi_dung.md)
+**Điều hướng:** [Mục lục](README.md) · [Tuần 3](Tuan_3_Sang_tao_Noi_dung.md)

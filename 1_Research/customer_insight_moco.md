@@ -1,25 +1,25 @@
 # Customer Insight - MOCO Kitchen
 
-Phan tich nay phuc vu thiet ke noi dung, landing page va chatbot cho MOCO Kitchen. Tai lieu chi trinh bay cac insight can cho demo, khong di vao chi tiet van hanh noi bo.
+Phân tích này phục vụ thiết kế nội dung, landing page và chatbot cho MOCO Kitchen. Tài liệu chỉ trình bày các insight cần cho demo, không đi vào chi tiết vận hành nội bộ.
 
-## Nhom khach hang chinh
+## Nhóm khách hàng chính
 
-| Nhom | Nhu cau | Dieu can luu y |
+| Nhóm | Nhu cầu | Điều cần lưu ý |
 |---|---|---|
-| Nguoi an healthy | Muon banh ngon hon nhung nhe hon banh ngot thong thuong | Khong noi qua ve tac dung suc khoe |
-| Nguoi mua cho gia dinh | Can thong tin ro ve thanh phan, bao quan va khau phan | Ngon ngu de hieu, than thien |
-| Nguoi co nhu cau an kieng | Quan tam den duong, thanh phan va chat gay di ung | Can disclaimer va khuyen nghi hoi chuyen gia |
-| Khach hang tren social | Bi thuyet phuc boi hinh anh that, cau chuyen bep nho va brand voice | Hinh anh can chan thuc, khong lam sai san pham |
+| Người ăn healthy | Muốn bánh ngon hơn nhưng nhẹ hơn bánh ngọt thông thường | Không nói quá về tác dụng sức khỏe |
+| Người mua cho gia đình | Cần thông tin rõ về thành phần, bảo quản và khẩu phần | Ngôn ngữ dễ hiểu, thân thiện |
+| Người có nhu cầu ăn kiêng | Quan tâm đến đường, thành phần và chất gây dị ứng | Cần disclaimer và khuyến nghị hỏi chuyên gia |
+| Khách hàng trên social | Bị thuyết phục bởi hình ảnh thật, câu chuyện bếp nhỏ và brand voice | Hình ảnh cần chân thực, không làm sai sản phẩm |
 
-## Insight noi dung
+## Insight nội dung
 
-- Khach hang can cam giac tin cay truoc khi mua banh healthy.
-- Noi dung nen noi ro thanh phan va cach dung, khong dung loi hua tuyet doi.
-- Hinh anh nen giu cam giac banh that, handmade, khong qua nhua hoa.
-- Landing page nen giup khach xem nhanh san pham, doc FAQ va biet cach dat hang.
+- Khách hàng cần cảm giác tin cậy trước khi mua bánh healthy.
+- Nội dung nên nói rõ thành phần và cách dùng, không dùng lời hứa tuyệt đối.
+- Hình ảnh nên giữ cảm giác bánh thật, handmade, không quá nhựa hóa.
+- Landing page nên giúp khách xem nhanh sản phẩm, đọc FAQ và biết cách đặt hàng.
 
-## Ham y cho he thong AI
+## Hàm ý cho hệ thống AI
 
-- Chatbot phai tra loi nhu tro ly san pham, khong phai tu van y te.
-- Content Generator phai giu brand voice am ap, khong phong dai.
-- Visual workflow phai dung anh san pham that lam nguon va can nguoi duyet truoc khi public.
+- Chatbot phải trả lời như trợ lý sản phẩm, không phải tư vấn y tế.
+- Content Generator phải giữ brand voice ấm áp, không phóng đại.
+- Visual workflow phải dùng ảnh sản phẩm thật làm nguồn và cần người duyệt trước khi public.

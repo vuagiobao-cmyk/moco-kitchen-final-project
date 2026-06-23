@@ -1,44 +1,44 @@
-# Tuan 4 - Core Features & Automation
+# Tuần 4 - Core Features & Automation
 
-**Thoi gian:** Tuan 4 cua du an
+**Thời gian:** Tuần 4 của dự án
 
-**Tom tat:** Xay dung cac core features co the demo: Content Generator, chatbot, landing page foundation va workflow hinh anh.
+**Tóm tắt:** Xây dựng các core features có thể demo: Content Generator, chatbot, landing page foundation và workflow hình ảnh.
 
-## Muc tieu
+## Mục tiêu
 
-- Tao Content Generator tu thong tin san pham co san.
-- Chuan bi FAQ san pham de tich hop vao chatbot.
-- Xay workflow hinh anh dua tren anh banh chup that.
-- Giu repo cong khai gon, khong dua thong tin van hanh noi bo len GitHub.
+- Tạo Content Generator từ thông tin sản phẩm có sẵn.
+- Chuẩn bị FAQ sản phẩm để tích hợp vào chatbot.
+- Xây workflow hình ảnh dựa trên ảnh bánh chụp thật.
+- Giữ repo công khai gọn, không đưa thông tin vận hành nội bộ lên GitHub.
 
-## Cach thuc hien
+## Cách thực hiện
 
-- Xay Content Generator trong Google Sheets bang Google Apps Script.
-- Dung Gemini de tao ban nhap content theo brand voice.
-- Dung anh chup dien thoai cua banh that lam nguon visual.
-- Dung AI de thu background, anh sang va bien the hinh anh.
+- Xây Content Generator trong Google Sheets bằng Google Apps Script.
+- Dùng Gemini để tạo bản nháp content theo brand voice.
+- Dùng ảnh chụp điện thoại của bánh thật làm nguồn visual.
+- Dùng AI để thử background, ánh sáng và biến thể hình ảnh.
 
-## Cong viec da hoan thanh
+## Công việc đã hoàn thành
 
-- Tao Content Generator ngay trong Google Sheets.
-- Chuan bi cau hoi thuong gap cho chatbot.
-- Xay visual workflow cho san pham banh.
-- Chuan bi landing page va asset san pham.
+- Tạo Content Generator ngay trong Google Sheets.
+- Chuẩn bị câu hỏi thường gặp cho chatbot.
+- Xây visual workflow cho sản phẩm bánh.
+- Chuẩn bị landing page và asset sản phẩm.
 
-## San pham ban giao
+## Sản phẩm bàn giao
 
-| Noi dung | Lien ket |
+| Nội dung | Liên kết |
 |---|---|
-| Tong quan Content Generator | [Xem tai lieu](../../4_App_Automation/README.md) |
-| Ma nguon Content Generator | [Xem ma nguon](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
-| Deploy guide | [Xem huong dan](../../4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) |
+| Tổng quan Content Generator | [Xem tài liệu](../../4_App_Automation/README.md) |
+| Mã nguồn Content Generator | [Xem mã nguồn](../../4_App_Automation/MOCO_CONTENT_GEN.gs) |
+| Deploy guide | [Xem hướng dẫn](../../4_App_Automation/APPS_SCRIPT_CONTENT_DEPLOY_GUIDE.md) |
 
-## Ket qua
+## Kết quả
 
-- Content Generator co the tao ban nhap bai viet theo brief.
-- Visual workflow giup mo rong hinh anh san pham tu anh that.
-- Cac phan nhay cam lien quan den van hanh noi bo khong nam trong repo cong khai.
+- Content Generator có thể tạo bản nháp bài viết theo brief.
+- Visual workflow giúp mở rộng hình ảnh sản phẩm từ ảnh thật.
+- Các phần nhạy cảm liên quan đến vận hành nội bộ không nằm trong repo công khai.
 
 ---
 
-**Dieu huong:** [Tuan 3](Tuan_3_Sang_tao_Noi_dung.md) · [Muc luc](README.md) · [Tuan 5](Tuan_5_Tich_hop_Giao_dien.md)
+**Điều hướng:** [Tuần 3](Tuan_3_Sang_tao_Noi_dung.md) · [Mục lục](README.md) · [Tuần 5](Tuan_5_Tich_hop_Giao_dien.md)

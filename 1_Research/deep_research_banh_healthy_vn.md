@@ -1,35 +1,35 @@
-# Deep Research - Banh Healthy tai Viet Nam
+# Deep Research - Bánh Healthy tại Việt Nam
 
-Tai lieu nay tong hop cac quan sat phuc vu du an MOCO Kitchen. Ban demo chi giu cac y co ich cho bai toan san pham, noi dung va trai nghiem khach hang.
+Tài liệu này tổng hợp các quan sát phục vụ dự án MOCO Kitchen. Bản demo chỉ giữ các ý có ích cho bài toán sản phẩm, nội dung và trải nghiệm khách hàng.
 
-## 1. Boi canh thi truong
+## 1. Bối cảnh thị trường
 
-Nguoi tieu dung ngay cang quan tam den san pham it ngot hon, thanh phan ro hon va trai nghiem an uong co cam giac nhe hon. Voi nhom banh healthy, niem tin den tu minh bach thanh phan, cach truyen thong than trong va hinh anh san pham chan thuc.
+Người tiêu dùng ngày càng quan tâm đến sản phẩm ít ngọt hơn, thành phần rõ hơn và trải nghiệm ăn uống có cảm giác nhẹ hơn. Với nhóm bánh healthy, niềm tin đến từ minh bạch thành phần, cách truyền thông thận trọng và hình ảnh sản phẩm chân thực.
 
-## 2. Co hoi cho MOCO Kitchen
+## 2. Cơ hội cho MOCO Kitchen
 
-- Thuong hieu nho co loi the ve cau chuyen bep that va cam giac gan gui.
-- San pham handmade can hinh anh chan thuc, khong qua cong nghiep hoa.
-- Khach hang can thong tin ro ve thanh phan, bao quan va cac luu y khi dung.
-- AI co the ho tro san xuat noi dung va hinh anh, nhung van can con nguoi duyet.
+- Thương hiệu nhỏ có lợi thế về câu chuyện bếp thật và cảm giác gần gũi.
+- Sản phẩm handmade cần hình ảnh chân thực, không quá công nghiệp hóa.
+- Khách hàng cần thông tin rõ về thành phần, bảo quản và các lưu ý khi dùng.
+- AI có thể hỗ trợ sản xuất nội dung và hình ảnh, nhưng vẫn cần con người duyệt.
 
-## 3. Rủi ro truyen thong
+## 3. Rủi ro truyền thông
 
-- Noi qua ve loi ich suc khoe.
-- Dung tu nhu "chua benh", "an toan tuyet doi", "an thoai mai".
-- Tao hinh anh lam san pham khac thuc te.
-- Dua du lieu noi bo vao public repo hoac tai lieu demo.
+- Nói quá về lợi ích sức khỏe.
+- Dùng từ như "chữa bệnh", "an toàn tuyệt đối", "ăn thoải mái".
+- Tạo hình ảnh làm sản phẩm khác thực tế.
+- Đưa dữ liệu nội bộ vào public repo hoặc tài liệu demo.
 
-## 4. Ham y cho du an
+## 4. Hàm ý cho dự án
 
-| Van de | Huong giai quyet |
+| Vấn đề | Hướng giải quyết |
 |---|---|
-| Noi dung de lech brand voice | System prompt va Content Generator |
-| FAQ lap lai | NotebookLM va chatbot san pham |
-| Hinh anh chua du so luong | Workflow anh that + AI background/lighting |
-| Can diem den public | Landing page |
-| Can an toan thong tin | Ban demo chi trinh bay cac thong tin can cho bai nop |
+| Nội dung dễ lệch brand voice | System prompt và Content Generator |
+| FAQ lặp lại | NotebookLM và chatbot sản phẩm |
+| Hình ảnh chưa đủ số lượng | Workflow ảnh thật + AI background/lighting |
+| Cần điểm đến public | Landing page |
+| Cần an toàn thông tin | Bản demo chỉ trình bày các thông tin cần cho bài nộp |
 
-## 5. Ket luan
+## 5. Kết luận
 
-MOCO Kitchen phu hop voi mo hinh AI hub gon nhe: knowledge base, content generator, visual workflow, landing page va chatbot. Diem quan trong nhat la AI phai bam vao du lieu that, anh san pham that va cac guardrails an toan.
+MOCO Kitchen phù hợp với mô hình AI hub gọn nhẹ: knowledge base, Content Generator, visual workflow, landing page và chatbot. Điểm quan trọng nhất là AI phải bám vào dữ liệu thật, ảnh sản phẩm thật và các guardrails an toàn.
