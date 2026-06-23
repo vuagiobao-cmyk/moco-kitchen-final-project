@@ -5,7 +5,7 @@
 | Kênh | URL | Trạng thái |
 |---|---|---|
 | Landing page | [moco-kitchen-ai-hub.vercel.app](https://moco-kitchen-ai-hub.vercel.app) | Live |
-| Google Sheet demo | [MOCO Kitchen AI workflow](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing) | View only |
+| Google Sheet demo | [MOCO Kitchen AI workflow](https://docs.google.com/spreadsheets/d/1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y/edit?gid=1100349599#gid=1100349599) | View only |
 
 ## Nội dung thư mục
 

@@ -16,7 +16,7 @@ Tài liệu này dùng để bàn giao nhanh trước khi nộp bài. Mục tiê
 - Repo công khai: <https://github.com/vuagiobao-cmyk/moco-kitchen-final-project>
 - Branch nộp bài: `main`
 - Landing page: <https://moco-kitchen-ai-hub.vercel.app>
-- Google Sheet demo: <https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing>
+- Google Sheet demo: <https://docs.google.com/spreadsheets/d/1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y/edit?gid=1100349599#gid=1100349599>
 - Thư mục landing page: `5_Landing_Page_Chatbot/`
 - Thư mục báo cáo nộp bài: `_Deliverables/Weekly_Reports/`
 

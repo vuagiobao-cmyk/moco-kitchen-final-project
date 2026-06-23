@@ -6,7 +6,7 @@ Mở sẵn bốn browser tab:
 
 1. [Landing page MOCO Kitchen](https://moco-kitchen-ai-hub.vercel.app)
 2. NotebookLM của dự án
-3. [Google Sheets Content Generator](https://docs.google.com/spreadsheets/d/1Ajbsj_xCligByJcebzb5clhamn0hmOtsBhoVSapoFAo/edit?usp=sharing)
+3. [Google Sheets Content Generator](https://docs.google.com/spreadsheets/d/1dZDkHLBRnZcD9FE-MVaRzIp1c0t69XhDNXxAY39vv4Y/edit?gid=1100349599#gid=1100349599)
 4. Presentation slide
 
 Kiểm tra internet, âm thanh và test trước một câu hỏi với chatbot.
